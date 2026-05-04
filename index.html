@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SFR Solo Day of Event Results | OPULENT HARDWARE</title>
+  <title>Event Results | OPULENT HARDWARE</title>
 
   <link rel="stylesheet" href="assets/style.css" />
 </head>
@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <header>
-      <h1 class="brand-logo">SFR SOLO DAY OF EVENT RESULTS</h1>
+      <h1 class="brand-logo">EVENT RESULTS</h1>
       <div class="sub-title">POWERED BY OPULENT HARDWARE</div>
 
       <div class="event-meta">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="meta-pill">
-          <span class="meta-label">DRIVERS</span>
+          <span class="meta-label">PARTICIPANTS</span>
           <span id="participantCount" class="meta-value">—</span>
         </div>
 
@@ -36,28 +36,6 @@
         </div>
       </div>
     </header>
-
-    <div class="source-strip">
-      <div class="source-copy">
-        <strong>Live event visualizer.</strong>
-        Results are rendered from the latest fetched SFR live results data.
-      </div>
-
-      <div class="source-actions">
-        <button id="refreshButton" class="source-link button-link" type="button">
-          REFRESH JSON
-        </button>
-
-        <a
-          class="source-link"
-          href="https://live.sfrautox.com/#N"
-          target="_blank"
-          rel="noopener"
-        >
-          SOURCE PAGE
-        </a>
-      </div>
-    </div>
 
     <div class="controls">
       <div class="filter-box">
@@ -82,15 +60,19 @@
         <select id="classFilter" class="hidden">
           <option value="all">ALL CLASSES</option>
         </select>
+
+        <button id="refreshButton" class="view-button toolbar-action" type="button">
+          REFRESH JSON
+        </button>
       </div>
     </div>
 
-    <div id="status" class="status-card">Loading event data...</div>
+    <div id="status" class="status-card hidden">Loading event data...</div>
 
     <main id="rankings"></main>
 
     <footer>
-      <div class="footer-kicker">Unofficial Event Results Visualization</div>
+      <div class="footer-kicker">Unofficial Live Results Visualization</div>
 
       <div class="disclaimer">
         Unofficial visual treatment of SFR Solo day-of-event results. Driver times,
