@@ -4,7 +4,9 @@ const SOURCE_URL = 'https://live.sfrautox.com/#N';
 const state = {
   data: null,
   view: 'overall',
-  selectedClass: 'all'
+  selectedClass: 'all',
+  driverIndex: [],
+  compareSelections: ['', '', '']
 };
 
 function escapeHtml(value) {
@@ -14,6 +16,13 @@ function escapeHtml(value) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+function normalizeKey(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9#]+/g, '')
+    .trim();
 }
 
 function setStatus(message, isError = false) {
@@ -31,6 +40,7 @@ async function loadData() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     state.data = await response.json();
+    state.driverIndex = buildDriverIndex(state.data);
 
     hydrateMeta();
     buildClassFilter();
@@ -71,6 +81,15 @@ function formatTime(value) {
   return String(value);
 }
 
+function formatGap(value) {
+  const num = Number(value);
+
+  if (!Number.isFinite(num)) return '—';
+  if (Math.abs(num) < 0.0005) return 'LEADER';
+
+  return `+${num.toFixed(3)}`;
+}
+
 function buildClassFilter() {
   const select = document.getElementById('classFilter');
   const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
@@ -105,6 +124,10 @@ function render() {
 
   if (state.view === 'class') {
     renderClassResults();
+  }
+
+  if (state.view === 'compare') {
+    renderCompare();
   }
 }
 
@@ -225,6 +248,342 @@ function renderEmptyCard(tag, message) {
   </section>`;
 }
 
+/* -----------------------------
+   COMPARE FEATURE
+----------------------------- */
+
+function buildDriverIndex(data) {
+  const map = new Map();
+
+  function upsertDriver(row = {}) {
+    const key = normalizeKey(`${row.driver}|${row.number || ''}|${row.cls || row.class || ''}`);
+
+    if (!row.driver || !key) return null;
+
+    const existing = map.get(key) || {};
+
+    const merged = {
+      ...existing,
+      ...row,
+      driver: row.driver || existing.driver || '',
+      cls: row.cls || row.class || existing.cls || existing.class || '',
+      class: row.class || row.cls || existing.class || existing.cls || '',
+      number: row.number || existing.number || '',
+      car: row.car || existing.car || '',
+      classNumber: row.classNumber || existing.classNumber || [row.cls || row.class, row.number].filter(Boolean).join(' '),
+      bestRaw: row.bestRaw ?? row.rawTime ?? existing.bestRaw ?? existing.rawTime ?? null,
+      bestPax: row.bestPax ?? row.indexedTime ?? existing.bestPax ?? existing.indexedTime ?? null,
+      rawTime: row.rawTime ?? row.bestRaw ?? existing.rawTime ?? existing.bestRaw ?? null,
+      indexedTime: row.indexedTime ?? row.bestPax ?? existing.indexedTime ?? existing.bestPax ?? null,
+      overallRank: row.overallRank ?? existing.overallRank ?? null,
+      paxRank: row.paxRank ?? existing.paxRank ?? null,
+      classPosition: row.classPosition ?? row.position ?? existing.classPosition ?? existing.position ?? null,
+      runs: row.runs?.length ? row.runs : existing.runs || []
+    };
+
+    merged.label = buildDriverLabel(merged);
+
+    map.set(key, merged);
+    return merged;
+  }
+
+  Object.entries(data.classes || {}).forEach(([cls, rows]) => {
+    rows.forEach(row => {
+      upsertDriver({
+        ...row,
+        cls,
+        class: cls,
+        classPosition: row.position
+      });
+    });
+  });
+
+  (data.overall || []).forEach(row => {
+    const match = findDriverInMap(map, row);
+    if (match) {
+      upsertDriver({
+        ...match,
+        ...row,
+        overallRank: row.rank,
+        bestRaw: match.bestRaw ?? row.rawTime ?? row.time,
+        rawTime: row.rawTime ?? row.time
+      });
+    } else {
+      upsertDriver({
+        ...row,
+        overallRank: row.rank,
+        bestRaw: row.bestRaw ?? row.rawTime ?? row.time,
+        rawTime: row.rawTime ?? row.time
+      });
+    }
+  });
+
+  (data.pax || []).forEach(row => {
+    const match = findDriverInMap(map, row);
+    if (match) {
+      upsertDriver({
+        ...match,
+        ...row,
+        paxRank: row.rank,
+        bestPax: match.bestPax ?? row.indexedTime ?? row.time,
+        indexedTime: row.indexedTime ?? row.time
+      });
+    } else {
+      upsertDriver({
+        ...row,
+        paxRank: row.rank,
+        bestPax: row.bestPax ?? row.indexedTime ?? row.time,
+        indexedTime: row.indexedTime ?? row.time
+      });
+    }
+  });
+
+  return Array.from(map.values()).sort((a, b) => {
+    const aRank = Number(a.overallRank || 9999);
+    const bRank = Number(b.overallRank || 9999);
+    if (aRank !== bRank) return aRank - bRank;
+    return String(a.driver).localeCompare(String(b.driver));
+  });
+}
+
+function findDriverInMap(map, row) {
+  const keys = [
+    `${row.driver}|${row.number || ''}|${row.cls || row.class || ''}`,
+    `${row.driver}|${row.number || ''}|${String(row.cls || row.class || '').split('-').pop()}`,
+    `${row.driver}|${row.number || ''}`,
+    `${row.driver}`
+  ].map(normalizeKey);
+
+  return Array.from(map.values()).find(candidate => {
+    const candidateKeys = [
+      `${candidate.driver}|${candidate.number || ''}|${candidate.cls || candidate.class || ''}`,
+      `${candidate.driver}|${candidate.number || ''}`,
+      `${candidate.driver}`
+    ].map(normalizeKey);
+
+    return keys.some(key => candidateKeys.includes(key));
+  });
+}
+
+function buildDriverLabel(driver) {
+  const classNumber = driver.classNumber || [driver.cls || driver.class, driver.number].filter(Boolean).join(' ');
+  return `${driver.driver}${classNumber ? ` — ${classNumber}` : ''}`;
+}
+
+function findSelectedDriver(label) {
+  const wanted = normalizeKey(label);
+
+  if (!wanted) return null;
+
+  return state.driverIndex.find(driver => normalizeKey(driver.label) === wanted) ||
+    state.driverIndex.find(driver => normalizeKey(driver.driver) === wanted) ||
+    state.driverIndex.find(driver => normalizeKey(driver.label).includes(wanted));
+}
+
+function renderCompare() {
+  const root = document.getElementById('rankings');
+  const selectedDrivers = state.compareSelections
+    .map(label => findSelectedDriver(label))
+    .filter(Boolean);
+
+  root.innerHTML = `
+    <section class="card compare-card">
+      <div class="card-header">
+        <div class="class-title">
+          <div class="acr-tag">COMPARE</div>
+          <div class="header-main">Driver Comparison</div>
+        </div>
+        <div class="class-count">${selectedDrivers.length} SELECTED</div>
+      </div>
+
+      <div class="card-body">
+        <datalist id="driverOptions">
+          ${state.driverIndex.map(driver => `<option value="${escapeHtml(driver.label)}"></option>`).join('')}
+        </datalist>
+
+        <div class="compare-input-grid">
+          ${[0, 1, 2].map(index => `
+            <label class="compare-input-wrap">
+              <span>Driver ${index + 1}</span>
+              <input
+                class="compare-input"
+                data-compare-index="${index}"
+                list="driverOptions"
+                placeholder="Start typing a driver name..."
+                value="${escapeHtml(state.compareSelections[index] || '')}"
+              />
+            </label>
+          `).join('')}
+        </div>
+
+        ${selectedDrivers.length ? renderCompareDriverCards(selectedDrivers) : renderCompareEmptyState()}
+        ${selectedDrivers.length >= 2 ? renderGapAnalysis(selectedDrivers) : ''}
+      </div>
+    </section>
+  `;
+
+  attachCompareHandlers();
+}
+
+function attachCompareHandlers() {
+  document.querySelectorAll('.compare-input').forEach(input => {
+    input.addEventListener('input', event => {
+      const index = Number(event.target.dataset.compareIndex);
+      state.compareSelections[index] = event.target.value;
+    });
+
+    input.addEventListener('change', event => {
+      const index = Number(event.target.dataset.compareIndex);
+      state.compareSelections[index] = event.target.value;
+      renderCompare();
+    });
+
+    input.addEventListener('keydown', event => {
+      if (event.key === 'Enter') {
+        event.target.blur();
+        renderCompare();
+      }
+    });
+  });
+}
+
+function renderCompareEmptyState() {
+  return `
+    <div class="compare-empty">
+      Select two or three drivers to compare raw time, PAX time, class position, overall rank, car, and run history.
+    </div>
+  `;
+}
+
+function renderCompareDriverCards(drivers) {
+  return `
+    <div class="compare-driver-grid">
+      ${drivers.map(driver => `
+        <article class="compare-driver-card">
+          <div class="compare-driver-top">
+            <div>
+              <div class="compare-driver-name">${escapeHtml(driver.driver)}</div>
+              <div class="compare-driver-sub">${escapeHtml(buildSubLine(driver))}</div>
+            </div>
+            <div class="compare-class-badge">${escapeHtml(driver.cls || driver.class || '—')}</div>
+          </div>
+
+          <div class="compare-stat-grid">
+            <div class="compare-stat">
+              <span class="compare-stat-label">Best Raw</span>
+              <span class="compare-stat-value">${escapeHtml(formatTime(driver.bestRaw || driver.rawTime))}</span>
+            </div>
+            <div class="compare-stat">
+              <span class="compare-stat-label">Best PAX</span>
+              <span class="compare-stat-value">${escapeHtml(formatTime(driver.bestPax || driver.indexedTime))}</span>
+            </div>
+            <div class="compare-stat">
+              <span class="compare-stat-label">Overall Rank</span>
+              <span class="compare-stat-value">${escapeHtml(driver.overallRank || '—')}</span>
+            </div>
+            <div class="compare-stat">
+              <span class="compare-stat-label">PAX Rank</span>
+              <span class="compare-stat-value">${escapeHtml(driver.paxRank || '—')}</span>
+            </div>
+            <div class="compare-stat">
+              <span class="compare-stat-label">Class Pos</span>
+              <span class="compare-stat-value">${escapeHtml(driver.classPosition || '—')}</span>
+            </div>
+            <div class="compare-stat">
+              <span class="compare-stat-label">Number</span>
+              <span class="compare-stat-value">${escapeHtml(driver.number || '—')}</span>
+            </div>
+          </div>
+
+          ${driver.runs?.length ? `
+            <div class="compare-runs">
+              <div class="compare-section-label">Runs</div>
+              <div class="run-strip">
+                ${driver.runs.map(run => `<span class="run-pill">${escapeHtml(run)}</span>`).join('')}
+              </div>
+            </div>
+          ` : ''}
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderGapAnalysis(drivers) {
+  const rawDrivers = drivers
+    .filter(driver => Number.isFinite(Number(driver.bestRaw || driver.rawTime)))
+    .map(driver => ({
+      ...driver,
+      compareTime: Number(driver.bestRaw || driver.rawTime)
+    }))
+    .sort((a, b) => a.compareTime - b.compareTime);
+
+  const paxDrivers = drivers
+    .filter(driver => Number.isFinite(Number(driver.bestPax || driver.indexedTime)))
+    .map(driver => ({
+      ...driver,
+      compareTime: Number(driver.bestPax || driver.indexedTime)
+    }))
+    .sort((a, b) => a.compareTime - b.compareTime);
+
+  return `
+    <section class="gap-analysis">
+      <div class="gap-header">
+        <div>
+          <div class="gap-kicker">Gap Analysis</div>
+          <div class="gap-title">Raw vs PAX</div>
+        </div>
+        <div class="gap-note">Lower time wins. Gaps shown against the fastest selected driver in each category.</div>
+      </div>
+
+      <div class="gap-grid">
+        ${renderGapTable('RAW GAP', rawDrivers, 'BEST RAW')}
+        ${renderGapTable('PAX GAP', paxDrivers, 'BEST PAX')}
+      </div>
+    </section>
+  `;
+}
+
+function renderGapTable(title, drivers, timeLabel) {
+  if (!drivers.length) {
+    return `
+      <div class="gap-table">
+        <div class="gap-table-title">${escapeHtml(title)}</div>
+        <div class="gap-row muted">No valid timing data.</div>
+      </div>
+    `;
+  }
+
+  const leaderTime = drivers[0].compareTime;
+
+  return `
+    <div class="gap-table">
+      <div class="gap-table-title">${escapeHtml(title)}</div>
+      ${drivers.map((driver, index) => {
+        const gap = driver.compareTime - leaderTime;
+        return `
+          <div class="gap-row">
+            <div class="gap-pos">${index + 1}</div>
+            <div class="gap-driver">
+              <span>${escapeHtml(driver.driver)}</span>
+              <small>${escapeHtml(driver.cls || driver.class || '')} ${escapeHtml(driver.number || '')}</small>
+            </div>
+            <div class="gap-time">
+              <span>${escapeHtml(formatTime(driver.compareTime))}</span>
+              <small>${escapeHtml(timeLabel)}</small>
+            </div>
+            <div class="gap-delta ${gap === 0 ? 'leader' : ''}">${escapeHtml(formatGap(gap))}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+/* -----------------------------
+   DIAGNOSTICS
+----------------------------- */
+
 function updateDiagnostics() {
   const data = state.data || {};
   const classCounts = Object.entries(data.classes || {})
@@ -238,6 +597,7 @@ function updateDiagnostics() {
     `Overall rows: ${(data.overall || []).length}`,
     `PAX rows: ${(data.pax || []).length}`,
     `Classes: ${(data.classOrder || []).length}`,
+    `Driver compare index: ${state.driverIndex.length}`,
     '',
     'Class row counts:',
     classCounts || 'No classes parsed yet.',
