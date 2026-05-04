@@ -1,0 +1,13 @@
+{
+  "name": "sfr-day-of-event-results-opulent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch:sfr": "node scripts/fetch-sfr-results.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0"
+  }
+}

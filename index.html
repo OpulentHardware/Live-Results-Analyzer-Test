@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Results | OPULENT HARDWARE</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="brand-logo">EVENT RESULTS</h1>
+      <div class="sub-title">POWERED BY OPULENT HARDWARE</div>
+      <section class="event-strip" aria-label="Event metadata">
+        <div class="meta-box"><span class="meta-label">Event</span><span class="meta-value" id="eventTitle">Loading...</span></div>
+        <div class="meta-box"><span class="meta-label">Date</span><span class="meta-value" id="eventDate">—</span></div>
+        <div class="meta-box"><span class="meta-label">Participants</span><span class="meta-value" id="participantCount">—</span></div>
+        <div class="meta-box"><span class="meta-label">Updated</span><span class="meta-value" id="updatedAt">—</span></div>
+      </section>
+    </header>
+
+    <div class="controls">
+      <div class="filter-box">
+        <span class="filter-label">VIEW</span>
+        <button class="active" data-view-button="overall">OVERALL</button>
+        <button data-view-button="pax">PAX</button>
+        <button data-view-button="class">CLASS</button>
+        <select id="classFilter" class="hidden"><option value="all">ALL CLASSES</option></select>
+        <button id="refreshButton">REFRESH JSON</button>
+      </div>
+    </div>
+
+    <div id="status" class="status-card">Loading event data...</div>
+    <main id="rankings"></main>
+
+    <footer>
+      <div class="footer-kicker">Unofficial Live Results Visualization</div>
+      <div class="disclaimer">
+        Unofficial visual treatment of SFR Solo day-of-event results. Driver times are rendered from the linked live results source after a GitHub Action snapshots the visible source page into a local JSON file. For official results, final awards, penalties, reruns, and scoring corrections, reference the source page and confirm with SFR SCCA.
+      </div>
+      <div class="footer-links">
+        <a class="footer-link" href="https://live.sfrautox.com/#N" target="_blank" rel="noopener">SOURCE DATA</a>
+        <span class="footer-separator">/</span>
+        <a class="footer-link" href="https://www.instagram.com/opulenthardware" target="_blank" rel="noopener">INSTAGRAM / @OPULENTHARDWARE</a>
+      </div>
+    </footer>
+  </div>
+
+  <button class="diag-trigger" onclick="toggleDiag()">DIAG</button>
+  <aside id="diag">
+    <h2>Diagnostics</h2>
+    <pre id="diagText">Waiting for local JSON...</pre>
+    <button class="close-btn" onclick="toggleDiag()">CLOSE PANEL</button>
+  </aside>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>
