@@ -532,6 +532,7 @@ select {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   margin-bottom: 28px;
+  align-items: stretch;
 }
 
 .compare-driver-card {
@@ -544,6 +545,7 @@ select {
   flex-direction: column;
   gap: 14px;
   min-width: 0;
+  height: 100%;
 }
 
 .compare-driver-top {
@@ -551,7 +553,7 @@ select {
   grid-template-columns: 1fr auto;
   align-items: start;
   gap: 12px;
-  min-height: 104px;
+  min-height: 92px;
 }
 
 .compare-driver-name {
@@ -560,8 +562,9 @@ select {
   text-transform: uppercase;
   letter-spacing: 0.4px;
   line-height: 1.15;
+  min-height: calc(1rem * 1.15);
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -592,6 +595,7 @@ select {
 .compare-stat-table {
   display: grid;
   gap: 8px;
+  margin-top: 0;
 }
 
 .compare-stat-row {
@@ -918,6 +922,14 @@ footer {
   }
 
   .compare-driver-top {
+    min-height: auto;
+  }
+
+  .compare-driver-name {
+    -webkit-line-clamp: 2;
+  }
+
+  .compare-driver-sub {
     min-height: auto;
   }
 
