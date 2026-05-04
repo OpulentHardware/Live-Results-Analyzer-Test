@@ -547,10 +547,11 @@ select {
 }
 
 .compare-driver-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
   gap: 12px;
+  min-height: 104px;
 }
 
 .compare-driver-name {
@@ -559,13 +560,22 @@ select {
   text-transform: uppercase;
   letter-spacing: 0.4px;
   line-height: 1.15;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .compare-driver-sub {
   color: var(--text-secondary);
   font-size: 0.72rem;
-  line-height: 1.45;
+  line-height: 1.35;
   margin-top: 6px;
+  min-height: calc(0.72rem * 1.35 * 3);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .compare-class-badge {
@@ -905,6 +915,10 @@ footer {
   .compare-driver-grid,
   .gap-grid {
     grid-template-columns: 1fr;
+  }
+
+  .compare-driver-top {
+    min-height: auto;
   }
 
   .gap-header {
