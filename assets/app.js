@@ -27,6 +27,8 @@ function normalizeKey(value) {
 
 function setStatus(message, isError = false) {
   const el = document.getElementById('status');
+  if (!el) return;
+
   el.textContent = message;
   el.classList.toggle('hidden', !message);
   el.style.borderColor = isError ? 'rgba(255,62,62,0.6)' : 'rgba(223,255,0,0.26)';
@@ -36,6 +38,7 @@ function setStatus(message, isError = false) {
 async function loadData() {
   try {
     setStatus('Loading event data from GitHub Pages JSON...');
+
     const response = await fetch(`${DATA_URL}?v=${Date.now()}`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
@@ -50,22 +53,33 @@ async function loadData() {
   } catch (error) {
     console.error(error);
     setStatus(`Could not load local data file: ${error.message}`, true);
-    document.getElementById('diagText').textContent = `ERROR\n${error.message}\n\nExpected local file:\n${DATA_URL}`;
+
+    const diag = document.getElementById('diagText');
+    if (diag) {
+      diag.textContent = `ERROR\n${error.message}\n\nExpected local file:\n${DATA_URL}`;
+    }
   }
 }
 
 function hydrateMeta() {
   const meta = state.data?.meta || {};
-  document.getElementById('eventTitle').textContent = meta.title || state.data?.title || 'SFR Solo Day of Event Results';
-  document.getElementById('eventDate').textContent = meta.date || state.data?.date || '—';
-  document.getElementById('participantCount').textContent = meta.participants || state.data?.participants || '—';
-  document.getElementById('updatedAt').textContent = formatDate(meta.updatedAt || state.data?.updatedAt);
+  const eventTitle = document.getElementById('eventTitle');
+  const eventDate = document.getElementById('eventDate');
+  const participantCount = document.getElementById('participantCount');
+  const updatedAt = document.getElementById('updatedAt');
+
+  if (eventTitle) eventTitle.textContent = meta.title || state.data?.title || 'SFR Solo Day of Event Results';
+  if (eventDate) eventDate.textContent = meta.date || state.data?.date || '—';
+  if (participantCount) participantCount.textContent = meta.participants || state.data?.participants || '—';
+  if (updatedAt) updatedAt.textContent = formatDate(meta.updatedAt || state.data?.updatedAt);
 }
 
 function formatDate(value) {
   if (!value || value === 'Not yet fetched') return value || '—';
+
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
+
   return date.toLocaleString();
 }
 
@@ -92,11 +106,15 @@ function formatGap(value) {
 
 function buildClassFilter() {
   const select = document.getElementById('classFilter');
+  if (!select) return;
+
   const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
 
   select.innerHTML =
     '<option value="all">ALL CLASSES</option>' +
     order.map(cls => `<option value="${escapeHtml(cls)}">${escapeHtml(cls)}</option>`).join('');
+
+  select.value = state.selectedClass;
 }
 
 function setView(view) {
@@ -106,7 +124,10 @@ function setView(view) {
     button.classList.toggle('active', button.dataset.viewButton === view);
   });
 
-  document.getElementById('classFilter').classList.toggle('hidden', view !== 'class');
+  const classFilter = document.getElementById('classFilter');
+  if (classFilter) {
+    classFilter.classList.toggle('hidden', view !== 'class');
+  }
 
   render();
 }
@@ -116,14 +137,17 @@ function render() {
 
   if (state.view === 'overall') {
     renderSimpleResults('Overall Raw Ranking', state.data.overall || [], 'BEST RAW');
+    return;
   }
 
   if (state.view === 'pax') {
     renderSimpleResults('PAX Indexed Ranking', state.data.pax || [], 'INDEXED');
+    return;
   }
 
   if (state.view === 'class') {
     renderClassResults();
+    return;
   }
 
   if (state.view === 'compare') {
@@ -139,52 +163,88 @@ function buildSubLine(row) {
   return classPart || carPart || '';
 }
 
+function rankClass(rank) {
+  const value = Number(rank);
+  return value <= 3 ? `rank-${value}` : '';
+}
+
+function getDisplayTime(row, mode = state.view) {
+  if (mode === 'overall') return row.time ?? row.rawTime ?? row.bestRaw;
+  if (mode === 'pax') return row.time ?? row.indexedTime ?? row.bestPax;
+  return row.time ?? row.bestRaw ?? row.indexedTime ?? row.rawTime;
+}
+
 function renderPodium(rows, label) {
   const top = rows.slice(0, 3);
   if (!top.length) return '';
 
-  return `<section class="podium">${top.map(row => `
-    <article class="podium-card">
-      <div class="podium-rank">P${escapeHtml(row.rank || row.position)}</div>
-      <div class="podium-name">${escapeHtml(row.driver)}</div>
-      <div class="podium-sub">${escapeHtml(buildSubLine(row))}</div>
-      <div class="podium-time">${escapeHtml(formatTime(row.time || row.bestRaw || row.indexedTime))}</div>
-      <div class="time-label">${escapeHtml(label)}</div>
-    </article>`).join('')}</section>`;
+  return `
+    <section class="podium">
+      ${top.map(row => `
+        <article class="podium-card">
+          <div class="podium-rank">P${escapeHtml(row.rank || row.position)}</div>
+          <div class="podium-name">${escapeHtml(row.driver)}</div>
+          <div class="podium-sub">${escapeHtml(buildSubLine(row))}</div>
+          <div class="podium-time">${escapeHtml(formatTime(getDisplayTime(row)))}</div>
+          <div class="time-label">${escapeHtml(label)}</div>
+        </article>
+      `).join('')}
+    </section>
+  `;
 }
 
 function renderSimpleResults(title, rows, timeLabel) {
   const root = document.getElementById('rankings');
+  if (!root) return;
 
   const body = rows.length ? rows.map(row => `
     <div class="result-row">
-      <div class="rank ${row.rank <= 3 ? `rank-${row.rank}` : ''}">${escapeHtml(row.rank)}</div>
+      <div class="rank ${rankClass(row.rank)}">${escapeHtml(row.rank)}</div>
+
       <div>
         <div class="driver-name">${escapeHtml(row.driver)}</div>
         <div class="driver-sub">${escapeHtml(buildSubLine(row))}</div>
-        ${row.runs?.length ? `<div class="run-strip">${row.runs.map(run => `<span class="run-pill">${escapeHtml(run)}</span>`).join('')}</div>` : ''}
+
+        ${row.runs?.length ? `
+          <div class="run-strip">
+            ${row.runs.map(run => `<span class="run-pill">${escapeHtml(run)}</span>`).join('')}
+          </div>
+        ` : ''}
       </div>
+
       <div class="time-cell">
-        <span class="time-val">${escapeHtml(formatTime(row.time || row.indexedTime || row.rawTime))}</span>
+        <span class="time-val">${escapeHtml(formatTime(getDisplayTime(row)))}</span>
         <span class="time-label">${escapeHtml(timeLabel)}</span>
       </div>
-    </div>`).join('') : emptyRow('No event rows found');
+    </div>
+  `).join('') : emptyRow('No event rows found');
 
-  root.innerHTML = `${renderPodium(rows, timeLabel)}
+  root.innerHTML = `
+    ${renderPodium(rows, timeLabel)}
+
     <section class="card">
       <div class="card-header">
         <div class="class-title">
-          <div class="acr-tag">${state.view.toUpperCase()}</div>
+          <div class="acr-tag">${escapeHtml(state.view.toUpperCase())}</div>
           <div class="header-main">${escapeHtml(title)}</div>
         </div>
-        <div class="class-count">${rows.length} SOURCE ROW${rows.length === 1 ? '' : 'S'}</div>
+
+        <div class="class-count">
+          ${rows.length} SOURCE ROW${rows.length === 1 ? '' : 'S'}
+        </div>
       </div>
-      <div class="card-body">${body}</div>
-    </section>`;
+
+      <div class="card-body">
+        ${body}
+      </div>
+    </section>
+  `;
 }
 
 function renderClassResults() {
   const root = document.getElementById('rankings');
+  if (!root) return;
+
   const classes = state.data.classes || {};
   const order = state.data.classOrder || Object.keys(classes);
   const selected = state.selectedClass;
@@ -198,67 +258,97 @@ function renderClassResults() {
 function renderClassCard(cls, rows) {
   const body = rows.length ? rows.map(row => `
     <div class="result-row">
-      <div class="rank ${row.position <= 3 ? `rank-${row.position}` : ''}">${escapeHtml(row.position)}</div>
+      <div class="rank ${rankClass(row.position)}">${escapeHtml(row.position)}</div>
+
       <div>
         <div class="driver-name">${escapeHtml(row.driver)} ${escapeHtml(row.number || '')}</div>
         <div class="driver-sub">${escapeHtml(row.car || row.className || '')}</div>
-        ${row.runs?.length ? `<div class="run-strip">${row.runs.map(run => `<span class="run-pill">${escapeHtml(run)}</span>`).join('')}</div>` : ''}
+
+        ${row.runs?.length ? `
+          <div class="run-strip">
+            ${row.runs.map(run => `<span class="run-pill">${escapeHtml(run)}</span>`).join('')}
+          </div>
+        ` : ''}
       </div>
+
       <div class="time-cell">
         <span class="time-val">${escapeHtml(formatTime(row.bestRaw))}</span>
         <span class="time-label">Best Raw / PAX ${escapeHtml(formatTime(row.bestPax))}</span>
       </div>
-    </div>`).join('') : emptyRow('No class rows found');
-
-  return `<section class="card" data-class="${escapeHtml(cls)}">
-    <div class="card-header">
-      <div class="class-title">
-        <div class="acr-tag">${escapeHtml(cls)}</div>
-        <div class="header-main">Class Results</div>
-      </div>
-      <div class="class-count">${rows.length} DRIVER${rows.length === 1 ? '' : 'S'}</div>
     </div>
-    <div class="card-body">${body}</div>
-  </section>`;
+  `).join('') : emptyRow('No class rows found');
+
+  return `
+    <section class="card" data-class="${escapeHtml(cls)}">
+      <div class="card-header">
+        <div class="class-title">
+          <div class="acr-tag">${escapeHtml(cls)}</div>
+          <div class="header-main">Class Results</div>
+        </div>
+
+        <div class="class-count">
+          ${rows.length} DRIVER${rows.length === 1 ? '' : 'S'}
+        </div>
+      </div>
+
+      <div class="card-body">
+        ${body}
+      </div>
+    </section>
+  `;
 }
 
 function emptyRow(message) {
-  return `<div class="result-row">
-    <div class="rank">—</div>
-    <div>
-      <div class="driver-name">${escapeHtml(message)}</div>
-      <div class="driver-sub">Run the GitHub Action to fetch current source data.</div>
+  return `
+    <div class="result-row">
+      <div class="rank">—</div>
+
+      <div>
+        <div class="driver-name">${escapeHtml(message)}</div>
+        <div class="driver-sub">Run the GitHub Action to fetch current source data.</div>
+      </div>
+
+      <div class="time-cell">
+        <span class="time-val">—</span>
+        <span class="time-label">NO DATA</span>
+      </div>
     </div>
-    <div class="time-cell">
-      <span class="time-val">—</span>
-      <span class="time-label">NO DATA</span>
-    </div>
-  </div>`;
+  `;
 }
 
 function renderEmptyCard(tag, message) {
-  return `<section class="card">
-    <div class="card-header">
-      <div class="class-title">
-        <div class="acr-tag">${escapeHtml(tag)}</div>
-        <div class="header-main">${escapeHtml(message)}</div>
+  return `
+    <section class="card">
+      <div class="card-header">
+        <div class="class-title">
+          <div class="acr-tag">${escapeHtml(tag)}</div>
+          <div class="header-main">${escapeHtml(message)}</div>
+        </div>
       </div>
-    </div>
-    <div class="card-body">${emptyRow(message)}</div>
-  </section>`;
+
+      <div class="card-body">
+        ${emptyRow(message)}
+      </div>
+    </section>
+  `;
 }
 
 /* -----------------------------
-   COMPARE FEATURE
+   DRIVER INDEX
 ----------------------------- */
 
 function buildDriverIndex(data) {
   const map = new Map();
 
-  function upsertDriver(row = {}) {
-    const key = normalizeKey(`${row.driver}|${row.number || ''}|${row.cls || row.class || ''}`);
+  function rowKey(row = {}) {
+    return normalizeKey(`${row.driver}|${row.number || ''}|${row.cls || row.class || ''}`);
+  }
 
-    if (!row.driver || !key) return null;
+  function upsertDriver(row = {}) {
+    if (!row.driver) return null;
+
+    const key = rowKey(row);
+    if (!key) return null;
 
     const existing = map.get(key) || {};
 
@@ -270,14 +360,21 @@ function buildDriverIndex(data) {
       class: row.class || row.cls || existing.class || existing.cls || '',
       number: row.number || existing.number || '',
       car: row.car || existing.car || '',
-      classNumber: row.classNumber || existing.classNumber || [row.cls || row.class, row.number].filter(Boolean).join(' '),
+      classNumber:
+        row.classNumber ||
+        existing.classNumber ||
+        [row.cls || row.class || existing.cls || existing.class, row.number || existing.number].filter(Boolean).join(' '),
+
       bestRaw: row.bestRaw ?? row.rawTime ?? existing.bestRaw ?? existing.rawTime ?? null,
       bestPax: row.bestPax ?? row.indexedTime ?? existing.bestPax ?? existing.indexedTime ?? null,
+
       rawTime: row.rawTime ?? row.bestRaw ?? existing.rawTime ?? existing.bestRaw ?? null,
       indexedTime: row.indexedTime ?? row.bestPax ?? existing.indexedTime ?? existing.bestPax ?? null,
+
       overallRank: row.overallRank ?? existing.overallRank ?? null,
       paxRank: row.paxRank ?? existing.paxRank ?? null,
       classPosition: row.classPosition ?? row.position ?? existing.classPosition ?? existing.position ?? null,
+
       runs: row.runs?.length ? row.runs : existing.runs || []
     };
 
@@ -300,13 +397,16 @@ function buildDriverIndex(data) {
 
   (data.overall || []).forEach(row => {
     const match = findDriverInMap(map, row);
+
     if (match) {
       upsertDriver({
         ...match,
         ...row,
         overallRank: row.rank,
         bestRaw: match.bestRaw ?? row.rawTime ?? row.time,
-        rawTime: row.rawTime ?? row.time
+        rawTime: row.rawTime ?? row.time,
+        bestPax: match.bestPax ?? row.bestPax,
+        indexedTime: match.indexedTime ?? row.indexedTime
       });
     } else {
       upsertDriver({
@@ -320,13 +420,16 @@ function buildDriverIndex(data) {
 
   (data.pax || []).forEach(row => {
     const match = findDriverInMap(map, row);
+
     if (match) {
       upsertDriver({
         ...match,
         ...row,
         paxRank: row.rank,
         bestPax: match.bestPax ?? row.indexedTime ?? row.time,
-        indexedTime: row.indexedTime ?? row.time
+        indexedTime: row.indexedTime ?? row.time,
+        bestRaw: match.bestRaw ?? row.bestRaw,
+        rawTime: match.rawTime ?? row.rawTime
       });
     } else {
       upsertDriver({
@@ -341,15 +444,20 @@ function buildDriverIndex(data) {
   return Array.from(map.values()).sort((a, b) => {
     const aRank = Number(a.overallRank || 9999);
     const bRank = Number(b.overallRank || 9999);
+
     if (aRank !== bRank) return aRank - bRank;
+
     return String(a.driver).localeCompare(String(b.driver));
   });
 }
 
 function findDriverInMap(map, row) {
+  const rowClass = row.cls || row.class || '';
+  const rowClassShort = String(rowClass).split('-').pop();
+
   const keys = [
-    `${row.driver}|${row.number || ''}|${row.cls || row.class || ''}`,
-    `${row.driver}|${row.number || ''}|${String(row.cls || row.class || '').split('-').pop()}`,
+    `${row.driver}|${row.number || ''}|${rowClass}`,
+    `${row.driver}|${row.number || ''}|${rowClassShort}`,
     `${row.driver}|${row.number || ''}`,
     `${row.driver}`
   ].map(normalizeKey);
@@ -357,6 +465,7 @@ function findDriverInMap(map, row) {
   return Array.from(map.values()).find(candidate => {
     const candidateKeys = [
       `${candidate.driver}|${candidate.number || ''}|${candidate.cls || candidate.class || ''}`,
+      `${candidate.driver}|${candidate.number || ''}|${String(candidate.cls || candidate.class || '').split('-').pop()}`,
       `${candidate.driver}|${candidate.number || ''}`,
       `${candidate.driver}`
     ].map(normalizeKey);
@@ -380,20 +489,29 @@ function findSelectedDriver(label) {
     state.driverIndex.find(driver => normalizeKey(driver.label).includes(wanted));
 }
 
+/* -----------------------------
+   COMPARE VIEW
+----------------------------- */
+
 function renderCompare() {
   const root = document.getElementById('rankings');
+  if (!root) return;
+
   const selectedDrivers = state.compareSelections
     .map(label => findSelectedDriver(label))
     .filter(Boolean);
 
   root.innerHTML = `
-    <section class="card compare-card">
+    <section class="card compare-shell">
       <div class="card-header">
         <div class="class-title">
           <div class="acr-tag">COMPARE</div>
           <div class="header-main">Driver Comparison</div>
         </div>
-        <div class="class-count">${selectedDrivers.length} SELECTED</div>
+
+        <div class="class-count">
+          ${selectedDrivers.length} SELECTED
+        </div>
       </div>
 
       <div class="card-body">
@@ -405,6 +523,7 @@ function renderCompare() {
           ${[0, 1, 2].map(index => `
             <label class="compare-input-wrap">
               <span>Driver ${index + 1}</span>
+
               <input
                 class="compare-input"
                 data-compare-index="${index}"
@@ -450,7 +569,8 @@ function attachCompareHandlers() {
 function renderCompareEmptyState() {
   return `
     <div class="compare-empty">
-      Select two or three drivers to compare raw time, PAX time, class position, overall rank, car, and run history.
+      Select two or three drivers to compare best raw, best PAX, class position,
+      overall rank, PAX rank, car, and runs.
     </div>
   `;
 }
@@ -465,39 +585,48 @@ function renderCompareDriverCards(drivers) {
               <div class="compare-driver-name">${escapeHtml(driver.driver)}</div>
               <div class="compare-driver-sub">${escapeHtml(buildSubLine(driver))}</div>
             </div>
-            <div class="compare-class-badge">${escapeHtml(driver.cls || driver.class || '—')}</div>
+
+            <div class="compare-class-badge">
+              ${escapeHtml(driver.cls || driver.class || '—')}
+            </div>
           </div>
 
-          <div class="compare-stat-grid">
-            <div class="compare-stat">
-              <span class="compare-stat-label">Best Raw</span>
-              <span class="compare-stat-value">${escapeHtml(formatTime(driver.bestRaw || driver.rawTime))}</span>
+          <div class="compare-stat-table">
+            <div class="compare-stat-row">
+              <span>Best Raw</span>
+              <strong>${escapeHtml(formatTime(driver.bestRaw || driver.rawTime))}</strong>
             </div>
-            <div class="compare-stat">
-              <span class="compare-stat-label">Best PAX</span>
-              <span class="compare-stat-value">${escapeHtml(formatTime(driver.bestPax || driver.indexedTime))}</span>
+
+            <div class="compare-stat-row">
+              <span>Best PAX</span>
+              <strong>${escapeHtml(formatTime(driver.bestPax || driver.indexedTime))}</strong>
             </div>
-            <div class="compare-stat">
-              <span class="compare-stat-label">Overall Rank</span>
-              <span class="compare-stat-value">${escapeHtml(driver.overallRank || '—')}</span>
+
+            <div class="compare-stat-row">
+              <span>Overall Rank</span>
+              <strong>${escapeHtml(driver.overallRank || '—')}</strong>
             </div>
-            <div class="compare-stat">
-              <span class="compare-stat-label">PAX Rank</span>
-              <span class="compare-stat-value">${escapeHtml(driver.paxRank || '—')}</span>
+
+            <div class="compare-stat-row">
+              <span>PAX Rank</span>
+              <strong>${escapeHtml(driver.paxRank || '—')}</strong>
             </div>
-            <div class="compare-stat">
-              <span class="compare-stat-label">Class Pos</span>
-              <span class="compare-stat-value">${escapeHtml(driver.classPosition || '—')}</span>
+
+            <div class="compare-stat-row">
+              <span>Class Position</span>
+              <strong>${escapeHtml(driver.classPosition || '—')}</strong>
             </div>
-            <div class="compare-stat">
-              <span class="compare-stat-label">Number</span>
-              <span class="compare-stat-value">${escapeHtml(driver.number || '—')}</span>
+
+            <div class="compare-stat-row">
+              <span>Number</span>
+              <strong>${escapeHtml(driver.number || '—')}</strong>
             </div>
           </div>
 
           ${driver.runs?.length ? `
             <div class="compare-runs">
               <div class="compare-section-label">Runs</div>
+
               <div class="run-strip">
                 ${driver.runs.map(run => `<span class="run-pill">${escapeHtml(run)}</span>`).join('')}
               </div>
@@ -531,9 +660,12 @@ function renderGapAnalysis(drivers) {
       <div class="gap-header">
         <div>
           <div class="gap-kicker">Gap Analysis</div>
-          <div class="gap-title">Raw vs PAX</div>
+          <div class="gap-title">Raw and PAX</div>
         </div>
-        <div class="gap-note">Lower time wins. Gaps shown against the fastest selected driver in each category.</div>
+
+        <div class="gap-note">
+          Lower time wins. Gap is shown relative to the fastest selected driver in each category.
+        </div>
       </div>
 
       <div class="gap-grid">
@@ -559,20 +691,27 @@ function renderGapTable(title, drivers, timeLabel) {
   return `
     <div class="gap-table">
       <div class="gap-table-title">${escapeHtml(title)}</div>
+
       ${drivers.map((driver, index) => {
         const gap = driver.compareTime - leaderTime;
+
         return `
           <div class="gap-row">
             <div class="gap-pos">${index + 1}</div>
+
             <div class="gap-driver">
               <span>${escapeHtml(driver.driver)}</span>
               <small>${escapeHtml(driver.cls || driver.class || '')} ${escapeHtml(driver.number || '')}</small>
             </div>
+
             <div class="gap-time">
               <span>${escapeHtml(formatTime(driver.compareTime))}</span>
               <small>${escapeHtml(timeLabel)}</small>
             </div>
-            <div class="gap-delta ${gap === 0 ? 'leader' : ''}">${escapeHtml(formatGap(gap))}</div>
+
+            <div class="gap-delta ${Math.abs(gap) < 0.0005 ? 'leader' : ''}">
+              ${escapeHtml(formatGap(gap))}
+            </div>
           </div>
         `;
       }).join('')}
@@ -606,11 +745,13 @@ function updateDiagnostics() {
     'Fetcher: .github/workflows/update-results.yml'
   ];
 
-  document.getElementById('diagText').textContent = lines.join('\n');
+  const diag = document.getElementById('diagText');
+  if (diag) diag.textContent = lines.join('\n');
 }
 
 function toggleDiag() {
-  document.getElementById('diag').classList.toggle('active');
+  const diag = document.getElementById('diag');
+  if (diag) diag.classList.toggle('active');
 }
 
 window.setView = setView;
@@ -621,12 +762,18 @@ window.addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', () => setView(button.dataset.viewButton));
   });
 
-  document.getElementById('classFilter').addEventListener('change', event => {
-    state.selectedClass = event.target.value;
-    render();
-  });
+  const classFilter = document.getElementById('classFilter');
+  if (classFilter) {
+    classFilter.addEventListener('change', event => {
+      state.selectedClass = event.target.value;
+      render();
+    });
+  }
 
-  document.getElementById('refreshButton').addEventListener('click', () => loadData());
+  const refreshButton = document.getElementById('refreshButton');
+  if (refreshButton) {
+    refreshButton.addEventListener('click', () => loadData());
+  }
 
   loadData();
 });
