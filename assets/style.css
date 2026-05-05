@@ -1032,57 +1032,63 @@ footer {
   }
 }
 
-
 /* ---------------------------------------
-   INLINE CARD VIEW MENU - FINAL OVERRIDE
+   GLOBAL LEFT-JUSTIFIED VIEW MENU - FINAL
 --------------------------------------- */
 
-.card {
-  overflow: visible !important;
+.controls,
+.filter-box,
+.filter-label {
+  display: none !important;
 }
 
-.card-header {
-  position: relative !important;
-  z-index: 5 !important;
+.global-view-menu {
+  position: sticky;
+  top: 18px;
+  z-index: 1200;
+  height: 0;
+  display: flex;
+  justify-content: flex-start;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
 }
 
-.class-title {
-  gap: 18px !important;
-}
-
-.inline-view-menu {
+.global-view-inner {
   position: relative;
-  z-index: 50;
-  flex: 0 0 auto;
+  pointer-events: auto;
+  transform: translateY(2px);
 }
 
-.inline-view-toggle {
+.global-view-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   min-height: 38px;
-  padding: 9px 14px;
+  padding: 9px 15px;
   border-radius: 999px;
   border: 1px solid rgba(223, 255, 0, 0.46);
-  background: rgba(0, 0, 0, 0.42);
+  background: rgba(0, 0, 0, 0.56);
   color: var(--gold);
   font-family: 'Syncopate', sans-serif;
-  font-size: 0.58rem;
+  font-size: 0.60rem;
   font-weight: 700;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.5px;
+  line-height: 1;
   cursor: pointer;
-  box-shadow: 0 10px 26px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 26px rgba(0,0,0,0.42), 0 0 14px rgba(223, 255, 0, 0.06);
   backdrop-filter: blur(14px);
   text-transform: uppercase;
+  appearance: none;
 }
 
-.inline-view-toggle:hover {
+.global-view-toggle:hover {
   border-color: rgba(223, 255, 0, 0.72);
-  background: rgba(0, 0, 0, 0.68);
+  background: rgba(0, 0, 0, 0.76);
 }
 
-.inline-view-icon {
+.global-view-icon {
   width: 14px;
   height: 11px;
   display: inline-flex;
@@ -1091,7 +1097,7 @@ footer {
   flex: 0 0 auto;
 }
 
-.inline-view-icon span {
+.global-view-icon span {
   display: block;
   width: 14px;
   height: 2px;
@@ -1100,7 +1106,7 @@ footer {
   box-shadow: 0 0 8px rgba(223, 255, 0, 0.22);
 }
 
-.inline-view-panel {
+.global-view-panel {
   position: absolute;
   left: 0;
   top: calc(100% + 10px);
@@ -1120,61 +1126,71 @@ footer {
   transition: opacity 0.18s ease, transform 0.18s ease;
 }
 
-.inline-view-menu.active .inline-view-panel {
+.global-view-menu.active .global-view-panel {
   opacity: 1;
   transform: translateY(0) scale(1);
   pointer-events: auto;
 }
 
-.inline-view-kicker {
+.global-view-kicker {
   font-family: 'Syncopate', sans-serif;
   color: rgba(223, 255, 0, 0.9);
-  font-size: 0.56rem;
+  font-size: 0.54rem;
   font-weight: 700;
   letter-spacing: 1.8px;
+  line-height: 1;
   text-transform: uppercase;
-  padding: 4px 4px 8px;
+  padding: 5px 4px 10px;
   border-bottom: 1px solid rgba(223, 255, 0, 0.12);
   margin-bottom: 4px;
 }
 
-.inline-view-panel .view-button,
-.inline-view-panel select {
+.global-view-panel .view-button,
+.global-view-panel select {
   width: 100%;
+  min-height: 34px;
   justify-content: center;
   text-align: center;
-}
-
-.inline-class-filter {
-  width: 100%;
-  border-radius: 14px;
-  padding: 11px 12px;
-  background: var(--black);
-  color: var(--gold);
-  border: 1px solid rgba(223, 255, 0, 0.18);
   font-family: 'Syncopate', sans-serif;
   font-size: 0.62rem;
-  cursor: pointer;
-  outline: none;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  line-height: 1;
+}
+
+.global-view-panel .view-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 12px;
+}
+
+.global-view-panel select {
+  border-radius: 999px;
+  padding: 10px 12px;
+  appearance: none;
+  background:
+    linear-gradient(45deg, transparent 50%, var(--gold) 50%) calc(100% - 15px) 50% / 6px 6px no-repeat,
+    linear-gradient(135deg, var(--gold) 50%, transparent 50%) calc(100% - 10px) 50% / 6px 6px no-repeat,
+    var(--black);
+  color: var(--gold);
+}
+
+.global-view-panel .toolbar-action {
+  color: var(--gold);
 }
 
 @media (max-width: 720px) {
-  .class-title {
-    flex-wrap: wrap !important;
-    gap: 12px !important;
+  .global-view-menu {
+    top: 12px;
   }
 
-  .inline-view-menu {
-    order: -1;
-  }
-
-  .inline-view-toggle {
+  .global-view-toggle {
     min-height: 36px;
-    padding: 8px 12px;
-    font-size: 0.54rem;
+    padding: 8px 13px;
+    font-size: 0.56rem;
   }
 
-  .inline-view-panel {
+  .global-view-panel {
     width: min(214px, calc(100vw - 48px));
   }
 }
