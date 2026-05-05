@@ -103,6 +103,19 @@ function formatGap(value) {
   return `+${num.toFixed(3)}`;
 }
 
+function buildClassFilter() {
+  const select = document.getElementById('classFilter');
+  if (!select) return;
+
+  const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
+
+  select.innerHTML =
+    '<option value="all">ALL CLASSES</option>' +
+    order.map(cls => `<option value="${escapeHtml(cls)}">${escapeHtml(cls)}</option>`).join('');
+
+  select.value = state.selectedClass;
+}
+
 function setView(view) {
   state.view = view;
 
@@ -112,7 +125,6 @@ function setView(view) {
 
   render();
 }
-
 function render() {
   if (!state.data) return;
 
@@ -154,6 +166,7 @@ function getDisplayTime(row, mode = state.view) {
   if (mode === 'pax') return row.time ?? row.indexedTime ?? row.bestPax;
   return row.time ?? row.bestRaw ?? row.indexedTime ?? row.rawTime;
 }
+
 
 function renderClassSelectOptions() {
   const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
