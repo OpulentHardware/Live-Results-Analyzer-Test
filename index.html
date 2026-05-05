@@ -8,16 +8,21 @@
   <link rel="stylesheet" href="assets/style.css" />
 
   <style>
-    /* FORCE DRAWER OVERRIDE - KEEP THIS IN INDEX.HTML */
+    /* FORCE DRAWER OVERRIDE - CONTAINER-ATTACHED VERSION */
+
+    .container {
+      position: relative !important;
+    }
 
     #viewDrawer.view-drawer {
-      position: fixed !important;
-      left: 0 !important;
-      top: 50% !important;
+      position: sticky !important;
+      top: 150px !important;
       z-index: 99999 !important;
-      transform: translateY(-50%) !important;
+      width: 0 !important;
+      height: 0 !important;
+      transform: translateX(-66px) !important;
       display: flex !important;
-      align-items: center !important;
+      align-items: flex-start !important;
       pointer-events: none !important;
       margin: 0 !important;
       padding: 0 !important;
@@ -29,9 +34,9 @@
       transform: rotate(180deg) !important;
       min-height: 104px !important;
       padding: 16px 9px !important;
-      border: 1px solid rgba(223, 255, 0, 0.42) !important;
-      border-left: 0 !important;
-      border-radius: 0 14px 14px 0 !important;
+      border: 1px solid rgba(223, 255, 0, 0.55) !important;
+      border-right: 0 !important;
+      border-radius: 14px 0 0 14px !important;
       background: linear-gradient(180deg, #DFFF00, #F2FF66) !important;
       color: #000 !important;
       font-family: 'Syncopate', 'Inter', Arial, sans-serif !important;
@@ -45,18 +50,19 @@
 
     #viewDrawer .view-drawer-panel {
       pointer-events: auto !important;
-      width: 210px !important;
-      margin-left: 8px !important;
+      width: 218px !important;
+      margin-left: 0 !important;
       padding: 14px !important;
-      border: 1px solid rgba(223, 255, 0, 0.24) !important;
-      border-radius: 22px !important;
+      border: 1px solid rgba(223, 255, 0, 0.28) !important;
+      border-left: 5px solid #DFFF00 !important;
+      border-radius: 0 22px 22px 0 !important;
       background: rgba(10, 11, 11, 0.96) !important;
       backdrop-filter: blur(22px) !important;
       box-shadow: 0 24px 60px rgba(0,0,0,0.68) !important;
       display: flex !important;
       flex-direction: column !important;
       gap: 9px !important;
-      transform: translateX(-250px) !important;
+      transform: translateX(-226px) !important;
       opacity: 0 !important;
       transition: transform 0.24s ease, opacity 0.2s ease !important;
     }
@@ -64,6 +70,11 @@
     #viewDrawer.active .view-drawer-panel {
       transform: translateX(0) !important;
       opacity: 1 !important;
+    }
+
+    #viewDrawer.active .view-drawer-tab {
+      border-radius: 14px 0 0 14px !important;
+      box-shadow: 0 0 24px rgba(223, 255, 0, 0.22), 0 18px 38px rgba(0,0,0,0.52) !important;
     }
 
     #viewDrawer .drawer-kicker {
@@ -90,11 +101,14 @@
       padding: 11px 12px !important;
     }
 
-    @media (max-width: 720px) {
+    @media (max-width: 1180px) {
       #viewDrawer.view-drawer {
+        position: fixed !important;
         top: auto !important;
         bottom: 18px !important;
         left: 12px !important;
+        width: auto !important;
+        height: auto !important;
         transform: none !important;
         align-items: flex-end !important;
       }
@@ -105,7 +119,7 @@
         min-height: 0 !important;
         padding: 11px 14px !important;
         border-radius: 999px !important;
-        border: 1px solid rgba(223, 255, 0, 0.42) !important;
+        border: 1px solid rgba(223, 255, 0, 0.55) !important;
       }
 
       #viewDrawer .view-drawer-panel {
@@ -114,6 +128,8 @@
         bottom: 52px !important;
         width: min(240px, calc(100vw - 28px)) !important;
         margin-left: 0 !important;
+        border-radius: 20px !important;
+        border-left: 1px solid rgba(223, 255, 0, 0.28) !important;
         transform: translateY(18px) !important;
       }
 
@@ -153,6 +169,40 @@
       </div>
     </header>
 
+    <div id="viewDrawer" class="view-drawer">
+      <button id="viewDrawerToggle" class="view-drawer-tab" type="button" aria-label="Toggle view controls">
+        VIEW
+      </button>
+
+      <div class="view-drawer-panel">
+        <div class="drawer-kicker">RESULT VIEW</div>
+
+        <button data-view-button="overall" class="view-button active" type="button">
+          OVERALL
+        </button>
+
+        <button data-view-button="pax" class="view-button" type="button">
+          PAX
+        </button>
+
+        <button data-view-button="class" class="view-button" type="button">
+          CLASS
+        </button>
+
+        <button data-view-button="compare" class="view-button" type="button">
+          COMPARE
+        </button>
+
+        <select id="classFilter" class="hidden">
+          <option value="all">ALL CLASSES</option>
+        </select>
+
+        <button id="refreshButton" class="view-button toolbar-action" type="button">
+          REFRESH JSON
+        </button>
+      </div>
+    </div>
+
     <div id="status" class="status-card hidden">Loading event data...</div>
 
     <main id="rankings"></main>
@@ -189,41 +239,6 @@
         </a>
       </div>
     </footer>
-  </div>
-
-  <!-- DRAWER IS OUTSIDE CONTAINER SO IT CANNOT BE TREATED LIKE NORMAL PAGE CONTENT -->
-  <div id="viewDrawer" class="view-drawer">
-    <button id="viewDrawerToggle" class="view-drawer-tab" type="button" aria-label="Toggle view controls">
-      VIEW
-    </button>
-
-    <div class="view-drawer-panel">
-      <div class="drawer-kicker">RESULT VIEW</div>
-
-      <button data-view-button="overall" class="view-button active" type="button">
-        OVERALL
-      </button>
-
-      <button data-view-button="pax" class="view-button" type="button">
-        PAX
-      </button>
-
-      <button data-view-button="class" class="view-button" type="button">
-        CLASS
-      </button>
-
-      <button data-view-button="compare" class="view-button" type="button">
-        COMPARE
-      </button>
-
-      <select id="classFilter" class="hidden">
-        <option value="all">ALL CLASSES</option>
-      </select>
-
-      <button id="refreshButton" class="view-button toolbar-action" type="button">
-        REFRESH JSON
-      </button>
-    </div>
   </div>
 
   <button class="diag-trigger" onclick="toggleDiag()" type="button">
