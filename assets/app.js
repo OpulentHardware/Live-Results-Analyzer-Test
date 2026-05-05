@@ -46,7 +46,6 @@ async function loadData() {
     state.driverIndex = buildDriverIndex(state.data);
 
     hydrateMeta();
-    buildClassFilter();
     render();
     updateDiagnostics();
     setStatus('');
@@ -104,29 +103,11 @@ function formatGap(value) {
   return `+${num.toFixed(3)}`;
 }
 
-function buildClassFilter() {
-  const select = document.getElementById('classFilter');
-  if (!select) return;
-
-  const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
-
-  select.innerHTML =
-    '<option value="all">ALL CLASSES</option>' +
-    order.map(cls => `<option value="${escapeHtml(cls)}">${escapeHtml(cls)}</option>`).join('');
-
-  select.value = state.selectedClass;
-}
-
 function setView(view) {
   state.view = view;
 
-  document.querySelectorAll('[data-view-button]').forEach(button => {
-    button.classList.toggle('active', button.dataset.viewButton === view);
-  });
-
-  const classFilter = document.getElementById('classFilter');
-  if (classFilter) {
-    classFilter.classList.toggle('hidden', view !== 'class');
+  if (state.view !== 'class') {
+    state.selectedClass = state.selectedClass || 'all';
   }
 
   render();
@@ -137,25 +118,21 @@ function render() {
 
   if (state.view === 'overall') {
     renderSimpleResults('Overall Raw Ranking', state.data.overall || [], 'BEST RAW');
-    syncGlobalViewMenuPosition();
     return;
   }
 
   if (state.view === 'pax') {
     renderSimpleResults('PAX Indexed Ranking', state.data.pax || [], 'INDEXED');
-    syncGlobalViewMenuPosition();
     return;
   }
 
   if (state.view === 'class') {
     renderClassResults();
-    syncGlobalViewMenuPosition();
     return;
   }
 
   if (state.view === 'compare') {
     renderCompare();
-    syncGlobalViewMenuPosition();
   }
 }
 
@@ -178,18 +155,85 @@ function getDisplayTime(row, mode = state.view) {
   return row.time ?? row.bestRaw ?? row.indexedTime ?? row.rawTime;
 }
 
+function getViewTitle() {
+  if (state.view === 'overall') return 'OVERALL';
+  if (state.view === 'pax') return 'PAX';
+  if (state.view === 'class') return state.selectedClass === 'all' ? 'CLASS' : state.selectedClass;
+  if (state.view === 'compare') return 'COMPARE';
+  return 'VIEW';
+}
+
+function renderViewDock() {
+  const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
+
+  return `
+    <div class="view-dock">
+      <button class="view-dock-trigger" type="button" data-view-dock-toggle aria-label="Toggle view controls">
+        <span class="view-dock-bars" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+        <span class="view-dock-label">VIEW</span>
+
+        <span class="view-dock-chevron" aria-hidden="true">‹</span>
+      </button>
+
+      <div class="view-dock-panel">
+        <div class="view-dock-kicker">RESULT VIEW</div>
+
+        <button data-view-button="overall" class="view-button ${state.view === 'overall' ? 'active' : ''}" type="button">
+          OVERALL
+        </button>
+
+        <button data-view-button="pax" class="view-button ${state.view === 'pax' ? 'active' : ''}" type="button">
+          PAX
+        </button>
+
+        <button data-view-button="class" class="view-button ${state.view === 'class' ? 'active' : ''}" type="button">
+          CLASS
+        </button>
+
+        <button data-view-button="compare" class="view-button ${state.view === 'compare' ? 'active' : ''}" type="button">
+          COMPARE
+        </button>
+
+        ${state.view === 'class' ? `
+          <select class="view-dock-select" data-class-filter>
+            <option value="all" ${state.selectedClass === 'all' ? 'selected' : ''}>ALL CLASSES</option>
+            ${order.map(cls => `
+              <option value="${escapeHtml(cls)}" ${state.selectedClass === cls ? 'selected' : ''}>
+                ${escapeHtml(cls)}
+              </option>
+            `).join('')}
+          </select>
+        ` : ''}
+
+        <button data-refresh-inline class="view-button toolbar-action" type="button">
+          REFRESH JSON
+        </button>
+      </div>
+    </div>
+  `;
+}
+
 function renderPodium(rows, label) {
   const top = rows.slice(0, 3);
   if (!top.length) return '';
 
   return `
     <section class="podium">
-      ${top.map(row => `
+      ${top.map((row, index) => `
         <article class="podium-card">
-          <div class="podium-rank">P${escapeHtml(row.rank || row.position)}</div>
+          <div class="podium-rank">P${escapeHtml(row.rank || row.position || index + 1)}</div>
+
           <div class="podium-name">${escapeHtml(row.driver)}</div>
+
           <div class="podium-sub">${escapeHtml(buildSubLine(row))}</div>
+
           <div class="podium-time">${escapeHtml(formatTime(getDisplayTime(row)))}</div>
+
           <div class="time-label">${escapeHtml(label)}</div>
         </article>
       `).join('')}
@@ -226,21 +270,25 @@ function renderSimpleResults(title, rows, timeLabel) {
   root.innerHTML = `
     ${renderPodium(rows, timeLabel)}
 
-    <section class="card">
-      <div class="card-header">
-        <div class="class-title">
-          <div class="acr-tag">${escapeHtml(state.view.toUpperCase())}</div>
-          <div class="header-main">${escapeHtml(title)}</div>
+    <section class="results-shell">
+      ${renderViewDock()}
+
+      <section class="card results-card">
+        <div class="card-header">
+          <div class="class-title">
+            <div class="acr-tag">${escapeHtml(getViewTitle())}</div>
+            <div class="header-main">${escapeHtml(title)}</div>
+          </div>
+
+          <div class="class-count">
+            ${rows.length} SOURCE ROW${rows.length === 1 ? '' : 'S'}
+          </div>
         </div>
 
-        <div class="class-count">
-          ${rows.length} SOURCE ROW${rows.length === 1 ? '' : 'S'}
+        <div class="card-body">
+          ${body}
         </div>
-      </div>
-
-      <div class="card-body">
-        ${body}
-      </div>
+      </section>
     </section>
   `;
 }
@@ -255,11 +303,11 @@ function renderClassResults() {
   const visible = selected === 'all' ? order : [selected];
 
   root.innerHTML =
-    visible.map(cls => renderClassCard(cls, classes[cls] || [])).join('') ||
+    visible.map((cls, index) => renderClassCard(cls, classes[cls] || [], index)).join('') ||
     renderEmptyCard('CLASS', 'No class data found');
 }
 
-function renderClassCard(cls, rows) {
+function renderClassCard(cls, rows, index = 0) {
   const body = rows.length ? rows.map(row => `
     <div class="result-row">
       <div class="rank ${rankClass(row.position)}">${escapeHtml(row.position)}</div>
@@ -282,8 +330,8 @@ function renderClassCard(cls, rows) {
     </div>
   `).join('') : emptyRow('No class rows found');
 
-  return `
-    <section class="card" data-class="${escapeHtml(cls)}">
+  const card = `
+    <section class="card results-card" data-class="${escapeHtml(cls)}">
       <div class="card-header">
         <div class="class-title">
           <div class="acr-tag">${escapeHtml(cls)}</div>
@@ -300,6 +348,17 @@ function renderClassCard(cls, rows) {
       </div>
     </section>
   `;
+
+  if (index === 0) {
+    return `
+      <section class="results-shell">
+        ${renderViewDock()}
+        ${card}
+      </section>
+    `;
+  }
+
+  return card;
 }
 
 function emptyRow(message) {
@@ -322,17 +381,21 @@ function emptyRow(message) {
 
 function renderEmptyCard(tag, message) {
   return `
-    <section class="card">
-      <div class="card-header">
-        <div class="class-title">
-          <div class="acr-tag">${escapeHtml(tag)}</div>
-          <div class="header-main">${escapeHtml(message)}</div>
-        </div>
-      </div>
+    <section class="results-shell">
+      ${renderViewDock()}
 
-      <div class="card-body">
-        ${emptyRow(message)}
-      </div>
+      <section class="card results-card">
+        <div class="card-header">
+          <div class="class-title">
+            <div class="acr-tag">${escapeHtml(tag)}</div>
+            <div class="header-main">${escapeHtml(message)}</div>
+          </div>
+        </div>
+
+        <div class="card-body">
+          ${emptyRow(message)}
+        </div>
+      </section>
     </section>
   `;
 }
@@ -506,42 +569,46 @@ function renderCompare() {
     .filter(Boolean);
 
   root.innerHTML = `
-    <section class="card compare-shell">
-      <div class="card-header">
-        <div class="class-title">
-          <div class="acr-tag">COMPARE</div>
-          <div class="header-main">Driver Comparison</div>
+    <section class="results-shell">
+      ${renderViewDock()}
+
+      <section class="card results-card compare-shell">
+        <div class="card-header">
+          <div class="class-title">
+            <div class="acr-tag">COMPARE</div>
+            <div class="header-main">Driver Comparison</div>
+          </div>
+
+          <div class="class-count">
+            ${selectedDrivers.length} SELECTED
+          </div>
         </div>
 
-        <div class="class-count">
-          ${selectedDrivers.length} SELECTED
+        <div class="card-body">
+          <datalist id="driverOptions">
+            ${state.driverIndex.map(driver => `<option value="${escapeHtml(driver.label)}"></option>`).join('')}
+          </datalist>
+
+          <div class="compare-input-grid">
+            ${[0, 1, 2].map(index => `
+              <label class="compare-input-wrap">
+                <span>Driver ${index + 1}</span>
+
+                <input
+                  class="compare-input"
+                  data-compare-index="${index}"
+                  list="driverOptions"
+                  placeholder="Start typing a driver name..."
+                  value="${escapeHtml(state.compareSelections[index] || '')}"
+                />
+              </label>
+            `).join('')}
+          </div>
+
+          ${selectedDrivers.length ? renderCompareDriverCards(selectedDrivers) : renderCompareEmptyState()}
+          ${selectedDrivers.length >= 2 ? renderGapAnalysis(selectedDrivers) : ''}
         </div>
-      </div>
-
-      <div class="card-body">
-        <datalist id="driverOptions">
-          ${state.driverIndex.map(driver => `<option value="${escapeHtml(driver.label)}"></option>`).join('')}
-        </datalist>
-
-        <div class="compare-input-grid">
-          ${[0, 1, 2].map(index => `
-            <label class="compare-input-wrap">
-              <span>Driver ${index + 1}</span>
-
-              <input
-                class="compare-input"
-                data-compare-index="${index}"
-                list="driverOptions"
-                placeholder="Start typing a driver name..."
-                value="${escapeHtml(state.compareSelections[index] || '')}"
-              />
-            </label>
-          `).join('')}
-        </div>
-
-        ${selectedDrivers.length ? renderCompareDriverCards(selectedDrivers) : renderCompareEmptyState()}
-        ${selectedDrivers.length >= 2 ? renderGapAnalysis(selectedDrivers) : ''}
-      </div>
+      </section>
     </section>
   `;
 
@@ -758,90 +825,65 @@ function toggleDiag() {
   if (diag) diag.classList.toggle('active');
 }
 
-function syncGlobalViewMenuPosition() {
-  const menu = document.getElementById('globalViewMenu');
-  const podium = document.querySelector('#rankings .podium');
-
-  if (!menu) return;
-
-  if (podium) {
-    const styles = window.getComputedStyle(podium);
-    const podiumHeight = podium.getBoundingClientRect().height;
-    const podiumMarginBottom = parseFloat(styles.marginBottom) || 0;
-
-    menu.style.setProperty(
-      '--view-menu-offset',
-      `${Math.ceil(podiumHeight + podiumMarginBottom)}px`
-    );
-
-    menu.classList.add('below-podium');
-  } else {
-    menu.style.setProperty('--view-menu-offset', '0px');
-    menu.classList.remove('below-podium');
-  }
+function closeViewDocks() {
+  document.querySelectorAll('.view-dock.active').forEach(dock => {
+    dock.classList.remove('active');
+  });
 }
 
 window.setView = setView;
 window.toggleDiag = toggleDiag;
 
 window.addEventListener('DOMContentLoaded', () => {
-  const globalViewMenu = document.getElementById('globalViewMenu');
-  const viewMenuToggle = document.getElementById('viewMenuToggle');
+  document.addEventListener('click', event => {
+    const dockToggle = event.target.closest('[data-view-dock-toggle]');
+    const viewButton = event.target.closest('[data-view-button]');
+    const refreshButton = event.target.closest('[data-refresh-inline]');
+    const activeDock = event.target.closest('.view-dock');
 
-  if (viewMenuToggle && globalViewMenu) {
-    viewMenuToggle.addEventListener('click', event => {
-      event.stopPropagation();
-      globalViewMenu.classList.toggle('active');
-    });
-
-    document.addEventListener('click', event => {
-      if (!globalViewMenu.contains(event.target)) {
-        globalViewMenu.classList.remove('active');
+    document.querySelectorAll('.view-dock.active').forEach(openDock => {
+      if (!openDock.contains(event.target)) {
+        openDock.classList.remove('active');
       }
     });
 
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape') {
-        globalViewMenu.classList.remove('active');
-      }
-    });
-  }
+    if (dockToggle) {
+      const parent = dockToggle.closest('.view-dock');
+      if (parent) parent.classList.toggle('active');
+      return;
+    }
 
-  document.querySelectorAll('[data-view-button]').forEach(button => {
-    button.addEventListener('click', () => {
-      setView(button.dataset.viewButton);
+    if (viewButton) {
+      setView(viewButton.dataset.viewButton);
+      closeViewDocks();
+      return;
+    }
 
-      if (globalViewMenu) {
-        globalViewMenu.classList.remove('active');
-      }
-    });
+    if (refreshButton) {
+      loadData();
+      closeViewDocks();
+      return;
+    }
+
+    if (!activeDock) {
+      closeViewDocks();
+    }
   });
 
-  const classFilter = document.getElementById('classFilter');
-  if (classFilter) {
-    classFilter.addEventListener('change', event => {
-      state.selectedClass = event.target.value;
+  document.addEventListener('change', event => {
+    const classFilter = event.target.closest('[data-class-filter]');
+
+    if (classFilter) {
+      state.selectedClass = classFilter.value;
       render();
+      closeViewDocks();
+    }
+  });
 
-      if (globalViewMenu) {
-        globalViewMenu.classList.remove('active');
-      }
-    });
-  }
-
-  const refreshButton = document.getElementById('refreshButton');
-  if (refreshButton) {
-    refreshButton.addEventListener('click', () => {
-      loadData();
-
-      if (globalViewMenu) {
-        globalViewMenu.classList.remove('active');
-      }
-    });
-  }
-
-  window.addEventListener('resize', () => {
-    syncGlobalViewMenuPosition();
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      closeViewDocks();
+    }
   });
 
   loadData();
