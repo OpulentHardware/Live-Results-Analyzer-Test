@@ -8,20 +8,17 @@
   <link rel="stylesheet" href="assets/style.css" />
 
   <style>
-    /* FORCE VIEW MENU OVERRIDE - CONSISTENT HAMBURGER VERSION */
-
-    .container {
-      position: relative !important;
-    }
+    /* FORCE VIEW MENU OVERRIDE - BOTTOM LEFT VERSION */
 
     .view-menu {
-      position: sticky !important;
-      top: 18px !important;
+      position: fixed !important;
+      left: 18px !important;
+      bottom: 18px !important;
       z-index: 99999 !important;
       display: flex !important;
-      justify-content: flex-end !important;
-      align-items: flex-start !important;
-      height: 0 !important;
+      justify-content: flex-start !important;
+      align-items: flex-end !important;
+      height: auto !important;
       margin: 0 !important;
       padding: 0 !important;
       pointer-events: none !important;
@@ -30,29 +27,30 @@
     .view-menu-inner {
       position: relative !important;
       pointer-events: auto !important;
-      transform: translateY(-8px) !important;
+      transform: none !important;
     }
 
     .view-menu-toggle {
       display: inline-flex !important;
       align-items: center !important;
       justify-content: center !important;
-      gap: 9px !important;
-      min-width: 112px !important;
+      gap: 10px !important;
+      min-width: 114px !important;
       min-height: 42px !important;
       padding: 11px 16px !important;
       border-radius: 999px !important;
-      border: 1px solid rgba(223, 255, 0, 0.42) !important;
-      background: rgba(10, 11, 11, 0.88) !important;
+      border: 1px solid rgba(223, 255, 0, 0.48) !important;
+      background: rgba(10, 11, 11, 0.9) !important;
       color: #DFFF00 !important;
       font-family: 'Syncopate', 'Inter', Arial, sans-serif !important;
-      font-size: 0.64rem !important;
+      font-size: 0.62rem !important;
       font-weight: 700 !important;
-      letter-spacing: 1.7px !important;
+      letter-spacing: 1.8px !important;
       cursor: pointer !important;
       box-shadow: 0 14px 34px rgba(0,0,0,0.55), 0 0 18px rgba(223, 255, 0, 0.08) !important;
       backdrop-filter: blur(18px) !important;
       appearance: none !important;
+      text-transform: uppercase !important;
     }
 
     .view-menu-toggle:hover {
@@ -60,18 +58,28 @@
       background: rgba(18, 19, 19, 0.96) !important;
     }
 
-    .view-menu-toggle-icon {
-      font-family: 'Inter', Arial, sans-serif !important;
-      font-size: 1rem !important;
-      line-height: 1 !important;
-      letter-spacing: 0 !important;
-      transform: translateY(-1px) !important;
+    .view-menu-icon {
+      width: 14px !important;
+      height: 11px !important;
+      display: inline-flex !important;
+      flex-direction: column !important;
+      justify-content: space-between !important;
+      flex: 0 0 auto !important;
+    }
+
+    .view-menu-icon span {
+      display: block !important;
+      width: 14px !important;
+      height: 2px !important;
+      border-radius: 999px !important;
+      background: #DFFF00 !important;
+      box-shadow: 0 0 8px rgba(223, 255, 0, 0.25) !important;
     }
 
     .view-menu-panel {
       position: absolute !important;
-      top: calc(100% + 10px) !important;
-      right: 0 !important;
+      left: 0 !important;
+      bottom: calc(100% + 10px) !important;
       width: 224px !important;
       padding: 14px !important;
       border: 1px solid rgba(223, 255, 0, 0.26) !important;
@@ -83,7 +91,7 @@
       flex-direction: column !important;
       gap: 9px !important;
       opacity: 0 !important;
-      transform: translateY(-8px) scale(0.98) !important;
+      transform: translateY(8px) scale(0.98) !important;
       pointer-events: none !important;
       transition: opacity 0.18s ease, transform 0.18s ease !important;
     }
@@ -120,27 +128,16 @@
 
     @media (max-width: 720px) {
       .view-menu {
-        position: fixed !important;
-        top: auto !important;
-        right: 14px !important;
-        bottom: 18px !important;
-        height: auto !important;
-        justify-content: flex-end !important;
-      }
-
-      .view-menu-inner {
-        transform: none !important;
+        left: 14px !important;
+        bottom: 14px !important;
       }
 
       .view-menu-panel {
-        top: auto !important;
-        bottom: calc(100% + 10px) !important;
-        right: 0 !important;
         width: min(224px, calc(100vw - 28px)) !important;
       }
 
       .view-menu-toggle {
-        min-width: 104px !important;
+        min-width: 108px !important;
         min-height: 40px !important;
         padding: 10px 14px !important;
       }
@@ -150,43 +147,6 @@
 
 <body>
   <div class="container">
-    <div id="viewMenu" class="view-menu">
-      <div class="view-menu-inner">
-        <button id="viewMenuToggle" class="view-menu-toggle" type="button" aria-label="Toggle view controls">
-          <span class="view-menu-toggle-icon">☰</span>
-          <span>VIEW</span>
-        </button>
-
-        <div id="viewMenuPanel" class="view-menu-panel">
-          <div class="view-menu-kicker">RESULT VIEW</div>
-
-          <button data-view-button="overall" class="view-button active" type="button">
-            OVERALL
-          </button>
-
-          <button data-view-button="pax" class="view-button" type="button">
-            PAX
-          </button>
-
-          <button data-view-button="class" class="view-button" type="button">
-            CLASS
-          </button>
-
-          <button data-view-button="compare" class="view-button" type="button">
-            COMPARE
-          </button>
-
-          <select id="classFilter" class="hidden">
-            <option value="all">ALL CLASSES</option>
-          </select>
-
-          <button id="refreshButton" class="view-button toolbar-action" type="button">
-            REFRESH JSON
-          </button>
-        </div>
-      </div>
-    </div>
-
     <header>
       <h1 class="brand-logo">EVENT RESULTS</h1>
       <div class="sub-title">POWERED BY OPULENT HARDWARE</div>
@@ -250,6 +210,47 @@
         </a>
       </div>
     </footer>
+  </div>
+
+  <div id="viewMenu" class="view-menu">
+    <div class="view-menu-inner">
+      <button id="viewMenuToggle" class="view-menu-toggle" type="button" aria-label="Toggle view controls">
+        <span class="view-menu-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <span>VIEW</span>
+      </button>
+
+      <div id="viewMenuPanel" class="view-menu-panel">
+        <div class="view-menu-kicker">RESULT VIEW</div>
+
+        <button data-view-button="overall" class="view-button active" type="button">
+          OVERALL
+        </button>
+
+        <button data-view-button="pax" class="view-button" type="button">
+          PAX
+        </button>
+
+        <button data-view-button="class" class="view-button" type="button">
+          CLASS
+        </button>
+
+        <button data-view-button="compare" class="view-button" type="button">
+          COMPARE
+        </button>
+
+        <select id="classFilter" class="hidden">
+          <option value="all">ALL CLASSES</option>
+        </select>
+
+        <button id="refreshButton" class="view-button toolbar-action" type="button">
+          REFRESH JSON
+        </button>
+      </div>
+    </div>
   </div>
 
   <button class="diag-trigger" onclick="toggleDiag()" type="button">
