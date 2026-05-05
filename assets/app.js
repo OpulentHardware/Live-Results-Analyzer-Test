@@ -46,7 +46,6 @@ async function loadData() {
     state.driverIndex = buildDriverIndex(state.data);
 
     hydrateMeta();
-    buildClassFilter();
     render();
     updateDiagnostics();
     setStatus('');
@@ -104,29 +103,11 @@ function formatGap(value) {
   return `+${num.toFixed(3)}`;
 }
 
-function buildClassFilter() {
-  const select = document.getElementById('classFilter');
-  if (!select) return;
-
-  const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
-
-  select.innerHTML =
-    '<option value="all">ALL CLASSES</option>' +
-    order.map(cls => `<option value="${escapeHtml(cls)}">${escapeHtml(cls)}</option>`).join('');
-
-  select.value = state.selectedClass;
-}
-
 function setView(view) {
   state.view = view;
 
-  document.querySelectorAll('[data-view-button]').forEach(button => {
-    button.classList.toggle('active', button.dataset.viewButton === view);
-  });
-
-  const classFilter = document.getElementById('classFilter');
-  if (classFilter) {
-    classFilter.classList.toggle('hidden', view !== 'class');
+  if (state.view !== 'class') {
+    state.selectedClass = state.selectedClass || 'all';
   }
 
   render();
@@ -172,6 +153,63 @@ function getDisplayTime(row, mode = state.view) {
   if (mode === 'overall') return row.time ?? row.rawTime ?? row.bestRaw;
   if (mode === 'pax') return row.time ?? row.indexedTime ?? row.bestPax;
   return row.time ?? row.bestRaw ?? row.indexedTime ?? row.rawTime;
+}
+
+function renderClassSelectOptions() {
+  const order = state.data?.classOrder || Object.keys(state.data?.classes || {});
+
+  return `
+    <select class="inline-class-filter" data-class-filter>
+      <option value="all" ${state.selectedClass === 'all' ? 'selected' : ''}>ALL CLASSES</option>
+      ${order.map(cls => `
+        <option value="${escapeHtml(cls)}" ${state.selectedClass === cls ? 'selected' : ''}>
+          ${escapeHtml(cls)}
+        </option>
+      `).join('')}
+    </select>
+  `;
+}
+
+function renderInlineViewMenu() {
+  return `
+    <div class="inline-view-menu">
+      <button class="inline-view-toggle" type="button" data-inline-view-toggle>
+        <span class="inline-view-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+        <span>VIEW</span>
+      </button>
+
+      <div class="inline-view-panel">
+        <div class="inline-view-kicker">RESULT VIEW</div>
+
+        <button data-view-button="overall" class="view-button ${state.view === 'overall' ? 'active' : ''}" type="button">
+          OVERALL
+        </button>
+
+        <button data-view-button="pax" class="view-button ${state.view === 'pax' ? 'active' : ''}" type="button">
+          PAX
+        </button>
+
+        <button data-view-button="class" class="view-button ${state.view === 'class' ? 'active' : ''}" type="button">
+          CLASS
+        </button>
+
+        <button data-view-button="compare" class="view-button ${state.view === 'compare' ? 'active' : ''}" type="button">
+          COMPARE
+        </button>
+
+        ${state.view === 'class' ? renderClassSelectOptions() : ''}
+
+        <button data-refresh-inline class="view-button toolbar-action" type="button">
+          REFRESH JSON
+        </button>
+      </div>
+    </div>
+  `;
 }
 
 function renderPodium(rows, label) {
@@ -225,6 +263,7 @@ function renderSimpleResults(title, rows, timeLabel) {
     <section class="card">
       <div class="card-header">
         <div class="class-title">
+          ${renderInlineViewMenu()}
           <div class="acr-tag">${escapeHtml(state.view.toUpperCase())}</div>
           <div class="header-main">${escapeHtml(title)}</div>
         </div>
@@ -282,6 +321,7 @@ function renderClassCard(cls, rows) {
     <section class="card" data-class="${escapeHtml(cls)}">
       <div class="card-header">
         <div class="class-title">
+          ${renderInlineViewMenu()}
           <div class="acr-tag">${escapeHtml(cls)}</div>
           <div class="header-main">Class Results</div>
         </div>
@@ -321,6 +361,7 @@ function renderEmptyCard(tag, message) {
     <section class="card">
       <div class="card-header">
         <div class="class-title">
+          ${renderInlineViewMenu()}
           <div class="acr-tag">${escapeHtml(tag)}</div>
           <div class="header-main">${escapeHtml(message)}</div>
         </div>
@@ -505,6 +546,7 @@ function renderCompare() {
     <section class="card compare-shell">
       <div class="card-header">
         <div class="class-title">
+          ${renderInlineViewMenu()}
           <div class="acr-tag">COMPARE</div>
           <div class="header-main">Driver Comparison</div>
         </div>
@@ -758,43 +800,67 @@ window.setView = setView;
 window.toggleDiag = toggleDiag;
 
 window.addEventListener('DOMContentLoaded', () => {
-  const viewDrawer = document.getElementById('viewDrawer');
-  const viewDrawerToggle = document.getElementById('viewDrawerToggle');
+  document.addEventListener('click', event => {
+    const toggle = event.target.closest('[data-inline-view-toggle]');
+    const viewButton = event.target.closest('[data-view-button]');
+    const refreshButton = event.target.closest('[data-refresh-inline]');
+    const activeMenu = event.target.closest('.inline-view-menu');
 
-  if (viewDrawerToggle && viewDrawer) {
-    viewDrawerToggle.addEventListener('click', () => {
-      viewDrawer.classList.toggle('active');
-    });
-
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape') {
-        viewDrawer.classList.remove('active');
+    document.querySelectorAll('.inline-view-menu.active').forEach(openMenu => {
+      if (!openMenu.contains(event.target)) {
+        openMenu.classList.remove('active');
       }
     });
-  }
 
-  document.querySelectorAll('[data-view-button]').forEach(button => {
-    button.addEventListener('click', () => {
-      setView(button.dataset.viewButton);
+    if (toggle) {
+      const parent = toggle.closest('.inline-view-menu');
+      if (parent) parent.classList.toggle('active');
+      return;
+    }
 
-      if (viewDrawer) {
-        viewDrawer.classList.remove('active');
-      }
-    });
+    if (viewButton) {
+      setView(viewButton.dataset.viewButton);
+
+      document.querySelectorAll('.inline-view-menu.active').forEach(openMenu => {
+        openMenu.classList.remove('active');
+      });
+
+      return;
+    }
+
+    if (refreshButton) {
+      loadData();
+
+      document.querySelectorAll('.inline-view-menu.active').forEach(openMenu => {
+        openMenu.classList.remove('active');
+      });
+
+      return;
+    }
+
+    if (!activeMenu) {
+      document.querySelectorAll('.inline-view-menu.active').forEach(openMenu => {
+        openMenu.classList.remove('active');
+      });
+    }
   });
 
-  const classFilter = document.getElementById('classFilter');
-  if (classFilter) {
-    classFilter.addEventListener('change', event => {
-      state.selectedClass = event.target.value;
-      render();
-    });
-  }
+  document.addEventListener('change', event => {
+    const classFilter = event.target.closest('[data-class-filter]');
 
-  const refreshButton = document.getElementById('refreshButton');
-  if (refreshButton) {
-    refreshButton.addEventListener('click', () => loadData());
-  }
+    if (classFilter) {
+      state.selectedClass = classFilter.value;
+      render();
+    }
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      document.querySelectorAll('.inline-view-menu.active').forEach(openMenu => {
+        openMenu.classList.remove('active');
+      });
+    }
+  });
 
   loadData();
 });
