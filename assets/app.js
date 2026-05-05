@@ -137,21 +137,25 @@ function render() {
 
   if (state.view === 'overall') {
     renderSimpleResults('Overall Raw Ranking', state.data.overall || [], 'BEST RAW');
+    syncGlobalViewMenuPosition();
     return;
   }
 
   if (state.view === 'pax') {
     renderSimpleResults('PAX Indexed Ranking', state.data.pax || [], 'INDEXED');
+    syncGlobalViewMenuPosition();
     return;
   }
 
   if (state.view === 'class') {
     renderClassResults();
+    syncGlobalViewMenuPosition();
     return;
   }
 
   if (state.view === 'compare') {
     renderCompare();
+    syncGlobalViewMenuPosition();
   }
 }
 
@@ -754,6 +758,29 @@ function toggleDiag() {
   if (diag) diag.classList.toggle('active');
 }
 
+function syncGlobalViewMenuPosition() {
+  const menu = document.getElementById('globalViewMenu');
+  const podium = document.querySelector('#rankings .podium');
+
+  if (!menu) return;
+
+  if (podium) {
+    const styles = window.getComputedStyle(podium);
+    const podiumHeight = podium.getBoundingClientRect().height;
+    const podiumMarginBottom = parseFloat(styles.marginBottom) || 0;
+
+    menu.style.setProperty(
+      '--view-menu-offset',
+      `${Math.ceil(podiumHeight + podiumMarginBottom)}px`
+    );
+
+    menu.classList.add('below-podium');
+  } else {
+    menu.style.setProperty('--view-menu-offset', '0px');
+    menu.classList.remove('below-podium');
+  }
+}
+
 window.setView = setView;
 window.toggleDiag = toggleDiag;
 
@@ -812,6 +839,10 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  window.addEventListener('resize', () => {
+    syncGlobalViewMenuPosition();
+  });
 
   loadData();
 });
