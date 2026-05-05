@@ -758,8 +758,29 @@ window.setView = setView;
 window.toggleDiag = toggleDiag;
 
 window.addEventListener('DOMContentLoaded', () => {
+  const viewDrawer = document.getElementById('viewDrawer');
+  const viewDrawerToggle = document.getElementById('viewDrawerToggle');
+
+  if (viewDrawerToggle && viewDrawer) {
+    viewDrawerToggle.addEventListener('click', () => {
+      viewDrawer.classList.toggle('active');
+    });
+
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') {
+        viewDrawer.classList.remove('active');
+      }
+    });
+  }
+
   document.querySelectorAll('[data-view-button]').forEach(button => {
-    button.addEventListener('click', () => setView(button.dataset.viewButton));
+    button.addEventListener('click', () => {
+      setView(button.dataset.viewButton);
+
+      if (viewDrawer) {
+        viewDrawer.classList.remove('active');
+      }
+    });
   });
 
   const classFilter = document.getElementById('classFilter');
