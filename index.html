@@ -6,6 +6,122 @@
   <title>Event Results | OPULENT HARDWARE</title>
 
   <link rel="stylesheet" href="assets/style.css" />
+
+  <style>
+    /* FORCE DRAWER OVERRIDE - KEEP THIS IN INDEX.HTML */
+
+    #viewDrawer.view-drawer {
+      position: fixed !important;
+      left: 0 !important;
+      top: 50% !important;
+      z-index: 99999 !important;
+      transform: translateY(-50%) !important;
+      display: flex !important;
+      align-items: center !important;
+      pointer-events: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    #viewDrawer .view-drawer-tab {
+      pointer-events: auto !important;
+      writing-mode: vertical-rl !important;
+      transform: rotate(180deg) !important;
+      min-height: 104px !important;
+      padding: 16px 9px !important;
+      border: 1px solid rgba(223, 255, 0, 0.42) !important;
+      border-left: 0 !important;
+      border-radius: 0 14px 14px 0 !important;
+      background: linear-gradient(180deg, #DFFF00, #F2FF66) !important;
+      color: #000 !important;
+      font-family: 'Syncopate', 'Inter', Arial, sans-serif !important;
+      font-size: 0.62rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 2px !important;
+      cursor: pointer !important;
+      box-shadow: 0 18px 38px rgba(0,0,0,0.52) !important;
+      appearance: none !important;
+    }
+
+    #viewDrawer .view-drawer-panel {
+      pointer-events: auto !important;
+      width: 210px !important;
+      margin-left: 8px !important;
+      padding: 14px !important;
+      border: 1px solid rgba(223, 255, 0, 0.24) !important;
+      border-radius: 22px !important;
+      background: rgba(10, 11, 11, 0.96) !important;
+      backdrop-filter: blur(22px) !important;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.68) !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 9px !important;
+      transform: translateX(-250px) !important;
+      opacity: 0 !important;
+      transition: transform 0.24s ease, opacity 0.2s ease !important;
+    }
+
+    #viewDrawer.active .view-drawer-panel {
+      transform: translateX(0) !important;
+      opacity: 1 !important;
+    }
+
+    #viewDrawer .drawer-kicker {
+      font-family: 'Syncopate', 'Inter', Arial, sans-serif !important;
+      color: rgba(223, 255, 0, 0.9) !important;
+      font-size: 0.56rem !important;
+      font-weight: 700 !important;
+      letter-spacing: 1.8px !important;
+      text-transform: uppercase !important;
+      padding: 4px 4px 8px !important;
+      border-bottom: 1px solid rgba(223, 255, 0, 0.12) !important;
+      margin-bottom: 4px !important;
+    }
+
+    #viewDrawer .view-button,
+    #viewDrawer select {
+      width: 100% !important;
+      text-align: center !important;
+      justify-content: center !important;
+    }
+
+    #viewDrawer select {
+      border-radius: 14px !important;
+      padding: 11px 12px !important;
+    }
+
+    @media (max-width: 720px) {
+      #viewDrawer.view-drawer {
+        top: auto !important;
+        bottom: 18px !important;
+        left: 12px !important;
+        transform: none !important;
+        align-items: flex-end !important;
+      }
+
+      #viewDrawer .view-drawer-tab {
+        writing-mode: horizontal-tb !important;
+        transform: none !important;
+        min-height: 0 !important;
+        padding: 11px 14px !important;
+        border-radius: 999px !important;
+        border: 1px solid rgba(223, 255, 0, 0.42) !important;
+      }
+
+      #viewDrawer .view-drawer-panel {
+        position: absolute !important;
+        left: 0 !important;
+        bottom: 52px !important;
+        width: min(240px, calc(100vw - 28px)) !important;
+        margin-left: 0 !important;
+        transform: translateY(18px) !important;
+      }
+
+      #viewDrawer.active .view-drawer-panel {
+        transform: translateY(0) !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -36,40 +152,6 @@
         </div>
       </div>
     </header>
-
-    <div id="viewDrawer" class="view-drawer">
-      <button id="viewDrawerToggle" class="view-drawer-tab" type="button" aria-label="Toggle view controls">
-        VIEW
-      </button>
-
-      <div class="view-drawer-panel">
-        <div class="drawer-kicker">RESULT VIEW</div>
-
-        <button data-view-button="overall" class="view-button active" type="button">
-          OVERALL
-        </button>
-
-        <button data-view-button="pax" class="view-button" type="button">
-          PAX
-        </button>
-
-        <button data-view-button="class" class="view-button" type="button">
-          CLASS
-        </button>
-
-        <button data-view-button="compare" class="view-button" type="button">
-          COMPARE
-        </button>
-
-        <select id="classFilter" class="hidden">
-          <option value="all">ALL CLASSES</option>
-        </select>
-
-        <button id="refreshButton" class="view-button toolbar-action" type="button">
-          REFRESH JSON
-        </button>
-      </div>
-    </div>
 
     <div id="status" class="status-card hidden">Loading event data...</div>
 
@@ -109,6 +191,41 @@
     </footer>
   </div>
 
+  <!-- DRAWER IS OUTSIDE CONTAINER SO IT CANNOT BE TREATED LIKE NORMAL PAGE CONTENT -->
+  <div id="viewDrawer" class="view-drawer">
+    <button id="viewDrawerToggle" class="view-drawer-tab" type="button" aria-label="Toggle view controls">
+      VIEW
+    </button>
+
+    <div class="view-drawer-panel">
+      <div class="drawer-kicker">RESULT VIEW</div>
+
+      <button data-view-button="overall" class="view-button active" type="button">
+        OVERALL
+      </button>
+
+      <button data-view-button="pax" class="view-button" type="button">
+        PAX
+      </button>
+
+      <button data-view-button="class" class="view-button" type="button">
+        CLASS
+      </button>
+
+      <button data-view-button="compare" class="view-button" type="button">
+        COMPARE
+      </button>
+
+      <select id="classFilter" class="hidden">
+        <option value="all">ALL CLASSES</option>
+      </select>
+
+      <button id="refreshButton" class="view-button toolbar-action" type="button">
+        REFRESH JSON
+      </button>
+    </div>
+  </div>
+
   <button class="diag-trigger" onclick="toggleDiag()" type="button">
     DIAG
   </button>
@@ -122,5 +239,31 @@
   </aside>
 
   <script type="module" src="assets/app.js"></script>
+
+  <script>
+    // FORCE DRAWER TOGGLE - WORKS EVEN IF app.js DRAWER CODE IS MISSING
+    window.addEventListener('DOMContentLoaded', function () {
+      const drawer = document.getElementById('viewDrawer');
+      const toggle = document.getElementById('viewDrawerToggle');
+
+      if (!drawer || !toggle) return;
+
+      toggle.addEventListener('click', function () {
+        drawer.classList.toggle('active');
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+          drawer.classList.remove('active');
+        }
+      });
+
+      document.querySelectorAll('[data-view-button]').forEach(function (button) {
+        button.addEventListener('click', function () {
+          drawer.classList.remove('active');
+        });
+      });
+    });
+  </script>
 </body>
 </html>
