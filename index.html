@@ -8,76 +8,93 @@
   <link rel="stylesheet" href="assets/style.css" />
 
   <style>
-    /* FORCE DRAWER OVERRIDE - CONTAINER-ATTACHED VERSION */
+    /* FORCE VIEW MENU OVERRIDE - CONSISTENT HAMBURGER VERSION */
 
     .container {
       position: relative !important;
     }
 
-    #viewDrawer.view-drawer {
+    .view-menu {
       position: sticky !important;
-      top: 150px !important;
+      top: 18px !important;
       z-index: 99999 !important;
-      width: 0 !important;
-      height: 0 !important;
-      transform: translateX(-66px) !important;
       display: flex !important;
+      justify-content: flex-end !important;
       align-items: flex-start !important;
-      pointer-events: none !important;
+      height: 0 !important;
       margin: 0 !important;
       padding: 0 !important;
+      pointer-events: none !important;
     }
 
-    #viewDrawer .view-drawer-tab {
+    .view-menu-inner {
+      position: relative !important;
       pointer-events: auto !important;
-      writing-mode: vertical-rl !important;
-      transform: rotate(180deg) !important;
-      min-height: 104px !important;
-      padding: 16px 9px !important;
-      border: 1px solid rgba(223, 255, 0, 0.55) !important;
-      border-right: 0 !important;
-      border-radius: 14px 0 0 14px !important;
-      background: linear-gradient(180deg, #DFFF00, #F2FF66) !important;
-      color: #000 !important;
+      transform: translateY(-8px) !important;
+    }
+
+    .view-menu-toggle {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 9px !important;
+      min-width: 112px !important;
+      min-height: 42px !important;
+      padding: 11px 16px !important;
+      border-radius: 999px !important;
+      border: 1px solid rgba(223, 255, 0, 0.42) !important;
+      background: rgba(10, 11, 11, 0.88) !important;
+      color: #DFFF00 !important;
       font-family: 'Syncopate', 'Inter', Arial, sans-serif !important;
-      font-size: 0.62rem !important;
+      font-size: 0.64rem !important;
       font-weight: 700 !important;
-      letter-spacing: 2px !important;
+      letter-spacing: 1.7px !important;
       cursor: pointer !important;
-      box-shadow: 0 18px 38px rgba(0,0,0,0.52) !important;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.55), 0 0 18px rgba(223, 255, 0, 0.08) !important;
+      backdrop-filter: blur(18px) !important;
       appearance: none !important;
     }
 
-    #viewDrawer .view-drawer-panel {
-      pointer-events: auto !important;
-      width: 218px !important;
-      margin-left: 0 !important;
+    .view-menu-toggle:hover {
+      border-color: rgba(223, 255, 0, 0.72) !important;
+      background: rgba(18, 19, 19, 0.96) !important;
+    }
+
+    .view-menu-toggle-icon {
+      font-family: 'Inter', Arial, sans-serif !important;
+      font-size: 1rem !important;
+      line-height: 1 !important;
+      letter-spacing: 0 !important;
+      transform: translateY(-1px) !important;
+    }
+
+    .view-menu-panel {
+      position: absolute !important;
+      top: calc(100% + 10px) !important;
+      right: 0 !important;
+      width: 224px !important;
       padding: 14px !important;
-      border: 1px solid rgba(223, 255, 0, 0.28) !important;
-      border-left: 5px solid #DFFF00 !important;
-      border-radius: 0 22px 22px 0 !important;
+      border: 1px solid rgba(223, 255, 0, 0.26) !important;
+      border-radius: 22px !important;
       background: rgba(10, 11, 11, 0.96) !important;
       backdrop-filter: blur(22px) !important;
-      box-shadow: 0 24px 60px rgba(0,0,0,0.68) !important;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.68), 0 0 22px rgba(223, 255, 0, 0.06) !important;
       display: flex !important;
       flex-direction: column !important;
       gap: 9px !important;
-      transform: translateX(-226px) !important;
       opacity: 0 !important;
-      transition: transform 0.24s ease, opacity 0.2s ease !important;
+      transform: translateY(-8px) scale(0.98) !important;
+      pointer-events: none !important;
+      transition: opacity 0.18s ease, transform 0.18s ease !important;
     }
 
-    #viewDrawer.active .view-drawer-panel {
-      transform: translateX(0) !important;
+    .view-menu.active .view-menu-panel {
       opacity: 1 !important;
+      transform: translateY(0) scale(1) !important;
+      pointer-events: auto !important;
     }
 
-    #viewDrawer.active .view-drawer-tab {
-      border-radius: 14px 0 0 14px !important;
-      box-shadow: 0 0 24px rgba(223, 255, 0, 0.22), 0 18px 38px rgba(0,0,0,0.52) !important;
-    }
-
-    #viewDrawer .drawer-kicker {
+    .view-menu-kicker {
       font-family: 'Syncopate', 'Inter', Arial, sans-serif !important;
       color: rgba(223, 255, 0, 0.9) !important;
       font-size: 0.56rem !important;
@@ -89,52 +106,43 @@
       margin-bottom: 4px !important;
     }
 
-    #viewDrawer .view-button,
-    #viewDrawer select {
+    .view-menu-panel .view-button,
+    .view-menu-panel select {
       width: 100% !important;
       text-align: center !important;
       justify-content: center !important;
     }
 
-    #viewDrawer select {
+    .view-menu-panel select {
       border-radius: 14px !important;
       padding: 11px 12px !important;
     }
 
-    @media (max-width: 1180px) {
-      #viewDrawer.view-drawer {
+    @media (max-width: 720px) {
+      .view-menu {
         position: fixed !important;
         top: auto !important;
+        right: 14px !important;
         bottom: 18px !important;
-        left: 12px !important;
-        width: auto !important;
         height: auto !important;
+        justify-content: flex-end !important;
+      }
+
+      .view-menu-inner {
         transform: none !important;
-        align-items: flex-end !important;
       }
 
-      #viewDrawer .view-drawer-tab {
-        writing-mode: horizontal-tb !important;
-        transform: none !important;
-        min-height: 0 !important;
-        padding: 11px 14px !important;
-        border-radius: 999px !important;
-        border: 1px solid rgba(223, 255, 0, 0.55) !important;
+      .view-menu-panel {
+        top: auto !important;
+        bottom: calc(100% + 10px) !important;
+        right: 0 !important;
+        width: min(224px, calc(100vw - 28px)) !important;
       }
 
-      #viewDrawer .view-drawer-panel {
-        position: absolute !important;
-        left: 0 !important;
-        bottom: 52px !important;
-        width: min(240px, calc(100vw - 28px)) !important;
-        margin-left: 0 !important;
-        border-radius: 20px !important;
-        border-left: 1px solid rgba(223, 255, 0, 0.28) !important;
-        transform: translateY(18px) !important;
-      }
-
-      #viewDrawer.active .view-drawer-panel {
-        transform: translateY(0) !important;
+      .view-menu-toggle {
+        min-width: 104px !important;
+        min-height: 40px !important;
+        padding: 10px 14px !important;
       }
     }
   </style>
@@ -142,6 +150,43 @@
 
 <body>
   <div class="container">
+    <div id="viewMenu" class="view-menu">
+      <div class="view-menu-inner">
+        <button id="viewMenuToggle" class="view-menu-toggle" type="button" aria-label="Toggle view controls">
+          <span class="view-menu-toggle-icon">☰</span>
+          <span>VIEW</span>
+        </button>
+
+        <div id="viewMenuPanel" class="view-menu-panel">
+          <div class="view-menu-kicker">RESULT VIEW</div>
+
+          <button data-view-button="overall" class="view-button active" type="button">
+            OVERALL
+          </button>
+
+          <button data-view-button="pax" class="view-button" type="button">
+            PAX
+          </button>
+
+          <button data-view-button="class" class="view-button" type="button">
+            CLASS
+          </button>
+
+          <button data-view-button="compare" class="view-button" type="button">
+            COMPARE
+          </button>
+
+          <select id="classFilter" class="hidden">
+            <option value="all">ALL CLASSES</option>
+          </select>
+
+          <button id="refreshButton" class="view-button toolbar-action" type="button">
+            REFRESH JSON
+          </button>
+        </div>
+      </div>
+    </div>
+
     <header>
       <h1 class="brand-logo">EVENT RESULTS</h1>
       <div class="sub-title">POWERED BY OPULENT HARDWARE</div>
@@ -168,40 +213,6 @@
         </div>
       </div>
     </header>
-
-    <div id="viewDrawer" class="view-drawer">
-      <button id="viewDrawerToggle" class="view-drawer-tab" type="button" aria-label="Toggle view controls">
-        VIEW
-      </button>
-
-      <div class="view-drawer-panel">
-        <div class="drawer-kicker">RESULT VIEW</div>
-
-        <button data-view-button="overall" class="view-button active" type="button">
-          OVERALL
-        </button>
-
-        <button data-view-button="pax" class="view-button" type="button">
-          PAX
-        </button>
-
-        <button data-view-button="class" class="view-button" type="button">
-          CLASS
-        </button>
-
-        <button data-view-button="compare" class="view-button" type="button">
-          COMPARE
-        </button>
-
-        <select id="classFilter" class="hidden">
-          <option value="all">ALL CLASSES</option>
-        </select>
-
-        <button id="refreshButton" class="view-button toolbar-action" type="button">
-          REFRESH JSON
-        </button>
-      </div>
-    </div>
 
     <div id="status" class="status-card hidden">Loading event data...</div>
 
@@ -256,28 +267,42 @@
   <script type="module" src="assets/app.js"></script>
 
   <script>
-    // FORCE DRAWER TOGGLE - WORKS EVEN IF app.js DRAWER CODE IS MISSING
+    // FORCE VIEW MENU TOGGLE
     window.addEventListener('DOMContentLoaded', function () {
-      const drawer = document.getElementById('viewDrawer');
-      const toggle = document.getElementById('viewDrawerToggle');
+      const menu = document.getElementById('viewMenu');
+      const toggle = document.getElementById('viewMenuToggle');
 
-      if (!drawer || !toggle) return;
+      if (!menu || !toggle) return;
 
-      toggle.addEventListener('click', function () {
-        drawer.classList.toggle('active');
+      toggle.addEventListener('click', function (event) {
+        event.stopPropagation();
+        menu.classList.toggle('active');
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!menu.contains(event.target)) {
+          menu.classList.remove('active');
+        }
       });
 
       document.addEventListener('keydown', function (event) {
         if (event.key === 'Escape') {
-          drawer.classList.remove('active');
+          menu.classList.remove('active');
         }
       });
 
       document.querySelectorAll('[data-view-button]').forEach(function (button) {
         button.addEventListener('click', function () {
-          drawer.classList.remove('active');
+          menu.classList.remove('active');
         });
       });
+
+      const refreshButton = document.getElementById('refreshButton');
+      if (refreshButton) {
+        refreshButton.addEventListener('click', function () {
+          menu.classList.remove('active');
+        });
+      }
     });
   </script>
 </body>
