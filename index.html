@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Event Results | OPULENT HARDWARE</title>
-  <link rel="stylesheet" href="assets/style.css?v=inline-view-menu-001" />
+
+  <link rel="stylesheet" href="assets/style.css?v=global-view-menu-final-001" />
 </head>
 
 <body>
@@ -36,6 +37,47 @@
       </div>
     </header>
 
+    <div id="globalViewMenu" class="global-view-menu">
+      <div class="global-view-inner">
+        <button id="viewMenuToggle" class="global-view-toggle" type="button" aria-label="Toggle view controls">
+          <span class="global-view-icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <span>VIEW</span>
+        </button>
+
+        <div class="global-view-panel">
+          <div class="global-view-kicker">RESULT VIEW</div>
+
+          <button data-view-button="overall" class="view-button active" type="button">
+            OVERALL
+          </button>
+
+          <button data-view-button="pax" class="view-button" type="button">
+            PAX
+          </button>
+
+          <button data-view-button="class" class="view-button" type="button">
+            CLASS
+          </button>
+
+          <button data-view-button="compare" class="view-button" type="button">
+            COMPARE
+          </button>
+
+          <select id="classFilter" class="hidden">
+            <option value="all">ALL CLASSES</option>
+          </select>
+
+          <button id="refreshButton" class="view-button toolbar-action" type="button">
+            REFRESH JSON
+          </button>
+        </div>
+      </div>
+    </div>
+
     <div id="status" class="status-card hidden">Loading event data...</div>
 
     <main id="rankings"></main>
@@ -51,13 +93,23 @@
       </div>
 
       <div class="footer-links">
-        <a class="footer-link" href="https://live.sfrautox.com/#N" target="_blank" rel="noopener">
+        <a
+          class="footer-link"
+          href="https://live.sfrautox.com/#N"
+          target="_blank"
+          rel="noopener"
+        >
           SOURCE DATA
         </a>
 
         <span class="footer-separator">/</span>
 
-        <a class="footer-link" href="https://www.instagram.com/opulenthardware" target="_blank" rel="noopener">
+        <a
+          class="footer-link"
+          href="https://www.instagram.com/opulenthardware"
+          target="_blank"
+          rel="noopener"
+        >
           INSTAGRAM / @OPULENTHARDWARE
         </a>
       </div>
@@ -76,6 +128,6 @@
     </button>
   </aside>
 
-  <script type="module" src="assets/app.js?v=inline-view-menu-001"></script>
+  <script type="module" src="assets/app.js?v=global-view-menu-final-001"></script>
 </body>
 </html>
