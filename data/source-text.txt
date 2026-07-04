@@ -31,89 +31,89 @@ Rank	Driver	Class - Number	Time
 22	Nicole Wong	CAMS #46	80.437
 23	Teresa Neidel-McKee	X-XB #41	80.754
 24	Tom Ellam	X-XB #161	80.877
-25	Nick Relampagos	CAMT #128	81.749
-26	Isaac Acks	XA #71	81.797
-27	Vince Russell	SP-CSP #192	81.860
-28	Brianne Maier	P-CP #336	81.894
-29	Steven Goldine	M-EM #133	81.947
-30	Erik Acks	AS #68	82.130
-31	Brian Hobaugh	XA #132	82.268
-32	Steve Mclaughlin	SP-ESP #911	82.276
-33	Tom Kubo	SP-CSP #92	82.420
-34	Douglas Hargrove	M-FM #17	82.492
-35	Jesus Villarreal	SP-SSP #261	82.722
-36	Sean Velandia	S1-FS #161	82.735
-37	Shelly Monfort	AS #196	82.801
-38	Khoa Cao	XA #115	83.039
-39	Anthony Topalian	CAMS #586	83.142
-40	Michael Ansell	P-CP #177	83.268
-41	Ken Yeo	CAMS #7	83.277
-42	Rob Boynton	SP-SSP #198	83.279
-43	jayman topalian	CAMC #525	83.439
-44	Rich Lee	S1-BS #99	83.534
-45	Andre Piernot	AS #9	83.535
-46	Michael Gardner	CAMC #48	83.644
-47	Hal Dorton	CAMC #74	83.661
-48	Cody Mountjoy	S1-BS #32	83.741
-49	Chad Ryker	CAMS #178	83.777
-50	Da Chang	CST #63	83.874
-51	SEAN BREESE	CAMS #189	83.984
-52	John Smith	CST #119	83.993
-53	Maggie Elorza	S1-BS #22	84.374
-54	Glen Anderson	AS #79	84.382
-55	Michael Scott	AS #2	84.403
-56	Andre Marconett	CAMS #180	84.404
-57	Ed Runnion	CST #18	84.560
-58	Christopher Cook	CST #19	84.595
-59	Kevin Jung	X-XB #178	84.882
-60	Curt Hill	CAMS #54	84.909
-61	Brian Jacobson	AS #3	85.003
-62	Ken Mollenauer	AS #96	85.287
-63	Wilson Velandia	S1-FS #61	85.423
-64	John Rowe	S2-CS #24	86.193
-65	Josh Cadiente	S2-GS #85	86.319
-66	Jonathan Cadiente	S2-GS #185	86.367
-67	Darren Voges	CAMT #669	86.644
-68	Dennis Quilantang	CST #137	86.693
-69	Mike Ansell	CAMS #21	86.738
-70	Lloyd Feaver	S1-DS #5	87.019
-71	JUSTIN SCHMELZER	CAMS #81	87.181
-72	Michael Jones	AS #26	87.246
-73	Steve Hobaugh	XA #32	87.600
-74	Tay Thomas	CAMS #154	87.700
-75	David Anderson	S2-CS #43	87.873
-76	Stephanie Medeiros	SP-ESP #611	88.462
-77	Lily Maier	CAMT #351	88.629
-78	David Silva	P-CP #16	89.180
-79	Philip Ma	S1-DS #75	89.182
-80	Lorde Grande	S1-FS #27	89.529
-81	Darren Shortes	AS #57	90.403
-82	Kurt Wong	S1-FS #127	90.554
-83	Brenna Comacchio	S2-HS #4	90.909
-84	Art Martinez	P-CP #34	90.996
-85	Nathan Poffenbarger	CAMS #18	91.015
-86	Leon Weinroth	CAMC #51	91.476
-87	BARRY L. GOLDINE	M-EM #33	91.826
-88	Brandon Phillips	S2-HS #14	91.985
-89	Don Lew	S2-CS #641	92.693
-90	Ibtisam A.	S2-CS #764	92.813
-91	Megan Anderson	AS #76	93.079
-92	Ryan Gaines	XA #69	93.527
-93	Duck Pham	XA #2	93.718
-94	Derek Koehn	CAMS #118	93.753
-95	Anthony Chaghlassian	XA #39	93.761
-96	Arie Villasol	SP-CSP #7	94.481
-97	Nate Methot	S1-BS #43	94.711
-98	Rafa Soto	S1-FS #68	94.764
-99	Pedro Duran III	CAMS #55	95.211
-100	John Osgood	S1-FS #321	96.813
-101	Kirk Lozada	CAMT #89	98.053
-102	Matt Francavilla	AS #67	98.574
+25	Sean Velandia	S1-FS #161	81.687
+26	Nick Relampagos	CAMT #128	81.749
+27	Isaac Acks	XA #71	81.797
+28	Vince Russell	SP-CSP #192	81.860
+29	Brianne Maier	P-CP #336	81.894
+30	Steven Goldine	M-EM #133	81.947
+31	Erik Acks	AS #68	81.981
+32	Shelly Monfort	AS #196	82.124
+33	Brian Hobaugh	XA #132	82.268
+34	Steve Mclaughlin	SP-ESP #911	82.276
+35	Tom Kubo	SP-CSP #92	82.420
+36	Douglas Hargrove	M-FM #17	82.492
+37	Rich Lee	S1-BS #99	82.648
+38	Andre Piernot	AS #9	82.672
+39	Jesus Villarreal	SP-SSP #261	82.722
+40	Cody Mountjoy	S1-BS #32	82.744
+41	Matt Francavilla	AS #67	82.851
+42	Khoa Cao	XA #115	83.039
+43	Anthony Topalian	CAMS #586	83.142
+44	Michael Ansell	P-CP #177	83.268
+45	Ken Yeo	CAMS #7	83.277
+46	Rob Boynton	SP-SSP #198	83.279
+47	Brian Jacobson	AS #3	83.294
+48	jayman topalian	CAMC #525	83.439
+49	Michael Gardner	CAMC #48	83.644
+50	Hal Dorton	CAMC #74	83.661
+51	Chad Ryker	CAMS #178	83.777
+52	Maggie Elorza	S1-BS #22	83.803
+53	Da Chang	CST #63	83.874
+54	SEAN BREESE	CAMS #189	83.984
+55	John Smith	CST #119	83.993
+56	Michael Jones	AS #26	84.003
+57	Wilson Velandia	S1-FS #61	84.360
+58	Glen Anderson	AS #79	84.382
+59	Michael Scott	AS #2	84.403
+60	Andre Marconett	CAMS #180	84.404
+61	Ed Runnion	CST #18	84.560
+62	Christopher Cook	CST #19	84.595
+63	Kevin Jung	X-XB #178	84.882
+64	Curt Hill	CAMS #54	84.909
+65	Ken Mollenauer	AS #96	85.235
+66	Lloyd Feaver	S1-DS #5	85.822
+67	Josh Cadiente	S2-GS #85	86.079
+68	John Rowe	S2-CS #24	86.193
+69	Jonathan Cadiente	S2-GS #185	86.367
+70	Darren Voges	CAMT #669	86.644
+71	Dennis Quilantang	CST #137	86.693
+72	Mike Ansell	CAMS #21	86.738
+73	Philip Ma	S1-DS #75	86.962
+74	JUSTIN SCHMELZER	CAMS #81	87.181
+75	Lorde Grande	S1-FS #27	87.511
+76	Steve Hobaugh	XA #32	87.600
+77	Tay Thomas	CAMS #154	87.700
+78	Kurt Wong	S1-FS #127	87.823
+79	David Anderson	S2-CS #43	87.873
+80	Darren Shortes	AS #57	87.881
+81	Stephanie Medeiros	SP-ESP #611	88.462
+82	Lily Maier	CAMT #351	88.629
+83	Brandon Phillips	S2-HS #14	88.918
+84	David Silva	P-CP #16	89.180
+85	Brenna Comacchio	S2-HS #4	90.167
+86	Nate Methot	S1-BS #43	90.850
+87	Art Martinez	P-CP #34	90.996
+88	Nathan Poffenbarger	CAMS #18	91.015
+89	Leon Weinroth	CAMC #51	91.476
+90	Ibtisam A.	S2-CS #764	91.631
+91	BARRY L. GOLDINE	M-EM #33	91.826
+92	Don Lew	S2-CS #641	92.693
+93	Megan Anderson	AS #76	93.079
+94	Rafa Soto	S1-FS #68	93.446
+95	Ryan Gaines	XA #69	93.527
+96	Duck Pham	XA #2	93.718
+97	Derek Koehn	CAMS #118	93.753
+98	Anthony Chaghlassian	XA #39	93.761
+99	Arie Villasol	SP-CSP #7	94.481
+100	Pedro Duran III	CAMS #55	95.211
+101	John Osgood	S1-FS #321	96.813
+102	Kirk Lozada	CAMT #89	98.053
 103	Chuck Wiltens	CAMT #214	101.277
 104	Matt McFarlane	SP-CSP #197	101.536
 105	Jorden Villarreal	SP-FSP #44	104.835
-106	Michael Hummel	P-DP #88	106.273
-107	Corby Jean	S1-FS #72	108.108
+106	Corby Jean	S1-FS #72	105.607
+107	Michael Hummel	P-DP #88	106.273
 108	Nathan Hummel	P-DP #188	109.331
 109	Marshall Grice	M-BM #95	999.000
 
@@ -131,107 +131,107 @@ Rank	Driver	Class - Number	Indexed Time
 3	Frankie Trutanic	CAMS #97	66.073
 4	Bryan Stewart	CAMS #138	66.153
 5	Duke Langley	CAMS #71	66.210
-6	Steve Lau	XA #187	67.134
-7	Chris Cox	CAMS #38	67.310
-8	Tara Shapowal	XA #1	67.347
-9	Joel Villarreal	CAMS #126	67.428
-10	Nick Relampagos	CAMT #128	67.442
-11	Andy McKee	X-XB #141	67.489
-12	Sean Velandia	S1-FS #161	67.677
+6	Sean Velandia	S1-FS #161	66.819
+7	Steve Lau	XA #187	67.134
+8	Chris Cox	CAMS #38	67.310
+9	Tara Shapowal	XA #1	67.347
+10	Joel Villarreal	CAMS #126	67.428
+11	Nick Relampagos	CAMT #128	67.442
+12	Andy McKee	X-XB #141	67.489
 13	Mack Tsang	CAMS #188	67.684
 14	Ben Martinez	M-CM #60	67.818
 15	Justin Tsang	CAMS #88	67.834
 16	Tom Exley	P-XP #25	68.080
-17	Nicole Wong	CAMS #46	68.210
-18	Erik Acks	AS #68	68.250
-19	Mike Maier	P-CP #136	68.340
-20	Shelly Monfort	AS #196	68.807
-21	Renee Russell	SPL-CSP #92	68.826
-22	Rich Lee	S1-BS #99	68.832
-23	James Laeno	X-XU #96	68.846
-24	Cody Mountjoy	S1-BS #32	69.002
-25	Steve Mclaughlin	SP-ESP #911	69.111
-26	jayman topalian	CAMC #525	69.254
-27	Eric Gnesa	X-XB #93	69.256
-28	Andre Piernot	AS #9	69.417
-29	Lisa Gnesa	X-XB #193	69.422
-30	Michael Gardner	CAMC #48	69.424
-31	Hal Dorton	CAMC #74	69.438
-32	Mick Maier	P-CP #134	69.452
-33	Maggie Elorza	S1-BS #22	69.524
-34	Josh Cadiente	S2-GS #85	69.745
-35	Da Chang	CST #63	69.783
-36	Jonathan Cadiente	S2-GS #185	69.784
-37	Boris Vujasinovic	M-FM #67	69.869
-38	Wilson Velandia	S1-FS #61	69.876
-39	John Smith	CST #119	69.882
-40	John Rowe	S2-CS #24	69.902
-41	Glen Anderson	AS #79	70.121
-42	Michael Scott	AS #2	70.138
-43	Vince Russell	SP-CSP #192	70.235
-44	Lloyd Feaver	S1-DS #5	70.311
-45	Ed Runnion	CST #18	70.353
-46	Christopher Cook	CST #19	70.383
-47	Anthony Topalian	CAMS #586	70.504
-48	Ken Yeo	CAMS #7	70.618
-49	Brian Jacobson	AS #3	70.637
-50	Isaac Acks	XA #71	70.672
-51	Tom Kubo	SP-CSP #92	70.716
-52	Brenna Comacchio	S2-HS #4	70.727
-53	Ken Mollenauer	AS #96	70.873
-54	Chad Ryker	CAMS #178	71.042
-55	Teresa Neidel-McKee	X-XB #41	71.063
-56	Brian Hobaugh	XA #132	71.079
-57	Tom Ellam	X-XB #161	71.171
-58	SEAN BREESE	CAMS #189	71.218
-59	Brianne Maier	P-CP #336	71.247
-60	David Anderson	S2-CS #43	71.265
-61	Jesus Villarreal	SP-SSP #261	71.389
-62	Darren Voges	CAMT #669	71.481
-63	Brandon Phillips	S2-HS #14	71.564
-64	Andre Marconett	CAMS #180	71.574
-65	Khoa Cao	XA #115	71.745
-66	Rob Boynton	SP-SSP #198	71.869
-67	Curt Hill	CAMS #54	72.002
-68	Philip Ma	S1-DS #75	72.059
-69	Dennis Quilantang	CST #137	72.128
-70	Michael Ansell	P-CP #177	72.443
-71	Michael Jones	AS #26	72.501
-72	Lily Maier	CAMT #351	73.118
-73	Lorde Grande	S1-FS #27	73.234
-74	Mike Ansell	CAMS #21	73.553
-75	JUSTIN SCHMELZER	CAMS #81	73.929
-76	Kurt Wong	S1-FS #127	74.073
-77	Stephanie Medeiros	SP-ESP #611	74.308
-78	Tay Thomas	CAMS #154	74.369
-79	Kevin Jung	X-XB #178	74.696
-80	Darren Shortes	AS #57	75.124
-81	Don Lew	S2-CS #641	75.174
-82	Steven Goldine	M-EM #133	75.227
-83	Ibtisam A.	S2-CS #764	75.271
-84	Douglas Hargrove	M-FM #17	75.645
-85	Steve Hobaugh	XA #32	75.686
-86	Leon Weinroth	CAMC #51	75.925
-87	Nathan Poffenbarger	CAMS #18	77.180
-88	Megan Anderson	AS #76	77.348
-89	Rafa Soto	S1-FS #68	77.516
-90	David Silva	P-CP #16	77.586
-91	Nate Methot	S1-BS #43	78.041
-92	Art Martinez	P-CP #34	79.166
-93	John Osgood	S1-FS #321	79.193
-94	Derek Koehn	CAMS #118	79.502
-95	Pedro Duran III	CAMS #55	80.738
-96	Ryan Gaines	XA #69	80.807
-97	Kirk Lozada	CAMT #89	80.893
-98	Duck Pham	XA #2	80.972
-99	Anthony Chaghlassian	XA #39	81.009
-100	Arie Villasol	SP-CSP #7	81.064
-101	Matt Francavilla	AS #67	81.914
+17	Rich Lee	S1-BS #99	68.101
+18	Erik Acks	AS #68	68.126
+19	Cody Mountjoy	S1-BS #32	68.181
+20	Nicole Wong	CAMS #46	68.210
+21	Shelly Monfort	AS #196	68.245
+22	Mike Maier	P-CP #136	68.340
+23	Andre Piernot	AS #9	68.700
+24	Renee Russell	SPL-CSP #92	68.826
+25	James Laeno	X-XU #96	68.846
+26	Matt Francavilla	AS #67	68.849
+27	Wilson Velandia	S1-FS #61	69.006
+28	Maggie Elorza	S1-BS #22	69.053
+29	Steve Mclaughlin	SP-ESP #911	69.111
+30	Brandon Phillips	S2-HS #14	69.178
+31	Brian Jacobson	AS #3	69.217
+32	jayman topalian	CAMC #525	69.254
+33	Eric Gnesa	X-XB #93	69.256
+34	Lloyd Feaver	S1-DS #5	69.344
+35	Lisa Gnesa	X-XB #193	69.422
+36	Michael Gardner	CAMC #48	69.424
+37	Hal Dorton	CAMC #74	69.438
+38	Mick Maier	P-CP #134	69.452
+39	Josh Cadiente	S2-GS #85	69.551
+40	Da Chang	CST #63	69.783
+41	Jonathan Cadiente	S2-GS #185	69.784
+42	Michael Jones	AS #26	69.806
+43	Boris Vujasinovic	M-FM #67	69.869
+44	John Smith	CST #119	69.882
+45	John Rowe	S2-CS #24	69.902
+46	Glen Anderson	AS #79	70.121
+47	Michael Scott	AS #2	70.138
+48	Brenna Comacchio	S2-HS #4	70.149
+49	Vince Russell	SP-CSP #192	70.235
+50	Philip Ma	S1-DS #75	70.265
+51	Ed Runnion	CST #18	70.353
+52	Christopher Cook	CST #19	70.383
+53	Anthony Topalian	CAMS #586	70.504
+54	Ken Yeo	CAMS #7	70.618
+55	Isaac Acks	XA #71	70.672
+56	Tom Kubo	SP-CSP #92	70.716
+57	Ken Mollenauer	AS #96	70.830
+58	Chad Ryker	CAMS #178	71.042
+59	Teresa Neidel-McKee	X-XB #41	71.063
+60	Brian Hobaugh	XA #132	71.079
+61	Tom Ellam	X-XB #161	71.171
+62	SEAN BREESE	CAMS #189	71.218
+63	Brianne Maier	P-CP #336	71.247
+64	David Anderson	S2-CS #43	71.265
+65	Jesus Villarreal	SP-SSP #261	71.389
+66	Darren Voges	CAMT #669	71.481
+67	Andre Marconett	CAMS #180	71.574
+68	Lorde Grande	S1-FS #27	71.583
+69	Khoa Cao	XA #115	71.745
+70	Kurt Wong	S1-FS #127	71.839
+71	Rob Boynton	SP-SSP #198	71.869
+72	Curt Hill	CAMS #54	72.002
+73	Dennis Quilantang	CST #137	72.128
+74	Michael Ansell	P-CP #177	72.443
+75	Darren Shortes	AS #57	73.029
+76	Lily Maier	CAMT #351	73.118
+77	Mike Ansell	CAMS #21	73.553
+78	JUSTIN SCHMELZER	CAMS #81	73.929
+79	Stephanie Medeiros	SP-ESP #611	74.308
+80	Ibtisam A.	S2-CS #764	74.312
+81	Tay Thomas	CAMS #154	74.369
+82	Kevin Jung	X-XB #178	74.696
+83	Nate Methot	S1-BS #43	74.860
+84	Don Lew	S2-CS #641	75.174
+85	Steven Goldine	M-EM #133	75.227
+86	Douglas Hargrove	M-FM #17	75.645
+87	Steve Hobaugh	XA #32	75.686
+88	Leon Weinroth	CAMC #51	75.925
+89	Rafa Soto	S1-FS #68	76.438
+90	Nathan Poffenbarger	CAMS #18	77.180
+91	Megan Anderson	AS #76	77.348
+92	David Silva	P-CP #16	77.586
+93	Art Martinez	P-CP #34	79.166
+94	John Osgood	S1-FS #321	79.193
+95	Derek Koehn	CAMS #118	79.502
+96	Pedro Duran III	CAMS #55	80.738
+97	Ryan Gaines	XA #69	80.807
+98	Kirk Lozada	CAMT #89	80.893
+99	Duck Pham	XA #2	80.972
+100	Anthony Chaghlassian	XA #39	81.009
+101	Arie Villasol	SP-CSP #7	81.064
 102	Chuck Wiltens	CAMT #214	83.553
 103	BARRY L. GOLDINE	M-EM #33	84.296
-104	Jorden Villarreal	SP-FSP #44	87.013
-105	Matt McFarlane	SP-CSP #197	87.117
-106	Corby Jean	S1-FS #72	88.432
+104	Corby Jean	S1-FS #72	86.386
+105	Jorden Villarreal	SP-FSP #44	87.013
+106	Matt McFarlane	SP-CSP #197	87.117
 107	Michael Hummel	P-DP #88	91.926
 108	Nathan Hummel	P-DP #188	94.571
 109	Marshall Grice	M-BM #95	999.000
@@ -260,46 +260,73 @@ XA
 Class
 Position	Driver	Car	Best Raw	Best Pax	Raw Times
 AS
-1	Erik Acks #68	2018 Porsche Cayman GTS	82.130	68.250	
+1	Erik Acks #68	2018 Porsche Cayman GTS	81.981	68.126	
 83.451
 82.130
+81.899 +1
+81.981
 
-2	Shelly Monfort #196	2018 Porsche Cayman GTS 2.5	82.801	68.807	
+2	Shelly Monfort #196	2018 Porsche Cayman GTS 2.5	82.124	68.245	
 82.801
 82.910
+82.146 +1
+82.124
 
-3	Andre Piernot #9	2012 Nissan GT-R	83.535	69.417	
+3	Andre Piernot #9	2012 Nissan GT-R	82.672	68.700	
 82.535 +1
 83.839
+82.672
+82.378 +1
 
-4	Glen Anderson #79	2023 BMW M3	84.382	70.121	
-84.382
-84.320 +2
+4	Matt Francavilla #67	2023 BMW M3	82.851	68.849	
+97.574 +1
+95.909
+94.785 +1
+92.687
+82.851
 
-5	Michael Scott #2	2023 Tesla 3	84.403	70.138	
-84.684
-84.403
-
-6	Brian Jacobson #3	2017 Chevrolet Corvette	85.003	70.637	
+5	Brian Jacobson #3	2017 Chevrolet Corvette	83.294	69.217	
 85.003
 83.363 +2
+83.112 +1
+97.619 RRN
+82.294 +1
 
-7	Ken Mollenauer #96	2018 Porsche Cayman GTS	85.287	70.873	
+6	Michael Jones #26	2004 Chevrolet	84.003	69.806	
+87.246
+85.866
+84.003
+84.832
+
+7	Glen Anderson #79	2023 BMW M3	84.382	70.121	
+84.382
+84.320 +2
+84.108 +1
+84.459 +2
+
+8	Michael Scott #2	2023 Tesla 3	84.403	70.138	
+84.684
+84.403
+85.147
+84.452
+
+9	Ken Mollenauer #96	2018 Porsche Cayman GTS	85.235	70.830	
 86.286
 84.287 +1
+86.180
+85.235
 
-8	Michael Jones #26	2004 Chevrolet	87.246	72.501	
-87.246
-
-9	Darren Shortes #57	2002 Chevrolet Corvett Z06	90.403	75.124	
+10	Darren Shortes #57	2002 Chevrolet Corvett Z06	87.881	73.029	
 90.403
+88.889
+90.523 DNF
+87.881
 
-10	Megan Anderson #76	2023 BMW M3	93.079	77.348	
+11	Megan Anderson #76	2023 BMW M3	93.079	77.348	
 93.079
 92.158 +1
-
-11	Matt Francavilla #67	2023 BMW M3	98.574	81.914	
-97.574 +1
+92.874 +1
+93.784
 
 CAMC
 1	jayman topalian #525	2020 Chevrolet Camaro SS 1LE	83.439	69.254	
@@ -670,90 +697,133 @@ P
 139.502
 
 S1
-1	Sean Velandia #161 (FS)	2016 Ford GT350	82.735	67.677	
+1	Sean Velandia #161 (FS)	2016 Ford GT350	81.687	66.819	
 85.709
 82.735
+82.059
+81.687
 
-2	Rich Lee #99 (BS)	2023 Toyota Supra	83.534	68.832	
+2	Rich Lee #99 (BS)	2023 Toyota Supra	82.648	68.101	
 85.168
 83.534
+82.648
+82.908
 
-3	Cody Mountjoy #32 (BS)	2025 Toyota GR Corolla	83.741	69.002	
+3	Cody Mountjoy #32 (BS)	2025 Toyota GR Corolla	82.744	68.181	
 84.807
 83.741
+82.953
+82.744
 
-4	Maggie Elorza #22 (BS)	2021 Toyota GR Supra 3.0	84.374	69.524	
-84.562 +1
-84.374
-
-5	Wilson Velandia #61 (FS)	2016 Ford GT350	85.423	69.876	
+4	Wilson Velandia #61 (FS)	2016 Ford GT350	84.360	69.006	
 85.423
 85.556
+84.597 +1
+84.360
 
-6	Lloyd Feaver #5 (DS)	2020 Ford Mustang	87.019	70.311	
+5	Maggie Elorza #22 (BS)	2021 Toyota GR Supra 3.0	83.803	69.053	
+84.562 +1
+84.374
+83.803
+82.941 +1
+
+6	Lloyd Feaver #5 (DS)	2020 Ford Mustang	85.822	69.344	
 89.951
 87.019
+85.822
+85.801 +1
 
-7	Philip Ma #75 (DS)	2025 Subaru BRZ	89.182	72.059	
+7	Philip Ma #75 (DS)	2025 Subaru BRZ	86.962	70.265	
 91.636
 89.182
+88.834 +1
+86.962
 
-8	Lorde Grande #27 (FS)	2020 Chevrolet Camaro	89.529	73.234	
+8	Lorde Grande #27 (FS)	2020 Chevrolet Camaro	87.511	71.583	
 91.271 DNF
 89.529
+87.511
+88.062
 
-9	Kurt Wong #127 (FS)	2020 Chevrolet Camaro	90.554	74.073	
+9	Kurt Wong #127 (FS)	2020 Chevrolet Camaro	87.823	71.839	
 93.696
 90.554
+87.981
+87.823
 
-10	Rafa Soto #68 (FS)	2008 BMW M3 Convertible	94.764	77.516	
-97.327
-94.764
-
-11	Nate Methot #43 (BS)	2002 Chevrolet C5 corvette	94.711	78.041	
+10	Nate Methot #43 (BS)	2002 Chevrolet C5 corvette	90.850	74.860	
 99.022
 93.711 +1
+91.291
+89.850 +1
+
+11	Rafa Soto #68 (FS)	2008 BMW M3 Convertible	93.446	76.438	
+97.327
+94.764
+93.993
+93.446
 
 12	John Osgood #321 (FS)	2013 Cadillac CTS V	96.813	79.193	
 96.813
 98.128 +1
+97.951
+98.656
 
-13	Corby Jean #72 (FS)	2017 Ford Mustang GT	108.108	88.432	
+13	Corby Jean #72 (FS)	2017 Ford Mustang GT	105.607	86.386	
 129.424
 108.108
+108.415
+105.607
 
 S2
-1	Josh Cadiente #85 (GS)	2024 Hyundai Elantra n	86.319	69.745	
-86.706 +1
-86.319
-
-2	Jonathan Cadiente #185 (GS)	2024 Hyundai Elantra N Line	86.367	69.784	
-86.578
-86.367
-
-3	John Rowe #24 (CS)	2024 Mazda Miata	86.193	69.902	
-86.597
-86.193
-
-4	Brenna Comacchio #4 (HS)	2018 Honda Accord	90.909	70.727	
-92.685 +2
-90.909
-
-5	David Anderson #43 (CS)	2024 Mazda MX-5	87.873	71.265	
-90.015
-87.873
-
-6	Brandon Phillips #14 (HS)	2018 Honda Accord	91.985	71.564	
+1	Brandon Phillips #14 (HS)	2018 Honda Accord	88.918	69.178	
 90.985 +1
 92.382
+90.031
+88.918
 
-7	Don Lew #641 (CS)	2019 Mazda MX-5	92.693	75.174	
-93.311
-92.693
+2	Josh Cadiente #85 (GS)	2024 Hyundai Elantra n	86.079	69.551	
+86.706 +1
+86.319
+85.925 DNF
+86.079
 
-8	Ibtisam A. #764 (CS)	2019 Mazda Miata RF	92.813	75.271	
+3	Jonathan Cadiente #185 (GS)	2024 Hyundai Elantra N Line	86.367	69.784	
+86.578
+86.367
+85.864 +1
+85.604 +1
+
+4	John Rowe #24 (CS)	2024 Mazda Miata	86.193	69.902	
+86.597
+86.193
+86.277 +3
+86.970
+
+5	Brenna Comacchio #4 (HS)	2018 Honda Accord	90.167	70.149	
+92.685 +2
+90.909
+90.167
+148.801 RRN
+91.102 +1
+
+6	David Anderson #43 (CS)	2024 Mazda MX-5	87.873	71.265	
+90.015
+87.873
+140.449 +1
+89.059
+
+7	Ibtisam A. #764 (CS)	2019 Mazda Miata RF	91.631	74.312	
 93.699 +2
 91.813 +1
+91.395 +1
+91.631
+
+8	Don Lew #641 (CS)	2019 Mazda MX-5	92.693	75.174	
+93.311
+92.693
+92.114 +2
+92.188 +2
 
 SP
 1	Steve Mclaughlin #911 (ESP)	2020 Nissan 370Z	82.276	69.111	
