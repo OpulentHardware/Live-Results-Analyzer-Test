@@ -1,5 +1,5 @@
 [[OVERALL_VIEW]]
-Participants: 40
+Participants: 42
 2026 AAS #10 Live Results
 Date: 2026-07-05
 
@@ -7,49 +7,51 @@ Overall Class PAX
 
 Overall
 Rank	Driver	Class - Number	Time
-1	Frankie Trutanic	CAMS #97	78.619
-2	Jeff Wong	CAMS #146	78.961
-3	Chris Cox	CAMS #38	79.114
-4	Duke Langley	CAMS #71	79.644
-5	Joel Villarreal	CAMS #126	80.175
-6	Scott Fraser	CAMS #197	80.441
-7	Bryan Stewart	CAMS #138	80.750
-8	Nicole Wong	CAMS #46	82.243
-9	Nick Relampagos	CAMT #128	83.584
-10	Shelly Monfort	AS #196	83.630
-11	Erik Acks	AS #68	84.109
-12	Glen Anderson	AS #79	84.670
-13	Ken Mollenauer	AS #96	85.239
-14	Michael Scott	AS #2	85.272
-15	Andre Piernot	AS #9	85.763
-16	Boris Elpiner	AS #84	86.439
-17	Hal Dorton	CAMC #74	86.536
-18	Brian Jacobson	AS #3	86.922
-19	Chad Ryker	CAMS #178	86.981
-20	Ken Yeo	CAMS #7	88.106
-21	Jonah Olsen	CAMT #51	88.265
-22	Darren Shortes	AS #57	88.439
-23	Curt Hill	CAMS #54	88.815
-24	Michael Gardner	CAMC #48	88.925
-25	Darren Voges	CAMT #669	89.948
-26	Lily Maier	CAMT #351	90.349
-27	Andre Marconett	CAMS #180	90.761
-28	Mike Burnaugh	CAMT #38	91.922
-29	Megan Anderson	AS #76	93.763
-30	Leon Weinroth	CAMC #51	94.866
-31	JUSTIN SCHMELZER	CAMS #81	94.956
-32	Nathan Poffenbarger	CAMS #18	95.601
-33	Matt Francavilla	AS #67	95.769
-34	Henry Young	CAMC #88	96.471
-35	Nick Michels	CAMS #477	97.027
-36	Derek Koehn	CAMS #118	101.829
-37	Pedro Duran III	CAMS #55	999.000
-37	Ruby Villarreal	CAML-CAMS #26	999.000
-37	Mike Ansell	CAMS #21	999.000
-37	SEAN BREESE	CAMS #189	999.000
+1	Duke Langley	CAMS #71	76.952
+2	Scott Fraser	CAMS #197	77.776
+3	Bryan Stewart	CAMS #138	78.332
+4	Frankie Trutanic	CAMS #97	78.619
+5	Jeff Wong	CAMS #146	78.680
+6	Chris Cox	CAMS #38	79.114
+7	Joel Villarreal	CAMS #126	79.405
+8	Chad Ryker	CAMS #178	79.585
+9	Nicole Wong	CAMS #46	80.243
+10	Shelly Monfort	AS #196	82.063
+11	Erik Acks	AS #68	82.352
+12	Nick Relampagos	CAMT #128	82.498
+13	Andre Piernot	AS #9	82.516
+14	Brian Jacobson	AS #3	83.637
+15	Andre Marconett	CAMS #180	83.809
+16	Michael Gardner	CAMC #48	83.887
+17	Ken Mollenauer	AS #96	83.963
+18	Hal Dorton	CAMC #74	84.040
+19	Ken Yeo	CAMS #7	84.206
+20	Glen Anderson	AS #79	84.377
+21	Michael Scott	AS #2	84.420
+22	Michael Jones	AS #26	84.654
+23	Curt Hill	CAMS #54	85.355
+24	Boris Elpiner	AS #84	85.794
+25	SEAN BREESE	CAMS #189	85.971
+26	Darren Shortes	AS #57	87.159
+27	Jonah Olsen	CAMT #51	87.250
+28	Darren Voges	CAMT #669	87.324
+29	Mike Ansell	CAMS #21	88.371
+30	JUSTIN SCHMELZER	CAMS #81	88.958
+31	Nathan Poffenbarger	CAMS #18	89.168
+32	Lily Maier	CAMT #351	89.567
+33	Nick Michels	CAMS #477	89.573
+34	Leon Weinroth	CAMC #51	91.653
+35	Matt Francavilla	AS #67	91.654
+36	Mike Burnaugh	CAMT #38	91.922
+37	Megan Anderson	AS #76	92.985
+38	Henry Young	CAMC #88	96.471
+39	Derek Koehn	CAMS #118	97.751
+40	Pedro Duran III	CAMS #55	98.607
+41	Silas Henderson	S2-CS #189	106.461
+42	Ruby Villarreal	CAML-CAMS #26	999.000
 
 [[PAX_VIEW]]
-Participants: 40
+Participants: 42
 2026 AAS #10 Live Results
 Date: 2026-07-05
 
@@ -57,49 +59,51 @@ Overall Class PAX
 
 PAX
 Rank	Driver	Class - Number	Indexed Time
-1	Frankie Trutanic	CAMS #97	66.668
-2	Jeff Wong	CAMS #146	66.958
-3	Chris Cox	CAMS #38	67.088
-4	Duke Langley	CAMS #71	67.538
-5	Joel Villarreal	CAMS #126	67.988
-6	Scott Fraser	CAMS #197	68.213
-7	Bryan Stewart	CAMS #138	68.476
-8	Nick Relampagos	CAMT #128	68.956
-9	Shelly Monfort	AS #196	69.496
-10	Nicole Wong	CAMS #46	69.742
-11	Erik Acks	AS #68	69.894
-12	Glen Anderson	AS #79	70.360
-13	Ken Mollenauer	AS #96	70.833
-14	Michael Scott	AS #2	70.861
-15	Andre Piernot	AS #9	71.269
-16	Hal Dorton	CAMC #74	71.824
-17	Boris Elpiner	AS #84	71.830
-18	Brian Jacobson	AS #3	72.232
-19	Jonah Olsen	CAMT #51	72.818
-20	Darren Shortes	AS #57	73.492
-21	Chad Ryker	CAMS #178	73.759
-22	Michael Gardner	CAMC #48	73.807
-23	Darren Voges	CAMT #669	74.207
-24	Lily Maier	CAMT #351	74.537
-25	Ken Yeo	CAMS #7	74.713
-26	Curt Hill	CAMS #54	75.315
-27	Mike Burnaugh	CAMT #38	75.835
-28	Andre Marconett	CAMS #180	76.965
-29	Megan Anderson	AS #76	77.917
-30	Leon Weinroth	CAMC #51	78.738
-31	Matt Francavilla	AS #67	79.584
-32	Henry Young	CAMC #88	80.070
-33	JUSTIN SCHMELZER	CAMS #81	80.522
-34	Nathan Poffenbarger	CAMS #18	81.069
-35	Nick Michels	CAMS #477	82.278
-36	Derek Koehn	CAMS #118	86.350
-37	Pedro Duran III	CAMS #55	999.000
-37	Ruby Villarreal	CAML-CAMS #26	999.000
-37	Mike Ansell	CAMS #21	999.000
-37	SEAN BREESE	CAMS #189	999.000
+1	Duke Langley	CAMS #71	65.255
+2	Scott Fraser	CAMS #197	65.954
+3	Bryan Stewart	CAMS #138	66.425
+4	Frankie Trutanic	CAMS #97	66.668
+5	Jeff Wong	CAMS #146	66.720
+6	Chris Cox	CAMS #38	67.088
+7	Joel Villarreal	CAMS #126	67.335
+8	Chad Ryker	CAMS #178	67.488
+9	Nicole Wong	CAMS #46	68.046
+10	Nick Relampagos	CAMT #128	68.060
+11	Shelly Monfort	AS #196	68.194
+12	Erik Acks	AS #68	68.434
+13	Andre Piernot	AS #9	68.570
+14	Brian Jacobson	AS #3	69.502
+15	Michael Gardner	CAMC #48	69.626
+16	Hal Dorton	CAMC #74	69.753
+17	Ken Mollenauer	AS #96	69.773
+18	Glen Anderson	AS #79	70.117
+19	Michael Scott	AS #2	70.153
+20	Michael Jones	AS #26	70.347
+21	Andre Marconett	CAMS #180	71.070
+22	Boris Elpiner	AS #84	71.294
+23	Ken Yeo	CAMS #7	71.406
+24	Jonah Olsen	CAMT #51	71.981
+25	Darren Voges	CAMT #669	72.042
+26	Curt Hill	CAMS #54	72.381
+27	Darren Shortes	AS #57	72.429
+28	SEAN BREESE	CAMS #189	72.903
+29	Lily Maier	CAMT #351	73.892
+30	Mike Ansell	CAMS #21	74.938
+31	JUSTIN SCHMELZER	CAMS #81	75.436
+32	Nathan Poffenbarger	CAMS #18	75.614
+33	Mike Burnaugh	CAMT #38	75.835
+34	Nick Michels	CAMS #477	75.957
+35	Leon Weinroth	CAMC #51	76.071
+36	Matt Francavilla	AS #67	76.164
+37	Megan Anderson	AS #76	77.270
+38	Henry Young	CAMC #88	80.070
+39	Derek Koehn	CAMS #118	82.892
+40	Pedro Duran III	CAMS #55	83.618
+41	Silas Henderson	S2-CS #189	86.339
+42	Ruby Villarreal	CAML-CAMS #26	999.000
 
 [[CLASS_VIEW]]
-Participants: 40
+Participants: 42
 2026 AAS #10 Live Results
 Date: 2026-07-05
 
@@ -111,140 +115,266 @@ CAMC
 CAML
 CAMS
 CAMT
+S2
 Class
 Position	Driver	Car	Best Raw	Best Pax	Raw Times
 AS
-1	Shelly Monfort #196	2018 Porsche Cayman GTS 2.5	83.630	69.496	
+1	Shelly Monfort #196	2018 Porsche Cayman GTS 2.5	82.063	68.194	
 83.630
+80.984 +2
+110.129 RRN
+82.063
+81.891 +1
 
-2	Erik Acks #68	2018 Porsche Cayman GTS	84.109	69.894	
+2	Erik Acks #68	2018 Porsche Cayman GTS	82.352	68.434	
 84.109
+83.605
+82.352
+83.576
 
-3	Glen Anderson #79	2023 BMW M3	84.670	70.360	
-85.132
-83.670 +1
+3	Andre Piernot #9	2012 Nissan GT-R	82.516	68.570	
+83.763 +2
+82.607 +1
+82.865
+82.516
 
-4	Ken Mollenauer #96	2018 Porsche Cayman GTS	85.239	70.833	
+4	Brian Jacobson #3	2017 Chevrolet Corvette	83.637	69.502	
+85.922 +1
+84.295
+82.637 +1
+96.294 RRN
+82.747 +1
+
+5	Ken Mollenauer #96	2018 Porsche Cayman GTS	83.963	69.773	
 87.200 DNF
 85.239
+83.963
+84.640
 
-5	Michael Scott #2	2023 Tesla 3	85.272	70.861	
+6	Glen Anderson #79	2023 BMW M3	84.377	70.117	
+85.132
+83.670 +1
+83.377 +1
+82.616 +2
+
+7	Michael Scott #2	2023 Tesla 3	84.420	70.153	
 85.272
+86.946 +1
+84.583
+102.084 RRN
+84.420
 
-6	Andre Piernot #9	2012 Nissan GT-R	85.763	71.269	
-83.763 +2
+8	Michael Jones #26	2004 Chevrolet	84.654	70.347	
+87.911
+86.028
+85.421
+84.654
 
-7	Boris Elpiner #84	2018 Porsche 718 Cayman GTS	86.439	71.830	
+9	Boris Elpiner #84	2018 Porsche 718 Cayman GTS	85.794	71.294	
 86.439
+86.579
+86.631 +1
+85.794
 
-8	Brian Jacobson #3	2017 Chevrolet Corvette	86.922	72.232	
-85.922 +1
-
-9	Darren Shortes #57	2002 Chevrolet Corvett Z06	88.439	73.492	
+10	Darren Shortes #57	2002 Chevrolet Corvett Z06	87.159	72.429	
 88.439
+88.669
+87.652
+87.159
 
-10	Megan Anderson #76	2023 BMW M3	93.763	77.917	
+11	Matt Francavilla #67	2023 BMW M3	91.654	76.164	
+94.769 +1
+91.654
+92.261
+94.079 +1
+
+12	Megan Anderson #76	2023 BMW M3	92.985	77.270	
 95.544
 93.763
-
-11	Matt Francavilla #67	2023 BMW M3	95.769	79.584	
-94.769 +1
+92.985
+93.000
 
 CAMC
-1	Hal Dorton #74	2022 Ford Mustang	86.536	71.824	
-86.536
-
-2	Michael Gardner #48	2016 Ford Shelby GT350	88.925	73.807	
+1	Michael Gardner #48	2016 Ford Shelby GT350	83.887	69.626	
+85.228
 88.925
+84.255
+83.887
 
-3	Leon Weinroth #51	2014 Ford Blue Mustang V6	94.866	78.738	
+2	Hal Dorton #74	2022 Ford Mustang	84.040	69.753	
+85.383
+86.536
+84.579 +1
+84.040
+
+3	Leon Weinroth #51	2014 Ford Blue Mustang V6	91.653	76.071	
 94.866
+94.991
+93.594
+91.653
 
 4	Henry Young #88	2015 Chevrolet Camaro 1le	96.471	80.070	
 109.321
 96.471
 157.640 RRN
+94.778 DNF
 
 CAMS
-1	Frankie Trutanic #97	2017 Chevrolet corvette	78.619	66.668	
+1	Duke Langley #71	2002 Chevrolet corvette	76.952	65.255	
+77.644 +2
+76.952
+76.541 +1
+77.617
+
+2	Scott Fraser #197	2017 Chevrolet Corvette	77.776	65.954	
+79.441 +1
+78.410
+77.776
+78.840 +1
+
+3	Bryan Stewart #138	2004 Chevrolet Z06	78.332	66.425	
+78.750 +2
+79.635
+91.039 RRN
+78.332
+
+4	Frankie Trutanic #97	2017 Chevrolet corvette	78.619	66.668	
 80.342 +1
 78.619
+78.192 +1
+79.711
 
-2	Jeff Wong #146	2019 Chevrolet Corvette	78.961	66.958	
+5	Jeff Wong #146	2019 Chevrolet Corvette	78.680	66.720	
 80.777
 78.961
+78.680
+78.825
 
-3	Chris Cox #38	2004 Chevrolet Corvette	79.114	67.088	
+6	Chris Cox #38	2004 Chevrolet Corvette	79.114	67.088	
 79.830
 79.114
+79.392
 
-4	Duke Langley #71	2002 Chevrolet corvette	79.644	67.538	
-77.644 +2
-
-5	Joel Villarreal #126	2001 Chevrolet Corvette Z06	80.175	67.988	
+7	Joel Villarreal #126	2001 Chevrolet Corvette Z06	79.405	67.335	
 80.175
+80.933
+80.284
+93.669 RRN
+79.405
+91.538 RRN
 
-6	Scott Fraser #197	2017 Chevrolet Corvette	80.441	68.213	
-79.441 +1
-
-7	Bryan Stewart #138	2004 Chevrolet Z06	80.750	68.476	
-78.750 +2
-
-8	Nicole Wong #46	2019 Chevrolet Corvette	82.243	69.742	
-81.243 +1
-
-9	Chad Ryker #178	1966 Ford Cobra	86.981	73.759	
+8	Chad Ryker #178	1966 Ford Cobra	79.585	67.488	
 83.981 +3
+79.671
+79.296 +2
+78.585 +1
 
-10	Ken Yeo #7	1989 Chevrolet Corvette	88.106	74.713	
-88.106
+9	Nicole Wong #46	2019 Chevrolet Corvette	80.243	68.046	
+81.243 +1
+81.057
+80.243
+80.262
 
-11	Curt Hill #54	2018 Chevrolet Corvette	88.815	75.315	
-88.815
-
-12	Andre Marconett #180	2000 Dodge Viper GTS	90.761	76.965	
+10	Andre Marconett #180	2000 Dodge Viper GTS	83.809	71.070	
 89.761 +1
+84.277
+84.548
+83.809
 
-13	JUSTIN SCHMELZER #81	1996 Dodge Viper	94.956	80.522	
+11	Ken Yeo #7	1989 Chevrolet Corvette	84.206	71.406	
+88.106
+85.135
+84.206
+85.313
+
+12	Curt Hill #54	2018 Chevrolet Corvette	85.355	72.381	
+88.815
+90.416
+86.887
+85.355
+
+13	SEAN BREESE #189	1989 Chevy Corvette	85.971	72.903	
+178.451 DNF
+88.196 +4
+86.327 +3
+84.971 +1
+
+14	Mike Ansell #21	1972 Chevrolet Corvette	88.371	74.938	
+90.910 DNF
+90.354
+88.371
+88.506
+
+15	JUSTIN SCHMELZER #81	1996 Dodge Viper	88.958	75.436	
 98.565
 94.956
+90.750
+88.958
 
-14	Nathan Poffenbarger #18	2000 Dodge Viper	95.601	81.069	
+16	Nathan Poffenbarger #18	2000 Dodge Viper	89.168	75.614	
 94.601 +1
+89.168
+90.423
+90.487
 
-15	Nick Michels #477	2009 Chevrolet Corvette Z06	97.027	82.278	
+17	Nick Michels #477	2009 Chevrolet Corvette Z06	89.573	75.957	
 97.027
+93.453
+90.231
+89.573
 
-16	Derek Koehn #118	Dodge	101.829	86.350	
+18	Derek Koehn #118	Dodge	97.751	82.892	
 100.829 +1
+97.927
+97.751
+99.272 +1
 
-17	Pedro Duran III #55	1998 Chevrolet 98 Corvette C-5 convert	999.000	999.000	
+19	Pedro Duran III #55	1998 Chevrolet 98 Corvette C-5 convert	98.607	83.618	
 102.300 DNF
-
-17	Mike Ansell #21	1972 Chevrolet Corvette	999.000	999.000	
-90.910 DNF
-
-17	SEAN BREESE #189	1989 Chevy Corvette	999.000	999.000	
-178.451 DNF
+98.607
+108.611
+99.636 +1
 
 CAMT
-1	Nick Relampagos #128	1970 Chevrolet Camaro	83.584	68.956	
+1	Nick Relampagos #128	1970 Chevrolet Camaro	82.498	68.060	
 83.584
 135.223 RRN
+82.477 +1
+82.065 DNF
+82.498
+92.159 RRN
 
-2	Jonah Olsen #51	1966 Ford Mustang	88.265	72.818	
+2	Jonah Olsen #51	1966 Ford Mustang	87.250	71.981	
 91.530
 88.265
+86.250 +1
+86.517 DNF
 
-3	Darren Voges #669	1969 Chevrolet Camaro	89.948	74.207	
+3	Darren Voges #669	1969 Chevrolet Camaro	87.324	72.042	
 89.948
+87.995 +1
+86.324 +1
+86.883 +1
 
-4	Lily Maier #351	1965 Ford Mustang	90.349	74.537	
+4	Lily Maier #351	1965 Ford Mustang	89.567	73.892	
 88.349 +2
+109.292 +2
+90.312 +1
+88.567 +1
 
 5	Mike Burnaugh #38	1987 Chevrolet Camaro	91.922	75.835	
 90.922 +1
+91.579 +2
+90.395 DNF
+92.755
 
 CAML
 1	Ruby Villarreal #26 (CAMS)	2001 Chevrolet Corvette Z06	999.000	999.000	
 93.322 DNF
+
+S2
+1	Silas Henderson #189 (CS)	2011 BMW 328i	106.461	86.339	
+118.370
+108.059 DNF
+104.461 +2
+107.425 DNF
