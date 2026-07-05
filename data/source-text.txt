@@ -1,5 +1,5 @@
 [[OVERALL_VIEW]]
-Participants: 79
+Participants: 113
 2026 AAS #10 Live Results
 Date: 2026-07-05
 
@@ -8,87 +8,121 @@ Overall Class PAX
 Overall
 Rank	Driver	Class - Number	Time
 1	Tom Exley	P-XP #25	75.632
-2	Andy McKee	X-XB #141	76.120
-3	Boris Vujasinovic	M-FM #67	76.514
+2	Boris Vujasinovic	M-FM #67	75.840
+3	Andy McKee	X-XB #141	75.921
 4	Duke Langley	CAMS #71	76.952
 5	Ben Martinez	M-CM #60	76.985
 6	Scott Fraser	CAMS #197	77.776
 7	Bryan Stewart	CAMS #138	78.332
-8	Teresa Neidel-McKee	X-XB #41	78.381
+8	Teresa Neidel-McKee	X-XB #41	78.354
 9	Eric Gnesa	X-XB #93	78.426
-10	Frankie Trutanic	CAMS #97	78.619
-11	Jeff Wong	CAMS #146	78.680
-12	Chris Cox	CAMS #38	79.114
-13	Lisa Gnesa	X-XB #193	79.116
-14	Joel Villarreal	CAMS #126	79.405
-14	James Laeno	X-XU #96	79.405
-16	Chad Ryker	CAMS #178	79.585
-17	Nicole Wong	CAMS #46	80.243
-18	James Clenney	EVX #76	80.467
-19	Mick Maier	CAMT #35	80.873
-20	Timothy Naugler	EVX #7	81.697
-21	Steve Mclaughlin	SP-ESP #911	82.005
-22	Shelly Monfort	AS #196	82.063
-23	Tom Ellam	X-XB #161	82.248
-24	Justin Bowen	EVX #48	82.299
-25	Erik Acks	AS #68	82.352
-26	Douglas Hargrove	M-FM #17	82.413
-27	Isaac Acks	XA #71	82.443
-28	Nick Relampagos	CAMT #128	82.498
-29	Andre Piernot	AS #9	82.516
-30	John Smith	CST #119	82.664
-31	Brian Jacobson	AS #3	83.637
-32	Andre Marconett	CAMS #180	83.809
-33	Michael Gardner	CAMC #48	83.887
-34	Ken Mollenauer	AS #96	83.963
-35	Hal Dorton	CAMC #74	84.040
-36	Ken Yeo	CAMS #7	84.206
-37	Jesus Villarreal	SP-SSP #261	84.371
-38	Glen Anderson	AS #79	84.377
-39	Michael Scott	AS #2	84.420
-40	Michael Jones	AS #26	84.654
-41	Michael Ansell	P-CP #177	84.681
-42	Christopher Cook	CST #19	84.879
-43	Justin Magner	SM-SMF #64	85.282
-44	Curt Hill	CAMS #54	85.355
-45	Rob Boynton	SP-SSP #198	85.482
-46	Tara Shapowal	XA #1	85.689
-47	Boris Elpiner	AS #84	85.794
-48	SEAN BREESE	CAMS #189	85.971
-49	Kevin Jung	X-XB #178	86.041
-50	Tom Kubo	SP-CSP #92	86.594
-51	Steve Lau	XA #187	86.998
-52	Darren Shortes	AS #57	87.159
-53	Jonah Olsen	CAMT #51	87.250
-54	Darren Voges	CAMT #669	87.324
-55	Ed Runnion	CST #18	87.758
-56	Dennis Quilantang	CST #137	88.333
-57	Mike Ansell	CAMS #21	88.371
-58	JUSTIN SCHMELZER	CAMS #81	88.958
-59	Stephanie Medeiros	SP-ESP #611	88.976
-60	Nathan Poffenbarger	CAMS #18	89.168
-61	Lily Maier	CAMT #351	89.567
-62	Nick Michels	CAMS #477	89.573
-63	David Johnson	SM-SM #35	91.136
-64	David Silva	P-CP #16	91.209
-65	Leon Weinroth	CAMC #51	91.653
-66	Matt Francavilla	AS #67	91.654
-67	Mike Burnaugh	CAMT #38	91.922
-68	Megan Anderson	AS #76	92.985
-69	Ryan Gaines	XA #69	93.966
-70	Anthony Chaghlassian	XA #39	94.201
-71	Art Martinez	P-CP #34	94.295
-72	Kyle Sanchez	XA #891	95.325
-73	DARIN NELMS	SM-SSM #66	95.887
-74	Henry Young	CAMC #88	96.471
-75	Derek Koehn	CAMS #118	97.751
-76	Pedro Duran III	CAMS #55	98.607
-77	Jorden Villarreal	SP-FSP #14	101.900
-78	Silas Henderson	S2-CS #189	106.461
-79	Ruby Villarreal	CAML-CAMS #26	999.000
+10	Lisa Gnesa	X-XB #193	78.511
+11	Frankie Trutanic	CAMS #97	78.619
+12	Jeff Wong	CAMS #146	78.680
+13	James Laeno	X-XU #96	78.758
+14	Mick Maier	CP #35	79.056
+15	Chris Cox	CAMS #38	79.114
+16	Joel Villarreal	CAMS #126	79.405
+17	Chad Ryker	CAMS #178	79.585
+18	Timothy Naugler	EVX #7	79.860
+19	Nicole Wong	CAMS #46	80.243
+20	James Clenney	EVX #76	80.467
+21	Monty Pack	SS #15	80.877
+22	Steve Mclaughlin	SP-ESP #911	81.134
+23	Justin Bowen	EVX #48	81.254
+24	Shelly Monfort	AS #196	82.063
+25	Jesus Villarreal	SP-SSP #261	82.211
+26	Tom Ellam	X-XB #161	82.248
+27	Isaac Acks	XA #71	82.294
+28	Sean Velandia	S1-FS #161	82.316
+29	Erik Acks	AS #68	82.352
+30	Douglas Hargrove	M-FM #17	82.413
+31	Nick Relampagos	CAMT #128	82.498
+32	Andre Piernot	AS #9	82.516
+33	John Smith	CST #119	82.664
+34	Yon Visell	BST #131	82.929
+35	Patrick Drudge	ST1-SST #126	83.280
+36	Wilson Velandia	S1-FS #61	83.569
+37	Brian Jacobson	AS #3	83.637
+38	Andre Marconett	CAMS #180	83.809
+39	Michael Gardner	CAMC #48	83.887
+40	Aris Perez	ST1-AST #845	83.931
+41	Ken Mollenauer	AS #96	83.963
+42	Cameron Drudge	ST1-SST #12	84.014
+43	Hal Dorton	CAMC #74	84.040
+44	Ken Yeo	CAMS #7	84.206
+45	Rob Boynton	SP-SSP #198	84.332
+46	Glen Anderson	AS #79	84.377
+47	Christopher Cook	CST #19	84.385
+48	Michael Scott	AS #2	84.420
+49	Michael Ansell	P-CP #177	84.536
+50	Michael Jones	AS #26	84.654
+51	Scott Garriss	BST #40	84.964
+52	Justin Magner	SM-SMF #64	85.282
+53	Peter Loney	ST1-CSX #777	85.307
+54	Curt Hill	CAMS #54	85.355
+55	Tara Shapowal	XA #1	85.445
+56	Maggie Elorza	S1-BS #22	85.506
+57	Rich Lee	S1-BS #99	85.658
+58	Boris Elpiner	AS #84	85.794
+59	SEAN BREESE	CAMS #189	85.971
+60	Kevin Jung	X-XB #178	86.041
+61	Katja Seltmann	BST #31	86.438
+62	Edwin Liu	ST1-SST #58	86.455
+63	Tom Kubo	SP-CSP #92	86.594
+64	Lloyd Feaver	S1-DS #5	86.779
+65	Chris Kannan jr	ST1-AST #53	86.883
+66	Steve Lau	XA #187	86.998
+67	Dennis Quilantang	CST #137	87.100
+68	Darren Shortes	AS #57	87.159
+69	Gregory Kehoe	BST #95	87.210
+70	Jonah Olsen	CAMT #51	87.250
+71	Darren Voges	CAMT #669	87.324
+72	Paul Tibbals	BST #35	87.400
+73	Ed Runnion	CST #18	87.758
+74	John Rowe	S2-CS #24	87.903
+75	Stephanie Medeiros	SP-ESP #611	88.354
+76	Mike Ansell	CAMS #21	88.371
+77	Eric Martin	ST1-SSC #74	88.544
+78	David Silva	P-CP #16	88.640
+79	JUSTIN SCHMELZER	CAMS #81	88.958
+80	Nathan Poffenbarger	CAMS #18	89.168
+81	Philip Ma	S1-DS #75	89.225
+82	Keith Bullock	ST1-EST #18	89.308
+83	Brenna Comacchio	S2-HS #4	89.561
+84	David Anderson	S2-CS #43	89.562
+85	Lily Maier	CAMT #351	89.567
+86	Nick Michels	CAMS #477	89.573
+87	Dan Correll	ST1-DST #67	90.004
+88	Brandon Phillips	S2-HS #14	91.090
+89	David Johnson	SM-SM #35	91.136
+90	Leon Weinroth	CAMC #51	91.653
+91	Matt Francavilla	AS #67	91.654
+92	Mike Burnaugh	CAMT #38	91.922
+93	Sandra Fu	ST1-AST #45	92.015
+94	Ibtisam A.	S2-CS #764	92.180
+95	Jordan Haynes	ST1-DST #23	92.366
+96	Art Martinez	P-CP #34	92.456
+97	Anthony Chaghlassian	XA #39	92.865
+98	Megan Anderson	AS #76	92.985
+99	Ryan Gaines	XA #69	93.081
+100	Bill Richter	BST #391	93.162
+101	Alana McKee	ST1-SSC #41	93.850
+102	Kyle Sanchez	XA #891	95.325
+103	Phil Wiltens	ST1-EST #453	95.687
+104	DARIN NELMS	SM-SSM #66	95.887
+105	Henry Young	CAMC #88	96.471
+106	Max Bentley	ST1-DST #233	97.090
+107	Derek Koehn	CAMS #118	97.751
+108	Pedro Duran III	CAMS #55	98.607
+109	Kimberly Coughren	STL-EST #88	98.861
+110	Jorden Villarreal	SP-FSP #14	101.900
+111	Sandra Hermans	STL-DST #6	102.426
+112	Silas Henderson	S2-CS #189	106.461
+113	Ruby Villarreal	CAML-CAMS #26	999.000
 
 [[PAX_VIEW]]
-Participants: 79
+Participants: 113
 2026 AAS #10 Live Results
 Date: 2026-07-05
 
@@ -101,83 +135,117 @@ Rank	Driver	Class - Number	Indexed Time
 3	Bryan Stewart	CAMS #138	66.425
 4	Frankie Trutanic	CAMS #97	66.668
 5	Jeff Wong	CAMS #146	66.720
-5	Mick Maier	CAMT #35	66.720
-7	Andy McKee	X-XB #141	66.985
+6	Andy McKee	X-XB #141	66.810
+7	Timothy Naugler	EVX #7	67.082
 8	Chris Cox	CAMS #38	67.088
-9	Joel Villarreal	CAMS #126	67.335
-10	Chad Ryker	CAMS #178	67.488
-11	James Clenney	EVX #76	67.592
-12	Nicole Wong	CAMS #46	68.046
-13	Nick Relampagos	CAMT #128	68.060
-14	Tom Exley	P-XP #25	68.068
-15	Shelly Monfort	AS #196	68.194
-16	Erik Acks	AS #68	68.434
-17	Andre Piernot	AS #9	68.570
-18	Timothy Naugler	EVX #7	68.625
-19	John Smith	CST #119	68.776
-20	Steve Mclaughlin	SP-ESP #911	68.884
-21	Teresa Neidel-McKee	X-XB #41	68.975
-22	Eric Gnesa	X-XB #93	69.014
-23	Justin Bowen	EVX #48	69.131
-24	Ben Martinez	M-CM #60	69.286
-25	James Laeno	X-XU #96	69.399
-26	Brian Jacobson	AS #3	69.502
-27	Lisa Gnesa	X-XB #193	69.622
-28	Michael Gardner	CAMC #48	69.626
-29	Hal Dorton	CAMC #74	69.753
-30	Ken Mollenauer	AS #96	69.773
-31	Glen Anderson	AS #79	70.117
-32	Michael Scott	AS #2	70.153
-33	Boris Vujasinovic	M-FM #67	70.163
-34	Michael Jones	AS #26	70.347
-35	Christopher Cook	CST #19	70.619
-36	Andre Marconett	CAMS #180	71.070
-37	Isaac Acks	XA #71	71.230
-38	Boris Elpiner	AS #84	71.294
-39	Ken Yeo	CAMS #7	71.406
-40	Jonah Olsen	CAMT #51	71.981
-41	Darren Voges	CAMT #669	72.042
-42	Tom Ellam	X-XB #161	72.378
-43	Curt Hill	CAMS #54	72.381
-44	Darren Shortes	AS #57	72.429
-45	Jesus Villarreal	SP-SSP #261	72.812
-46	SEAN BREESE	CAMS #189	72.903
-47	Ed Runnion	CST #18	73.014
-48	Justin Magner	SM-SMF #64	73.342
-49	Dennis Quilantang	CST #137	73.493
-50	Michael Ansell	P-CP #177	73.672
-51	Rob Boynton	SP-SSP #198	73.770
-52	Lily Maier	CAMT #351	73.892
-53	Tara Shapowal	XA #1	74.035
-54	Tom Kubo	SP-CSP #92	74.297
-55	Stephanie Medeiros	SP-ESP #611	74.739
-56	Mike Ansell	CAMS #21	74.938
-57	Steve Lau	XA #187	75.166
-58	JUSTIN SCHMELZER	CAMS #81	75.436
-59	Douglas Hargrove	M-FM #17	75.572
-60	Nathan Poffenbarger	CAMS #18	75.614
-61	Kevin Jung	X-XB #178	75.716
-62	Mike Burnaugh	CAMT #38	75.835
-63	Nick Michels	CAMS #477	75.957
-64	Leon Weinroth	CAMC #51	76.071
-65	Matt Francavilla	AS #67	76.164
-66	Megan Anderson	AS #76	77.270
-67	David Silva	P-CP #16	79.351
-68	David Johnson	SM-SM #35	79.561
-69	Henry Young	CAMC #88	80.070
-70	Ryan Gaines	XA #69	81.186
-71	Anthony Chaghlassian	XA #39	81.389
-72	Art Martinez	P-CP #34	82.036
-73	Kyle Sanchez	XA #891	82.360
-74	Derek Koehn	CAMS #118	82.892
-75	Pedro Duran III	CAMS #55	83.618
-76	DARIN NELMS	SM-SSM #66	84.572
-77	Jorden Villarreal	SP-FSP #14	84.577
-78	Silas Henderson	S2-CS #189	86.339
-79	Ruby Villarreal	CAML-CAMS #26	999.000
+9	Sean Velandia	S1-FS #161	67.334
+10	Joel Villarreal	CAMS #126	67.335
+11	Chad Ryker	CAMS #178	67.488
+12	James Clenney	EVX #76	67.592
+13	Nicole Wong	CAMS #46	68.046
+14	Nick Relampagos	CAMT #128	68.060
+15	Tom Exley	P-XP #25	68.068
+16	Steve Mclaughlin	SP-ESP #911	68.152
+17	Monty Pack	SS #15	68.179
+18	Shelly Monfort	AS #196	68.194
+19	Justin Bowen	EVX #48	68.253
+20	Wilson Velandia	S1-FS #61	68.359
+21	Erik Acks	AS #68	68.434
+22	Andre Piernot	AS #9	68.570
+23	Peter Loney	ST1-CSX #777	68.757
+24	John Smith	CST #119	68.776
+25	Mick Maier	CP #35	68.778
+26	James Laeno	X-XU #96	68.834
+27	Teresa Neidel-McKee	X-XB #41	68.951
+28	Eric Gnesa	X-XB #93	69.014
+29	Lisa Gnesa	X-XB #193	69.089
+30	Ben Martinez	M-CM #60	69.286
+31	Yon Visell	BST #131	69.494
+32	Brian Jacobson	AS #3	69.502
+33	Boris Vujasinovic	M-FM #67	69.545
+34	Michael Gardner	CAMC #48	69.626
+35	Brenna Comacchio	S2-HS #4	69.678
+36	Hal Dorton	CAMC #74	69.753
+37	Ken Mollenauer	AS #96	69.773
+38	Patrick Drudge	ST1-SST #126	70.038
+39	Glen Anderson	AS #79	70.117
+39	Lloyd Feaver	S1-DS #5	70.117
+41	Michael Scott	AS #2	70.153
+42	Christopher Cook	CST #19	70.208
+43	Michael Jones	AS #26	70.347
+44	Aris Perez	ST1-AST #845	70.418
+45	Maggie Elorza	S1-BS #22	70.456
+46	Rich Lee	S1-BS #99	70.582
+47	Cameron Drudge	ST1-SST #12	70.655
+48	Brandon Phillips	S2-HS #14	70.868
+49	Jesus Villarreal	SP-SSP #261	70.948
+50	Andre Marconett	CAMS #180	71.070
+51	Isaac Acks	XA #71	71.102
+52	Scott Garriss	BST #40	71.199
+53	Eric Martin	ST1-SSC #74	71.277
+54	John Rowe	S2-CS #24	71.289
+55	Boris Elpiner	AS #84	71.294
+56	Ken Yeo	CAMS #7	71.406
+57	Jonah Olsen	CAMT #51	71.981
+58	Darren Voges	CAMT #669	72.042
+59	Philip Ma	S1-DS #75	72.093
+60	Tom Ellam	X-XB #161	72.378
+61	Curt Hill	CAMS #54	72.381
+62	Darren Shortes	AS #57	72.429
+63	Katja Seltmann	BST #31	72.435
+64	Dennis Quilantang	CST #137	72.467
+65	Keith Bullock	ST1-EST #18	72.518
+66	David Anderson	S2-CS #43	72.634
+67	Edwin Liu	ST1-SST #58	72.708
+68	Rob Boynton	SP-SSP #198	72.778
+69	Chris Kannan jr	ST1-AST #53	72.894
+70	SEAN BREESE	CAMS #189	72.903
+71	Ed Runnion	CST #18	73.014
+72	Gregory Kehoe	BST #95	73.081
+73	Paul Tibbals	BST #35	73.241
+74	Justin Magner	SM-SMF #64	73.342
+75	Michael Ansell	P-CP #177	73.546
+76	Tara Shapowal	XA #1	73.824
+77	Lily Maier	CAMT #351	73.892
+78	Dan Correll	ST1-DST #67	73.893
+79	Stephanie Medeiros	SP-ESP #611	74.217
+80	Tom Kubo	SP-CSP #92	74.297
+81	Ibtisam A.	S2-CS #764	74.757
+82	Mike Ansell	CAMS #21	74.938
+83	Steve Lau	XA #187	75.166
+84	JUSTIN SCHMELZER	CAMS #81	75.436
+85	Alana McKee	ST1-SSC #41	75.549
+86	Douglas Hargrove	M-FM #17	75.572
+87	Nathan Poffenbarger	CAMS #18	75.614
+88	Kevin Jung	X-XB #178	75.716
+89	Jordan Haynes	ST1-DST #23	75.832
+90	Mike Burnaugh	CAMT #38	75.835
+91	Nick Michels	CAMS #477	75.957
+92	Leon Weinroth	CAMC #51	76.071
+93	Matt Francavilla	AS #67	76.164
+94	David Silva	P-CP #16	77.116
+95	Sandra Fu	ST1-AST #45	77.200
+96	Megan Anderson	AS #76	77.270
+97	Phil Wiltens	ST1-EST #453	77.697
+98	Bill Richter	BST #391	78.069
+99	David Johnson	SM-SM #35	79.561
+100	Max Bentley	ST1-DST #233	79.710
+101	Henry Young	CAMC #88	80.070
+102	Anthony Chaghlassian	XA #39	80.235
+103	Kimberly Coughren	STL-EST #88	80.275
+104	Ryan Gaines	XA #69	80.421
+105	Art Martinez	P-CP #34	80.436
+106	Kyle Sanchez	XA #891	82.360
+107	Derek Koehn	CAMS #118	82.892
+108	Pedro Duran III	CAMS #55	83.618
+109	Sandra Hermans	STL-DST #6	84.091
+110	DARIN NELMS	SM-SSM #66	84.572
+111	Jorden Villarreal	SP-FSP #14	84.577
+112	Silas Henderson	S2-CS #189	86.339
+113	Ruby Villarreal	CAML-CAMS #26	999.000
 
 [[CLASS_VIEW]]
-Participants: 79
+Participants: 113
 2026 AAS #10 Live Results
 Date: 2026-07-05
 
@@ -185,17 +253,23 @@ Overall Class PAX
 
 SELECT CLASS
 AS
+BST
 CAMC
 CAML
 CAMS
 CAMT
+CP
 CST
 EVX
 M
 P
+S1
 S2
 SM
 SP
+SS
+ST1
+STL
 X
 XA
 Class
@@ -275,6 +349,31 @@ AS
 93.763
 92.985
 93.000
+
+BST
+1	Yon Visell #131	2010 Porsche Cayman S	82.929	69.494	
+88.447
+82.929
+83.000
+
+2	Scott Garriss #40	2000 Chevrolet Corvette FRC	84.964	71.199	
+85.570 +1
+84.964
+
+3	Katja Seltmann #31	2010 Porsche Cayman S	86.438	72.435	
+86.438
+
+4	Gregory Kehoe #95	2009 Nissan 370Z	87.210	73.081	
+87.210
+87.637 +3
+
+5	Paul Tibbals #35	2006 Subaru STI	87.400	73.241	
+87.400
+88.277 +1
+
+6	Bill Richter #391	2002 BMW M3	93.162	78.069	
+96.443
+93.162
 
 CAMC
 1	Michael Gardner #48	2016 Ford Shelby GT350	83.887	69.626	
@@ -418,10 +517,7 @@ CAMS
 99.636 +1
 
 CAMT
-1	Mick Maier #35	1965 Ford Mustang	80.873	66.720	
-80.873
-
-2	Nick Relampagos #128	1970 Chevrolet Camaro	82.498	68.060	
+1	Nick Relampagos #128	1970 Chevrolet Camaro	82.498	68.060	
 83.584
 135.223 RRN
 82.477 +1
@@ -429,97 +525,122 @@ CAMT
 82.498
 92.159 RRN
 
-3	Jonah Olsen #51	1966 Ford Mustang	87.250	71.981	
+2	Jonah Olsen #51	1966 Ford Mustang	87.250	71.981	
 91.530
 88.265
 86.250 +1
 86.517 DNF
 
-4	Darren Voges #669	1969 Chevrolet Camaro	87.324	72.042	
+3	Darren Voges #669	1969 Chevrolet Camaro	87.324	72.042	
 89.948
 87.995 +1
 86.324 +1
 86.883 +1
 
-5	Lily Maier #351	1965 Ford Mustang	89.567	73.892	
+4	Lily Maier #351	1965 Ford Mustang	89.567	73.892	
 88.349 +2
 109.292 +2
 90.312 +1
 88.567 +1
 
-6	Mike Burnaugh #38	1987 Chevrolet Camaro	91.922	75.835	
+5	Mike Burnaugh #38	1987 Chevrolet Camaro	91.922	75.835	
 90.922 +1
 91.579 +2
 90.395 DNF
 92.755
+
+CP
+1	Mick Maier #35		79.056	68.778	
+79.257
+79.056
+79.729
+80.873
 
 CST
 1	John Smith #119	2002 Honda S2000	82.664	68.776	
 84.003
 83.568
 82.664
+82.413 +2
 
-2	Christopher Cook #19	2002 Honda S2000	84.879	70.619	
+2	Christopher Cook #19	2002 Honda S2000	84.385	70.208	
 86.281
 84.879
 86.680
+84.385
 
-3	Ed Runnion #18	2022 Subaru BRZ	87.758	73.014	
-88.720
-87.758
-88.091
-
-4	Dennis Quilantang #137	2022 Subaru BRZ	88.333	73.493	
+3	Dennis Quilantang #137	2022 Subaru BRZ	87.100	72.467	
 94.900
 88.333
 89.056
+87.100
+
+4	Ed Runnion #18	2022 Subaru BRZ	87.758	73.014	
+88.720
+87.758
+88.091
+86.919 +1
 
 EVX
-1	James Clenney #76	2025 Tesla Model 3 Performance	80.467	67.592	
-83.138
-82.216
-80.467
-
-2	Timothy Naugler #7	2022 Tesla Model 3 Performance	81.697	68.625	
+1	Timothy Naugler #7	2022 Tesla Model 3 Performance	79.860	67.082	
 82.784
 81.697
 82.115
+79.860
 
-3	Justin Bowen #48	2024 Tesla Model 3 Performance	82.299	69.131	
+2	James Clenney #76	2025 Tesla Model 3 Performance	80.467	67.592	
+83.138
+82.216
+80.467
+79.584 +1
+
+3	Justin Bowen #48	2024 Tesla Model 3 Performance	81.254	68.253	
 84.495 +4
 83.146
 81.299 +1
+81.254
+
+SS
+1	Monty Pack #15	2018 Porsche GT3	80.877	68.179	
+81.970 DNF
+80.877
 
 XA
-1	Isaac Acks #71	2006 Mitsubishi Lancer Evo	82.443	71.230	
+1	Isaac Acks #71	2006 Mitsubishi Lancer Evo	82.294	71.102	
 82.281 +1
 81.659 +2
 82.443
+82.294
 
-2	Tara Shapowal #1	2010 Porsche Cayman	85.689	74.035	
+2	Tara Shapowal #1	2010 Porsche Cayman	85.445	73.824	
 88.168
 87.472
 85.689
+85.445
 
 3	Steve Lau #187	2010 Porsche Cayman	86.998	75.166	
 87.756
 86.998
 87.014
+87.352
 
-4	Ryan Gaines #69	2020 Maserati Ghibli S Gransport	93.966	81.186	
-96.813
-93.879 +1
-93.966
-
-5	Anthony Chaghlassian #39	2018 Audi RS3	94.201	81.389	
+4	Anthony Chaghlassian #39	2018 Audi RS3	92.865	80.235	
 97.800 +1
 95.338
 94.201
+91.865 +1
+
+5	Ryan Gaines #69	2020 Maserati Ghibli S Gransport	93.081	80.421	
+96.813
+93.879 +1
+93.966
+93.081
 
 6	Kyle Sanchez #891	1989 BMW 325i	95.325	82.360	
 94.307 +3
 94.325 +1
 95.598 +1
+95.620
 
 CAML
 1	Ruby Villarreal #26 (CAMS)	2001 Chevrolet Corvette Z06	999.000	999.000	
@@ -531,39 +652,93 @@ M
 77.493
 76.985
 77.047 +1
+76.918 +1
 
-2	Boris Vujasinovic #67 (FM)	1995 RD	76.514	70.163	
+2	Boris Vujasinovic #67 (FM)	1995 RD	75.840	69.545	
 80.701
 83.642
 78.365
 76.514
+75.840
 
 3	Douglas Hargrove #17 (FM)	1983 R&D Special	82.413	75.572	
 83.602
 82.413
+82.163 DNF
 
 P
 1	Tom Exley #25 (XP)	1987 Mazda Rx7	75.632	68.068	
 76.471 +1
 75.844 +1
 75.632
+75.190 +2
 
-2	Michael Ansell #177 (CP)	1969 Chevrolet `Camaro	84.681	73.672	
+2	Michael Ansell #177 (CP)	1969 Chevrolet `Camaro	84.536	73.546	
 117.871
 86.396 +1
 84.681
+84.536
 
-3	David Silva #16 (CP)	1994 Ford Mustang	91.209	79.351	
+3	David Silva #16 (CP)	1994 Ford Mustang	88.640	77.116	
 92.570 +2
 91.209
 91.598 +2
+88.640
 
-4	Art Martinez #34 (CP)	1982 Pontiac MSE TA	94.295	82.036	
+4	Art Martinez #34 (CP)	1982 Pontiac MSE TA	92.456	80.436	
 92.295 +2
 92.670 DNF
+90.456 +2
+134.954 DNF
+
+S1
+1	Sean Velandia #161 (FS)	2016 Ford GT350	82.316	67.334	
+82.362
+82.316
+82.505
+
+2	Wilson Velandia #61 (FS)	2016 Ford GT350	83.569	68.359	
+83.569
+83.671
+
+3	Lloyd Feaver #5 (DS)	2020 Ford Mustang	86.779	70.117	
+87.989
+86.779
+
+4	Maggie Elorza #22 (BS)	2021 Toyota GR Supra 3.0	85.506	70.456	
+84.652 +1
+84.506 +1
+
+5	Rich Lee #99 (BS)	2023 Toyota Supra	85.658	70.582	
+84.428 +2
+83.658 +2
+
+6	Philip Ma #75 (DS)	2025 Subaru BRZ	89.225	72.093	
+89.515
+88.225 +1
 
 S2
-1	Silas Henderson #189 (CS)	2011 BMW 328i	106.461	86.339	
+1	Brenna Comacchio #4 (HS)	2018 Honda Accord	89.561	69.678	
+89.141 +2
+88.561 +1
+
+2	Brandon Phillips #14 (HS)	2018 Honda Accord	91.090	70.868	
+91.090
+93.276
+
+3	John Rowe #24 (CS)	2024 Mazda Miata	87.903	71.289	
+87.510 +3
+86.903 +1
+
+4	David Anderson #43 (CS)	2024 Mazda MX-5	89.562	72.634	
+90.270
+89.562
+
+5	Ibtisam A. #764 (CS)	2019 Mazda Miata RF	92.180	74.757	
+92.180
+93.847
+
+6	Silas Henderson #189 (CS)	2011 BMW 328i	106.461	86.339	
 118.370
 108.059 DNF
 104.461 +2
@@ -574,71 +749,152 @@ SM
 88.172 DNF
 85.282
 85.663 +1
+85.734
 
 2	David Johnson #35 (SM)	2016 Ford focus rs	91.136	79.561	
 92.597
 92.334
 91.136
+92.589
 
 3	DARIN NELMS #66 (SSM)	2001 Mazda Miata	95.887	84.572	
 98.757
 96.942
 95.887
+95.908 +1
 
 SP
-1	Steve Mclaughlin #911 (ESP)	2020 Nissan 370Z	82.005	68.884	
+1	Steve Mclaughlin #911 (ESP)	2020 Nissan 370Z	81.134	68.152	
 82.870
 81.147 +1
 82.005
+81.134
 
-2	Jesus Villarreal #261 (SSP)	2001 Chevrolet Corvette	84.371	72.812	
+2	Jesus Villarreal #261 (SSP)	2001 Chevrolet Corvette	82.211	70.948	
 84.371
 85.263
 84.396
+82.211
 
-3	Rob Boynton #198 (SSP)	2002 Porsche Gt2	85.482	73.770	
+3	Rob Boynton #198 (SSP)	2002 Porsche Gt2	84.332	72.778	
 85.482
 85.489
 85.428 +1
+84.332
 
-4	Tom Kubo #92 (CSP)	1991 Mazda Miata	86.594	74.297	
-86.041 +2
-85.594 +1
-
-5	Stephanie Medeiros #611 (ESP)	2019 Nissan 370Z	88.976	74.739	
+4	Stephanie Medeiros #611 (ESP)	2019 Nissan 370Z	88.354	74.217	
 90.108
 90.048 +1
 87.976 +1
+87.354 +1
+
+5	Tom Kubo #92 (CSP)	1991 Mazda Miata	86.594	74.297	
+86.041 +2
+85.594 +1
 
 6	Jorden Villarreal #14 (FSP)	1966 Datsun 1600	101.900	84.577	
 112.451
 101.900
 
+ST1
+1	Peter Loney #777 (CSX)	2013 Mazda MX-5 PRHT NC3	85.307	68.757	
+86.043
+85.307
+
+2	Patrick Drudge #126 (SST)	2024 Toyota Supra	83.280	70.038	
+89.188 +1
+83.280
+
+3	Aris Perez #845 (AST)	2022 Mazda Miata	83.931	70.418	
+87.807 DNF
+83.646 +1
+83.931
+
+4	Cameron Drudge #12 (SST)	2024 Toyota Supra	84.014	70.655	
+84.014
+84.923 +1
+84.336
+
+5	Eric Martin #74 (SSC)	2013 Scion FR-S	88.544	71.277	
+90.353
+88.544
+
+6	Keith Bullock #18 (EST)	1990 Mazda Miata	89.308	72.518	
+89.952
+89.308
+
+7	Edwin Liu #58 (SST)	2013 Nissan GT-R	86.455	72.708	
+83.455 +3
+88.789 +2
+
+8	Chris Kannan jr #53 (AST)	2021 Mazda Miata	86.883	72.894	
+86.883
+86.009 +1
+
+9	Dan Correll #67 (DST)	2004 BMW 330Ci	90.004	73.893	
+99.302
+91.997
+90.004
+90.787
+
+10	Alana McKee #41 (SSC)	2013 Scion FRS	93.850	75.549	
+95.210
+93.850
+
+11	Jordan Haynes #23 (DST)	2013 Subaru BRZ	92.366	75.832	
+92.366
+92.813
+
+12	Sandra Fu #45 (AST)	2022 Mazda Miata	92.015	77.200	
+94.839
+92.015
+
+13	Phil Wiltens #453 (EST)	1990 Mazda Miata	95.687	77.697	
+97.084
+94.687 +1
+
+14	Max Bentley #233 (DST)	2013 Subaru BRZ	97.090	79.710	
+97.090
+98.278
+
+STL
+1	Kimberly Coughren #88 (EST)	1990 Mazda Miata	98.861	80.275	
+97.861 +1
+109.987
+
+2	Sandra Hermans #6 (DST)	2004 BMW 330Ci	102.426	84.091	
+102.426
+
 X
-1	Andy McKee #141 (XB)	1993 Mazda RX7	76.120	66.985	
+1	Andy McKee #141 (XB)	1993 Mazda RX7	75.921	66.810	
 76.376
 76.120
 75.546 +2
+75.921
 
-2	Teresa Neidel-McKee #41 (XB)	1993 Mazda RX7	78.381	68.975	
-79.737
-78.381
-77.903 +1
-
-3	Eric Gnesa #93 (XB)	2009 Porsche Cayman S	78.426	69.014	
-80.773 +2
-80.306
-78.426
-
-4	James Laeno #96 (XU)	Mazda Exocet	79.405	69.399	
+2	James Laeno #96 (XU)	Mazda Exocet	78.758	68.834	
 79.898 +1
 79.884 +1
 79.405
+78.758
 
-5	Lisa Gnesa #193 (XB)	2009 Porsche Cayman S	79.116	69.622	
+3	Teresa Neidel-McKee #41 (XB)	1993 Mazda RX7	78.354	68.951	
+79.737
+78.381
+77.903 +1
+78.354
+
+4	Eric Gnesa #93 (XB)	2009 Porsche Cayman S	78.426	69.014	
+80.773 +2
+80.306
+78.426
+77.547 +5
+
+5	Lisa Gnesa #193 (XB)	2009 Porsche Cayman S	78.511	69.089	
 81.219
 79.116
 91.170 +1
+78.511
 
 6	Tom Ellam #161 (XB)	1972 Mazda RX3	82.248	72.378	
 82.248
@@ -647,3 +903,4 @@ X
 86.041
 85.258 DNF
 87.823
+85.308 +1
