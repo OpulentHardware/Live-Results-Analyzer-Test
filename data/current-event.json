@@ -1,13 +1,13 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-08-02T18:32:48.147Z",
+  "updatedAt": "2026-08-02T19:50:29.909Z",
   "event": {
     "title": "2026 AAS #12 Live Results",
     "date": "2026-08-02",
     "participants": 77,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-02T18:32:48.147Z",
+    "updatedAt": "2026-08-02T19:50:29.909Z",
     "status": "ok"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "date": "2026-08-02",
     "participants": 77,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-02T18:32:48.147Z",
+    "updatedAt": "2026-08-02T19:50:29.909Z",
     "status": "ok"
   },
   "title": "2026 AAS #12 Live Results",
@@ -30,18 +30,19 @@
       "cls": "M-BM",
       "number": "#95",
       "classNumber": "M-BM #95",
-      "time": 44.243,
-      "rawTime": 44.243,
+      "time": 44.119,
+      "rawTime": 44.119,
       "indexedTime": null,
       "car": "(BM) 2021 Unbalanced Engineering",
       "runs": [
         "45.516",
         "44.243",
         "45.022",
-        "44.739"
+        "44.739",
+        "44.119"
       ],
-      "bestRaw": 44.243,
-      "bestPax": 43.446
+      "bestRaw": 44.119,
+      "bestPax": 43.324
     },
     {
       "rank": 2,
@@ -167,7 +168,8 @@
         "50.256",
         "49.898",
         "49.977",
-        "49.524"
+        "49.524",
+        "49.924"
       ],
       "bestRaw": 49.524,
       "bestPax": 42.788
@@ -262,6 +264,28 @@
     {
       "rank": 12,
       "position": 12,
+      "driver": "Lisa Gnesa",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#193",
+      "classNumber": "X-XB #193",
+      "time": 50.436,
+      "rawTime": 50.436,
+      "indexedTime": null,
+      "car": "(XB) 2009 Porsche Cayman S",
+      "runs": [
+        "52.495",
+        "51.517",
+        "50.932",
+        "50.558",
+        "50.436"
+      ],
+      "bestRaw": 50.436,
+      "bestPax": 44.383
+    },
+    {
+      "rank": 13,
+      "position": 13,
       "driver": "Chad Ryker",
       "class": "CAMS",
       "cls": "CAMS",
@@ -279,8 +303,8 @@
       "bestPax": 42.787
     },
     {
-      "rank": 13,
-      "position": 13,
+      "rank": 14,
+      "position": 14,
       "driver": "Justin Tsang",
       "class": "BST",
       "cls": "BST",
@@ -299,27 +323,6 @@
       ],
       "bestRaw": 50.519,
       "bestPax": 42.334
-    },
-    {
-      "rank": 14,
-      "position": 14,
-      "driver": "Lisa Gnesa",
-      "class": "X-XB",
-      "cls": "X-XB",
-      "number": "#193",
-      "classNumber": "X-XB #193",
-      "time": 50.558,
-      "rawTime": 50.558,
-      "indexedTime": null,
-      "car": "(XB) 2009 Porsche Cayman S",
-      "runs": [
-        "52.495",
-        "51.517",
-        "50.932",
-        "50.558"
-      ],
-      "bestRaw": 50.558,
-      "bestPax": 44.491
     },
     {
       "rank": 15,
@@ -458,22 +461,45 @@
       "cls": "XA",
       "number": "#71",
       "classNumber": "XA #71",
-      "time": 51.686,
-      "rawTime": 51.686,
+      "time": 51.648,
+      "rawTime": 51.648,
       "indexedTime": null,
       "car": "2006 Mitsubishi Lancer Evo",
       "runs": [
         "52.475",
         "51.686",
         "51.744",
-        "51.974"
+        "51.974",
+        "51.648"
       ],
-      "bestRaw": 51.686,
-      "bestPax": 44.656
+      "bestRaw": 51.648,
+      "bestPax": 44.623
     },
     {
       "rank": 22,
       "position": 22,
+      "driver": "Douglas Hargrove",
+      "class": "M-FM",
+      "cls": "M-FM",
+      "number": "#17",
+      "classNumber": "M-FM #17",
+      "time": 51.746,
+      "rawTime": 51.746,
+      "indexedTime": null,
+      "car": "(FM) 1983 R&D Special",
+      "runs": [
+        "53.152",
+        "52.297 +1",
+        "53.469",
+        "52.113",
+        "51.746"
+      ],
+      "bestRaw": 51.746,
+      "bestPax": 47.451
+    },
+    {
+      "rank": 23,
+      "position": 23,
       "driver": "Erika McKee",
       "class": "XL-XB",
       "cls": "XL-XB",
@@ -494,8 +520,8 @@
       "bestPax": 45.539
     },
     {
-      "rank": 23,
-      "position": 23,
+      "rank": 24,
+      "position": 24,
       "driver": "Patrick Drudge",
       "class": "SP-ESP",
       "cls": "SP-ESP",
@@ -516,8 +542,8 @@
       "bestPax": 43.538
     },
     {
-      "rank": 24,
-      "position": 24,
+      "rank": 25,
+      "position": 25,
       "driver": "Mark Lewis",
       "class": "ST1-AST",
       "cls": "ST1-AST",
@@ -538,8 +564,8 @@
       "bestPax": 43.639
     },
     {
-      "rank": 25,
-      "position": 25,
+      "rank": 26,
+      "position": 26,
       "driver": "Frankie Trutanic",
       "class": "CAMS",
       "cls": "CAMS",
@@ -558,27 +584,6 @@
       ],
       "bestRaw": 52.095,
       "bestPax": 44.176
-    },
-    {
-      "rank": 26,
-      "position": 26,
-      "driver": "Douglas Hargrove",
-      "class": "M-FM",
-      "cls": "M-FM",
-      "number": "#17",
-      "classNumber": "M-FM #17",
-      "time": 52.113,
-      "rawTime": 52.113,
-      "indexedTime": null,
-      "car": "(FM) 1983 R&D Special",
-      "runs": [
-        "53.152",
-        "52.297 +1",
-        "53.469",
-        "52.113"
-      ],
-      "bestRaw": 52.113,
-      "bestPax": 47.787
     },
     {
       "rank": 27,
@@ -649,6 +654,28 @@
     {
       "rank": 30,
       "position": 30,
+      "driver": "Rob Boynton",
+      "class": "SP-SSP",
+      "cls": "SP-SSP",
+      "number": "#198",
+      "classNumber": "SP-SSP #198",
+      "time": 52.368,
+      "rawTime": 52.368,
+      "indexedTime": null,
+      "car": "(SSP) 2002 Porsche GT2",
+      "runs": [
+        "54.064",
+        "53.055",
+        "52.999",
+        "54.782",
+        "52.368"
+      ],
+      "bestRaw": 52.368,
+      "bestPax": 45.193
+    },
+    {
+      "rank": 31,
+      "position": 31,
       "driver": "Erik Acks",
       "class": "AS",
       "cls": "AS",
@@ -669,8 +696,8 @@
       "bestPax": 43.698
     },
     {
-      "rank": 31,
-      "position": 31,
+      "rank": 32,
+      "position": 32,
       "driver": "Pilar Miranda",
       "class": "EVX",
       "cls": "EVX",
@@ -689,8 +716,8 @@
       "bestPax": 44.193
     },
     {
-      "rank": 32,
-      "position": 32,
+      "rank": 33,
+      "position": 33,
       "driver": "Andre Marconett",
       "class": "CAMS",
       "cls": "CAMS",
@@ -712,8 +739,8 @@
       "bestPax": 44.634
     },
     {
-      "rank": 33,
-      "position": 33,
+      "rank": 34,
+      "position": 34,
       "driver": "Deanne Komush",
       "class": "P-DP",
       "cls": "P-DP",
@@ -730,27 +757,6 @@
       ],
       "bestRaw": 52.9,
       "bestPax": 45.758
-    },
-    {
-      "rank": 34,
-      "position": 34,
-      "driver": "Rob Boynton",
-      "class": "SP-SSP",
-      "cls": "SP-SSP",
-      "number": "#198",
-      "classNumber": "SP-SSP #198",
-      "time": 52.999,
-      "rawTime": 52.999,
-      "indexedTime": null,
-      "car": "(SSP) 2002 Porsche GT2",
-      "runs": [
-        "54.064",
-        "53.055",
-        "52.999",
-        "54.782"
-      ],
-      "bestRaw": 52.999,
-      "bestPax": 45.738
     },
     {
       "rank": 35,
@@ -1028,7 +1034,8 @@
         "55.110",
         "54.538",
         "54.294",
-        "54.410 +1"
+        "54.410 +1",
+        "54.357"
       ],
       "bestRaw": 54.294,
       "bestPax": 45.661
@@ -1049,7 +1056,8 @@
         "54.443",
         "54.040 +1",
         "54.301",
-        "54.928"
+        "54.928",
+        "54.935"
       ],
       "bestRaw": 54.301,
       "bestPax": 48.87
@@ -1120,6 +1128,28 @@
     {
       "rank": 52,
       "position": 52,
+      "driver": "Andre Piernot",
+      "class": "ST1-EST",
+      "cls": "ST1-EST",
+      "number": "#19",
+      "classNumber": "ST1-EST #19",
+      "time": 54.827,
+      "rawTime": 54.827,
+      "indexedTime": null,
+      "car": "(EST) 1990 Mazda Miata",
+      "runs": [
+        "56.129",
+        "55.018",
+        "54.748 +1",
+        "55.155 +1",
+        "54.827"
+      ],
+      "bestRaw": 54.827,
+      "bestPax": 44.519
+    },
+    {
+      "rank": 53,
+      "position": 53,
       "driver": "Gregory Kehoe",
       "class": "BST",
       "cls": "BST",
@@ -1139,8 +1169,8 @@
       "bestPax": 45.974
     },
     {
-      "rank": 53,
-      "position": 53,
+      "rank": 54,
+      "position": 54,
       "driver": "Stephanie Medeiros",
       "class": "SP-ESP",
       "cls": "SP-ESP",
@@ -1154,31 +1184,11 @@
         "55.321 +1",
         "56.054",
         "54.899",
-        "56.205 +1"
+        "56.205 +1",
+        "55.346 +1"
       ],
       "bestRaw": 54.899,
       "bestPax": 46.115
-    },
-    {
-      "rank": 54,
-      "position": 54,
-      "driver": "Andre Piernot",
-      "class": "ST1-EST",
-      "cls": "ST1-EST",
-      "number": "#19",
-      "classNumber": "ST1-EST #19",
-      "time": 55.018,
-      "rawTime": 55.018,
-      "indexedTime": null,
-      "car": "(EST) 1990 Mazda Miata",
-      "runs": [
-        "56.129",
-        "55.018",
-        "54.748 +1",
-        "55.155 +1"
-      ],
-      "bestRaw": 55.018,
-      "bestPax": 44.674
     },
     {
       "rank": 55,
@@ -1196,7 +1206,8 @@
         "56.840",
         "55.077",
         "56.034",
-        "55.611"
+        "55.611",
+        "55.630"
       ],
       "bestRaw": 55.077,
       "bestPax": 42.849
@@ -1204,6 +1215,28 @@
     {
       "rank": 56,
       "position": 56,
+      "driver": "Eric Martin",
+      "class": "ST1-SSC",
+      "cls": "ST1-SSC",
+      "number": "#74",
+      "classNumber": "ST1-SSC #74",
+      "time": 55.332,
+      "rawTime": 55.332,
+      "indexedTime": null,
+      "car": "(SSC) 2013 Scion FR-S",
+      "runs": [
+        "56.810",
+        "56.296",
+        "56.082",
+        "55.889",
+        "55.332"
+      ],
+      "bestRaw": 55.332,
+      "bestPax": 44.542
+    },
+    {
+      "rank": 57,
+      "position": 57,
       "driver": "Keith Bullock",
       "class": "ST1-EST",
       "cls": "ST1-EST",
@@ -1224,8 +1257,8 @@
       "bestPax": 45.152
     },
     {
-      "rank": 57,
-      "position": 57,
+      "rank": 58,
+      "position": 58,
       "driver": "Brenna Comacchio",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -1245,8 +1278,8 @@
       "bestPax": 43.323
     },
     {
-      "rank": 58,
-      "position": 58,
+      "rank": 59,
+      "position": 59,
       "driver": "David Silva",
       "class": "P-CP",
       "cls": "P-CP",
@@ -1260,31 +1293,11 @@
         "58.195",
         "55.972",
         "55.824",
-        "55.351 +1"
+        "55.351 +1",
+        "56.034"
       ],
       "bestRaw": 55.824,
       "bestPax": 48.566
-    },
-    {
-      "rank": 59,
-      "position": 59,
-      "driver": "Eric Martin",
-      "class": "ST1-SSC",
-      "cls": "ST1-SSC",
-      "number": "#74",
-      "classNumber": "ST1-SSC #74",
-      "time": 55.889,
-      "rawTime": 55.889,
-      "indexedTime": null,
-      "car": "(SSC) 2013 Scion FR-S",
-      "runs": [
-        "56.810",
-        "56.296",
-        "56.082",
-        "55.889"
-      ],
-      "bestRaw": 55.889,
-      "bestPax": 44.99
     },
     {
       "rank": 60,
@@ -1410,7 +1423,8 @@
         "58.919",
         "57.408",
         "58.534",
-        "57.921"
+        "57.921",
+        "58.353"
       ],
       "bestRaw": 57.408,
       "bestPax": 46.557
@@ -1540,7 +1554,8 @@
         "63.601",
         "63.385",
         "61.566",
-        "60.531"
+        "60.531",
+        "60.746 +2"
       ],
       "bestRaw": 60.531,
       "bestPax": 49.695
@@ -1882,7 +1897,8 @@
         "50.256",
         "49.898",
         "49.977",
-        "49.524"
+        "49.524",
+        "49.924"
       ],
       "bestRaw": 49.524,
       "bestPax": 42.788
@@ -1903,7 +1919,8 @@
         "56.840",
         "55.077",
         "56.034",
-        "55.611"
+        "55.611",
+        "55.630"
       ],
       "bestRaw": 55.077,
       "bestPax": 42.849
@@ -2020,6 +2037,28 @@
     {
       "rank": 17,
       "position": 17,
+      "driver": "Marshall Grice",
+      "class": "M-BM",
+      "cls": "M-BM",
+      "number": "#95",
+      "classNumber": "M-BM #95",
+      "time": 43.324,
+      "rawTime": null,
+      "indexedTime": 43.324,
+      "car": "(BM) 2021 Unbalanced Engineering",
+      "runs": [
+        "45.516",
+        "44.243",
+        "45.022",
+        "44.739",
+        "44.119"
+      ],
+      "bestRaw": 44.119,
+      "bestPax": 43.324
+    },
+    {
+      "rank": 18,
+      "position": 18,
       "driver": "David Carson",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -2038,27 +2077,6 @@
       ],
       "bestRaw": 53.713,
       "bestPax": 43.4
-    },
-    {
-      "rank": 18,
-      "position": 18,
-      "driver": "Marshall Grice",
-      "class": "M-BM",
-      "cls": "M-BM",
-      "number": "#95",
-      "classNumber": "M-BM #95",
-      "time": 43.446,
-      "rawTime": null,
-      "indexedTime": 43.446,
-      "car": "(BM) 2021 Unbalanced Engineering",
-      "runs": [
-        "45.516",
-        "44.243",
-        "45.022",
-        "44.739"
-      ],
-      "bestRaw": 44.243,
-      "bestPax": 43.446
     },
     {
       "rank": 19,
@@ -2322,6 +2340,28 @@
     {
       "rank": 31,
       "position": 31,
+      "driver": "Lisa Gnesa",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#193",
+      "classNumber": "X-XB #193",
+      "time": 44.383,
+      "rawTime": null,
+      "indexedTime": 44.383,
+      "car": "(XB) 2009 Porsche Cayman S",
+      "runs": [
+        "52.495",
+        "51.517",
+        "50.932",
+        "50.558",
+        "50.436"
+      ],
+      "bestRaw": 50.436,
+      "bestPax": 44.383
+    },
+    {
+      "rank": 32,
+      "position": 32,
       "driver": "Glen Anderson",
       "class": "CST",
       "cls": "CST",
@@ -2339,27 +2379,6 @@
       ],
       "bestRaw": 53.445,
       "bestPax": 44.466
-    },
-    {
-      "rank": 32,
-      "position": 32,
-      "driver": "Lisa Gnesa",
-      "class": "X-XB",
-      "cls": "X-XB",
-      "number": "#193",
-      "classNumber": "X-XB #193",
-      "time": 44.491,
-      "rawTime": null,
-      "indexedTime": 44.491,
-      "car": "(XB) 2009 Porsche Cayman S",
-      "runs": [
-        "52.495",
-        "51.517",
-        "50.932",
-        "50.558"
-      ],
-      "bestRaw": 50.558,
-      "bestPax": 44.491
     },
     {
       "rank": 33,
@@ -2385,6 +2404,28 @@
     {
       "rank": 34,
       "position": 34,
+      "driver": "Andre Piernot",
+      "class": "ST1-EST",
+      "cls": "ST1-EST",
+      "number": "#19",
+      "classNumber": "ST1-EST #19",
+      "time": 44.519,
+      "rawTime": null,
+      "indexedTime": 44.519,
+      "car": "(EST) 1990 Mazda Miata",
+      "runs": [
+        "56.129",
+        "55.018",
+        "54.748 +1",
+        "55.155 +1",
+        "54.827"
+      ],
+      "bestRaw": 54.827,
+      "bestPax": 44.519
+    },
+    {
+      "rank": 35,
+      "position": 35,
       "driver": "Ed Runnion",
       "class": "CST",
       "cls": "CST",
@@ -2405,8 +2446,30 @@
       "bestPax": 44.529
     },
     {
-      "rank": 35,
-      "position": 35,
+      "rank": 36,
+      "position": 36,
+      "driver": "Eric Martin",
+      "class": "ST1-SSC",
+      "cls": "ST1-SSC",
+      "number": "#74",
+      "classNumber": "ST1-SSC #74",
+      "time": 44.542,
+      "rawTime": null,
+      "indexedTime": 44.542,
+      "car": "(SSC) 2013 Scion FR-S",
+      "runs": [
+        "56.810",
+        "56.296",
+        "56.082",
+        "55.889",
+        "55.332"
+      ],
+      "bestRaw": 55.332,
+      "bestPax": 44.542
+    },
+    {
+      "rank": 37,
+      "position": 37,
       "driver": "Michael Scott",
       "class": "AS",
       "cls": "AS",
@@ -2427,8 +2490,30 @@
       "bestPax": 44.556
     },
     {
-      "rank": 36,
-      "position": 36,
+      "rank": 38,
+      "position": 38,
+      "driver": "Isaac Acks",
+      "class": "XA",
+      "cls": "XA",
+      "number": "#71",
+      "classNumber": "XA #71",
+      "time": 44.623,
+      "rawTime": null,
+      "indexedTime": 44.623,
+      "car": "2006 Mitsubishi Lancer Evo",
+      "runs": [
+        "52.475",
+        "51.686",
+        "51.744",
+        "51.974",
+        "51.648"
+      ],
+      "bestRaw": 51.648,
+      "bestPax": 44.623
+    },
+    {
+      "rank": 39,
+      "position": 39,
       "driver": "Andre Marconett",
       "class": "CAMS",
       "cls": "CAMS",
@@ -2450,50 +2535,8 @@
       "bestPax": 44.634
     },
     {
-      "rank": 37,
-      "position": 37,
-      "driver": "Isaac Acks",
-      "class": "XA",
-      "cls": "XA",
-      "number": "#71",
-      "classNumber": "XA #71",
-      "time": 44.656,
-      "rawTime": null,
-      "indexedTime": 44.656,
-      "car": "2006 Mitsubishi Lancer Evo",
-      "runs": [
-        "52.475",
-        "51.686",
-        "51.744",
-        "51.974"
-      ],
-      "bestRaw": 51.686,
-      "bestPax": 44.656
-    },
-    {
-      "rank": 38,
-      "position": 38,
-      "driver": "Andre Piernot",
-      "class": "ST1-EST",
-      "cls": "ST1-EST",
-      "number": "#19",
-      "classNumber": "ST1-EST #19",
-      "time": 44.674,
-      "rawTime": null,
-      "indexedTime": 44.674,
-      "car": "(EST) 1990 Mazda Miata",
-      "runs": [
-        "56.129",
-        "55.018",
-        "54.748 +1",
-        "55.155 +1"
-      ],
-      "bestRaw": 55.018,
-      "bestPax": 44.674
-    },
-    {
-      "rank": 39,
-      "position": 39,
+      "rank": 40,
+      "position": 40,
       "driver": "Christopher Cook",
       "class": "CST",
       "cls": "CST",
@@ -2514,8 +2557,8 @@
       "bestPax": 44.731
     },
     {
-      "rank": 40,
-      "position": 40,
+      "rank": 41,
+      "position": 41,
       "driver": "Hal Dorton",
       "class": "CAMC",
       "cls": "CAMC",
@@ -2536,8 +2579,8 @@
       "bestPax": 44.738
     },
     {
-      "rank": 41,
-      "position": 41,
+      "rank": 42,
+      "position": 42,
       "driver": "Mong Yiengyouav",
       "class": "CST",
       "cls": "CST",
@@ -2558,8 +2601,8 @@
       "bestPax": 44.915
     },
     {
-      "rank": 42,
-      "position": 42,
+      "rank": 43,
+      "position": 43,
       "driver": "Paul Tibbals",
       "class": "BST",
       "cls": "BST",
@@ -2578,27 +2621,6 @@
       ],
       "bestRaw": 53.645,
       "bestPax": 44.954
-    },
-    {
-      "rank": 43,
-      "position": 43,
-      "driver": "Eric Martin",
-      "class": "ST1-SSC",
-      "cls": "ST1-SSC",
-      "number": "#74",
-      "classNumber": "ST1-SSC #74",
-      "time": 44.99,
-      "rawTime": null,
-      "indexedTime": 44.99,
-      "car": "(SSC) 2013 Scion FR-S",
-      "runs": [
-        "56.810",
-        "56.296",
-        "56.082",
-        "55.889"
-      ],
-      "bestRaw": 55.889,
-      "bestPax": 44.99
     },
     {
       "rank": 44,
@@ -2625,6 +2647,28 @@
     {
       "rank": 45,
       "position": 45,
+      "driver": "Rob Boynton",
+      "class": "SP-SSP",
+      "cls": "SP-SSP",
+      "number": "#198",
+      "classNumber": "SP-SSP #198",
+      "time": 45.193,
+      "rawTime": null,
+      "indexedTime": 45.193,
+      "car": "(SSP) 2002 Porsche GT2",
+      "runs": [
+        "54.064",
+        "53.055",
+        "52.999",
+        "54.782",
+        "52.368"
+      ],
+      "bestRaw": 52.368,
+      "bestPax": 45.193
+    },
+    {
+      "rank": 46,
+      "position": 46,
       "driver": "Craig Boyle",
       "class": "S2-GS",
       "cls": "S2-GS",
@@ -2645,8 +2689,8 @@
       "bestPax": 45.197
     },
     {
-      "rank": 46,
-      "position": 46,
+      "rank": 47,
+      "position": 47,
       "driver": "Brianne Maier",
       "class": "P-CP",
       "cls": "P-CP",
@@ -2667,8 +2711,8 @@
       "bestPax": 45.412
     },
     {
-      "rank": 47,
-      "position": 47,
+      "rank": 48,
+      "position": 48,
       "driver": "Erika McKee",
       "class": "XL-XB",
       "cls": "XL-XB",
@@ -2689,8 +2733,8 @@
       "bestPax": 45.539
     },
     {
-      "rank": 48,
-      "position": 48,
+      "rank": 49,
+      "position": 49,
       "driver": "Bill Charron",
       "class": "ST1-SST",
       "cls": "ST1-SST",
@@ -2704,31 +2748,11 @@
         "55.110",
         "54.538",
         "54.294",
-        "54.410 +1"
+        "54.410 +1",
+        "54.357"
       ],
       "bestRaw": 54.294,
       "bestPax": 45.661
-    },
-    {
-      "rank": 49,
-      "position": 49,
-      "driver": "Rob Boynton",
-      "class": "SP-SSP",
-      "cls": "SP-SSP",
-      "number": "#198",
-      "classNumber": "SP-SSP #198",
-      "time": 45.738,
-      "rawTime": null,
-      "indexedTime": 45.738,
-      "car": "(SSP) 2002 Porsche GT2",
-      "runs": [
-        "54.064",
-        "53.055",
-        "52.999",
-        "54.782"
-      ],
-      "bestRaw": 52.999,
-      "bestPax": 45.738
     },
     {
       "rank": 50,
@@ -2852,7 +2876,8 @@
         "55.321 +1",
         "56.054",
         "54.899",
-        "56.205 +1"
+        "56.205 +1",
+        "55.346 +1"
       ],
       "bestRaw": 54.899,
       "bestPax": 46.115
@@ -2917,7 +2942,8 @@
         "58.919",
         "57.408",
         "58.534",
-        "57.921"
+        "57.921",
+        "58.353"
       ],
       "bestRaw": 57.408,
       "bestPax": 46.557
@@ -3012,18 +3038,19 @@
       "cls": "M-FM",
       "number": "#17",
       "classNumber": "M-FM #17",
-      "time": 47.787,
+      "time": 47.451,
       "rawTime": null,
-      "indexedTime": 47.787,
+      "indexedTime": 47.451,
       "car": "(FM) 1983 R&D Special",
       "runs": [
         "53.152",
         "52.297 +1",
         "53.469",
-        "52.113"
+        "52.113",
+        "51.746"
       ],
-      "bestRaw": 52.113,
-      "bestPax": 47.787
+      "bestRaw": 51.746,
+      "bestPax": 47.451
     },
     {
       "rank": 64,
@@ -3106,7 +3133,8 @@
         "58.195",
         "55.972",
         "55.824",
-        "55.351 +1"
+        "55.351 +1",
+        "56.034"
       ],
       "bestRaw": 55.824,
       "bestPax": 48.566
@@ -3127,7 +3155,8 @@
         "54.443",
         "54.040 +1",
         "54.301",
-        "54.928"
+        "54.928",
+        "54.935"
       ],
       "bestRaw": 54.301,
       "bestPax": 48.87
@@ -3170,7 +3199,8 @@
         "63.601",
         "63.385",
         "61.566",
-        "60.531"
+        "60.531",
+        "60.746 +2"
       ],
       "bestRaw": 60.531,
       "bestPax": 49.695
@@ -4116,7 +4146,8 @@
           "50.256",
           "49.898",
           "49.977",
-          "49.524"
+          "49.524",
+          "49.924"
         ]
       },
       {
@@ -4128,16 +4159,17 @@
         "number": "#71",
         "car": "2006 Mitsubishi Lancer Evo",
         "classNumber": "XA #71",
-        "bestRaw": 51.686,
-        "bestPax": 44.656,
-        "rawTime": 51.686,
-        "indexedTime": 44.656,
-        "time": 51.686,
+        "bestRaw": 51.648,
+        "bestPax": 44.623,
+        "rawTime": 51.648,
+        "indexedTime": 44.623,
+        "time": 51.648,
         "runs": [
           "52.475",
           "51.686",
           "51.744",
-          "51.974"
+          "51.974",
+          "51.648"
         ]
       },
       {
@@ -4173,16 +4205,17 @@
         "number": "#95",
         "car": "(BM) 2021 Unbalanced Engineering",
         "classNumber": "M #95",
-        "bestRaw": 44.243,
-        "bestPax": 43.446,
-        "rawTime": 44.243,
-        "indexedTime": 43.446,
-        "time": 44.243,
+        "bestRaw": 44.119,
+        "bestPax": 43.324,
+        "rawTime": 44.119,
+        "indexedTime": 43.324,
+        "time": 44.119,
         "runs": [
           "45.516",
           "44.243",
           "45.022",
-          "44.739"
+          "44.739",
+          "44.119"
         ]
       },
       {
@@ -4215,16 +4248,17 @@
         "number": "#17",
         "car": "(FM) 1983 R&D Special",
         "classNumber": "M #17",
-        "bestRaw": 52.113,
-        "bestPax": 47.787,
-        "rawTime": 52.113,
-        "indexedTime": 47.787,
-        "time": 52.113,
+        "bestRaw": 51.746,
+        "bestPax": 47.451,
+        "rawTime": 51.746,
+        "indexedTime": 47.451,
+        "time": 51.746,
         "runs": [
           "53.152",
           "52.297 +1",
           "53.469",
-          "52.113"
+          "52.113",
+          "51.746"
         ]
       }
     ],
@@ -4394,7 +4428,8 @@
           "58.195",
           "55.972",
           "55.824",
-          "55.351 +1"
+          "55.351 +1",
+          "56.034"
         ]
       },
       {
@@ -4415,7 +4450,8 @@
           "54.443",
           "54.040 +1",
           "54.301",
-          "54.928"
+          "54.928",
+          "54.935"
         ]
       }
     ],
@@ -4525,7 +4561,8 @@
           "56.840",
           "55.077",
           "56.034",
-          "55.611"
+          "55.611",
+          "55.630"
         ]
       },
       {
@@ -4610,7 +4647,8 @@
           "58.919",
           "57.408",
           "58.534",
-          "57.921"
+          "57.921",
+          "58.353"
         ]
       },
       {
@@ -4714,16 +4752,17 @@
         "number": "#198",
         "car": "(SSP) 2002 Porsche GT2",
         "classNumber": "SP #198",
-        "bestRaw": 52.999,
-        "bestPax": 45.738,
-        "rawTime": 52.999,
-        "indexedTime": 45.738,
-        "time": 52.999,
+        "bestRaw": 52.368,
+        "bestPax": 45.193,
+        "rawTime": 52.368,
+        "indexedTime": 45.193,
+        "time": 52.368,
         "runs": [
           "54.064",
           "53.055",
           "52.999",
-          "54.782"
+          "54.782",
+          "52.368"
         ]
       },
       {
@@ -4744,7 +4783,8 @@
           "55.321 +1",
           "56.054",
           "54.899",
-          "56.205 +1"
+          "56.205 +1",
+          "55.346 +1"
         ]
       }
     ],
@@ -4780,16 +4820,17 @@
         "number": "#19",
         "car": "(EST) 1990 Mazda Miata",
         "classNumber": "ST1 #19",
-        "bestRaw": 55.018,
-        "bestPax": 44.674,
-        "rawTime": 55.018,
-        "indexedTime": 44.674,
-        "time": 55.018,
+        "bestRaw": 54.827,
+        "bestPax": 44.519,
+        "rawTime": 54.827,
+        "indexedTime": 44.519,
+        "time": 54.827,
         "runs": [
           "56.129",
           "55.018",
           "54.748 +1",
-          "55.155 +1"
+          "55.155 +1",
+          "54.827"
         ]
       },
       {
@@ -4801,16 +4842,17 @@
         "number": "#74",
         "car": "(SSC) 2013 Scion FR-S",
         "classNumber": "ST1 #74",
-        "bestRaw": 55.889,
-        "bestPax": 44.99,
-        "rawTime": 55.889,
-        "indexedTime": 44.99,
-        "time": 55.889,
+        "bestRaw": 55.332,
+        "bestPax": 44.542,
+        "rawTime": 55.332,
+        "indexedTime": 44.542,
+        "time": 55.332,
         "runs": [
           "56.810",
           "56.296",
           "56.082",
-          "55.889"
+          "55.889",
+          "55.332"
         ]
       },
       {
@@ -4853,7 +4895,8 @@
           "55.110",
           "54.538",
           "54.294",
-          "54.410 +1"
+          "54.410 +1",
+          "54.357"
         ]
       },
       {
@@ -4874,7 +4917,8 @@
           "63.601",
           "63.385",
           "61.566",
-          "60.531"
+          "60.531",
+          "60.746 +2"
         ]
       }
     ],
@@ -4997,16 +5041,17 @@
         "number": "#193",
         "car": "(XB) 2009 Porsche Cayman S",
         "classNumber": "X #193",
-        "bestRaw": 50.558,
-        "bestPax": 44.491,
-        "rawTime": 50.558,
-        "indexedTime": 44.491,
-        "time": 50.558,
+        "bestRaw": 50.436,
+        "bestPax": 44.383,
+        "rawTime": 50.436,
+        "indexedTime": 44.383,
+        "time": 50.436,
         "runs": [
           "52.495",
           "51.517",
           "50.932",
-          "50.558"
+          "50.558",
+          "50.436"
         ]
       }
     ]
@@ -5031,7 +5076,7 @@
     "X"
   ],
   "diagnostics": {
-    "sourceLineCount": 650,
+    "sourceLineCount": 665,
     "overallRows": 77,
     "paxRows": 77,
     "classGroups": 17,
