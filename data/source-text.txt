@@ -7,37 +7,37 @@ Overall Class PAX
 
 Overall
 Rank	Driver	Class - Number	Time
-1	Monty Pack	S1-SS #15	61.164
+1	Monty Pack	S1-SS #15	60.906
 2	Cody Mountjoy	S2-BS #23	62.321
 3	Jonathan Lugod	CST #94	62.425
-4	Glen Anderson	CST #79	63.961
-5	Christopher Rosario	S4-GS #33	64.062
-6	Ed Runnion	CST #18	65.192
-7	Kaustav Acharya	S4-GS #90	66.482
-8	Da Chang	CST #63	66.585
-9	Muamong Yiengyouav	CST #134	66.679
-10	John Hartford	N-CST #108	67.703
-11	Jessica Yeung Lugod	CST #194	68.144
-12	Christopher Cook	CST #9	68.334
-13	Dhiraj Jadhav	S4-GS #9	68.656
-14	Gary Fazekas	S2-FS #46	69.143
-15	Dennis Quilantang	CST #137	70.129
-16	Bert Schneider	S2-BS #22	72.140
-17	Eugene Bulavin	N-GS #410	72.273
+4	Christopher Cook	CST #9	63.280
+5	Glen Anderson	CST #79	63.670
+6	Muamong Yiengyouav	CST #134	63.889
+7	Christopher Rosario	S4-GS #33	64.062
+8	Ed Runnion	CST #18	64.090
+9	Da Chang	CST #63	64.463
+10	Dhiraj Jadhav	S4-GS #9	65.304
+11	John Hartford	N-CST #108	65.860
+12	Kaustav Acharya	S4-GS #90	66.482
+13	Jessica Yeung Lugod	CST #194	66.494
+14	Dennis Quilantang	CST #137	67.028
+15	Gary Fazekas	S2-FS #46	68.102
+16	Eugene Bulavin	N-GS #410	70.207
+17	Bert Schneider	S2-BS #22	72.140
 18	Patty Jeschien	S4-HS #23	73.333
-19	Tzen-Chuen Ng	N-BS #56	74.609
-20	Myles Wang	CST #6	75.459
-21	Vincent Boc	N-BS #273	79.266
-22	Brandon Ha	N-CST #25	79.299
-23	Karthik Anand	N-GS #909	79.974
-24	Thomas Bock	N-BS #707	80.249
-25	Nami Ranjbarsadeghi	N-GS #24	81.496
-26	Scott Abuso	CST #28	82.478
-27	Anthony Chu	N-HS #26	87.895
-28	Alexander Bowen	S4-HS #1	90.454
-29	Michael Bowen	S4-GS #331	107.645
-30	Raymond Ha	N-CST #23	999.000
-30	Andrei Malyshev	N-GS #77	999.000
+19	Myles Wang	CST #6	74.460
+20	Thomas Bock	N-BS #707	74.545
+21	Tzen-Chuen Ng	N-BS #56	74.609
+22	Nami Ranjbarsadeghi	N-GS #24	74.949
+23	Brandon Ha	N-CST #25	75.734
+24	Vincent Boc	N-BS #273	76.676
+25	Karthik Anand	N-GS #909	77.041
+26	Anthony Chu	N-HS #26	82.430
+27	Scott Abuso	CST #28	82.478
+28	Alexander Bowen	S4-HS #1	83.355
+29	Raymond Ha	N-CST #23	89.110
+30	Michael Bowen	S4-GS #331	107.645
+31	Andrei Malyshev	N-GS #77	999.000
 
 [[PAX_VIEW]]
 Participants: 31
@@ -48,37 +48,37 @@ Overall Class PAX
 
 PAX
 Rank	Driver	Class - Number	Indexed Time
-1	Cody Mountjoy	S2-BS #23	51.290
-2	Monty Pack	S1-SS #15	51.377
+1	Monty Pack	S1-SS #15	51.161
+2	Cody Mountjoy	S2-BS #23	51.290
 3	Jonathan Lugod	CST #94	51.750
 4	Christopher Rosario	S4-GS #33	51.826
-5	Glen Anderson	CST #79	53.023
-6	Kaustav Acharya	S4-GS #90	53.783
-7	Ed Runnion	CST #18	54.044
-8	Da Chang	CST #63	55.198
-9	Muamong Yiengyouav	CST #134	55.276
-10	Dhiraj Jadhav	S4-GS #9	55.542
-11	John Hartford	N-CST #108	56.125
-12	Gary Fazekas	S2-FS #46	56.489
-13	Jessica Yeung Lugod	CST #194	56.491
-14	Christopher Cook	CST #9	56.648
-15	Patty Jeschien	S4-HS #23	57.199
-16	Dennis Quilantang	CST #137	58.136
-17	Eugene Bulavin	N-GS #410	58.468
+5	Christopher Cook	CST #9	52.459
+6	Glen Anderson	CST #79	52.782
+7	Dhiraj Jadhav	S4-GS #9	52.830
+8	Muamong Yiengyouav	CST #134	52.963
+9	Ed Runnion	CST #18	53.130
+10	Da Chang	CST #63	53.439
+11	Kaustav Acharya	S4-GS #90	53.783
+12	John Hartford	N-CST #108	54.597
+13	Jessica Yeung Lugod	CST #194	55.123
+14	Dennis Quilantang	CST #137	55.566
+15	Gary Fazekas	S2-FS #46	55.639
+16	Eugene Bulavin	N-GS #410	56.797
+17	Patty Jeschien	S4-HS #23	57.199
 18	Bert Schneider	S2-BS #22	59.371
-19	Tzen-Chuen Ng	N-BS #56	61.403
-20	Myles Wang	CST #6	62.555
-21	Karthik Anand	N-GS #909	64.698
-22	Vincent Boc	N-BS #273	65.235
-23	Brandon Ha	N-CST #25	65.738
-24	Nami Ranjbarsadeghi	N-GS #24	65.930
-25	Thomas Bock	N-BS #707	66.044
-26	Scott Abuso	CST #28	68.374
-27	Anthony Chu	N-HS #26	68.558
-28	Alexander Bowen	S4-HS #1	70.554
-29	Michael Bowen	S4-GS #331	87.084
-30	Raymond Ha	N-CST #23	999.000
-30	Andrei Malyshev	N-GS #77	999.000
+19	Nami Ranjbarsadeghi	N-GS #24	60.633
+20	Thomas Bock	N-BS #707	61.350
+21	Tzen-Chuen Ng	N-BS #56	61.403
+22	Myles Wang	CST #6	61.727
+23	Karthik Anand	N-GS #909	62.326
+24	Brandon Ha	N-CST #25	62.783
+25	Vincent Boc	N-BS #273	63.104
+26	Anthony Chu	N-HS #26	64.295
+27	Alexander Bowen	S4-HS #1	65.016
+28	Scott Abuso	CST #28	68.374
+29	Raymond Ha	N-CST #23	73.872
+30	Michael Bowen	S4-GS #331	87.084
+31	Andrei Malyshev	N-GS #77	999.000
 
 [[CLASS_VIEW]]
 Participants: 31
@@ -102,142 +102,185 @@ CST
 62.425
 62.988
 
-2	Glen Anderson #79	2022 Subaru BRZ	63.961	53.023	
+2	Christopher Cook #9	2002 Honda S2000	63.280	52.459	
+65.331 +2
+64.334 +2
+64.427
+63.280
+
+3	Glen Anderson #79	2022 Subaru BRZ	63.670	52.782	
 65.566
 64.257
 63.961
+63.805
+63.670
 
-3	Ed Runnion #18	2022 Subaru BRZ	65.192	54.044	
-65.276
-65.192
-
-4	Da Chang #63	2009 Mazda Miata	66.585	55.198	
-66.976
-66.585
-
-5	Muamong Yiengyouav #134	2007 Honda S2000	66.679	55.276	
+4	Muamong Yiengyouav #134	2007 Honda S2000	63.889	52.963	
 66.679
 64.977 +2
+64.737 +1
+63.889
 
-6	Jessica Yeung Lugod #194	2023 Subaru BRZ	68.144	56.491	
+5	Ed Runnion #18	2022 Subaru BRZ	64.090	53.130	
+65.276
+65.192
+64.278
+64.090
+
+6	Da Chang #63	2009 Mazda Miata	64.463	53.439	
+66.976
+66.585
+64.463
+
+7	Jessica Yeung Lugod #194	2023 Subaru BRZ	66.494	55.123	
 68.331 DNF
 66.144 +1
+64.345 +3
+64.494 +1
 
-7	Christopher Cook #9	2002 Honda S2000	68.334	56.648	
-65.331 +2
-64.334 +2
-
-8	Dennis Quilantang #137	2022 Subaru BRZ	70.129	58.136	
+8	Dennis Quilantang #137	2022 Subaru BRZ	67.028	55.566	
 68.129 +1
 77.592 +1
+67.267
+67.028
 
-9	Myles Wang #6	2023 Toyota GR86	75.459	62.555	
+9	Myles Wang #6	2023 Toyota GR86	74.460	61.727	
 75.459
 16.428 RRN
+74.460
 
 10	Scott Abuso #28	2022 Subaru BRZ	82.478	68.374	
 124.225
 78.478 +2
 75.873 DNF
+72.703 DNF
 
 N
-1	John Hartford #108 (CST)	2025 Toyota GR86	67.703	56.125	
+1	John Hartford #108 (CST)	2025 Toyota GR86	65.860	54.597	
 67.703
 67.061 +1
+65.700 +1
+65.860
 
-2	Eugene Bulavin #410 (GS)	2025 Hyundai Elantra N	72.273	58.468	
+2	Eugene Bulavin #410 (GS)	2025 Hyundai Elantra N	70.207	56.797	
 77.748
 73.693
 72.273
+70.207
 
-3	Tzen-Chuen Ng #56 (BS)	2021 BMW M2 Competition	74.609	61.403	
+3	Nami Ranjbarsadeghi #24 (GS)	2017 Audi A4	74.949	60.633	
+79.496 +1
+79.673 DNF
+77.822
+74.949
+
+4	Thomas Bock #707 (BS)	2021 Audi RS6	74.545	61.350	
+80.249
+77.354 +2
+85.904 DNF
+74.545
+
+5	Tzen-Chuen Ng #56 (BS)	2021 BMW M2 Competition	74.609	61.403	
 127.348 DNF
 75.911 +1
 72.609 +1
+71.992 +2
 
-4	Karthik Anand #909 (GS)	2026 Hyundai Elantra N	79.974	64.698	
+6	Karthik Anand #909 (GS)	2026 Hyundai Elantra N	77.041	62.326	
 97.766
 119.753
 79.974
+77.041
 
-5	Vincent Boc #273 (BS)	2025 Honda Civic Type R	79.266	65.235	
+7	Brandon Ha #25 (CST)	2022 Toyota GR86	75.734	62.783	
+81.445
+79.299
+77.340
+75.734
+
+8	Vincent Boc #273 (BS)	2025 Honda Civic Type R	76.676	63.104	
 79.266
 119.814 RRN
 80.528
+76.676
 
-6	Brandon Ha #25 (CST)	2022 Toyota GR86	79.299	65.738	
-81.445
-79.299
-
-7	Nami Ranjbarsadeghi #24 (GS)	2017 Audi A4	81.496	65.930	
-79.496 +1
-79.673 DNF
-
-8	Thomas Bock #707 (BS)	2021 Audi RS6	80.249	66.044	
-80.249
-77.354 +2
-
-9	Anthony Chu #26 (HS)	2015 Mini Cooper Hardtop	87.895	68.558	
+9	Anthony Chu #26 (HS)	2015 Mini Cooper Hardtop	82.430	64.295	
 91.054 DNF
 87.895
+82.430
+83.028
 
-10	Raymond Ha #23 (CST)	2023 Toyota GR86	999.000	999.000	
+10	Raymond Ha #23 (CST)	2023 Toyota GR86	89.110	73.872	
 112.436 DNF
 105.177 DNF
 87.204 DNF
+89.110
 
-10	Andrei Malyshev #77 (GS)	2019 Audi A6	999.000	999.000	
+11	Andrei Malyshev #77 (GS)	2019 Audi A6	999.000	999.000	
 86.538 DNF
 78.346 DNF
 82.322 DNF
+75.712 DNF
 
 S1
-1	Monty Pack #15 (SS)	2018 Porsche GT3	61.164	51.377	
+1	Monty Pack #15 (SS)	2018 Porsche GT3	60.906	51.161	
 61.809
 61.164
+60.906
+61.012
 
 S2
 1	Cody Mountjoy #23 (BS)	2025 Toyota GR Corolla	62.321	51.290	
 62.321
 64.637
+62.400 +1
 63.646 +1
 
-2	Gary Fazekas #46 (FS)	2022 Ford Mustang	69.143	56.489	
+2	Gary Fazekas #46 (FS)	2022 Ford Mustang	68.102	55.639	
 86.664
 69.143
 69.884
+68.102
 
 3	Bert Schneider #22 (BS)	1999 Chevrolet Corvette	72.140	59.371	
 74.126
 82.518
 72.756
 72.140
+72.980
 
 S4
 1	Christopher Rosario #33 (GS)	2024 Hyundai Elantra N	64.062	51.826	
 64.062
 64.367
 63.521 DNF
+64.206 +2
 
-2	Kaustav Acharya #90 (GS)	2025 Hyundai Elantra N-doscopy	66.482	53.783	
-67.203
-66.482
-
-3	Dhiraj Jadhav #9 (GS)	2025 Hyundai Elantra N	68.656	55.542	
+2	Dhiraj Jadhav #9 (GS)	2025 Hyundai Elantra N	65.304	52.830	
 68.791 +1
 66.656 +1
+65.326 +2
+65.304
+
+3	Kaustav Acharya #90 (GS)	2025 Hyundai Elantra N-doscopy	66.482	53.783	
+67.203
+66.482
+75.256 RRN
 
 4	Patty Jeschien #23 (HS)	2015 Mini Cooper S	73.333	57.199	
 75.786
 73.333
 72.771 +1
+71.772 +1
 
-5	Alexander Bowen #1 (HS)	2022 Honda Accord	90.454	70.554	
+5	Alexander Bowen #1 (HS)	2022 Honda Accord	83.355	65.016	
 112.847 DNF
 95.094
 90.454
+83.355
 
 6	Michael Bowen #331 (GS)	2022 Mazda 3	107.645	87.084	
 107.645
 98.456 DNF
 103.489 RRN
+91.077 DNF
