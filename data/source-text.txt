@@ -1,5 +1,5 @@
 [[OVERALL_VIEW]]
-Participants: 23
+Participants: 30
 2026 SFRSCCA #09 Live Results
 Date: 2026-08-23
 
@@ -7,32 +7,39 @@ Overall Class PAX
 
 Overall
 Rank	Driver	Class - Number	Time
-1	Roger Kroog	M-FM #18	60.017
-2	Jonathan Lugod	CST #94	65.411
-3	Jessica Yeung Lugod	CST #194	65.455
-4	Glen Anderson	CST #79	66.117
-5	Josh Maze	S2-BS #57	66.358
-6	Christopher Rosario	S4-GS #33	66.426
-7	Christopher Cook	CST #9	66.917
-8	Da Chang	CST #63	67.328
-9	Ed Runnion	CST #18	67.660
-10	Wilson Velandia	S2-BS #61	68.542
-11	Muamong Yiengyouav	CST #134	69.020
-12	Kaustav Acharya	S4-GS #90	69.571
-13	Dhiraj Jadhav	S4-GS #9	69.957
-14	Dennis Quilantang	CST #137	70.182
-15	Alex Muresan	S4-GS #81	70.377
-16	John Hartford	N-CST #108	72.707
-17	Jeremy Leung	CST #78	72.716
-18	Bert Schneider	S2-BS #22	73.535
-19	Megan Anderson	CST #76	73.861
-20	Nami Ranjbarsadeghi	N-GS #24	84.106
-21	Shengsheng Xu	S2-BS #9	101.528
-22	Patty Jeschien	S4-HS #23	999.000
-22	Monty Pack	S1-SS #15	999.000
+1	Roger Kroog	M-FM #18	58.586
+2	Ben Martinez	M-CM #60	59.193
+3	Boris Vujasinovic	M-FM #67	59.516
+4	James Yom	S1-SS #199	61.967
+5	Monty Pack	S1-SS #15	62.686
+6	Jonathan Lugod	CST #94	63.450
+7	Christopher Rosario	S4-GS #33	63.869
+8	Jessica Yeung Lugod	CST #194	65.119
+9	Glen Anderson	CST #79	65.159
+10	Alex Muresan	S4-GS #81	65.855
+11	Da Chang	CST #63	65.874
+12	Kaustav Acharya	S4-GS #90	66.056
+13	Josh Maze	S2-BS #57	66.358
+14	Dhiraj Jadhav	S4-GS #9	66.764
+15	Christopher Cook	CST #9	66.917
+16	Cody Mountjoy	S2-BS #23	67.084
+17	Ed Runnion	CST #18	67.660
+18	Wilson Velandia	S2-BS #61	68.542
+19	Muamong Yiengyouav	CST #134	69.020
+20	Dennis Quilantang	CST #137	69.120
+21	Jeremy Leung	CST #78	70.001
+22	John Hartford	N-CST #108	70.858
+23	Gary Fazekas	S2-FS #46	70.861
+24	Megan Anderson	CST #76	71.777
+25	Bert Schneider	S2-BS #22	73.080
+26	Patty Jeschien	S4-HS #23	75.186
+27	Nami Ranjbarsadeghi	N-GS #24	79.318
+28	Cheng Zhu	N-FS #881	85.630
+29	Shengsheng Xu	S2-BS #9	93.035
+30	Douglas Hargrove	M-FM #17	999.000
 
 [[PAX_VIEW]]
-Participants: 23
+Participants: 30
 2026 SFRSCCA #09 Live Results
 Date: 2026-08-23
 
@@ -40,32 +47,39 @@ Overall Class PAX
 
 PAX
 Rank	Driver	Class - Number	Indexed Time
-1	Christopher Rosario	S4-GS #33	53.738
-2	Jonathan Lugod	CST #94	54.225
-3	Jessica Yeung Lugod	CST #194	54.262
-4	Josh Maze	S2-BS #57	54.612
-5	Glen Anderson	CST #79	54.810
-6	Roger Kroog	M-FM #18	55.035
-7	Christopher Cook	CST #9	55.474
-8	Da Chang	CST #63	55.814
-9	Ed Runnion	CST #18	56.090
-10	Kaustav Acharya	S4-GS #90	56.282
-11	Wilson Velandia	S2-BS #61	56.410
-12	Dhiraj Jadhav	S4-GS #9	56.595
-13	Alex Muresan	S4-GS #81	56.934
-14	Muamong Yiengyouav	CST #134	57.217
-15	Dennis Quilantang	CST #137	58.180
-16	John Hartford	N-CST #108	60.274
-17	Jeremy Leung	CST #78	60.281
-18	Bert Schneider	S2-BS #22	60.519
-19	Megan Anderson	CST #76	61.230
-20	Nami Ranjbarsadeghi	N-GS #24	68.041
-21	Shengsheng Xu	S2-BS #9	83.557
-22	Patty Jeschien	S4-HS #23	999.000
-22	Monty Pack	S1-SS #15	999.000
+1	Christopher Rosario	S4-GS #33	51.670
+2	James Yom	S1-SS #199	52.052
+3	Jonathan Lugod	CST #94	52.600
+4	Monty Pack	S1-SS #15	52.656
+5	Ben Martinez	M-CM #60	53.036
+6	Alex Muresan	S4-GS #81	53.276
+7	Kaustav Acharya	S4-GS #90	53.439
+8	Roger Kroog	M-FM #18	53.723
+9	Jessica Yeung Lugod	CST #194	53.983
+10	Dhiraj Jadhav	S4-GS #9	54.012
+11	Glen Anderson	CST #79	54.016
+12	Boris Vujasinovic	M-FM #67	54.576
+13	Da Chang	CST #63	54.609
+14	Josh Maze	S2-BS #57	54.612
+15	Cody Mountjoy	S2-BS #23	55.210
+16	Christopher Cook	CST #9	55.474
+17	Ed Runnion	CST #18	56.090
+18	Wilson Velandia	S2-BS #61	56.410
+19	Muamong Yiengyouav	CST #134	57.217
+20	Dennis Quilantang	CST #137	57.300
+21	Gary Fazekas	S2-FS #46	57.893
+22	Jeremy Leung	CST #78	58.030
+23	Patty Jeschien	S4-HS #23	58.645
+24	John Hartford	N-CST #108	58.741
+25	Megan Anderson	CST #76	59.503
+26	Bert Schneider	S2-BS #22	60.144
+27	Nami Ranjbarsadeghi	N-GS #24	64.168
+28	Cheng Zhu	N-FS #881	69.959
+29	Shengsheng Xu	S2-BS #9	76.567
+30	Douglas Hargrove	M-FM #17	999.000
 
 [[CLASS_VIEW]]
-Participants: 23
+Participants: 30
 2026 SFRSCCA #09 Live Results
 Date: 2026-08-23
 
@@ -81,76 +95,134 @@ S4
 Class
 Position	Driver	Car	Best Raw	Best Pax	Raw Times
 CST
-1	Jonathan Lugod #94	2007 Honda S2000	65.411	54.225	
+1	Jonathan Lugod #94	2007 Honda S2000	63.450	52.600	
 63.411 +1
+63.450
 
-2	Jessica Yeung Lugod #194	2007 Honda S2000	65.455	54.262	
+2	Jessica Yeung Lugod #194	2007 Honda S2000	65.119	53.983	
 65.455
+65.119
 
-3	Glen Anderson #79	2022 Subaru BRZ	66.117	54.810	
+3	Glen Anderson #79	2022 Subaru BRZ	65.159	54.016	
 66.117
+65.258
+65.159
 
-4	Christopher Cook #9	2002 Honda S2000	66.917	55.474	
-64.917 +1
-
-5	Da Chang #63	2009 Mazda Miata	67.328	55.814	
+4	Da Chang #63	2009 Mazda Miata	65.874	54.609	
 67.328
+65.874
+
+5	Christopher Cook #9	2002 Honda S2000	66.917	55.474	
+64.917 +1
+65.164 +1
 
 6	Ed Runnion #18	2022 Subaru BRZ	67.660	56.090	
 67.660
+66.212 +1
 
 7	Muamong Yiengyouav #134	2007 Honda S2000	69.020	57.217	
 67.020 +1
+68.023 +1
 
-8	Dennis Quilantang #137	2022 Subaru BRZ	70.182	58.180	
+8	Dennis Quilantang #137	2022 Subaru BRZ	69.120	57.300	
 70.182
+69.120
 
-9	Jeremy Leung #78	2024 Subaru BRZ	72.716	60.281	
+9	Jeremy Leung #78	2024 Subaru BRZ	70.001	58.030	
 72.716
+70.859 DNF
+70.001
 
-10	Megan Anderson #76	2022 Subaru BRZ	73.861	61.230	
+10	Megan Anderson #76	2022 Subaru BRZ	71.777	59.503	
 73.861
+71.777
 
 M
-1	Roger Kroog #18 (FM)	2024 Kroog F500	60.017	55.035	
+1	Ben Martinez #60 (CM)	1984 Ford Van Diemen	59.193	53.036	
+59.193
+
+2	Roger Kroog #18 (FM)	2024 Kroog F500	58.586	53.723	
 60.017
+59.418 +1
+58.586
+
+3	Boris Vujasinovic #67 (FM)	1995 RD	59.516	54.576	
+60.295 +1
+59.516
+
+4	Douglas Hargrove #17 (FM)	1983 R&D Special	999.000	999.000	
+65.098 DNF
+64.414 DNF
 
 N
-1	John Hartford #108 (CST)	2025 Toyota GR86	72.707	60.274	
+1	John Hartford #108 (CST)	2025 Toyota GR86	70.858	58.741	
 70.707 +1
+68.858 +1
 
-2	Nami Ranjbarsadeghi #24 (GS)	2017 Audi A4	84.106	68.041	
+2	Nami Ranjbarsadeghi #24 (GS)	2017 Audi A4	79.318	64.168	
 84.106
+79.318
+
+3	Cheng Zhu #881 (FS)	2026 BMW M240i RWD	85.630	69.959	
+86.198 DNF
+85.630
 
 S1
-1	Monty Pack #15 (SS)	2018 Porsche GT3	999.000	999.000	
+1	James Yom #199 (SS)	2025 Porsche GT4RS	61.967	52.052	
+61.967
+62.295 +2
+
+2	Monty Pack #15 (SS)	2018 Porsche GT3	62.686	52.656	
+63.906
 132.050 RRN
+62.686
 
 S2
 1	Josh Maze #57 (BS)	2026 Toyota Supra 3.0	66.358	54.612	
 66.358
+65.485 +3
 
-2	Wilson Velandia #61 (BS)	2006 Porsche Cayman S	68.542	56.410	
+2	Cody Mountjoy #23 (BS)	2025 Toyota GR Corolla	67.084	55.210	
+65.265 +3
+65.084 +1
+
+3	Wilson Velandia #61 (BS)	2006 Porsche Cayman S	68.542	56.410	
 68.542
+67.204 +1
 
-3	Bert Schneider #22 (BS)	1999 Chevrolet Corvette	73.535	60.519	
+4	Gary Fazekas #46 (FS)	2022 Ford Mustang	70.861	57.893	
+71.738 +1
+70.861
+
+5	Bert Schneider #22 (BS)	1999 Chevrolet Corvette	73.080	60.144	
 73.535
+73.080
 
-4	Shengsheng Xu #9 (BS)	2020 BMW M2C	101.528	83.557	
+6	Shengsheng Xu #9 (BS)	2020 BMW M2C	93.035	76.567	
 99.528 +1
+93.035
 
 S4
-1	Christopher Rosario #33 (GS)	2024 Hyundai Elantra N	66.426	53.738	
+1	Christopher Rosario #33 (GS)	2024 Hyundai Elantra N	63.869	51.670	
 64.426 +1
+64.106
+63.869
 
-2	Kaustav Acharya #90 (GS)	2025 Hyundai Elantra N-doscopy	69.571	56.282	
-67.571 +1
-
-3	Dhiraj Jadhav #9 (GS)	2025 Hyundai Elantra N	69.957	56.595	
-67.957 +1
-
-4	Alex Muresan #81 (GS)	2025 Hyundai EN	70.377	56.934	
+2	Alex Muresan #81 (GS)	2025 Hyundai EN	65.855	53.276	
 66.377 +2
+65.855
+65.047 DNF
 
-5	Patty Jeschien #23 (HS)	2015 Mini Cooper S	999.000	999.000	
+3	Kaustav Acharya #90 (GS)	2025 Hyundai Elantra N-doscopy	66.056	53.439	
+67.571 +1
+67.328 +1
+66.056
+
+4	Dhiraj Jadhav #9 (GS)	2025 Hyundai Elantra N	66.764	54.012	
+67.957 +1
+66.764
+
+5	Patty Jeschien #23 (HS)	2015 Mini Cooper S	75.186	58.645	
 78.940 DNF
+78.756
+75.186
