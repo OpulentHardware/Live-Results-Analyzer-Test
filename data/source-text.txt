@@ -1,5 +1,5 @@
 [[OVERALL_VIEW]]
-Participants: 75
+Participants: 98
 2026 SFRSCCA #09 Live Results
 Date: 2026-08-23
 
@@ -18,73 +18,96 @@ Rank	Driver	Class - Number	Time
 9	Eric Gnesa	XS-XB #93	61.003
 10	James Clenney	XS-EVX #76	61.251
 11	Tom Ellam	XS-XB #38	61.500
-12	Lisa Gnesa	XS-XB #193	61.927
-13	Navid Kahangi	XS-EVX #80	62.009
-14	Tony Rodriguez	XS-XU #39	62.013
-15	James Laeno	XS-XU #96	62.223
-16	Jonathan Lugod	CST #94	62.411
-17	Edwin Liu	SST #58	62.493
-18	Monty Pack	S1-SS #15	62.686
-19	Aris Perez	AST #845	62.942
-20	Justin Bowen	XS-EVX #48	63.155
-21	Arvind Govindaraj	AST #17	63.165
-22	Frankie Trutanic	CAM-CAMS #97	63.533
-23	Reed Gibson	SC-CSX #12	63.547
-24	Chris Cox	CAM-CAMS #38	63.596
-25	Steve McLaughlin	SMP-ESP #9	63.663
-26	Yon Visell	BST #131	63.747
-27	Patrick Drudge	SST #126	63.793
-28	Christopher Rosario	S4-GS #33	63.869
-29	Alex Muresan	S4-GS #81	64.145
-30	Allen Eischen	SC-CSX #112	64.228
-31	Cody Mountjoy	S2-BS #23	64.326
-32	Alex Petrovsky	AST #12	64.469
-33	Douglas Hargrove	M-FM #17	64.498
-34	Scott Garriss	BST #40	64.655
-35	Pilar Miranda	XS-EVX #180	64.674
-36	Glen Anderson	CST #79	64.934
-37	Josh Maze	S2-BS #57	65.001
-38	Kristen Acharya	AST #117	65.085
-39	Jessica Yeung Lugod	CST #194	65.119
-40	Da Chang	CST #63	65.508
-41	Daniel Chavez	DS #42	65.643
-42	Wilson Velandia	S2-BS #61	65.800
-43	Danny Gross	SMP-FSP #172	65.941
-44	Kaustav Acharya	S4-GS #90	66.056
-45	Muamong Yiengyouav	CST #134	66.262
-46	Ed Runnion	CST #18	66.288
-47	Anthony Zwain	XS-XU #139	66.405
-48	Dhiraj Jadhav	S4-GS #9	66.764
-49	Eric Martin	SC-SSC #74	66.912
-50	Christopher Cook	CST #9	66.917
-51	John Hartford	N-CST #108	67.086
-52	Katja Seltmann	BST #31	67.174
-53	Gregory Kehoe	BST #95	67.608
-54	John Fabian	DST #55	67.796
-55	Lloyd Feaver	DS #5	68.019
-56	Jonah Olsen	BST #370	68.424
-57	Dennis Quilantang	CST #137	68.585
-58	Noah Sulzberg	BST #8	68.919
-59	Gordon White	DST #193	69.279
-60	Jeremy Leung	CST #78	69.688
-61	Megan Anderson	CST #76	70.414
-62	Gary Fazekas	S2-FS #46	70.632
-63	Bert Schneider	S2-BS #22	71.851
-64	Tianpei He	N-DST #5	72.525
-65	Brenda Barnes	DSTL #93	72.729
-66	Jordan Stone	N-DST #88	73.120
-67	Dustin Reed	DS #99	73.440
-68	Patty Jeschien	S4-HS #23	75.186
-69	Nami Ranjbarsadeghi	N-GS #24	75.507
-70	Hamada Hamdall	XS-XA #421	80.867
-71	Rayhon Choudhry	DS #351	81.832
-72	Cheng Zhu	N-FS #881	85.630
-73	Mark Wortman	N-CAMC #99	86.189
-74	Shengsheng Xu	S2-BS #9	92.290
-75	Blaine Jeschien	DS #101	999.000
+12	Steve McLaughlin	SMP-ESP #9	61.514
+13	Chris Cox	CAM-CAMS #38	61.905
+14	Lisa Gnesa	XS-XB #193	61.927
+15	Navid Kahangi	XS-EVX #80	62.009
+16	Tony Rodriguez	XS-XU #39	62.013
+17	Scott Fraser	CAM-CAMS #197	62.221
+18	James Laeno	XS-XU #96	62.223
+19	Jonathan Lugod	CST #94	62.411
+20	Edwin Liu	SST #58	62.493
+21	Monty Pack	S1-SS #15	62.686
+22	Aris Perez	AST #845	62.942
+23	Justin Bowen	XS-EVX #48	63.155
+24	Arvind Govindaraj	AST #17	63.165
+25	Danny Gross	SMP-FSP #172	63.185
+26	Frankie Trutanic	CAM-CAMS #97	63.533
+27	Reed Gibson	SC-CSX #12	63.547
+28	Yon Visell	BST #131	63.747
+29	Patrick Drudge	SST #126	63.793
+30	Christopher Rosario	S4-GS #33	63.869
+31	Alex Muresan	S4-GS #81	64.145
+32	Allen Eischen	SC-CSX #112	64.228
+33	Cody Mountjoy	S2-BS #23	64.326
+34	Alex Petrovsky	AST #12	64.469
+35	Douglas Hargrove	M-FM #17	64.498
+36	Scott Garriss	BST #40	64.655
+37	Pilar Miranda	XS-EVX #180	64.674
+38	Daniel Chavez	DS #42	64.865
+39	Glen Anderson	CST #79	64.934
+40	Josh Maze	S2-BS #57	65.001
+41	Kristen Acharya	AST #117	65.085
+42	Jessica Yeung Lugod	CST #194	65.119
+43	Da Chang	CST #63	65.508
+44	David Carson	DS #142	65.789
+45	Wilson Velandia	S2-BS #61	65.800
+46	Kaustav Acharya	S4-GS #90	66.056
+47	Muamong Yiengyouav	CST #134	66.262
+48	Lloyd Feaver	DS #5	66.279
+49	Ed Runnion	CST #18	66.288
+50	Anthony Zwain	XS-XU #139	66.405
+51	Dhiraj Jadhav	S4-GS #9	66.764
+52	Eric Martin	SC-SSC #74	66.912
+53	Christopher Cook	CST #9	66.917
+54	John Hartford	N-CST #108	67.086
+55	Katja Seltmann	BST #31	67.174
+56	Erik Acks	AS #68	67.220
+57	Gregory Kehoe	BST #95	67.608
+58	John Fabian	DST #55	67.796
+59	Jonah Olsen	BST #370	68.424
+60	Rob Boynton	SMP-SSP #198	68.497
+61	Dennis Quilantang	CST #137	68.585
+62	Noah Sulzberg	BST #8	68.919
+63	Kurt Thorson	AS #65	69.118
+64	Philip Ma	DS #75	69.241
+65	Gordon White	DST #193	69.279
+66	Darren Shortes	AS #57	69.319
+67	Jeremy Leung	CST #78	69.688
+68	Stephanie Medeiros	SMP-ESP #6	69.719
+69	Boris Elpiner	AS #84	69.986
+70	Dustin Reed	DS #99	70.053
+71	Megan Anderson	CST #76	70.414
+72	Josh Pinckney	DS #44	70.591
+73	Gary Fazekas	S2-FS #46	70.632
+74	Mark Fairchilds	DS #35	70.987
+75	Bert Schneider	S2-BS #22	71.851
+76	Tianpei He	N-DST #5	72.525
+77	Brenda Barnes	DSTL #93	72.729
+78	Jordan Stone	N-DST #88	73.120
+79	Kristen Barnes	DS #93	73.156
+80	Michael Scott	AS #2	73.661
+81	Blaine Jeschien	DS #101	74.916
+82	Patty Jeschien	S4-HS #23	75.186
+83	Michael Jones	AS #26	75.264
+84	Leon Weinroth	CAM-CAMC #51	75.433
+85	Nami Ranjbarsadeghi	N-GS #24	75.507
+86	Logan Wortman	N-CAMC #799	76.929
+87	Rayhon Choudhry	DS #351	79.151
+88	Hamada Hamdall	XS-XA #421	80.867
+89	Kevin Carpenter	N-DS #55	81.088
+90	Cheng Zhu	N-FS #881	85.630
+91	Mark Wortman	N-CAMC #99	86.189
+92	Shengsheng Xu	S2-BS #9	92.290
+93	Andy Chen	N-DS #61	999.000
+93	Terence Chang	SMP-FSP #72	999.000
+93	Steven Stone	CAM-CAMC #22	999.000
+93	Bryan Stewart	CAM-CAMS #138	999.000
+93	Nathan Springman	DS #85	999.000
+93	Andrew Ma	DS #175	999.000
 
 [[PAX_VIEW]]
-Participants: 75
+Participants: 98
 2026 SFRSCCA #09 Live Results
 Date: 2026-08-23
 
@@ -100,82 +123,106 @@ Rank	Driver	Class - Number	Indexed Time
 6	Allen Eischen	SC-CSX #112	51.575
 7	Christopher Rosario	S4-GS #33	51.670
 8	Jonathan Lugod	CST #94	51.738
-9	Alex Muresan	S4-GS #81	51.893
-10	Navid Kahangi	XS-EVX #80	52.025
-11	Tara Shapowal	XS-XA #187	52.155
-12	Edwin Liu	SST #58	52.369
-13	Eric Gnesa	XS-XB #93	52.401
-14	Steve Lau	XS-XA #18	52.460
-15	Aris Perez	AST #845	52.619
-16	Monty Pack	S1-SS #15	52.656
-17	Arvind Govindaraj	AST #17	52.805
-18	Tom Ellam	XS-XB #38	52.828
-19	Ben Martinez	M-CM #60	52.890
-20	Cody Mountjoy	S2-BS #23	52.940
-21	Justin Bowen	XS-EVX #48	52.987
-22	Lisa Gnesa	XS-XB #193	53.195
-23	Yon Visell	BST #131	53.228
-24	Daniel Chavez	DS #42	53.236
-25	Kaustav Acharya	S4-GS #90	53.439
-26	Patrick Drudge	SST #126	53.458
-27	Josh Maze	S2-BS #57	53.495
-28	Steve McLaughlin	SMP-ESP #9	53.604
-29	Roger Kroog	M-FM #18	53.723
-30	Frankie Trutanic	CAM-CAMS #97	53.812
-31	Glen Anderson	CST #79	53.830
-32	Chris Cox	CAM-CAMS #38	53.865
-33	Tony Rodriguez	XS-XU #39	53.889
-34	Alex Petrovsky	AST #12	53.896
-35	Jessica Yeung Lugod	CST #194	53.983
-36	Scott Garriss	BST #40	53.986
-37	Dhiraj Jadhav	S4-GS #9	54.012
-38	Eric Martin	SC-SSC #74	54.064
-39	James Laeno	XS-XU #96	54.071
-40	Wilson Velandia	S2-BS #61	54.153
-41	Pilar Miranda	XS-EVX #180	54.261
-42	Da Chang	CST #63	54.306
-43	Kristen Acharya	AST #117	54.411
-44	Boris Vujasinovic	M-FM #67	54.576
-45	Danny Gross	SMP-FSP #172	54.928
-46	Muamong Yiengyouav	CST #134	54.931
-47	Ed Runnion	CST #18	54.952
-48	Lloyd Feaver	DS #5	55.163
-49	Christopher Cook	CST #9	55.474
-50	John Fabian	DST #55	55.592
-51	John Hartford	N-CST #108	55.614
-52	Katja Seltmann	BST #31	56.090
-53	Gregory Kehoe	BST #95	56.452
-54	Gordon White	DST #193	56.808
-55	Dennis Quilantang	CST #137	56.856
-56	Jonah Olsen	BST #370	57.134
-57	Noah Sulzberg	BST #8	57.547
-58	Anthony Zwain	XS-XU #139	57.705
-59	Gary Fazekas	S2-FS #46	57.706
-60	Jeremy Leung	CST #78	57.771
-61	Megan Anderson	CST #76	58.373
-62	Patty Jeschien	S4-HS #23	58.645
-63	Bert Schneider	S2-BS #22	59.133
-64	Douglas Hargrove	M-FM #17	59.144
-65	Tianpei He	N-DST #5	59.470
-66	Dustin Reed	DS #99	59.559
-67	Brenda Barnes	DSTL #93	59.637
-68	Jordan Stone	N-DST #88	59.958
-69	Nami Ranjbarsadeghi	N-GS #24	61.085
-70	Rayhon Choudhry	DS #351	66.365
-71	Hamada Hamdall	XS-XA #421	69.626
-72	Cheng Zhu	N-FS #881	69.959
-73	Mark Wortman	N-CAMC #99	71.364
-74	Shengsheng Xu	S2-BS #9	75.954
-75	Blaine Jeschien	DS #101	999.000
+9	Steve McLaughlin	SMP-ESP #9	51.794
+10	Alex Muresan	S4-GS #81	51.893
+11	Navid Kahangi	XS-EVX #80	52.025
+12	Tara Shapowal	XS-XA #187	52.155
+13	Edwin Liu	SST #58	52.369
+14	Eric Gnesa	XS-XB #93	52.401
+15	Chris Cox	CAM-CAMS #38	52.433
+16	Steve Lau	XS-XA #18	52.460
+17	Daniel Chavez	DS #42	52.605
+18	Aris Perez	AST #845	52.619
+19	Danny Gross	SMP-FSP #172	52.633
+20	Monty Pack	S1-SS #15	52.656
+21	Scott Fraser	CAM-CAMS #197	52.701
+22	Arvind Govindaraj	AST #17	52.805
+23	Tom Ellam	XS-XB #38	52.828
+24	Ben Martinez	M-CM #60	52.890
+25	Cody Mountjoy	S2-BS #23	52.940
+26	Justin Bowen	XS-EVX #48	52.987
+27	Lisa Gnesa	XS-XB #193	53.195
+28	Yon Visell	BST #131	53.228
+29	David Carson	DS #142	53.354
+30	Kaustav Acharya	S4-GS #90	53.439
+31	Patrick Drudge	SST #126	53.458
+32	Josh Maze	S2-BS #57	53.495
+33	Roger Kroog	M-FM #18	53.723
+34	Lloyd Feaver	DS #5	53.752
+35	Frankie Trutanic	CAM-CAMS #97	53.812
+36	Glen Anderson	CST #79	53.830
+37	Tony Rodriguez	XS-XU #39	53.889
+38	Alex Petrovsky	AST #12	53.896
+39	Jessica Yeung Lugod	CST #194	53.983
+40	Scott Garriss	BST #40	53.986
+41	Dhiraj Jadhav	S4-GS #9	54.012
+42	Eric Martin	SC-SSC #74	54.064
+43	James Laeno	XS-XU #96	54.071
+44	Wilson Velandia	S2-BS #61	54.153
+45	Pilar Miranda	XS-EVX #180	54.261
+46	Da Chang	CST #63	54.306
+47	Kristen Acharya	AST #117	54.411
+48	Boris Vujasinovic	M-FM #67	54.576
+49	Muamong Yiengyouav	CST #134	54.931
+50	Ed Runnion	CST #18	54.952
+51	Christopher Cook	CST #9	55.474
+52	John Fabian	DST #55	55.592
+53	John Hartford	N-CST #108	55.614
+54	Erik Acks	AS #68	55.792
+55	Katja Seltmann	BST #31	56.090
+56	Philip Ma	DS #75	56.154
+57	Gregory Kehoe	BST #95	56.452
+58	Gordon White	DST #193	56.808
+59	Dustin Reed	DS #99	56.812
+60	Dennis Quilantang	CST #137	56.856
+61	Jonah Olsen	BST #370	57.134
+62	Josh Pinckney	DS #44	57.249
+63	Kurt Thorson	AS #65	57.367
+64	Darren Shortes	AS #57	57.534
+65	Noah Sulzberg	BST #8	57.547
+66	Mark Fairchilds	DS #35	57.570
+67	Anthony Zwain	XS-XU #139	57.705
+68	Gary Fazekas	S2-FS #46	57.706
+69	Jeremy Leung	CST #78	57.771
+70	Boris Elpiner	AS #84	58.088
+71	Megan Anderson	CST #76	58.373
+72	Patty Jeschien	S4-HS #23	58.645
+73	Stephanie Medeiros	SMP-ESP #6	58.703
+74	Rob Boynton	SMP-SSP #198	58.907
+75	Bert Schneider	S2-BS #22	59.133
+76	Douglas Hargrove	M-FM #17	59.144
+77	Kristen Barnes	DS #93	59.329
+78	Tianpei He	N-DST #5	59.470
+79	Brenda Barnes	DSTL #93	59.637
+80	Jordan Stone	N-DST #88	59.958
+81	Blaine Jeschien	DS #101	60.756
+82	Nami Ranjbarsadeghi	N-GS #24	61.085
+83	Michael Scott	AS #2	61.138
+84	Leon Weinroth	CAM-CAMC #51	62.458
+85	Michael Jones	AS #26	62.469
+86	Logan Wortman	N-CAMC #799	63.697
+87	Rayhon Choudhry	DS #351	64.191
+88	Kevin Carpenter	N-DS #55	65.762
+89	Hamada Hamdall	XS-XA #421	69.626
+90	Cheng Zhu	N-FS #881	69.959
+91	Mark Wortman	N-CAMC #99	71.364
+92	Shengsheng Xu	S2-BS #9	75.954
+93	Andy Chen	N-DS #61	999.000
+93	Terence Chang	SMP-FSP #72	999.000
+93	Steven Stone	CAM-CAMC #22	999.000
+93	Bryan Stewart	CAM-CAMS #138	999.000
+93	Nathan Springman	DS #85	999.000
+93	Andrew Ma	DS #175	999.000
 
 [[CLASS_VIEW]]
-Participants: 75
+Participants: 98
 2026 SFRSCCA #09 Live Results
 Date: 2026-08-23
 
 Overall Class PAX
 
 SELECT CLASS
+AS
 AST
 BST
 CAM
@@ -194,6 +241,25 @@ SST
 XS
 Class
 Position	Driver	Car	Best Raw	Best Pax	Raw Times
+AS
+1	Erik Acks #68	2018 Porsche Cayman GTS	67.220	55.792	
+65.220 +1
+
+2	Kurt Thorson #65	2004 Chevrolet Corvette Z06	69.118	57.367	
+67.118 +1
+
+3	Darren Shortes #57	2002 Chevrolet Corvett Z06	69.319	57.534	
+69.319
+
+4	Boris Elpiner #84	2018 Porsche 718 Cayman GTS	69.986	58.088	
+69.986
+
+5	Michael Scott #2	2023 Tesla 3	73.661	61.138	
+65.661 +4
+
+6	Michael Jones #26	2004 Chevrolet	75.264	62.469	
+69.264 +3
+
 AST
 1	Aris Perez #845	2022 Mazda Miata	62.942	52.619	
 64.521
@@ -331,20 +397,47 @@ CST
 70.414
 
 DS
-1	Daniel Chavez #42	2024 Subaru BRZ	65.643	53.236	
+1	Daniel Chavez #42	2024 Subaru BRZ	64.865	52.605	
 65.643
+64.865
 
-2	Lloyd Feaver #5	2020 Ford Mustang	68.019	55.163	
+2	David Carson #142	2024 Subaru BRZ	65.789	53.354	
+65.789
+
+3	Lloyd Feaver #5	2020 Ford Mustang	66.279	53.752	
 68.019
+66.279
 
-3	Dustin Reed #99	2016 Ford Focus	73.440	59.559	
+4	Philip Ma #75	2025 Subaru BRZ	69.241	56.154	
+69.241
+
+5	Dustin Reed #99	2016 Ford Focus	70.053	56.812	
 71.440 +1
+70.053
 
-4	Rayhon Choudhry #351	2023 Subaru WRX	81.832	66.365	
-81.832
+6	Josh Pinckney #44	2025 Subaru BRZ	70.591	57.249	
+70.591
 
-5	Blaine Jeschien #101	2025 Subaru BRZ	999.000	999.000	
+7	Mark Fairchilds #35	2023 Subaru WRX GT	70.987	57.570	
+70.987
+
+8	Kristen Barnes #93	2024 Toyota GR86	73.156	59.329	
+72.672 +1
+71.156 +1
+
+9	Blaine Jeschien #101	2025 Subaru BRZ	74.916	60.756	
 86.380 DNF
+74.916
+
+10	Rayhon Choudhry #351	2023 Subaru WRX	79.151	64.191	
+81.832
+79.151
+
+11	Nathan Springman #85	2020 Audi TT	999.000	999.000	
+83.669 DNF
+
+11	Andrew Ma #175	Mazda 3	999.000	999.000	
+80.385 DNF
 
 DST
 1	John Fabian #55	2005 Mazda RX-8	67.796	55.592	
@@ -379,11 +472,25 @@ SST
 63.083 +1
 
 CAM
-1	Frankie Trutanic #97 (CAMS)	2017 Chevrolet corvette	63.533	53.812	
+1	Chris Cox #38 (CAMS)	2004 Chevrolet Corvette	61.905	52.433	
+61.596 +1
+61.905
+
+2	Scott Fraser #197 (CAMS)	2017 Chevrolet Corvette	62.221	52.701	
+62.221
+72.367 RRN
+
+3	Frankie Trutanic #97 (CAMS)	2017 Chevrolet corvette	63.533	53.812	
 63.533
 
-2	Chris Cox #38 (CAMS)	2004 Chevrolet Corvette	63.596	53.865	
-61.596 +1
+4	Leon Weinroth #51 (CAMC)	2014 Ford Mustang V6	75.433	62.458	
+75.433
+
+5	Steven Stone #22 (CAMC)	2024 Ford Mustang	999.000	999.000	
+74.072 DNF
+
+5	Bryan Stewart #138 (CAMS)	2004 Chevrolet Z06	999.000	999.000	
+67.541 DNF
 
 M
 1	Ben Martinez #60 (CM)	1984 Ford Van Diemen	59.030	52.890	
@@ -432,14 +539,25 @@ N
 77.694
 75.507
 
-5	Cheng Zhu #881 (FS)	2026 BMW M240i RWD	85.630	69.959	
+5	Logan Wortman #799 (CAMC)	2022 Ford Mach 1	76.929	63.697	
+87.266
+76.929
+
+6	Kevin Carpenter #55 (DS)	2006 Mini Cooper S JCW	81.088	65.762	
+81.088
+
+7	Cheng Zhu #881 (FS)	2026 BMW M240i RWD	85.630	69.959	
 86.198 DNF
 85.630
 80.062 DNF
 82.808 DNF
 
-6	Mark Wortman #99 (CAMC)	2022 Ford Mach 1	86.189	71.364	
+8	Mark Wortman #99 (CAMC)	2022 Ford Mach 1	86.189	71.364	
 84.189 +1
+
+9	Andy Chen #61 (DS)	2014 Subaru BRZ	999.000	999.000	
+77.303 DNF
+72.252 RRN
 
 S1
 1	James Yom #199 (SS)	2025 Porsche GT4RS	60.835	51.101	
@@ -543,11 +661,22 @@ SC
 72.653 +1
 
 SMP
-1	Steve McLaughlin #9 (ESP)	2020 Nissan 370Z	63.663	53.604	
+1	Steve McLaughlin #9 (ESP)	2020 Nissan 370Z	61.514	51.794	
 61.663 +1
+61.514
 
-2	Danny Gross #172 (FSP)	2008 Mazda 3 2.5	65.941	54.928	
+2	Danny Gross #172 (FSP)	2008 Mazda 3 2.5	63.185	52.633	
 63.941 +1
+63.185
+
+3	Stephanie Medeiros #6 (ESP)	2019 Nissan 370Z	69.719	58.703	
+69.719
+
+4	Rob Boynton #198 (SSP)	2002 Porsche Gt2	68.497	58.907	
+68.497
+
+5	Terence Chang #72 (FSP)	2008 Mazda 3	999.000	999.000	
+67.441 DNF
 
 XS
 1	James Clenney #76 (EVX)	2025 Tesla Model 3 Performance	61.251	51.389	
