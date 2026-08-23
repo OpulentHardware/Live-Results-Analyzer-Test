@@ -8,35 +8,35 @@ Overall Class PAX
 Overall
 Rank	Driver	Class - Number	Time
 1	Roger Kroog	M-FM #18	58.586
-2	Ben Martinez	M-CM #60	59.193
+2	Ben Martinez	M-CM #60	59.030
 3	Boris Vujasinovic	M-FM #67	59.516
-4	James Yom	S1-SS #199	61.967
-5	Monty Pack	S1-SS #15	62.686
-6	Jonathan Lugod	CST #94	63.450
+4	James Yom	S1-SS #199	60.835
+5	Jonathan Lugod	CST #94	62.411
+6	Monty Pack	S1-SS #15	62.686
 7	Christopher Rosario	S4-GS #33	63.869
-8	Jessica Yeung Lugod	CST #194	65.119
-9	Glen Anderson	CST #79	65.159
-10	Alex Muresan	S4-GS #81	65.855
-11	Da Chang	CST #63	65.874
-12	Kaustav Acharya	S4-GS #90	66.056
-13	Josh Maze	S2-BS #57	66.358
-14	Dhiraj Jadhav	S4-GS #9	66.764
-15	Christopher Cook	CST #9	66.917
-16	Cody Mountjoy	S2-BS #23	67.084
-17	Ed Runnion	CST #18	67.660
-18	Wilson Velandia	S2-BS #61	68.542
-19	Muamong Yiengyouav	CST #134	69.020
-20	Dennis Quilantang	CST #137	69.120
-21	Jeremy Leung	CST #78	70.001
-22	John Hartford	N-CST #108	70.858
-23	Gary Fazekas	S2-FS #46	70.861
-24	Megan Anderson	CST #76	71.777
-25	Bert Schneider	S2-BS #22	73.080
-26	Patty Jeschien	S4-HS #23	75.186
-27	Nami Ranjbarsadeghi	N-GS #24	79.318
-28	Cheng Zhu	N-FS #881	85.630
-29	Shengsheng Xu	S2-BS #9	93.035
-30	Douglas Hargrove	M-FM #17	999.000
+8	Alex Muresan	S4-GS #81	64.145
+9	Cody Mountjoy	S2-BS #23	64.326
+10	Douglas Hargrove	M-FM #17	64.498
+11	Glen Anderson	CST #79	64.934
+12	Josh Maze	S2-BS #57	65.001
+13	Jessica Yeung Lugod	CST #194	65.119
+14	Da Chang	CST #63	65.508
+15	Wilson Velandia	S2-BS #61	65.800
+16	Kaustav Acharya	S4-GS #90	66.056
+17	Muamong Yiengyouav	CST #134	66.262
+18	Ed Runnion	CST #18	66.288
+19	Dhiraj Jadhav	S4-GS #9	66.764
+20	Christopher Cook	CST #9	66.917
+21	John Hartford	N-CST #108	67.086
+22	Dennis Quilantang	CST #137	68.585
+23	Jeremy Leung	CST #78	69.688
+24	Megan Anderson	CST #76	70.414
+25	Gary Fazekas	S2-FS #46	70.632
+26	Bert Schneider	S2-BS #22	71.851
+27	Patty Jeschien	S4-HS #23	75.186
+28	Nami Ranjbarsadeghi	N-GS #24	75.507
+29	Cheng Zhu	N-FS #881	85.630
+30	Shengsheng Xu	S2-BS #9	92.290
 
 [[PAX_VIEW]]
 Participants: 30
@@ -47,36 +47,36 @@ Overall Class PAX
 
 PAX
 Rank	Driver	Class - Number	Indexed Time
-1	Christopher Rosario	S4-GS #33	51.670
-2	James Yom	S1-SS #199	52.052
-3	Jonathan Lugod	CST #94	52.600
-4	Monty Pack	S1-SS #15	52.656
-5	Ben Martinez	M-CM #60	53.036
-6	Alex Muresan	S4-GS #81	53.276
-7	Kaustav Acharya	S4-GS #90	53.439
-8	Roger Kroog	M-FM #18	53.723
-9	Jessica Yeung Lugod	CST #194	53.983
-10	Dhiraj Jadhav	S4-GS #9	54.012
-11	Glen Anderson	CST #79	54.016
-12	Boris Vujasinovic	M-FM #67	54.576
-13	Da Chang	CST #63	54.609
-14	Josh Maze	S2-BS #57	54.612
-15	Cody Mountjoy	S2-BS #23	55.210
-16	Christopher Cook	CST #9	55.474
-17	Ed Runnion	CST #18	56.090
-18	Wilson Velandia	S2-BS #61	56.410
-19	Muamong Yiengyouav	CST #134	57.217
-20	Dennis Quilantang	CST #137	57.300
-21	Gary Fazekas	S2-FS #46	57.893
-22	Jeremy Leung	CST #78	58.030
-23	Patty Jeschien	S4-HS #23	58.645
-24	John Hartford	N-CST #108	58.741
-25	Megan Anderson	CST #76	59.503
-26	Bert Schneider	S2-BS #22	60.144
-27	Nami Ranjbarsadeghi	N-GS #24	64.168
-28	Cheng Zhu	N-FS #881	69.959
-29	Shengsheng Xu	S2-BS #9	76.567
-30	Douglas Hargrove	M-FM #17	999.000
+1	James Yom	S1-SS #199	51.101
+2	Christopher Rosario	S4-GS #33	51.670
+3	Jonathan Lugod	CST #94	51.738
+4	Alex Muresan	S4-GS #81	51.893
+5	Monty Pack	S1-SS #15	52.656
+6	Ben Martinez	M-CM #60	52.890
+7	Cody Mountjoy	S2-BS #23	52.940
+8	Kaustav Acharya	S4-GS #90	53.439
+9	Josh Maze	S2-BS #57	53.495
+10	Roger Kroog	M-FM #18	53.723
+11	Glen Anderson	CST #79	53.830
+12	Jessica Yeung Lugod	CST #194	53.983
+13	Dhiraj Jadhav	S4-GS #9	54.012
+14	Wilson Velandia	S2-BS #61	54.153
+15	Da Chang	CST #63	54.306
+16	Boris Vujasinovic	M-FM #67	54.576
+17	Muamong Yiengyouav	CST #134	54.931
+18	Ed Runnion	CST #18	54.952
+19	Christopher Cook	CST #9	55.474
+20	John Hartford	N-CST #108	55.614
+21	Dennis Quilantang	CST #137	56.856
+22	Gary Fazekas	S2-FS #46	57.706
+23	Jeremy Leung	CST #78	57.771
+24	Megan Anderson	CST #76	58.373
+25	Patty Jeschien	S4-HS #23	58.645
+26	Bert Schneider	S2-BS #22	59.133
+27	Douglas Hargrove	M-FM #17	59.144
+28	Nami Ranjbarsadeghi	N-GS #24	61.085
+29	Cheng Zhu	N-FS #881	69.959
+30	Shengsheng Xu	S2-BS #9	75.954
 
 [[CLASS_VIEW]]
 Participants: 30
@@ -95,134 +95,183 @@ S4
 Class
 Position	Driver	Car	Best Raw	Best Pax	Raw Times
 CST
-1	Jonathan Lugod #94	2007 Honda S2000	63.450	52.600	
+1	Jonathan Lugod #94	2007 Honda S2000	62.411	51.738	
 63.411 +1
 63.450
+62.411
+62.410 +1
 
-2	Jessica Yeung Lugod #194	2007 Honda S2000	65.119	53.983	
-65.455
-65.119
-
-3	Glen Anderson #79	2022 Subaru BRZ	65.159	54.016	
+2	Glen Anderson #79	2022 Subaru BRZ	64.934	53.830	
 66.117
 65.258
 65.159
+64.934
 
-4	Da Chang #63	2009 Mazda Miata	65.874	54.609	
+3	Jessica Yeung Lugod #194	2007 Honda S2000	65.119	53.983	
+65.455
+65.119
+64.775 +1
+65.007 +1
+
+4	Da Chang #63	2009 Mazda Miata	65.508	54.306	
 67.328
 65.874
+65.508
+65.460 +1
 
-5	Christopher Cook #9	2002 Honda S2000	66.917	55.474	
-64.917 +1
-65.164 +1
-
-6	Ed Runnion #18	2022 Subaru BRZ	67.660	56.090	
-67.660
-66.212 +1
-
-7	Muamong Yiengyouav #134	2007 Honda S2000	69.020	57.217	
+5	Muamong Yiengyouav #134	2007 Honda S2000	66.262	54.931	
 67.020 +1
 68.023 +1
+66.262
+67.376 DNF
 
-8	Dennis Quilantang #137	2022 Subaru BRZ	69.120	57.300	
+6	Ed Runnion #18	2022 Subaru BRZ	66.288	54.952	
+67.660
+66.212 +1
+66.288
+66.138 +2
+
+7	Christopher Cook #9	2002 Honda S2000	66.917	55.474	
+64.917 +1
+65.164 +1
+65.217 +1
+64.131 +2
+
+8	Dennis Quilantang #137	2022 Subaru BRZ	68.585	56.856	
 70.182
 69.120
+68.291 +1
+68.585
 
-9	Jeremy Leung #78	2024 Subaru BRZ	70.001	58.030	
+9	Jeremy Leung #78	2024 Subaru BRZ	69.688	57.771	
 72.716
 70.859 DNF
 70.001
+69.688
 
-10	Megan Anderson #76	2022 Subaru BRZ	71.777	59.503	
+10	Megan Anderson #76	2022 Subaru BRZ	70.414	58.373	
 73.861
 71.777
+71.388
+70.414
 
 M
-1	Ben Martinez #60 (CM)	1984 Ford Van Diemen	59.193	53.036	
+1	Ben Martinez #60 (CM)	1984 Ford Van Diemen	59.030	52.890	
 59.193
+59.030
+58.692 +1
 
 2	Roger Kroog #18 (FM)	2024 Kroog F500	58.586	53.723	
 60.017
 59.418 +1
 58.586
+58.532 DNF
 
 3	Boris Vujasinovic #67 (FM)	1995 RD	59.516	54.576	
 60.295 +1
 59.516
 
-4	Douglas Hargrove #17 (FM)	1983 R&D Special	999.000	999.000	
+4	Douglas Hargrove #17 (FM)	1983 R&D Special	64.498	59.144	
 65.098 DNF
 64.414 DNF
+64.498
 
 N
-1	John Hartford #108 (CST)	2025 Toyota GR86	70.858	58.741	
+1	John Hartford #108 (CST)	2025 Toyota GR86	67.086	55.614	
 70.707 +1
 68.858 +1
+67.343 DNF
+67.086
 
-2	Nami Ranjbarsadeghi #24 (GS)	2017 Audi A4	79.318	64.168	
+2	Nami Ranjbarsadeghi #24 (GS)	2017 Audi A4	75.507	61.085	
 84.106
 79.318
+77.694
+75.507
 
 3	Cheng Zhu #881 (FS)	2026 BMW M240i RWD	85.630	69.959	
 86.198 DNF
 85.630
+80.062 DNF
+82.808 DNF
 
 S1
-1	James Yom #199 (SS)	2025 Porsche GT4RS	61.967	52.052	
+1	James Yom #199 (SS)	2025 Porsche GT4RS	60.835	51.101	
 61.967
 62.295 +2
+60.835
 
 2	Monty Pack #15 (SS)	2018 Porsche GT3	62.686	52.656	
 63.906
 132.050 RRN
 62.686
+62.711
+61.993 DNF
 
 S2
-1	Josh Maze #57 (BS)	2026 Toyota Supra 3.0	66.358	54.612	
-66.358
-65.485 +3
-
-2	Cody Mountjoy #23 (BS)	2025 Toyota GR Corolla	67.084	55.210	
+1	Cody Mountjoy #23 (BS)	2025 Toyota GR Corolla	64.326	52.940	
 65.265 +3
 65.084 +1
+63.924 +1
+64.326
 
-3	Wilson Velandia #61 (BS)	2006 Porsche Cayman S	68.542	56.410	
+2	Josh Maze #57 (BS)	2026 Toyota Supra 3.0	65.001	53.495	
+66.358
+65.485 +3
+65.258
+65.001
+
+3	Wilson Velandia #61 (BS)	2006 Porsche Cayman S	65.800	54.153	
 68.542
 67.204 +1
+66.310 +1
+65.800
 
-4	Gary Fazekas #46 (FS)	2022 Ford Mustang	70.861	57.893	
+4	Gary Fazekas #46 (FS)	2022 Ford Mustang	70.632	57.706	
 71.738 +1
 70.861
+69.786 +1
+68.632 +1
 
-5	Bert Schneider #22 (BS)	1999 Chevrolet Corvette	73.080	60.144	
+5	Bert Schneider #22 (BS)	1999 Chevrolet Corvette	71.851	59.133	
 73.535
 73.080
+72.514
+71.851
 
-6	Shengsheng Xu #9 (BS)	2020 BMW M2C	93.035	76.567	
+6	Shengsheng Xu #9 (BS)	2020 BMW M2C	92.290	75.954	
 99.528 +1
 93.035
+90.316 DNF
+92.290
 
 S4
 1	Christopher Rosario #33 (GS)	2024 Hyundai Elantra N	63.869	51.670	
 64.426 +1
 64.106
 63.869
+63.572 +5
 
-2	Alex Muresan #81 (GS)	2025 Hyundai EN	65.855	53.276	
+2	Alex Muresan #81 (GS)	2025 Hyundai EN	64.145	51.893	
 66.377 +2
 65.855
 65.047 DNF
+64.145
 
 3	Kaustav Acharya #90 (GS)	2025 Hyundai Elantra N-doscopy	66.056	53.439	
 67.571 +1
 67.328 +1
 66.056
+67.475
 
 4	Dhiraj Jadhav #9 (GS)	2025 Hyundai Elantra N	66.764	54.012	
 67.957 +1
 66.764
+67.509
+66.855
 
 5	Patty Jeschien #23 (HS)	2015 Mini Cooper S	75.186	58.645	
 78.940 DNF
 78.756
 75.186
+76.292
