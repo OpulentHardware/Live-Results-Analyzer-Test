@@ -1,5 +1,5 @@
 [[OVERALL_VIEW]]
-Participants: 89
+Participants: 88
 2026 AAS #13 Live Results
 Date: 2026-09-19
 
@@ -41,64 +41,63 @@ Rank	Driver	Class - Number	Time
 32	Aris Perez	ST1-AST #845	57.063
 33	Shawn Tokairin	ST1-AST #938	57.795
 34	Glen Anderson	CST #79	57.825
-35	Pilar Miranda	EVX #78	57.926
-36	Douglas Hargrove	M-FM #17	57.945
-37	Michael Gardner	CAMC #48	57.990
-38	Rich Lee	S1-BS #99	57.997
-39	Kurt Thorson	AS #65	58.492
-40	Rob Boynton	SP-SSP #1	58.620
-41	Michael Scott	AS #2	58.689
-42	Hal Dorton	CAMC #74	58.730
-43	Paul Tibbals	BST #35	58.749
-44	Matt Roberts	CAMS #218	58.816
-45	Ryan Yee	EVX #73	58.833
-46	Hudson Tsang	EVX #971	58.834
-47	Michael Jones	AS #26	58.904
-48	Michael Ansell	P-CP #177	59.031
-49	Nick Relampagos	CAMT #26	59.207
-50	Sandra Gartner	P-XP #125	59.433
-51	Gregory Kehoe	BST #95	59.562
-52	Darren Voges	CAMT #669	59.670
-53	Jesus Villarreal	SS #91	60.035
-54	Stephanie Medeiros	SP-ESP #611	60.054
-55	Efrain Diaz	CAMT #269	60.458
-56	Eric Martin	ST1-SSC #74	60.484
-57	David Silva	P-CP #16	60.894
-58	Brenna Comacchio	S2-HS #4	61.037
-59	Sandra Fu	ST1-AST #45	61.059
-60	Donald Lew	S2-CS #52	61.219
-61	Monica Tsang	XA #171	61.374
-62	Jeremy Leung	ST1-AST #389	61.726
-63	Manny Pretti	CAMSV #66	61.757
-64	Brandon Phillips	S2-HS #14	61.767
-65	Long Pham	ST1-GST #451	61.981
-66	Gary Fazekas	S1-FS #46	62.682
-67	Steve Hobaugh	XA #32	62.777
-68	Leon Weinroth	CAMC #51	62.921
-69	Megan Anderson	CST #76	62.978
-70	Tom Cuschieri	CAMT #44	63.438
-71	Ivan Garcia	SP-CSP #777	63.636
-72	Anthony Pham	ST1-GST #894	63.641
-73	Mikey Clark	EVX #3	63.877
-74	Pedro Duran III	CAMS #55	64.723
-75	John Alvarez	CAMSV #65	64.745
-76	Derrick Galiste	CAMC #31	65.766
-77	Zachery Galiste	CAMC #310	65.974
-78	Sharon Alvarez	CAMSV #165	66.400
-79	Ron Phillips	CAMSV #48	67.107
-80	Martin Barajas	BST #2	67.871
-81	Terran Chu	BST #888	68.137
-82	Alberto Herrera	CAMC #6	68.178
-83	Kirk Lozada	CAMT #89	68.200
-84	DARIN NELMS	SM-SSM #66	68.424
-85	Jim Barnes	CAMSV #77	68.597
-86	Luke Guerra	CST #6	69.432
-87	Arjun Satwani	SS #11	70.215
-88	Kris Ludwig	BST #151	73.846
-89	Adolfo Garcia	SP-SSP #51	74.343
+35	Douglas Hargrove	M-FM #17	57.945
+36	Michael Gardner	CAMC #48	57.990
+37	Rich Lee	S1-BS #99	57.997
+38	Kurt Thorson	AS #65	58.492
+39	Rob Boynton	SP-SSP #1	58.620
+40	Michael Scott	AS #2	58.689
+41	Hal Dorton	CAMC #74	58.730
+42	Paul Tibbals	BST #35	58.749
+43	Matt Roberts	CAMS #218	58.816
+44	Ryan Yee	EVX #73	58.833
+45	Hudson Tsang	EVX #971	58.834
+46	Michael Jones	AS #26	58.904
+47	Michael Ansell	P-CP #177	59.031
+48	Nick Relampagos	CAMT #26	59.207
+49	Sandra Gartner	P-XP #125	59.433
+50	Gregory Kehoe	BST #95	59.562
+51	Darren Voges	CAMT #669	59.670
+52	Jesus Villarreal	SS #91	60.035
+53	Stephanie Medeiros	SP-ESP #611	60.054
+54	Efrain Diaz	CAMT #269	60.458
+55	Eric Martin	ST1-SSC #74	60.484
+56	David Silva	P-CP #16	60.894
+57	Brenna Comacchio	S2-HS #4	61.037
+58	Sandra Fu	ST1-AST #45	61.059
+59	Donald Lew	S2-CS #52	61.219
+60	Monica Tsang	XA #171	61.374
+61	Jeremy Leung	ST1-AST #389	61.726
+62	Manny Pretti	CAMSV #66	61.757
+63	Brandon Phillips	S2-HS #14	61.767
+64	Long Pham	ST1-GST #451	61.981
+65	Gary Fazekas	S1-FS #46	62.682
+66	Steve Hobaugh	XA #32	62.777
+67	Leon Weinroth	CAMC #51	62.921
+68	Megan Anderson	CST #76	62.978
+69	Tom Cuschieri	CAMT #44	63.438
+70	Ivan Garcia	SP-CSP #777	63.636
+71	Anthony Pham	ST1-GST #894	63.641
+72	Mikey Clark	EVX #3	63.877
+73	Pedro Duran III	CAMS #55	64.723
+74	John Alvarez	CAMSV #65	64.745
+75	Derrick Galiste	CAMC #31	65.766
+76	Zachery Galiste	CAMC #310	65.974
+77	Sharon Alvarez	CAMSV #165	66.400
+78	Ron Phillips	CAMSV #48	67.107
+79	Martin Barajas	BST #2	67.871
+80	Terran Chu	BST #888	68.137
+81	Alberto Herrera	CAMC #6	68.178
+82	Kirk Lozada	CAMT #89	68.200
+83	DARIN NELMS	SM-SSM #66	68.424
+84	Jim Barnes	CAMSV #77	68.597
+85	Luke Guerra	CST #6	69.432
+86	Arjun Satwani	SS #11	70.215
+87	Kris Ludwig	BST #151	73.846
+88	Adolfo Garcia	SP-SSP #51	74.343
 
 [[PAX_VIEW]]
-Participants: 89
+Participants: 88
 2026 AAS #13 Live Results
 Date: 2026-09-19
 
@@ -143,61 +142,60 @@ Rank	Driver	Class - Number	Indexed Time
 35	Shawn Tokairin	ST1-AST #938	48.490
 36	Vince Russell	SP-CSP #192	48.543
 37	Kurt Thorson	AS #65	48.606
-38	Pilar Miranda	EVX #78	48.657
-39	Eric Martin	ST1-SSC #74	48.689
-40	Hal Dorton	CAMC #74	48.745
-41	Michael Scott	AS #2	48.770
-42	Nick Relampagos	CAMT #26	48.845
-43	Michael Jones	AS #26	48.949
-44	Erika McKee	XL-XB #41	49.087
-45	Darren Voges	CAMT #669	49.227
-46	Paul Tibbals	BST #35	49.231
-47	Ryan Yee	EVX #73	49.419
-48	Hudson Tsang	EVX #971	49.420
-49	Donald Lew	S2-CS #52	49.648
-50	Matt Roberts	CAMS #218	49.875
-51	Efrain Diaz	CAMT #269	49.877
-52	Gregory Kehoe	BST #95	49.912
-53	James Laeno	P-XP #96	50.112
-54	Long Pham	ST1-GST #451	50.204
-55	Stephanie Medeiros	SP-ESP #611	50.445
-56	Rob Boynton	SP-SSP #1	50.589
-57	Jesus Villarreal	SS #91	50.609
-58	Sandra Fu	ST1-AST #45	51.228
-59	Gary Fazekas	S1-FS #46	51.273
-60	Michael Ansell	P-CP #177	51.356
-61	Anthony Pham	ST1-GST #894	51.549
-62	Manny Pretti	CAMSV #66	51.690
-63	Jeremy Leung	ST1-AST #389	51.788
-64	Leon Weinroth	CAMC #51	52.224
-65	Tom Cuschieri	CAMT #44	52.336
-66	Megan Anderson	CST #76	52.397
-67	David Silva	P-CP #16	52.977
-68	Monica Tsang	XA #171	53.027
-69	Douglas Hargrove	M-FM #17	53.135
-70	Sandra Gartner	P-XP #125	53.489
-71	Mikey Clark	EVX #3	53.656
-72	John Alvarez	CAMSV #65	54.191
-73	Steve Hobaugh	XA #32	54.239
-74	Derrick Galiste	CAMC #31	54.585
-75	Ivan Garcia	SP-CSP #777	54.599
-76	Zachery Galiste	CAMC #310	54.758
-77	Pedro Duran III	CAMS #55	54.885
-78	Sharon Alvarez	CAMSV #165	55.576
-79	Ron Phillips	CAMSV #48	56.168
-80	Kirk Lozada	CAMT #89	56.265
-81	Alberto Herrera	CAMC #6	56.587
-82	Martin Barajas	BST #2	56.875
-83	Terran Chu	BST #888	57.098
-84	Jim Barnes	CAMSV #77	57.415
-85	Luke Guerra	CST #6	57.767
-86	Arjun Satwani	SS #11	59.191
-87	DARIN NELMS	SM-SSM #66	60.349
-88	Kris Ludwig	BST #151	61.882
-89	Adolfo Garcia	SP-SSP #51	64.158
+38	Eric Martin	ST1-SSC #74	48.689
+39	Hal Dorton	CAMC #74	48.745
+40	Michael Scott	AS #2	48.770
+41	Nick Relampagos	CAMT #26	48.845
+42	Michael Jones	AS #26	48.949
+43	Erika McKee	XL-XB #41	49.087
+44	Darren Voges	CAMT #669	49.227
+45	Paul Tibbals	BST #35	49.231
+46	Ryan Yee	EVX #73	49.419
+47	Hudson Tsang	EVX #971	49.420
+48	Donald Lew	S2-CS #52	49.648
+49	Matt Roberts	CAMS #218	49.875
+50	Efrain Diaz	CAMT #269	49.877
+51	Gregory Kehoe	BST #95	49.912
+52	James Laeno	P-XP #96	50.112
+53	Long Pham	ST1-GST #451	50.204
+54	Stephanie Medeiros	SP-ESP #611	50.445
+55	Rob Boynton	SP-SSP #1	50.589
+56	Jesus Villarreal	SS #91	50.609
+57	Sandra Fu	ST1-AST #45	51.228
+58	Gary Fazekas	S1-FS #46	51.273
+59	Michael Ansell	P-CP #177	51.356
+60	Anthony Pham	ST1-GST #894	51.549
+61	Manny Pretti	CAMSV #66	51.690
+62	Jeremy Leung	ST1-AST #389	51.788
+63	Leon Weinroth	CAMC #51	52.224
+64	Tom Cuschieri	CAMT #44	52.336
+65	Megan Anderson	CST #76	52.397
+66	David Silva	P-CP #16	52.977
+67	Monica Tsang	XA #171	53.027
+68	Douglas Hargrove	M-FM #17	53.135
+69	Sandra Gartner	P-XP #125	53.489
+70	Mikey Clark	EVX #3	53.656
+71	John Alvarez	CAMSV #65	54.191
+72	Steve Hobaugh	XA #32	54.239
+73	Derrick Galiste	CAMC #31	54.585
+74	Ivan Garcia	SP-CSP #777	54.599
+75	Zachery Galiste	CAMC #310	54.758
+76	Pedro Duran III	CAMS #55	54.885
+77	Sharon Alvarez	CAMSV #165	55.576
+78	Ron Phillips	CAMSV #48	56.168
+79	Kirk Lozada	CAMT #89	56.265
+80	Alberto Herrera	CAMC #6	56.587
+81	Martin Barajas	BST #2	56.875
+82	Terran Chu	BST #888	57.098
+83	Jim Barnes	CAMSV #77	57.415
+84	Luke Guerra	CST #6	57.767
+85	Arjun Satwani	SS #11	59.191
+86	DARIN NELMS	SM-SSM #66	60.349
+87	Kris Ludwig	BST #151	61.882
+88	Adolfo Garcia	SP-SSP #51	64.158
 
 [[CLASS_VIEW]]
-Participants: 89
+Participants: 88
 2026 AAS #13 Live Results
 Date: 2026-09-19
 
@@ -504,28 +502,21 @@ EVX
 56.464
 56.855
 
-5	Pilar Miranda #78	Tesla Model 3 Performance	57.926	48.657	
-60.581
-58.358
-58.121
-57.926
-58.217
-
-6	Ryan Yee #73	2025 Porsche Taycan 4S	58.833	49.419	
+5	Ryan Yee #73	2025 Porsche Taycan 4S	58.833	49.419	
 59.701
 59.764
 58.833
 59.119
 59.469
 
-7	Hudson Tsang #971	2023 Tesla Model 3 Performance	58.834	49.420	
+6	Hudson Tsang #971	2023 Tesla Model 3 Performance	58.834	49.420	
 61.045
 61.365
 60.032
 59.803
 58.834
 
-8	Mikey Clark #3	2022 Tesla Model 3 Performance	63.877	53.656	
+7	Mikey Clark #3	2022 Tesla Model 3 Performance	63.877	53.656	
 69.252 +1
 62.877 +1
 92.216 DNF

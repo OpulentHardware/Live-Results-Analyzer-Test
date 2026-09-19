@@ -1,26 +1,26 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-09-19T20:59:57.286Z",
+  "updatedAt": "2026-09-19T22:53:40.976Z",
   "event": {
     "title": "2026 AAS #13 Live Results",
     "date": "2026-09-19",
-    "participants": 89,
+    "participants": 88,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-09-19T20:59:57.286Z",
+    "updatedAt": "2026-09-19T22:53:40.976Z",
     "status": "ok"
   },
   "meta": {
     "title": "2026 AAS #13 Live Results",
     "date": "2026-09-19",
-    "participants": 89,
+    "participants": 88,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-09-19T20:59:57.286Z",
+    "updatedAt": "2026-09-19T22:53:40.976Z",
     "status": "ok"
   },
   "title": "2026 AAS #13 Live Results",
   "date": "2026-09-19",
-  "participants": 89,
+  "participants": 88,
   "overall": [
     {
       "rank": 1,
@@ -767,28 +767,6 @@
     {
       "rank": 35,
       "position": 35,
-      "driver": "Pilar Miranda",
-      "class": "EVX",
-      "cls": "EVX",
-      "number": "#78",
-      "classNumber": "EVX #78",
-      "time": 57.926,
-      "rawTime": 57.926,
-      "indexedTime": null,
-      "car": "Tesla Model 3 Performance",
-      "runs": [
-        "60.581",
-        "58.358",
-        "58.121",
-        "57.926",
-        "58.217"
-      ],
-      "bestRaw": 57.926,
-      "bestPax": 48.657
-    },
-    {
-      "rank": 36,
-      "position": 36,
       "driver": "Douglas Hargrove",
       "class": "M-FM",
       "cls": "M-FM",
@@ -808,8 +786,8 @@
       "bestPax": 53.135
     },
     {
-      "rank": 37,
-      "position": 37,
+      "rank": 36,
+      "position": 36,
       "driver": "Michael Gardner",
       "class": "CAMC",
       "cls": "CAMC",
@@ -830,8 +808,8 @@
       "bestPax": 48.131
     },
     {
-      "rank": 38,
-      "position": 38,
+      "rank": 37,
+      "position": 37,
       "driver": "Rich Lee",
       "class": "S1-BS",
       "cls": "S1-BS",
@@ -852,8 +830,8 @@
       "bestPax": 47.789
     },
     {
-      "rank": 39,
-      "position": 39,
+      "rank": 38,
+      "position": 38,
       "driver": "Kurt Thorson",
       "class": "AS",
       "cls": "AS",
@@ -874,8 +852,8 @@
       "bestPax": 48.606
     },
     {
-      "rank": 40,
-      "position": 40,
+      "rank": 39,
+      "position": 39,
       "driver": "Rob Boynton",
       "class": "SP-SSP",
       "cls": "SP-SSP",
@@ -895,8 +873,8 @@
       "bestPax": 50.589
     },
     {
-      "rank": 41,
-      "position": 41,
+      "rank": 40,
+      "position": 40,
       "driver": "Michael Scott",
       "class": "AS",
       "cls": "AS",
@@ -917,8 +895,8 @@
       "bestPax": 48.77
     },
     {
-      "rank": 42,
-      "position": 42,
+      "rank": 41,
+      "position": 41,
       "driver": "Hal Dorton",
       "class": "CAMC",
       "cls": "CAMC",
@@ -939,8 +917,8 @@
       "bestPax": 48.745
     },
     {
-      "rank": 43,
-      "position": 43,
+      "rank": 42,
+      "position": 42,
       "driver": "Paul Tibbals",
       "class": "BST",
       "cls": "BST",
@@ -960,8 +938,8 @@
       "bestPax": 49.231
     },
     {
-      "rank": 44,
-      "position": 44,
+      "rank": 43,
+      "position": 43,
       "driver": "Matt Roberts",
       "class": "CAMS",
       "cls": "CAMS",
@@ -982,8 +960,8 @@
       "bestPax": 49.875
     },
     {
-      "rank": 45,
-      "position": 45,
+      "rank": 44,
+      "position": 44,
       "driver": "Ryan Yee",
       "class": "EVX",
       "cls": "EVX",
@@ -1004,8 +982,8 @@
       "bestPax": 49.419
     },
     {
-      "rank": 46,
-      "position": 46,
+      "rank": 45,
+      "position": 45,
       "driver": "Hudson Tsang",
       "class": "EVX",
       "cls": "EVX",
@@ -1026,8 +1004,8 @@
       "bestPax": 49.42
     },
     {
-      "rank": 47,
-      "position": 47,
+      "rank": 46,
+      "position": 46,
       "driver": "Michael Jones",
       "class": "AS",
       "cls": "AS",
@@ -1048,8 +1026,8 @@
       "bestPax": 48.949
     },
     {
-      "rank": 48,
-      "position": 48,
+      "rank": 47,
+      "position": 47,
       "driver": "Michael Ansell",
       "class": "P-CP",
       "cls": "P-CP",
@@ -1070,8 +1048,8 @@
       "bestPax": 51.356
     },
     {
-      "rank": 49,
-      "position": 49,
+      "rank": 48,
+      "position": 48,
       "driver": "Nick Relampagos",
       "class": "CAMT",
       "cls": "CAMT",
@@ -1091,8 +1069,8 @@
       "bestPax": 48.845
     },
     {
-      "rank": 50,
-      "position": 50,
+      "rank": 49,
+      "position": 49,
       "driver": "Sandra Gartner",
       "class": "P-XP",
       "cls": "P-XP",
@@ -1113,8 +1091,8 @@
       "bestPax": 53.489
     },
     {
-      "rank": 51,
-      "position": 51,
+      "rank": 50,
+      "position": 50,
       "driver": "Gregory Kehoe",
       "class": "BST",
       "cls": "BST",
@@ -1135,8 +1113,8 @@
       "bestPax": 49.912
     },
     {
-      "rank": 52,
-      "position": 52,
+      "rank": 51,
+      "position": 51,
       "driver": "Darren Voges",
       "class": "CAMT",
       "cls": "CAMT",
@@ -1157,8 +1135,8 @@
       "bestPax": 49.227
     },
     {
-      "rank": 53,
-      "position": 53,
+      "rank": 52,
+      "position": 52,
       "driver": "Jesus Villarreal",
       "class": "SS",
       "cls": "SS",
@@ -1179,8 +1157,8 @@
       "bestPax": 50.609
     },
     {
-      "rank": 54,
-      "position": 54,
+      "rank": 53,
+      "position": 53,
       "driver": "Stephanie Medeiros",
       "class": "SP-ESP",
       "cls": "SP-ESP",
@@ -1201,8 +1179,8 @@
       "bestPax": 50.445
     },
     {
-      "rank": 55,
-      "position": 55,
+      "rank": 54,
+      "position": 54,
       "driver": "Efrain Diaz",
       "class": "CAMT",
       "cls": "CAMT",
@@ -1223,8 +1201,8 @@
       "bestPax": 49.877
     },
     {
-      "rank": 56,
-      "position": 56,
+      "rank": 55,
+      "position": 55,
       "driver": "Eric Martin",
       "class": "ST1-SSC",
       "cls": "ST1-SSC",
@@ -1245,8 +1223,8 @@
       "bestPax": 48.689
     },
     {
-      "rank": 57,
-      "position": 57,
+      "rank": 56,
+      "position": 56,
       "driver": "David Silva",
       "class": "P-CP",
       "cls": "P-CP",
@@ -1267,8 +1245,8 @@
       "bestPax": 52.977
     },
     {
-      "rank": 58,
-      "position": 58,
+      "rank": 57,
+      "position": 57,
       "driver": "Brenna Comacchio",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -1288,8 +1266,8 @@
       "bestPax": 47.486
     },
     {
-      "rank": 59,
-      "position": 59,
+      "rank": 58,
+      "position": 58,
       "driver": "Sandra Fu",
       "class": "ST1-AST",
       "cls": "ST1-AST",
@@ -1310,8 +1288,8 @@
       "bestPax": 51.228
     },
     {
-      "rank": 60,
-      "position": 60,
+      "rank": 59,
+      "position": 59,
       "driver": "Donald Lew",
       "class": "S2-CS",
       "cls": "S2-CS",
@@ -1332,8 +1310,8 @@
       "bestPax": 49.648
     },
     {
-      "rank": 61,
-      "position": 61,
+      "rank": 60,
+      "position": 60,
       "driver": "Monica Tsang",
       "class": "XA",
       "cls": "XA",
@@ -1354,8 +1332,8 @@
       "bestPax": 53.027
     },
     {
-      "rank": 62,
-      "position": 62,
+      "rank": 61,
+      "position": 61,
       "driver": "Jeremy Leung",
       "class": "ST1-AST",
       "cls": "ST1-AST",
@@ -1376,8 +1354,8 @@
       "bestPax": 51.788
     },
     {
-      "rank": 63,
-      "position": 63,
+      "rank": 62,
+      "position": 62,
       "driver": "Manny Pretti",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -1398,8 +1376,8 @@
       "bestPax": 51.69
     },
     {
-      "rank": 64,
-      "position": 64,
+      "rank": 63,
+      "position": 63,
       "driver": "Brandon Phillips",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -1420,8 +1398,8 @@
       "bestPax": 48.054
     },
     {
-      "rank": 65,
-      "position": 65,
+      "rank": 64,
+      "position": 64,
       "driver": "Long Pham",
       "class": "ST1-GST",
       "cls": "ST1-GST",
@@ -1442,8 +1420,8 @@
       "bestPax": 50.204
     },
     {
-      "rank": 66,
-      "position": 66,
+      "rank": 65,
+      "position": 65,
       "driver": "Gary Fazekas",
       "class": "S1-FS",
       "cls": "S1-FS",
@@ -1464,8 +1442,8 @@
       "bestPax": 51.273
     },
     {
-      "rank": 67,
-      "position": 67,
+      "rank": 66,
+      "position": 66,
       "driver": "Steve Hobaugh",
       "class": "XA",
       "cls": "XA",
@@ -1486,8 +1464,8 @@
       "bestPax": 54.239
     },
     {
-      "rank": 68,
-      "position": 68,
+      "rank": 67,
+      "position": 67,
       "driver": "Leon Weinroth",
       "class": "CAMC",
       "cls": "CAMC",
@@ -1508,8 +1486,8 @@
       "bestPax": 52.224
     },
     {
-      "rank": 69,
-      "position": 69,
+      "rank": 68,
+      "position": 68,
       "driver": "Megan Anderson",
       "class": "CST",
       "cls": "CST",
@@ -1530,8 +1508,8 @@
       "bestPax": 52.397
     },
     {
-      "rank": 70,
-      "position": 70,
+      "rank": 69,
+      "position": 69,
       "driver": "Tom Cuschieri",
       "class": "CAMT",
       "cls": "CAMT",
@@ -1552,8 +1530,8 @@
       "bestPax": 52.336
     },
     {
-      "rank": 71,
-      "position": 71,
+      "rank": 70,
+      "position": 70,
       "driver": "Ivan Garcia",
       "class": "SP-CSP",
       "cls": "SP-CSP",
@@ -1574,8 +1552,8 @@
       "bestPax": 54.599
     },
     {
-      "rank": 72,
-      "position": 72,
+      "rank": 71,
+      "position": 71,
       "driver": "Anthony Pham",
       "class": "ST1-GST",
       "cls": "ST1-GST",
@@ -1595,8 +1573,8 @@
       "bestPax": 51.549
     },
     {
-      "rank": 73,
-      "position": 73,
+      "rank": 72,
+      "position": 72,
       "driver": "Mikey Clark",
       "class": "EVX",
       "cls": "EVX",
@@ -1616,8 +1594,8 @@
       "bestPax": 53.656
     },
     {
-      "rank": 74,
-      "position": 74,
+      "rank": 73,
+      "position": 73,
       "driver": "Pedro Duran III",
       "class": "CAMS",
       "cls": "CAMS",
@@ -1638,8 +1616,8 @@
       "bestPax": 54.885
     },
     {
-      "rank": 75,
-      "position": 75,
+      "rank": 74,
+      "position": 74,
       "driver": "John Alvarez",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -1660,8 +1638,8 @@
       "bestPax": 54.191
     },
     {
-      "rank": 76,
-      "position": 76,
+      "rank": 75,
+      "position": 75,
       "driver": "Derrick Galiste",
       "class": "CAMC",
       "cls": "CAMC",
@@ -1682,8 +1660,8 @@
       "bestPax": 54.585
     },
     {
-      "rank": 77,
-      "position": 77,
+      "rank": 76,
+      "position": 76,
       "driver": "Zachery Galiste",
       "class": "CAMC",
       "cls": "CAMC",
@@ -1704,8 +1682,8 @@
       "bestPax": 54.758
     },
     {
-      "rank": 78,
-      "position": 78,
+      "rank": 77,
+      "position": 77,
       "driver": "Sharon Alvarez",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -1726,8 +1704,8 @@
       "bestPax": 55.576
     },
     {
-      "rank": 79,
-      "position": 79,
+      "rank": 78,
+      "position": 78,
       "driver": "Ron Phillips",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -1747,8 +1725,8 @@
       "bestPax": 56.168
     },
     {
-      "rank": 80,
-      "position": 80,
+      "rank": 79,
+      "position": 79,
       "driver": "Martin Barajas",
       "class": "BST",
       "cls": "BST",
@@ -1766,8 +1744,8 @@
       "bestPax": 56.875
     },
     {
-      "rank": 81,
-      "position": 81,
+      "rank": 80,
+      "position": 80,
       "driver": "Terran Chu",
       "class": "BST",
       "cls": "BST",
@@ -1788,8 +1766,8 @@
       "bestPax": 57.098
     },
     {
-      "rank": 82,
-      "position": 82,
+      "rank": 81,
+      "position": 81,
       "driver": "Alberto Herrera",
       "class": "CAMC",
       "cls": "CAMC",
@@ -1811,8 +1789,8 @@
       "bestPax": 56.587
     },
     {
-      "rank": 83,
-      "position": 83,
+      "rank": 82,
+      "position": 82,
       "driver": "Kirk Lozada",
       "class": "CAMT",
       "cls": "CAMT",
@@ -1833,8 +1811,8 @@
       "bestPax": 56.265
     },
     {
-      "rank": 84,
-      "position": 84,
+      "rank": 83,
+      "position": 83,
       "driver": "DARIN NELMS",
       "class": "SM-SSM",
       "cls": "SM-SSM",
@@ -1855,8 +1833,8 @@
       "bestPax": 60.349
     },
     {
-      "rank": 85,
-      "position": 85,
+      "rank": 84,
+      "position": 84,
       "driver": "Jim Barnes",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -1877,8 +1855,8 @@
       "bestPax": 57.415
     },
     {
-      "rank": 86,
-      "position": 86,
+      "rank": 85,
+      "position": 85,
       "driver": "Luke Guerra",
       "class": "CST",
       "cls": "CST",
@@ -1898,8 +1876,8 @@
       "bestPax": 57.767
     },
     {
-      "rank": 87,
-      "position": 87,
+      "rank": 86,
+      "position": 86,
       "driver": "Arjun Satwani",
       "class": "SS",
       "cls": "SS",
@@ -1920,8 +1898,8 @@
       "bestPax": 59.191
     },
     {
-      "rank": 88,
-      "position": 88,
+      "rank": 87,
+      "position": 87,
       "driver": "Kris Ludwig",
       "class": "BST",
       "cls": "BST",
@@ -1941,8 +1919,8 @@
       "bestPax": 61.882
     },
     {
-      "rank": 89,
-      "position": 89,
+      "rank": 88,
+      "position": 88,
       "driver": "Adolfo Garcia",
       "class": "SP-SSP",
       "cls": "SP-SSP",
@@ -2776,28 +2754,6 @@
     {
       "rank": 38,
       "position": 38,
-      "driver": "Pilar Miranda",
-      "class": "EVX",
-      "cls": "EVX",
-      "number": "#78",
-      "classNumber": "EVX #78",
-      "time": 48.657,
-      "rawTime": null,
-      "indexedTime": 48.657,
-      "car": "Tesla Model 3 Performance",
-      "runs": [
-        "60.581",
-        "58.358",
-        "58.121",
-        "57.926",
-        "58.217"
-      ],
-      "bestRaw": 57.926,
-      "bestPax": 48.657
-    },
-    {
-      "rank": 39,
-      "position": 39,
       "driver": "Eric Martin",
       "class": "ST1-SSC",
       "cls": "ST1-SSC",
@@ -2818,8 +2774,8 @@
       "bestPax": 48.689
     },
     {
-      "rank": 40,
-      "position": 40,
+      "rank": 39,
+      "position": 39,
       "driver": "Hal Dorton",
       "class": "CAMC",
       "cls": "CAMC",
@@ -2840,8 +2796,8 @@
       "bestPax": 48.745
     },
     {
-      "rank": 41,
-      "position": 41,
+      "rank": 40,
+      "position": 40,
       "driver": "Michael Scott",
       "class": "AS",
       "cls": "AS",
@@ -2862,8 +2818,8 @@
       "bestPax": 48.77
     },
     {
-      "rank": 42,
-      "position": 42,
+      "rank": 41,
+      "position": 41,
       "driver": "Nick Relampagos",
       "class": "CAMT",
       "cls": "CAMT",
@@ -2883,8 +2839,8 @@
       "bestPax": 48.845
     },
     {
-      "rank": 43,
-      "position": 43,
+      "rank": 42,
+      "position": 42,
       "driver": "Michael Jones",
       "class": "AS",
       "cls": "AS",
@@ -2905,8 +2861,8 @@
       "bestPax": 48.949
     },
     {
-      "rank": 44,
-      "position": 44,
+      "rank": 43,
+      "position": 43,
       "driver": "Erika McKee",
       "class": "XL-XB",
       "cls": "XL-XB",
@@ -2927,8 +2883,8 @@
       "bestPax": 49.087
     },
     {
-      "rank": 45,
-      "position": 45,
+      "rank": 44,
+      "position": 44,
       "driver": "Darren Voges",
       "class": "CAMT",
       "cls": "CAMT",
@@ -2949,8 +2905,8 @@
       "bestPax": 49.227
     },
     {
-      "rank": 46,
-      "position": 46,
+      "rank": 45,
+      "position": 45,
       "driver": "Paul Tibbals",
       "class": "BST",
       "cls": "BST",
@@ -2970,8 +2926,8 @@
       "bestPax": 49.231
     },
     {
-      "rank": 47,
-      "position": 47,
+      "rank": 46,
+      "position": 46,
       "driver": "Ryan Yee",
       "class": "EVX",
       "cls": "EVX",
@@ -2992,8 +2948,8 @@
       "bestPax": 49.419
     },
     {
-      "rank": 48,
-      "position": 48,
+      "rank": 47,
+      "position": 47,
       "driver": "Hudson Tsang",
       "class": "EVX",
       "cls": "EVX",
@@ -3014,8 +2970,8 @@
       "bestPax": 49.42
     },
     {
-      "rank": 49,
-      "position": 49,
+      "rank": 48,
+      "position": 48,
       "driver": "Donald Lew",
       "class": "S2-CS",
       "cls": "S2-CS",
@@ -3036,8 +2992,8 @@
       "bestPax": 49.648
     },
     {
-      "rank": 50,
-      "position": 50,
+      "rank": 49,
+      "position": 49,
       "driver": "Matt Roberts",
       "class": "CAMS",
       "cls": "CAMS",
@@ -3058,8 +3014,8 @@
       "bestPax": 49.875
     },
     {
-      "rank": 51,
-      "position": 51,
+      "rank": 50,
+      "position": 50,
       "driver": "Efrain Diaz",
       "class": "CAMT",
       "cls": "CAMT",
@@ -3080,8 +3036,8 @@
       "bestPax": 49.877
     },
     {
-      "rank": 52,
-      "position": 52,
+      "rank": 51,
+      "position": 51,
       "driver": "Gregory Kehoe",
       "class": "BST",
       "cls": "BST",
@@ -3102,8 +3058,8 @@
       "bestPax": 49.912
     },
     {
-      "rank": 53,
-      "position": 53,
+      "rank": 52,
+      "position": 52,
       "driver": "James Laeno",
       "class": "P-XP",
       "cls": "P-XP",
@@ -3122,8 +3078,8 @@
       "bestPax": 50.112
     },
     {
-      "rank": 54,
-      "position": 54,
+      "rank": 53,
+      "position": 53,
       "driver": "Long Pham",
       "class": "ST1-GST",
       "cls": "ST1-GST",
@@ -3144,8 +3100,8 @@
       "bestPax": 50.204
     },
     {
-      "rank": 55,
-      "position": 55,
+      "rank": 54,
+      "position": 54,
       "driver": "Stephanie Medeiros",
       "class": "SP-ESP",
       "cls": "SP-ESP",
@@ -3166,8 +3122,8 @@
       "bestPax": 50.445
     },
     {
-      "rank": 56,
-      "position": 56,
+      "rank": 55,
+      "position": 55,
       "driver": "Rob Boynton",
       "class": "SP-SSP",
       "cls": "SP-SSP",
@@ -3187,8 +3143,8 @@
       "bestPax": 50.589
     },
     {
-      "rank": 57,
-      "position": 57,
+      "rank": 56,
+      "position": 56,
       "driver": "Jesus Villarreal",
       "class": "SS",
       "cls": "SS",
@@ -3209,8 +3165,8 @@
       "bestPax": 50.609
     },
     {
-      "rank": 58,
-      "position": 58,
+      "rank": 57,
+      "position": 57,
       "driver": "Sandra Fu",
       "class": "ST1-AST",
       "cls": "ST1-AST",
@@ -3231,8 +3187,8 @@
       "bestPax": 51.228
     },
     {
-      "rank": 59,
-      "position": 59,
+      "rank": 58,
+      "position": 58,
       "driver": "Gary Fazekas",
       "class": "S1-FS",
       "cls": "S1-FS",
@@ -3253,8 +3209,8 @@
       "bestPax": 51.273
     },
     {
-      "rank": 60,
-      "position": 60,
+      "rank": 59,
+      "position": 59,
       "driver": "Michael Ansell",
       "class": "P-CP",
       "cls": "P-CP",
@@ -3275,8 +3231,8 @@
       "bestPax": 51.356
     },
     {
-      "rank": 61,
-      "position": 61,
+      "rank": 60,
+      "position": 60,
       "driver": "Anthony Pham",
       "class": "ST1-GST",
       "cls": "ST1-GST",
@@ -3296,8 +3252,8 @@
       "bestPax": 51.549
     },
     {
-      "rank": 62,
-      "position": 62,
+      "rank": 61,
+      "position": 61,
       "driver": "Manny Pretti",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -3318,8 +3274,8 @@
       "bestPax": 51.69
     },
     {
-      "rank": 63,
-      "position": 63,
+      "rank": 62,
+      "position": 62,
       "driver": "Jeremy Leung",
       "class": "ST1-AST",
       "cls": "ST1-AST",
@@ -3340,8 +3296,8 @@
       "bestPax": 51.788
     },
     {
-      "rank": 64,
-      "position": 64,
+      "rank": 63,
+      "position": 63,
       "driver": "Leon Weinroth",
       "class": "CAMC",
       "cls": "CAMC",
@@ -3362,8 +3318,8 @@
       "bestPax": 52.224
     },
     {
-      "rank": 65,
-      "position": 65,
+      "rank": 64,
+      "position": 64,
       "driver": "Tom Cuschieri",
       "class": "CAMT",
       "cls": "CAMT",
@@ -3384,8 +3340,8 @@
       "bestPax": 52.336
     },
     {
-      "rank": 66,
-      "position": 66,
+      "rank": 65,
+      "position": 65,
       "driver": "Megan Anderson",
       "class": "CST",
       "cls": "CST",
@@ -3406,8 +3362,8 @@
       "bestPax": 52.397
     },
     {
-      "rank": 67,
-      "position": 67,
+      "rank": 66,
+      "position": 66,
       "driver": "David Silva",
       "class": "P-CP",
       "cls": "P-CP",
@@ -3428,8 +3384,8 @@
       "bestPax": 52.977
     },
     {
-      "rank": 68,
-      "position": 68,
+      "rank": 67,
+      "position": 67,
       "driver": "Monica Tsang",
       "class": "XA",
       "cls": "XA",
@@ -3450,8 +3406,8 @@
       "bestPax": 53.027
     },
     {
-      "rank": 69,
-      "position": 69,
+      "rank": 68,
+      "position": 68,
       "driver": "Douglas Hargrove",
       "class": "M-FM",
       "cls": "M-FM",
@@ -3471,8 +3427,8 @@
       "bestPax": 53.135
     },
     {
-      "rank": 70,
-      "position": 70,
+      "rank": 69,
+      "position": 69,
       "driver": "Sandra Gartner",
       "class": "P-XP",
       "cls": "P-XP",
@@ -3493,8 +3449,8 @@
       "bestPax": 53.489
     },
     {
-      "rank": 71,
-      "position": 71,
+      "rank": 70,
+      "position": 70,
       "driver": "Mikey Clark",
       "class": "EVX",
       "cls": "EVX",
@@ -3514,8 +3470,8 @@
       "bestPax": 53.656
     },
     {
-      "rank": 72,
-      "position": 72,
+      "rank": 71,
+      "position": 71,
       "driver": "John Alvarez",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -3536,8 +3492,8 @@
       "bestPax": 54.191
     },
     {
-      "rank": 73,
-      "position": 73,
+      "rank": 72,
+      "position": 72,
       "driver": "Steve Hobaugh",
       "class": "XA",
       "cls": "XA",
@@ -3558,8 +3514,8 @@
       "bestPax": 54.239
     },
     {
-      "rank": 74,
-      "position": 74,
+      "rank": 73,
+      "position": 73,
       "driver": "Derrick Galiste",
       "class": "CAMC",
       "cls": "CAMC",
@@ -3580,8 +3536,8 @@
       "bestPax": 54.585
     },
     {
-      "rank": 75,
-      "position": 75,
+      "rank": 74,
+      "position": 74,
       "driver": "Ivan Garcia",
       "class": "SP-CSP",
       "cls": "SP-CSP",
@@ -3602,8 +3558,8 @@
       "bestPax": 54.599
     },
     {
-      "rank": 76,
-      "position": 76,
+      "rank": 75,
+      "position": 75,
       "driver": "Zachery Galiste",
       "class": "CAMC",
       "cls": "CAMC",
@@ -3624,8 +3580,8 @@
       "bestPax": 54.758
     },
     {
-      "rank": 77,
-      "position": 77,
+      "rank": 76,
+      "position": 76,
       "driver": "Pedro Duran III",
       "class": "CAMS",
       "cls": "CAMS",
@@ -3646,8 +3602,8 @@
       "bestPax": 54.885
     },
     {
-      "rank": 78,
-      "position": 78,
+      "rank": 77,
+      "position": 77,
       "driver": "Sharon Alvarez",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -3668,8 +3624,8 @@
       "bestPax": 55.576
     },
     {
-      "rank": 79,
-      "position": 79,
+      "rank": 78,
+      "position": 78,
       "driver": "Ron Phillips",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -3689,8 +3645,8 @@
       "bestPax": 56.168
     },
     {
-      "rank": 80,
-      "position": 80,
+      "rank": 79,
+      "position": 79,
       "driver": "Kirk Lozada",
       "class": "CAMT",
       "cls": "CAMT",
@@ -3711,8 +3667,8 @@
       "bestPax": 56.265
     },
     {
-      "rank": 81,
-      "position": 81,
+      "rank": 80,
+      "position": 80,
       "driver": "Alberto Herrera",
       "class": "CAMC",
       "cls": "CAMC",
@@ -3734,8 +3690,8 @@
       "bestPax": 56.587
     },
     {
-      "rank": 82,
-      "position": 82,
+      "rank": 81,
+      "position": 81,
       "driver": "Martin Barajas",
       "class": "BST",
       "cls": "BST",
@@ -3753,8 +3709,8 @@
       "bestPax": 56.875
     },
     {
-      "rank": 83,
-      "position": 83,
+      "rank": 82,
+      "position": 82,
       "driver": "Terran Chu",
       "class": "BST",
       "cls": "BST",
@@ -3775,8 +3731,8 @@
       "bestPax": 57.098
     },
     {
-      "rank": 84,
-      "position": 84,
+      "rank": 83,
+      "position": 83,
       "driver": "Jim Barnes",
       "class": "CAMSV",
       "cls": "CAMSV",
@@ -3797,8 +3753,8 @@
       "bestPax": 57.415
     },
     {
-      "rank": 85,
-      "position": 85,
+      "rank": 84,
+      "position": 84,
       "driver": "Luke Guerra",
       "class": "CST",
       "cls": "CST",
@@ -3818,8 +3774,8 @@
       "bestPax": 57.767
     },
     {
-      "rank": 86,
-      "position": 86,
+      "rank": 85,
+      "position": 85,
       "driver": "Arjun Satwani",
       "class": "SS",
       "cls": "SS",
@@ -3840,8 +3796,8 @@
       "bestPax": 59.191
     },
     {
-      "rank": 87,
-      "position": 87,
+      "rank": 86,
+      "position": 86,
       "driver": "DARIN NELMS",
       "class": "SM-SSM",
       "cls": "SM-SSM",
@@ -3862,8 +3818,8 @@
       "bestPax": 60.349
     },
     {
-      "rank": 88,
-      "position": 88,
+      "rank": 87,
+      "position": 87,
       "driver": "Kris Ludwig",
       "class": "BST",
       "cls": "BST",
@@ -3883,8 +3839,8 @@
       "bestPax": 61.882
     },
     {
-      "rank": 89,
-      "position": 89,
+      "rank": 88,
+      "position": 88,
       "driver": "Adolfo Garcia",
       "class": "SP-SSP",
       "cls": "SP-SSP",
@@ -4770,28 +4726,6 @@
       {
         "position": 5,
         "rank": 5,
-        "driver": "Pilar Miranda",
-        "class": "EVX",
-        "cls": "EVX",
-        "number": "#78",
-        "car": "Tesla Model 3 Performance",
-        "classNumber": "EVX #78",
-        "bestRaw": 57.926,
-        "bestPax": 48.657,
-        "rawTime": 57.926,
-        "indexedTime": 48.657,
-        "time": 57.926,
-        "runs": [
-          "60.581",
-          "58.358",
-          "58.121",
-          "57.926",
-          "58.217"
-        ]
-      },
-      {
-        "position": 6,
-        "rank": 6,
         "driver": "Ryan Yee",
         "class": "EVX",
         "cls": "EVX",
@@ -4812,8 +4746,8 @@
         ]
       },
       {
-        "position": 7,
-        "rank": 7,
+        "position": 6,
+        "rank": 6,
         "driver": "Hudson Tsang",
         "class": "EVX",
         "cls": "EVX",
@@ -4834,8 +4768,8 @@
         ]
       },
       {
-        "position": 8,
-        "rank": 8,
+        "position": 7,
+        "rank": 7,
         "driver": "Mikey Clark",
         "class": "EVX",
         "cls": "EVX",
@@ -5904,9 +5838,9 @@
     "X"
   ],
   "diagnostics": {
-    "sourceLineCount": 772,
-    "overallRows": 89,
-    "paxRows": 89,
+    "sourceLineCount": 764,
+    "overallRows": 88,
+    "paxRows": 88,
     "classGroups": 18,
     "classRows": {
       "AS": 6,
@@ -5915,7 +5849,7 @@
       "CAMS": 10,
       "CAMT": 5,
       "CST": 3,
-      "EVX": 8,
+      "EVX": 7,
       "SS": 5,
       "XA": 6,
       "M": 3,
