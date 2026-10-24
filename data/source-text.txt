@@ -1,5 +1,5 @@
 [[OVERALL_VIEW]]
-Participants: 34
+Participants: 67
 2026 AAS #15 Live Results
 Date: 2026-10-24
 
@@ -7,43 +7,76 @@ Overall Class PAX
 
 Overall
 Rank	Driver	Class - Number	Time
-1	Steve Mclaughlin	SP-DSP #911	57.169
-2	Justin Tsang	AS #88	57.455
-3	Vince Russell	SP-CSP #192	58.179
-4	Juven Lat	SS #31	58.248
-5	Erik Acks	AS #68	58.321
-6	Rich Lee	S1-BS #99	59.186
-7	Glen Anderson	CST #79	59.288
-8	Michael Jones	AS #26	59.299
-9	Renee Russell	SPL-CSP #92	59.516
-10	Christopher Cook	CST #19	59.701
-11	Jesus Villarreal	SS #91	59.844
-12	Kurt Thorson	AS #65	59.856
-13	Kaustav Acharya	S1-BS #49	60.151
-14	Tom Kubo	SP-CSP #92	60.276
-15	Rob Boynton	SP-SSP #1	60.522
-16	Ed Runnion	CST #18	60.591
-17	John Rowe	S1-DS #24	60.704
-18	Ken Suzuki	S2-CS #39	60.947
-19	Gregory Kehoe	BST #95	61.009
-20	Philip Ma	S1-DS #75	61.497
-21	Donald Lew	S2-CS #52	62.160
-22	Muamong Yiengyouav	CST #134	62.359
-23	Stephanie Medeiros	SP-ESP #611	63.114
-24	Dylan Hemman	S2-GS #32	63.689
-25	Anurag Prakash	S2-CS #164	63.746
-26	David Anderson	S2-ES #43	63.977
-27	Adrien Araujo	AS #333	64.274
-28	Arie Villasol	SP-FSP #16	65.232
-29	Tom Mill	BST #14	66.031
-30	Megan Anderson	CST #76	66.032
-31	Ivan Garcia	SP-CSP #777	66.194
-32	Andrew Shutt	S2-CS #77	68.265
-33	Stephen Roberts	S2-HS #91	68.677
-34	Corby Jean	S1-FS #72	73.737
+1	Mike Maier	P-CP #136	53.492
+2	Tom Exley	P-XP #25	53.593
+3	Roger Kroog	M-FM #18	53.759
+4	Andy McKee	X-XB #141	53.824
+5	Steve Lau	XA #18	54.587
+6	Jeff Kiesel	P-BP #143	54.758
+7	Teresa Neidel-McKee	X-XB #41	55.119
+8	Eric Gnesa	X-XB #93	55.146
+9	Tara Shapowal	XA #187	55.274
+10	Lisa Gnesa	X-XB #193	55.533
+11	Johnathon Stewart	P-CP #36	56.093
+12	Steve Mclaughlin	SP-DSP #911	56.489
+13	James Laeno	X-XU #96	56.522
+14	Justin Tsang	AS #88	56.609
+15	Isaac Acks	XA #71	56.893
+16	Renee Russell	SPL-CSP #92	57.401
+17	Vince Russell	SP-CSP #192	57.495
+18	Juven Lat	SS #31	57.593
+19	Arvind Govindaraj	ST1-AST #1	57.870
+20	Khoa Cao	XA #115	58.061
+21	Erik Acks	AS #68	58.166
+22	Rich Lee	S1-BS #99	58.177
+23	Tom Kubo	SP-CSP #92	58.246
+24	Christopher Cook	CST #19	58.291
+25	Jeff Kiesel	M-EM #143	58.443
+26	Jake Obniski	X-XB #43	58.462
+27	Kristen Acharya	S1-BS #490	58.475
+28	Adrian Cardenas	ST1-AST #333	58.737
+29	Glen Anderson	CST #79	58.794
+30	Patrick Drudge	ST1-SST #126	58.833
+31	Ken Suzuki	S2-CS #39	59.035
+32	Bill Charron	ST1-SST #9	59.142
+33	Ed Runnion	CST #18	59.153
+34	Michael Jones	AS #26	59.266
+35	Jesus Villarreal	SS #91	59.428
+36	Rob Boynton	SP-SSP #1	59.515
+37	Kurt Thorson	AS #65	59.687
+38	John Rowe	S1-DS #24	59.959
+39	Muamong Yiengyouav	CST #134	59.990
+40	Kaustav Acharya	S1-BS #49	60.151
+41	Mohamed Chaabene	M-BM #27	60.269
+42	Stephanie Medeiros	SP-ESP #611	60.473
+43	Andre Piernot	ST1-EST #19	60.545
+44	Gregory Kehoe	BST #95	60.631
+45	Philip Ma	S1-DS #75	60.950
+46	Eric Martin	ST1-SSC #74	61.105
+47	Mark Kiesel	P-BP #66	61.382
+48	Keith Bullock	ST1-EST #18	62.023
+49	David Silva	P-CP #16	62.118
+50	Donald Lew	S2-CS #52	62.160
+51	Kelly Prior	X-XB #143	62.228
+52	Anurag Prakash	S2-CS #164	62.342
+53	Arie Villasol	SP-FSP #16	63.187
+54	Kevin Zhan	ST1-AST #113	63.281
+55	David Anderson	S2-ES #43	63.608
+56	Ivan Garcia	SP-CSP #777	63.659
+57	Dylan Hemman	S2-GS #32	63.689
+58	Adrien Araujo	AS #333	63.783
+59	Megan Anderson	CST #76	64.485
+60	Frank Stagnaro	P-CP #361	65.479
+61	Tom Mill	BST #14	66.031
+62	Stephen Roberts	S2-HS #91	67.153
+63	Andrew Shutt	S2-CS #77	67.831
+64	Duck Pham	XA #2	67.858
+65	Karl Beduria	XA #17	69.533
+66	George Tomkins	CST #711	69.834
+67	Corby Jean	S1-FS #72	72.500
 
 [[PAX_VIEW]]
-Participants: 34
+Participants: 67
 2026 AAS #15 Live Results
 Date: 2026-10-24
 
@@ -51,43 +84,76 @@ Overall Class PAX
 
 PAX
 Rank	Driver	Class - Number	Indexed Time
-1	Justin Tsang	AS #88	47.745
-2	Erik Acks	AS #68	48.464
-3	Rich Lee	S1-BS #99	48.769
-4	Steve Mclaughlin	SP-DSP #911	48.822
-5	John Rowe	S1-DS #24	49.048
-6	Juven Lat	SS #31	49.103
-7	Michael Jones	AS #26	49.277
-8	Glen Anderson	CST #79	49.327
-9	Ken Suzuki	S2-CS #39	49.428
-10	Kaustav Acharya	S1-BS #49	49.564
-11	Christopher Cook	CST #19	49.671
-12	Philip Ma	S1-DS #75	49.689
-13	Kurt Thorson	AS #65	49.740
-14	Vince Russell	SP-CSP #192	49.917
-15	Donald Lew	S2-CS #52	50.411
-15	Ed Runnion	CST #18	50.411
-17	David Anderson	S2-ES #43	50.413
-18	Jesus Villarreal	SS #91	50.448
-19	Renee Russell	SPL-CSP #92	51.064
-20	Gregory Kehoe	BST #95	51.125
-21	Dylan Hemman	S2-GS #32	51.460
-22	Anurag Prakash	S2-CS #164	51.698
-23	Tom Kubo	SP-CSP #92	51.716
-24	Muamong Yiengyouav	CST #134	51.882
-25	Rob Boynton	SP-SSP #1	52.230
-26	Stephanie Medeiros	SP-ESP #611	53.015
-27	Adrien Araujo	AS #333	53.411
-28	Stephen Roberts	S2-HS #91	53.430
-29	Arie Villasol	SP-FSP #16	54.142
-30	Megan Anderson	CST #76	54.938
-31	Tom Mill	BST #14	55.333
-32	Andrew Shutt	S2-CS #77	55.362
-33	Ivan Garcia	SP-CSP #777	56.794
-34	Corby Jean	S1-FS #72	60.316
+1	Mike Maier	P-CP #136	46.538
+2	Justin Tsang	AS #88	47.042
+3	Steve Lau	XA #18	47.163
+4	Andy McKee	X-XB #141	47.365
+5	Tara Shapowal	XA #187	47.756
+6	Ken Suzuki	S2-CS #39	47.877
+7	Rich Lee	S1-BS #99	47.937
+8	Jeff Kiesel	P-BP #143	48.077
+9	Kristen Acharya	S1-BS #490	48.183
+10	Tom Exley	P-XP #25	48.233
+11	Steve Mclaughlin	SP-DSP #911	48.241
+12	Erik Acks	AS #68	48.335
+13	John Rowe	S1-DS #24	48.446
+14	Christopher Cook	CST #19	48.498
+15	Teresa Neidel-McKee	X-XB #41	48.504
+16	Eric Gnesa	X-XB #93	48.528
+17	Juven Lat	SS #31	48.550
+18	Arvind Govindaraj	ST1-AST #1	48.552
+19	Johnathon Stewart	P-CP #36	48.800
+20	Lisa Gnesa	X-XB #193	48.869
+21	Glen Anderson	CST #79	48.916
+22	Isaac Acks	XA #71	49.155
+23	Andre Piernot	ST1-EST #19	49.162
+24	Eric Martin	ST1-SSC #74	49.189
+25	Ed Runnion	CST #18	49.215
+26	Philip Ma	S1-DS #75	49.247
+27	Michael Jones	AS #26	49.250
+27	Renee Russell	SPL-CSP #92	49.250
+29	Adrian Cardenas	ST1-AST #333	49.280
+30	Roger Kroog	M-FM #18	49.297
+31	Vince Russell	SP-CSP #192	49.330
+32	James Laeno	X-XU #96	49.400
+33	Patrick Drudge	ST1-SST #126	49.478
+34	Kaustav Acharya	S1-BS #49	49.564
+35	Kurt Thorson	AS #65	49.599
+36	Bill Charron	ST1-SST #9	49.738
+37	Muamong Yiengyouav	CST #134	49.911
+38	Tom Kubo	SP-CSP #92	49.975
+39	Jesus Villarreal	SS #91	50.097
+40	David Anderson	S2-ES #43	50.123
+41	Khoa Cao	XA #115	50.164
+42	Keith Bullock	ST1-EST #18	50.362
+43	Donald Lew	S2-CS #52	50.411
+44	Anurag Prakash	S2-CS #164	50.559
+45	Stephanie Medeiros	SP-ESP #611	50.797
+46	Gregory Kehoe	BST #95	50.808
+47	Rob Boynton	SP-SSP #1	51.361
+48	Jake Obniski	X-XB #43	51.446
+49	Dylan Hemman	S2-GS #32	51.460
+50	Stephen Roberts	S2-HS #91	52.245
+51	Arie Villasol	SP-FSP #16	52.445
+52	Adrien Araujo	AS #333	53.003
+53	Kevin Zhan	ST1-AST #113	53.092
+54	Jeff Kiesel	M-EM #143	53.650
+55	Megan Anderson	CST #76	53.651
+56	Mark Kiesel	P-BP #66	53.893
+57	David Silva	P-CP #16	54.042
+58	Ivan Garcia	SP-CSP #777	54.619
+59	Kelly Prior	X-XB #143	54.760
+60	Andrew Shutt	S2-CS #77	55.010
+61	Tom Mill	BST #14	55.333
+62	Frank Stagnaro	P-CP #361	56.966
+63	George Tomkins	CST #711	58.101
+64	Duck Pham	XA #2	58.629
+65	Mohamed Chaabene	M-BM #27	59.184
+66	Corby Jean	S1-FS #72	59.305
+67	Karl Beduria	XA #17	60.076
 
 [[CLASS_VIEW]]
-Participants: 34
+Participants: 67
 2026 AAS #15 Live Results
 Date: 2026-10-24
 
@@ -97,163 +163,485 @@ SELECT CLASS
 AS
 BST
 CST
+M
+P
 S1
 S2
 SP
 SPL
 SS
+ST1
+X
+XA
 Class
 Position	Driver	Car	Best Raw	Best Pax	Raw Times
 AS
-1	Justin Tsang #88	2019 Chevrolet Corvette Grand Sport	57.455	47.745	
+1	Justin Tsang #88	2019 Chevrolet Corvette Grand Sport	56.609	47.042	
 58.617 +1
 57.455
+56.670 +1
+56.983
+56.609
 
-2	Erik Acks #68	2018 Porsche Cayman GTS	58.321	48.464	
+2	Erik Acks #68	2018 Porsche Cayman GTS	58.166	48.335	
 59.672
 58.321
+58.387
+58.713
+58.166
 
-3	Michael Jones #26	2004 Chevrolet	59.299	49.277	
+3	Michael Jones #26	2004 Chevrolet	59.266	49.250	
 62.432
 60.396
 59.299
+59.266
+70.668
 
-4	Kurt Thorson #65	2004 Chevrolet Corvette Z06	59.856	49.740	
+4	Kurt Thorson #65	2004 Chevrolet Corvette Z06	59.687	49.599	
 61.055
 59.856
 60.229
+72.956
+59.687
 
-5	Adrien Araujo #333	2006 Porsche Carrera S	64.274	53.411	
+5	Adrien Araujo #333	2006 Porsche Carrera S	63.783	53.003	
 65.323
 64.274
+64.946
+63.783
+63.828
 
 BST
-1	Gregory Kehoe #95	2009 Nissan 370Z	61.009	51.125	
+1	Gregory Kehoe #95	2009 Nissan 370Z	60.631	50.808	
 62.457
 61.009
+61.322
+60.631
+61.383
 
 2	Tom Mill #14	2012 BMW M3	66.031	55.333	
 66.031
 73.919 +1
 
 CST
-1	Glen Anderson #79	2022 Subaru BRZ	59.288	49.327	
+1	Christopher Cook #19	2002 Honda S2000	58.291	48.498	
+61.977 DNF
+59.701
+59.086
+58.291
+58.308
+
+2	Glen Anderson #79	2022 Subaru BRZ	58.794	48.916	
 60.537
 59.288
 58.539 +1
+58.794
+58.502 +1
 
-2	Christopher Cook #19	2002 Honda S2000	59.701	49.671	
-61.977 DNF
-59.701
-
-3	Ed Runnion #18	2022 Subaru BRZ	60.591	50.411	
+3	Ed Runnion #18	2022 Subaru BRZ	59.153	49.215	
 62.177
 60.591
+59.524
+59.520
+59.153
 
-4	Muamong Yiengyouav #134	2007 Honda S2000	62.359	51.882	
+4	Muamong Yiengyouav #134	2007 Honda S2000	59.990	49.911	
 64.187
 61.359 +1
+59.990
+60.280 +1
+67.217
 
-5	Megan Anderson #76	2022 Subaru BRZ	66.032	54.938	
+5	Megan Anderson #76	2022 Subaru BRZ	64.485	53.651	
 67.212
 66.032
+64.945
+64.485
+65.121
+
+6	George Tomkins #711	1996 Mazda Miata	69.834	58.101	
+76.045
+71.854
+72.021
+70.532
+69.834
 
 SS
-1	Juven Lat #31	2023 Porsche Cayman GT4 RS	58.248	49.103	
+1	Juven Lat #31	2023 Porsche Cayman GT4 RS	57.593	48.550	
 59.119
 58.579
 58.248
+58.053
+57.593
 
-2	Jesus Villarreal #91	Chevrolet Corvette	59.844	50.448	
+2	Jesus Villarreal #91	Chevrolet Corvette	59.428	50.097	
 62.151 +1
 60.899
 59.844
 67.515 RRN
+59.709
+59.428
+
+XA
+1	Steve Lau #18	2010 Porsche Cayman	54.587	47.163	
+56.736
+55.793
+55.034
+54.664
+54.587
+
+2	Tara Shapowal #187	2010 Porsche Cayman	55.274	47.756	
+56.158
+56.656
+56.061
+55.607
+55.274
+
+3	Isaac Acks #71	2006 Mitsubishi Lancer Evo	56.893	49.155	
+58.342
+57.257
+56.978
+57.020
+56.893
+
+4	Khoa Cao #115	2007 Honda S2000	58.061	50.164	
+61.383 +1
+59.702
+59.262
+59.119
+58.061
+
+5	Duck Pham #2	2022 Honda Accord Sport Hybrid	67.858	58.629	
+71.491
+70.406
+68.876
+69.084 +1
+67.858
+
+6	Karl Beduria #17	2018 Volkswagen GTI	69.533	60.076	
+75.197
+69.927
+69.533
+70.995
+70.419
+
+M
+1	Roger Kroog #18 (FM)	2024 Resolve Engineering F-Mod	53.759	49.297	
+56.021
+54.287
+62.058 +1
+54.239
+53.759
+
+2	Jeff Kiesel #143 (EM)	2024 KFR Turbo Sprite	58.443	53.650	
+37.418 DNF
+56.443 +2
+
+3	Mohamed Chaabene #27 (BM)	1997 Mazda Formula	60.269	59.184	
+67.160 DNF
+61.538
+60.436
+59.796 +1
+59.269 +1
+
+P
+1	Mike Maier #136 (CP)	1965 Ford GT 350	53.492	46.538	
+54.103
+53.492
+53.566
+
+2	Jeff Kiesel #143 (BP)	2024 KFR Turbo Sprite	54.758	48.077	
+56.048
+55.160 +1
+55.552
+54.758
+
+3	Tom Exley #25 (XP)	1987 Mazda Rx7	53.593	48.233	
+56.585
+54.434
+54.007
+53.963
+53.593
+
+4	Johnathon Stewart #36 (CP)	1965 Ford Shelby	56.093	48.800	
+57.866
+55.093 +1
+64.224 +1
+57.505 +3
+
+5	Mark Kiesel #66 (BP)	1966 Chevrolet Vette	61.382	53.893	
+74.623 DNF
+62.240 +2
+61.382
+60.408 +2
+
+6	David Silva #16 (CP)	1994 Ford Mustang	62.118	54.042	
+65.001
+63.210
+63.267
+62.728 +1
+62.118
+43.262 DNF
+
+7	Frank Stagnaro #361 (CP)	Ford Mustang	65.479	56.966	
+64.479 +1
 
 S1
-1	Rich Lee #99 (BS)	2023 Toyota Supra	59.186	48.769	
+1	Rich Lee #99 (BS)	2023 Toyota Supra	58.177	47.937	
 60.173
 59.186
+58.573
+58.352 +1
+58.177
 
-2	John Rowe #24 (DS)	2019 Honda Civic Type R	60.704	49.048	
+2	Kristen Acharya #490 (BS)	2026 Toyota Supra	58.475	48.183	
+60.228
+59.586
+59.288
+58.991
+58.475
+
+3	John Rowe #24 (DS)	2019 Honda Civic Type R	59.959	48.446	
 70.398 DNF
 60.704
+60.123
+60.340
+59.959
 
-3	Kaustav Acharya #49 (BS)	2026 Toyota Supra	60.151	49.564	
+4	Philip Ma #75 (DS)	2025 Subaru BRZ	60.950	49.247	
+62.798 +1
+61.497
+61.095 +1
+61.253 +1
+60.950
+
+5	Kaustav Acharya #49 (BS)	2026 Toyota Supra	60.151	49.564	
 61.191
 60.834
 60.812
 60.151
 60.456
 
-4	Philip Ma #75 (DS)	2025 Subaru BRZ	61.497	49.689	
-62.798 +1
-61.497
-
-5	Corby Jean #72 (FS)	2017 Ford Mustang GT	73.737	60.316	
+6	Corby Jean #72 (FS)	2017 Ford Mustang GT	72.500	59.305	
 75.855
 73.737
+73.131
+73.229
+72.500
 
 S2
-1	Ken Suzuki #39 (CS)	1880 Deadly To Transmissions	60.947	49.428	
+1	Ken Suzuki #39 (CS)	1880 Deadly To Transmissions	59.035	47.877	
 61.468
 59.947 +1
+59.738
+59.035
+59.404
 
-2	Donald Lew #52 (CS)	2025 Mazda MX-5 Club	62.160	50.411	
-63.130
-62.160
-
-3	David Anderson #43 (ES)	2002 Mazda MX-5 Miata	63.977	50.413	
+2	David Anderson #43 (ES)	2002 Mazda MX-5 Miata	63.608	50.123	
 63.977
 70.941
+63.981
+64.401
+63.608
 
-4	Dylan Hemman #32 (GS)	2017 Subaru WRX	63.689	51.460	
-66.924
-63.689
+3	Donald Lew #52 (CS)	2025 Mazda MX-5 Club	62.160	50.411	
+63.130
+62.160
+62.593
+61.239 +1
+68.227
 
-5	Anurag Prakash #164 (CS)	2022 Mazda MX-5	63.746	51.698	
+4	Anurag Prakash #164 (CS)	2022 Mazda MX-5	62.342	50.559	
 64.481
 63.746
+63.260
+62.342
+62.522
 
-6	Stephen Roberts #91 (HS)	2018 Ford Fiesta ST	68.677	53.430	
+5	Dylan Hemman #32 (GS)	2017 Subaru WRX	63.689	51.460	
+66.924
+63.689
+64.266
+63.897
+63.058 +1
+
+6	Stephen Roberts #91 (HS)	2018 Ford Fiesta ST	67.153	52.245	
 70.708 DNF
 68.677
+66.153 +1
+66.383 +1
+66.443 +1
 
-7	Andrew Shutt #77 (CS)	2010 Mazda Miata	68.265	55.362	
+7	Andrew Shutt #77 (CS)	2010 Mazda Miata	67.831	55.010	
 69.374
 68.508
 68.265
+68.147
+67.831
 
 SP
-1	Steve Mclaughlin #911 (DSP)	2007 Nissan 350Z	57.169	48.822	
+1	Steve Mclaughlin #911 (DSP)	2007 Nissan 350Z	56.489	48.241	
 58.351 +1
 57.169
+63.298
+56.810
+56.489
 
-2	Vince Russell #192 (CSP)	1990 Mazda Miata	58.179	49.917	
+2	Vince Russell #192 (CSP)	1990 Mazda Miata	57.495	49.330	
 59.868
 58.179
+57.900
+56.803 +1
+57.495
 
-3	Tom Kubo #92 (CSP)	1991 Mazda Miata	60.276	51.716	
+3	Tom Kubo #92 (CSP)	1991 Mazda Miata	58.246	49.975	
 64.631 DNF
 60.276
+58.246
+58.261
+59.273 DNF
+74.447 RRN
 
-4	Rob Boynton #1 (SSP)	2001 Chevrolet Corvette	60.522	52.230	
-61.675
-60.522
-
-5	Stephanie Medeiros #611 (ESP)	2020 Nissan 370Z	63.114	53.015	
+4	Stephanie Medeiros #611 (ESP)	2020 Nissan 370Z	60.473	50.797	
 64.871
 63.114
+62.302
+60.531
+60.473
 
-6	Arie Villasol #16 (FSP)	1981 Isuzu I Mark	65.232	54.142	
+5	Rob Boynton #1 (SSP)	2001 Chevrolet Corvette	59.515	51.361	
+61.675
+60.522
+60.689
+60.897
+59.515
+
+6	Arie Villasol #16 (FSP)	1981 Isuzu I Mark	63.187	52.445	
 64.838 +1
 65.232
 65.263 +1
+64.259
+63.187
 
-7	Ivan Garcia #777 (CSP)	2005 Lexus Is300	66.194	56.794	
+7	Ivan Garcia #777 (CSP)	2005 Lexus Is300	63.659	54.619	
 66.194
+64.548
+64.019 +1
+63.242 +1
+63.659
 
 SPL
-1	Renee Russell #92 (CSP)	1990 Mazda Miata	59.516	51.064	
+1	Renee Russell #92 (CSP)	1990 Mazda Miata	57.401	49.250	
 59.577
 58.516 +1
+57.746
+57.889 DNF
+57.401
+
+ST1
+1	Arvind Govindaraj #1 (AST)	2020 Mazda MX-5	57.870	48.552	
+59.088
+58.088
+57.870
+57.922
+66.607
+
+2	Andre Piernot #19 (EST)	1990 Mazda Miata	60.545	49.162	
+61.796
+75.836 RRN
+61.326
+61.240
+60.764
+60.545
+
+3	Eric Martin #74 (SSC)	2013 Scion FR-S	61.105	49.189	
+63.124
+61.685
+61.872 +1
+61.897
+61.105
+
+4	Adrian Cardenas #333 (AST)	2019 Mazda MX-5	58.737	49.280	
+59.766
+58.737
+58.844
+58.793
+58.311 +1
+
+5	Patrick Drudge #126 (SST)	2024 Toyota Supra	58.833	49.478	
+69.343 +1
+59.965
+58.874
+59.153
+58.833
+
+6	Bill Charron #9 (SST)	2018 Porsche 718 Cayman GTS	59.142	49.738	
+61.046
+59.379
+60.040
+60.012
+59.142
+
+7	Keith Bullock #18 (EST)	1990 Mazda Miata	62.023	50.362	
+64.725 DNF
+63.207
+62.023
+62.198
+
+8	Kevin Zhan #113 (AST)	2023 Mazda MX-5 Miata	63.281	53.092	
+66.342
+64.554
+64.183 +1
+63.490
+63.281
+
+X
+1	Andy McKee #141 (XB)	1993 Mazda RX7	53.824	47.365	
+55.404 +1
+54.077
+54.414
+53.824
+53.885
+
+2	Teresa Neidel-McKee #41 (XB)	1993 Mazda RX7	55.119	48.504	
+57.768 +1
+57.301
+56.994
+55.299 +1
+55.119
+
+3	Eric Gnesa #93 (XB)	2009 Porsche Cayman S	55.146	48.528	
+57.751
+55.932
+55.674
+55.699
+55.146
+
+4	Lisa Gnesa #193 (XB)	2009 Porsche Cayman S	55.533	48.869	
+56.814
+56.787
+56.282
+55.716
+55.533
+
+5	James Laeno #96 (XU)	Mazda Exocet	56.522	49.400	
+60.486 +1
+57.425
+56.950
+56.638
+56.522
+
+6	Jake Obniski #43 (XB)	Porsche Cayman S	58.462	51.446	
+60.305
+58.910
+58.462
+58.903 +1
+58.327 +1
+69.609 RRN
+
+7	Kelly Prior #143 (XB)	Porsche Cayman S	62.228	54.760	
+63.741 +1
+62.866
+62.469
+62.228
+62.646
