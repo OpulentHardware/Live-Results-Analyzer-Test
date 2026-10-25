@@ -1,30 +1,117 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-10-25T17:27:42.346Z",
+  "updatedAt": "2026-10-25T19:54:24.102Z",
   "event": {
     "title": "2026 AAS #16 Live Results",
     "date": "2026-10-25",
-    "participants": 41,
+    "participants": 79,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-10-25T17:27:42.346Z",
+    "updatedAt": "2026-10-25T19:54:24.102Z",
     "status": "ok"
   },
   "meta": {
     "title": "2026 AAS #16 Live Results",
     "date": "2026-10-25",
-    "participants": 41,
+    "participants": 79,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-10-25T17:27:42.346Z",
+    "updatedAt": "2026-10-25T19:54:24.102Z",
     "status": "ok"
   },
   "title": "2026 AAS #16 Live Results",
   "date": "2026-10-25",
-  "participants": 41,
+  "participants": 79,
   "overall": [
     {
       "rank": 1,
       "position": 1,
+      "driver": "Andy McKee",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#141",
+      "classNumber": "X-XB #141",
+      "time": 51.53,
+      "rawTime": 51.53,
+      "indexedTime": null,
+      "car": "(XB) 1993 Mazda RX7",
+      "runs": [
+        "52.858",
+        "52.862",
+        "52.057",
+        "52.084",
+        "51.530"
+      ],
+      "bestRaw": 51.53,
+      "bestPax": 45.346
+    },
+    {
+      "rank": 2,
+      "position": 2,
+      "driver": "Tom Exley",
+      "class": "P-XP",
+      "cls": "P-XP",
+      "number": "#25",
+      "classNumber": "P-XP #25",
+      "time": 51.579,
+      "rawTime": 51.579,
+      "indexedTime": null,
+      "car": "(XP) 1987 Mazda Rx7",
+      "runs": [
+        "52.748 +2",
+        "51.579",
+        "52.075 +1",
+        "52.172",
+        "51.926"
+      ],
+      "bestRaw": 51.579,
+      "bestPax": 46.421
+    },
+    {
+      "rank": 3,
+      "position": 3,
+      "driver": "Mike Maier",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#136",
+      "classNumber": "P-CP #136",
+      "time": 52.302,
+      "rawTime": 52.302,
+      "indexedTime": null,
+      "car": "(CP) 1965 Ford GT 350",
+      "runs": [
+        "52.454 +1",
+        "52.302",
+        "52.532",
+        "52.906 +1",
+        "54.237"
+      ],
+      "bestRaw": 52.302,
+      "bestPax": 45.502
+    },
+    {
+      "rank": 4,
+      "position": 4,
+      "driver": "Ben Martinez",
+      "class": "M-CM",
+      "cls": "M-CM",
+      "number": "#60",
+      "classNumber": "M-CM #60",
+      "time": 52.432,
+      "rawTime": 52.432,
+      "indexedTime": null,
+      "car": "(CM) 1984 Ford Van Diemen",
+      "runs": [
+        "52.900",
+        "52.889",
+        "52.432",
+        "65.050"
+      ],
+      "bestRaw": 52.432,
+      "bestPax": 47.188
+    },
+    {
+      "rank": 5,
+      "position": 5,
       "driver": "Tara Shapowal",
       "class": "XA",
       "cls": "XA",
@@ -45,8 +132,8 @@
       "bestPax": 45.433
     },
     {
-      "rank": 2,
-      "position": 2,
+      "rank": 6,
+      "position": 6,
       "driver": "Steve Lau",
       "class": "XA",
       "cls": "XA",
@@ -60,14 +147,59 @@
         "54.218",
         "52.840",
         "52.840",
-        "52.906"
+        "52.906",
+        "52.373 +1"
       ],
       "bestRaw": 52.84,
       "bestPax": 45.653
     },
     {
-      "rank": 3,
-      "position": 3,
+      "rank": 7,
+      "position": 7,
+      "driver": "Eric Gnesa",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#93",
+      "classNumber": "X-XB #93",
+      "time": 53.368,
+      "rawTime": 53.368,
+      "indexedTime": null,
+      "car": "(XB) 2009 Porsche Cayman S",
+      "runs": [
+        "54.155",
+        "53.739",
+        "53.388 +1",
+        "53.422",
+        "53.368"
+      ],
+      "bestRaw": 53.368,
+      "bestPax": 46.963
+    },
+    {
+      "rank": 8,
+      "position": 8,
+      "driver": "Erika McKee",
+      "class": "XL-XB",
+      "cls": "XL-XB",
+      "number": "#41",
+      "classNumber": "XL-XB #41",
+      "time": 53.702,
+      "rawTime": 53.702,
+      "indexedTime": null,
+      "car": "(XB) 1993 Mazda RX7",
+      "runs": [
+        "57.022 +5",
+        "55.617 +1",
+        "54.879",
+        "54.110",
+        "53.702"
+      ],
+      "bestRaw": 53.702,
+      "bestPax": 47.257
+    },
+    {
+      "rank": 9,
+      "position": 9,
       "driver": "Steve Mclaughlin",
       "class": "SP-DSP",
       "cls": "SP-DSP",
@@ -81,14 +213,37 @@
         "55.228",
         "54.534",
         "53.888",
-        "54.228"
+        "54.228",
+        "53.972"
       ],
       "bestRaw": 53.888,
       "bestPax": 46.02
     },
     {
-      "rank": 4,
-      "position": 4,
+      "rank": 10,
+      "position": 10,
+      "driver": "Lisa Gnesa",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#193",
+      "classNumber": "X-XB #193",
+      "time": 54.267,
+      "rawTime": 54.267,
+      "indexedTime": null,
+      "car": "(XB) 2009 Porsche Cayman S",
+      "runs": [
+        "56.312",
+        "54.525",
+        "54.267",
+        "59.147 +1",
+        "54.500"
+      ],
+      "bestRaw": 54.267,
+      "bestPax": 47.754
+    },
+    {
+      "rank": 11,
+      "position": 11,
       "driver": "Isaac Acks",
       "class": "XA",
       "cls": "XA",
@@ -109,8 +264,52 @@
       "bestPax": 46.909
     },
     {
-      "rank": 5,
-      "position": 5,
+      "rank": 12,
+      "position": 12,
+      "driver": "Justin Bowen",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#48",
+      "classNumber": "EVX #48",
+      "time": 54.533,
+      "rawTime": 54.533,
+      "indexedTime": null,
+      "car": "2024 Tesla Model 3 Performance",
+      "runs": [
+        "55.495",
+        "55.023",
+        "55.222",
+        "54.533",
+        "54.725"
+      ],
+      "bestRaw": 54.533,
+      "bestPax": 45.807
+    },
+    {
+      "rank": 13,
+      "position": 13,
+      "driver": "James Clenney",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#76",
+      "classNumber": "EVX #76",
+      "time": 54.589,
+      "rawTime": 54.589,
+      "indexedTime": null,
+      "car": "2025 Tesla Model 3 Performance",
+      "runs": [
+        "55.856",
+        "55.347",
+        "54.589",
+        "54.683",
+        "55.063"
+      ],
+      "bestRaw": 54.589,
+      "bestPax": 45.854
+    },
+    {
+      "rank": 14,
+      "position": 14,
       "driver": "Brian Hobaugh",
       "class": "XA",
       "cls": "XA",
@@ -131,8 +330,30 @@
       "bestPax": 47.25
     },
     {
-      "rank": 6,
-      "position": 6,
+      "rank": 15,
+      "position": 15,
+      "driver": "James Laeno",
+      "class": "X-XU",
+      "cls": "X-XU",
+      "number": "#96",
+      "classNumber": "X-XU #96",
+      "time": 54.887,
+      "rawTime": 54.887,
+      "indexedTime": null,
+      "car": "(XU) Mazda Exocet",
+      "runs": [
+        "56.077",
+        "56.448",
+        "55.026",
+        "54.887",
+        "54.847 +1"
+      ],
+      "bestRaw": 54.887,
+      "bestPax": 47.971
+    },
+    {
+      "rank": 16,
+      "position": 16,
       "driver": "Mack Tsang",
       "class": "AS",
       "cls": "AS",
@@ -153,8 +374,8 @@
       "bestPax": 45.711
     },
     {
-      "rank": 7,
-      "position": 7,
+      "rank": 17,
+      "position": 17,
       "driver": "Justin Tsang",
       "class": "AS",
       "cls": "AS",
@@ -168,14 +389,15 @@
         "56.184",
         "55.104",
         "55.276",
-        "55.013"
+        "55.013",
+        "55.540"
       ],
       "bestRaw": 55.013,
       "bestPax": 45.715
     },
     {
-      "rank": 8,
-      "position": 8,
+      "rank": 18,
+      "position": 18,
       "driver": "Vince Russell",
       "class": "SP-CSP",
       "cls": "SP-CSP",
@@ -193,8 +415,52 @@
       "bestPax": 47.233
     },
     {
-      "rank": 9,
-      "position": 9,
+      "rank": 19,
+      "position": 19,
+      "driver": "Timothy Naugler",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#7",
+      "classNumber": "EVX #7",
+      "time": 55.32,
+      "rawTime": 55.32,
+      "indexedTime": null,
+      "car": "2022 Tesla Model 3 Performance",
+      "runs": [
+        "55.678",
+        "55.756 +1",
+        "55.320",
+        "55.812",
+        "55.396"
+      ],
+      "bestRaw": 55.32,
+      "bestPax": 46.468
+    },
+    {
+      "rank": 20,
+      "position": 20,
+      "driver": "Arvind Govindaraj",
+      "class": "ST1-AST",
+      "cls": "ST1-AST",
+      "number": "#1",
+      "classNumber": "ST1-AST #1",
+      "time": 55.375,
+      "rawTime": 55.375,
+      "indexedTime": null,
+      "car": "(AST) 2020 Mazda MX-5",
+      "runs": [
+        "55.341 +1",
+        "55.539",
+        "55.226 +1",
+        "55.658",
+        "55.375"
+      ],
+      "bestRaw": 55.375,
+      "bestPax": 46.459
+    },
+    {
+      "rank": 21,
+      "position": 21,
       "driver": "Tom Kubo",
       "class": "SP-CSP",
       "cls": "SP-CSP",
@@ -213,8 +479,8 @@
       "bestPax": 47.564
     },
     {
-      "rank": 10,
-      "position": 10,
+      "rank": 22,
+      "position": 22,
       "driver": "Renee Russell",
       "class": "SPL-CSP",
       "cls": "SPL-CSP",
@@ -233,8 +499,96 @@
       "bestPax": 47.758
     },
     {
-      "rank": 11,
-      "position": 11,
+      "rank": 23,
+      "position": 23,
+      "driver": "Johnathon Stewart",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#36",
+      "classNumber": "P-CP #36",
+      "time": 55.67,
+      "rawTime": 55.67,
+      "indexedTime": null,
+      "car": "(CP) 1965 Ford Shelby",
+      "runs": [
+        "58.085 +1",
+        "55.219 +1",
+        "54.921 +2",
+        "54.694 +2",
+        "55.670"
+      ],
+      "bestRaw": 55.67,
+      "bestPax": 48.432
+    },
+    {
+      "rank": 24,
+      "position": 24,
+      "driver": "Pilar Miranda",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#78",
+      "classNumber": "EVX #78",
+      "time": 55.805,
+      "rawTime": 55.805,
+      "indexedTime": null,
+      "car": "Tesla Model 3 Performance",
+      "runs": [
+        "57.865 +1",
+        "56.147",
+        "55.862",
+        "55.805",
+        "56.100"
+      ],
+      "bestRaw": 55.805,
+      "bestPax": 46.876
+    },
+    {
+      "rank": 25,
+      "position": 25,
+      "driver": "Patrick Drudge",
+      "class": "ST1-SST",
+      "cls": "ST1-SST",
+      "number": "#126",
+      "classNumber": "ST1-SST #126",
+      "time": 55.978,
+      "rawTime": 55.978,
+      "indexedTime": null,
+      "car": "(SST) 2024 Toyota Supra",
+      "runs": [
+        "57.478",
+        "56.480",
+        "55.967 +1",
+        "55.978",
+        "56.440"
+      ],
+      "bestRaw": 55.978,
+      "bestPax": 47.077
+    },
+    {
+      "rank": 26,
+      "position": 26,
+      "driver": "Kristen Acharya",
+      "class": "S1-BS",
+      "cls": "S1-BS",
+      "number": "#490",
+      "classNumber": "S1-BS #490",
+      "time": 56.061,
+      "rawTime": 56.061,
+      "indexedTime": null,
+      "car": "(BS) 2026 Toyota Supra",
+      "runs": [
+        "57.186 +1",
+        "56.433 +1",
+        "56.724",
+        "56.826",
+        "56.061"
+      ],
+      "bestRaw": 56.061,
+      "bestPax": 46.194
+    },
+    {
+      "rank": 27,
+      "position": 27,
       "driver": "Alex Muresan",
       "class": "S1-BS",
       "cls": "S1-BS",
@@ -255,28 +609,51 @@
       "bestPax": 46.303
     },
     {
-      "rank": 12,
-      "position": 12,
+      "rank": 28,
+      "position": 28,
       "driver": "Rich Lee",
       "class": "S1-BS",
       "cls": "S1-BS",
       "number": "#99",
       "classNumber": "S1-BS #99",
-      "time": 56.356,
-      "rawTime": 56.356,
+      "time": 56.346,
+      "rawTime": 56.346,
       "indexedTime": null,
       "car": "(BS) 2023 Toyota Supra",
       "runs": [
         "59.129",
         "56.489",
-        "56.356"
+        "56.356",
+        "56.346"
       ],
-      "bestRaw": 56.356,
-      "bestPax": 46.437
+      "bestRaw": 56.346,
+      "bestPax": 46.429
     },
     {
-      "rank": 13,
-      "position": 13,
+      "rank": 29,
+      "position": 29,
+      "driver": "Erik Acks",
+      "class": "AS",
+      "cls": "AS",
+      "number": "#68",
+      "classNumber": "AS #68",
+      "time": 56.408,
+      "rawTime": 56.408,
+      "indexedTime": null,
+      "car": "2018 Porsche Cayman GTS",
+      "runs": [
+        "57.764 +1",
+        "56.531",
+        "57.131",
+        "56.801",
+        "56.408"
+      ],
+      "bestRaw": 56.408,
+      "bestPax": 46.875
+    },
+    {
+      "rank": 30,
+      "position": 30,
       "driver": "Kurt Thorson",
       "class": "AS",
       "cls": "AS",
@@ -290,14 +667,15 @@
         "58.998",
         "57.068",
         "58.825",
-        "56.472"
+        "56.472",
+        "57.834 +1"
       ],
       "bestRaw": 56.472,
       "bestPax": 46.928
     },
     {
-      "rank": 14,
-      "position": 14,
+      "rank": 31,
+      "position": 31,
       "driver": "John Lawrence",
       "class": "XA",
       "cls": "XA",
@@ -311,56 +689,15 @@
         "56.591 +1",
         "56.749",
         "56.519",
-        "56.623"
+        "56.623",
+        "56.785 +1"
       ],
       "bestRaw": 56.519,
       "bestPax": 48.832
     },
     {
-      "rank": 15,
-      "position": 15,
-      "driver": "Erik Acks",
-      "class": "AS",
-      "cls": "AS",
-      "number": "#68",
-      "classNumber": "AS #68",
-      "time": 56.531,
-      "rawTime": 56.531,
-      "indexedTime": null,
-      "car": "2018 Porsche Cayman GTS",
-      "runs": [
-        "57.764 +1",
-        "56.531",
-        "57.131",
-        "56.801"
-      ],
-      "bestRaw": 56.531,
-      "bestPax": 46.977
-    },
-    {
-      "rank": 16,
-      "position": 16,
-      "driver": "Kristen Acharya",
-      "class": "S1-BS",
-      "cls": "S1-BS",
-      "number": "#490",
-      "classNumber": "S1-BS #490",
-      "time": 56.724,
-      "rawTime": 56.724,
-      "indexedTime": null,
-      "car": "(BS) 2026 Toyota Supra",
-      "runs": [
-        "57.186 +1",
-        "56.433 +1",
-        "56.724",
-        "56.826"
-      ],
-      "bestRaw": 56.724,
-      "bestPax": 46.74
-    },
-    {
-      "rank": 17,
-      "position": 17,
+      "rank": 32,
+      "position": 32,
       "driver": "Kaustav Acharya",
       "class": "S1-BS",
       "cls": "S1-BS",
@@ -381,8 +718,8 @@
       "bestPax": 46.766
     },
     {
-      "rank": 18,
-      "position": 18,
+      "rank": 33,
+      "position": 33,
       "driver": "Jason Trantham",
       "class": "XA",
       "cls": "XA",
@@ -396,14 +733,37 @@
         "59.487",
         "57.129",
         "58.117",
-        "57.324"
+        "57.324",
+        "57.510"
       ],
       "bestRaw": 57.129,
       "bestPax": 49.359
     },
     {
-      "rank": 19,
-      "position": 19,
+      "rank": 34,
+      "position": 34,
+      "driver": "Andre Marconett",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#180",
+      "classNumber": "CAMS #180",
+      "time": 57.179,
+      "rawTime": 57.179,
+      "indexedTime": null,
+      "car": "2000 Dodge Viper GTS",
+      "runs": [
+        "59.871",
+        "57.409",
+        "57.637",
+        "57.179",
+        "57.406"
+      ],
+      "bestRaw": 57.179,
+      "bestPax": 48.487
+    },
+    {
+      "rank": 35,
+      "position": 35,
       "driver": "Jesus Villarreal",
       "class": "SS",
       "cls": "SS",
@@ -417,14 +777,15 @@
         "58.022",
         "57.836",
         "57.490",
-        "57.381 +1"
+        "57.381 +1",
+        "57.166 +1"
       ],
       "bestRaw": 57.49,
       "bestPax": 48.464
     },
     {
-      "rank": 20,
-      "position": 20,
+      "rank": 36,
+      "position": 36,
       "driver": "Ed Runnion",
       "class": "CST",
       "cls": "CST",
@@ -445,8 +806,8 @@
       "bestPax": 47.833
     },
     {
-      "rank": 21,
-      "position": 21,
+      "rank": 37,
+      "position": 37,
       "driver": "Michael Jones",
       "class": "AS",
       "cls": "AS",
@@ -460,14 +821,15 @@
         "59.103",
         "57.508",
         "57.573",
-        "57.133 +1"
+        "57.133 +1",
+        "58.133"
       ],
       "bestRaw": 57.508,
       "bestPax": 47.789
     },
     {
-      "rank": 22,
-      "position": 22,
+      "rank": 38,
+      "position": 38,
       "driver": "Glen Anderson",
       "class": "CST",
       "cls": "CST",
@@ -485,8 +847,47 @@
       "bestPax": 47.998
     },
     {
-      "rank": 23,
-      "position": 23,
+      "rank": 39,
+      "position": 39,
+      "driver": "Chad Ryker",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#14",
+      "classNumber": "CAMT #14",
+      "time": 57.785,
+      "rawTime": 57.785,
+      "indexedTime": null,
+      "car": "1967 Ford Mustang",
+      "runs": [
+        "57.785"
+      ],
+      "bestRaw": 57.785,
+      "bestPax": 47.672
+    },
+    {
+      "rank": 40,
+      "position": 40,
+      "driver": "Jonah Olsen",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#51",
+      "classNumber": "CAMT #51",
+      "time": 57.821,
+      "rawTime": 57.821,
+      "indexedTime": null,
+      "car": "1966 Ford Mustang",
+      "runs": [
+        "58.066",
+        "58.192",
+        "57.821",
+        "58.450"
+      ],
+      "bestRaw": 57.821,
+      "bestPax": 47.702
+    },
+    {
+      "rank": 41,
+      "position": 41,
       "driver": "Rob Boynton",
       "class": "SP-SSP",
       "cls": "SP-SSP",
@@ -507,8 +908,8 @@
       "bestPax": 49.94
     },
     {
-      "rank": 24,
-      "position": 24,
+      "rank": 42,
+      "position": 42,
       "driver": "John Rowe",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -522,14 +923,15 @@
         "58.392",
         "58.152 +3",
         "57.903",
-        "58.341 +1"
+        "58.341 +1",
+        "58.318"
       ],
       "bestRaw": 57.903,
       "bestPax": 46.785
     },
     {
-      "rank": 25,
-      "position": 25,
+      "rank": 43,
+      "position": 43,
       "driver": "Patrick Schluper",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -543,35 +945,81 @@
         "59.472 +1",
         "58.498",
         "57.952",
-        "57.669 +1"
+        "57.669 +1",
+        "58.028 +1"
       ],
       "bestRaw": 57.952,
       "bestPax": 46.825
     },
     {
-      "rank": 26,
-      "position": 26,
+      "rank": 44,
+      "position": 44,
+      "driver": "Darren Voges",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#669",
+      "classNumber": "CAMT #669",
+      "time": 58.255,
+      "rawTime": 58.255,
+      "indexedTime": null,
+      "car": "1969 Chevrolet Camaro",
+      "runs": [
+        "59.299",
+        "58.735",
+        "58.255",
+        "58.266",
+        "58.421"
+      ],
+      "bestRaw": 58.255,
+      "bestPax": 48.06
+    },
+    {
+      "rank": 45,
+      "position": 45,
       "driver": "Kevin Jung",
       "class": "S1-BS",
       "cls": "S1-BS",
       "number": "#17",
       "classNumber": "S1-BS #17",
-      "time": 58.597,
-      "rawTime": 58.597,
+      "time": 58.439,
+      "rawTime": 58.439,
       "indexedTime": null,
       "car": "(BS) 2023 Toyota GR Corolla",
       "runs": [
         "59.172 +1",
         "59.696",
         "59.269",
-        "58.597"
+        "58.597",
+        "58.439"
       ],
-      "bestRaw": 58.597,
-      "bestPax": 48.283
+      "bestRaw": 58.439,
+      "bestPax": 48.153
     },
     {
-      "rank": 27,
-      "position": 27,
+      "rank": 46,
+      "position": 46,
+      "driver": "Andre Piernot",
+      "class": "ST1-EST",
+      "cls": "ST1-EST",
+      "number": "#19",
+      "classNumber": "ST1-EST #19",
+      "time": 58.615,
+      "rawTime": 58.615,
+      "indexedTime": null,
+      "car": "(EST) 1990 Mazda Miata",
+      "runs": [
+        "60.336",
+        "59.107",
+        "59.056",
+        "58.880",
+        "58.615"
+      ],
+      "bestRaw": 58.615,
+      "bestPax": 47.595
+    },
+    {
+      "rank": 47,
+      "position": 47,
       "driver": "Stephanie Medeiros",
       "class": "SP-ESP",
       "cls": "SP-ESP",
@@ -585,14 +1033,37 @@
         "60.387",
         "59.589",
         "58.378 +2",
-        "58.626"
+        "58.626",
+        "59.710"
       ],
       "bestRaw": 58.626,
       "bestPax": 49.245
     },
     {
-      "rank": 28,
-      "position": 28,
+      "rank": 48,
+      "position": 48,
+      "driver": "Michael Scott",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#33",
+      "classNumber": "CAMC #33",
+      "time": 58.633,
+      "rawTime": 58.633,
+      "indexedTime": null,
+      "car": "2014 Ford Mustang",
+      "runs": [
+        "59.553",
+        "58.633",
+        "58.948",
+        "58.855",
+        "59.458"
+      ],
+      "bestRaw": 58.633,
+      "bestPax": 48.665
+    },
+    {
+      "rank": 49,
+      "position": 49,
       "driver": "Muamong Yiengyouav",
       "class": "CST",
       "cls": "CST",
@@ -605,35 +1076,103 @@
       "runs": [
         "61.198",
         "59.364",
-        "58.690"
+        "58.690",
+        "58.543 +2"
       ],
       "bestRaw": 58.69,
       "bestPax": 48.83
     },
     {
-      "rank": 29,
-      "position": 29,
+      "rank": 50,
+      "position": 50,
+      "driver": "David Silva",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#16",
+      "classNumber": "P-CP #16",
+      "time": 58.747,
+      "rawTime": 58.747,
+      "indexedTime": null,
+      "car": "(CP) 1994 Ford Mustang",
+      "runs": [
+        "60.874",
+        "60.222",
+        "59.251",
+        "58.747",
+        "58.771"
+      ],
+      "bestRaw": 58.747,
+      "bestPax": 51.109
+    },
+    {
+      "rank": 51,
+      "position": 51,
+      "driver": "Monica Huang",
+      "class": "XA",
+      "cls": "XA",
+      "number": "#171",
+      "classNumber": "XA #171",
+      "time": 58.886,
+      "rawTime": 58.886,
+      "indexedTime": null,
+      "car": "2006 Mitsubishi Lancer",
+      "runs": [
+        "61.320",
+        "59.541 +1",
+        "59.707",
+        "59.382",
+        "58.886"
+      ],
+      "bestRaw": 58.886,
+      "bestPax": 50.877
+    },
+    {
+      "rank": 52,
+      "position": 52,
+      "driver": "Gregory Kehoe",
+      "class": "BST",
+      "cls": "BST",
+      "number": "#95",
+      "classNumber": "BST #95",
+      "time": 59.072,
+      "rawTime": 59.072,
+      "indexedTime": null,
+      "car": "2009 Nissan 370Z",
+      "runs": [
+        "59.481",
+        "59.389",
+        "59.072",
+        "59.285",
+        "59.234"
+      ],
+      "bestRaw": 59.072,
+      "bestPax": 49.502
+    },
+    {
+      "rank": 53,
+      "position": 53,
       "driver": "Eileen Blando",
       "class": "S1-DS",
       "cls": "S1-DS",
       "number": "#91",
       "classNumber": "S1-DS #91",
-      "time": 59.289,
-      "rawTime": 59.289,
+      "time": 59.131,
+      "rawTime": 59.131,
       "indexedTime": null,
       "car": "(DS) 2022 Subaru BRZ",
       "runs": [
         "59.393",
         "59.289",
         "59.166 +1",
-        "58.538 +1"
+        "58.538 +1",
+        "59.131"
       ],
-      "bestRaw": 59.289,
-      "bestPax": 47.905
+      "bestRaw": 59.131,
+      "bestPax": 47.777
     },
     {
-      "rank": 30,
-      "position": 30,
+      "rank": 54,
+      "position": 54,
       "driver": "Dennis Quilantang",
       "class": "CST",
       "cls": "CST",
@@ -646,14 +1185,81 @@
       "runs": [
         "59.510",
         "59.305",
-        "59.652"
+        "59.652",
+        "59.998"
       ],
       "bestRaw": 59.305,
       "bestPax": 49.341
     },
     {
-      "rank": 31,
-      "position": 31,
+      "rank": 55,
+      "position": 55,
+      "driver": "Michael Ansell",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#177",
+      "classNumber": "P-CP #177",
+      "time": 59.32,
+      "rawTime": 59.32,
+      "indexedTime": null,
+      "car": "(CP) 1972 Chevrolet Corvette",
+      "runs": [
+        "60.768",
+        "59.505 +1",
+        "59.320",
+        "58.586 +1",
+        "58.890 +1"
+      ],
+      "bestRaw": 59.32,
+      "bestPax": 51.608
+    },
+    {
+      "rank": 56,
+      "position": 56,
+      "driver": "Eric Martin",
+      "class": "ST1-SSC",
+      "cls": "ST1-SSC",
+      "number": "#74",
+      "classNumber": "ST1-SSC #74",
+      "time": 59.336,
+      "rawTime": 59.336,
+      "indexedTime": null,
+      "car": "(SSC) 2013 Scion FR-S",
+      "runs": [
+        "60.836",
+        "59.990",
+        "59.336",
+        "59.567 +1",
+        "59.349 +1"
+      ],
+      "bestRaw": 59.336,
+      "bestPax": 47.765
+    },
+    {
+      "rank": 57,
+      "position": 57,
+      "driver": "Keith Bullock",
+      "class": "ST1-EST",
+      "cls": "ST1-EST",
+      "number": "#18",
+      "classNumber": "ST1-EST #18",
+      "time": 59.359,
+      "rawTime": 59.359,
+      "indexedTime": null,
+      "car": "(EST) 1990 Mazda Miata",
+      "runs": [
+        "60.690",
+        "59.744",
+        "59.359",
+        "59.422",
+        "59.718"
+      ],
+      "bestRaw": 59.359,
+      "bestPax": 48.199
+    },
+    {
+      "rank": 58,
+      "position": 58,
       "driver": "Boris Elpiner",
       "class": "AS",
       "cls": "AS",
@@ -667,35 +1273,15 @@
         "61.881",
         "59.686",
         "59.603 +1",
-        "59.376"
+        "59.376",
+        "59.180 +1"
       ],
       "bestRaw": 59.376,
       "bestPax": 49.341
     },
     {
-      "rank": 32,
-      "position": 32,
-      "driver": "Monica Huang",
-      "class": "XA",
-      "cls": "XA",
-      "number": "#171",
-      "classNumber": "XA #171",
-      "time": 59.382,
-      "rawTime": 59.382,
-      "indexedTime": null,
-      "car": "2006 Mitsubishi Lancer",
-      "runs": [
-        "61.320",
-        "59.541 +1",
-        "59.707",
-        "59.382"
-      ],
-      "bestRaw": 59.382,
-      "bestPax": 51.306
-    },
-    {
-      "rank": 33,
-      "position": 33,
+      "rank": 59,
+      "position": 59,
       "driver": "Jeremy Eaton",
       "class": "XA",
       "cls": "XA",
@@ -716,29 +1302,140 @@
       "bestPax": 51.312
     },
     {
-      "rank": 34,
-      "position": 34,
+      "rank": 60,
+      "position": 60,
       "driver": "Tiberiu Muresan",
       "class": "S1-BS",
       "cls": "S1-BS",
       "number": "#81",
       "classNumber": "S1-BS #81",
-      "time": 60.233,
-      "rawTime": 60.233,
+      "time": 59.562,
+      "rawTime": 59.562,
       "indexedTime": null,
       "car": "(BS) 2025 Honda Civic Type R",
       "runs": [
         "62.489",
         "60.961",
         "60.233",
-        "60.331"
+        "60.331",
+        "59.562"
       ],
-      "bestRaw": 60.233,
-      "bestPax": 49.631
+      "bestRaw": 59.562,
+      "bestPax": 49.079
     },
     {
-      "rank": 35,
-      "position": 35,
+      "rank": 61,
+      "position": 61,
+      "driver": "Leon Weinroth",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#51",
+      "classNumber": "CAMC #51",
+      "time": 60.027,
+      "rawTime": 60.027,
+      "indexedTime": null,
+      "car": "2014 Ford Mustang V6",
+      "runs": [
+        "62.473",
+        "61.144",
+        "60.721",
+        "60.027",
+        "61.427"
+      ],
+      "bestRaw": 60.027,
+      "bestPax": 49.822
+    },
+    {
+      "rank": 62,
+      "position": 62,
+      "driver": "Lily Maier",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#235",
+      "classNumber": "CAMT #235",
+      "time": 60.119,
+      "rawTime": 60.119,
+      "indexedTime": null,
+      "car": "1965 Ford Mustang",
+      "runs": [
+        "60.484",
+        "60.626",
+        "60.119",
+        "60.998",
+        "60.909"
+      ],
+      "bestRaw": 60.119,
+      "bestPax": 49.598
+    },
+    {
+      "rank": 63,
+      "position": 63,
+      "driver": "Craig Johnson",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#7",
+      "classNumber": "CAMT #7",
+      "time": 60.209,
+      "rawTime": 60.209,
+      "indexedTime": null,
+      "car": "1963 Ford Falcon",
+      "runs": [
+        "60.421",
+        "60.617",
+        "60.209",
+        "62.141",
+        "60.360"
+      ],
+      "bestRaw": 60.209,
+      "bestPax": 49.672
+    },
+    {
+      "rank": 64,
+      "position": 64,
+      "driver": "Zach Galiste",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#3",
+      "classNumber": "CAMC #3",
+      "time": 60.884,
+      "rawTime": 60.884,
+      "indexedTime": null,
+      "car": "2021 Chevrolet Camaro SS",
+      "runs": [
+        "60.701 +3",
+        "61.993 +2",
+        "61.966 +1",
+        "61.367",
+        "60.884"
+      ],
+      "bestRaw": 60.884,
+      "bestPax": 50.533
+    },
+    {
+      "rank": 65,
+      "position": 65,
+      "driver": "Douglas McConnell",
+      "class": "P-XP",
+      "cls": "P-XP",
+      "number": "#771",
+      "classNumber": "P-XP #771",
+      "time": 62.299,
+      "rawTime": 62.299,
+      "indexedTime": null,
+      "car": "(XP) 1967 Austin Healey Sprite",
+      "runs": [
+        "68.094",
+        "65.347",
+        "66.025",
+        "63.425",
+        "62.299"
+      ],
+      "bestRaw": 62.299,
+      "bestPax": 56.069
+    },
+    {
+      "rank": 66,
+      "position": 66,
       "driver": "Stephen Roberts",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -752,14 +1449,123 @@
         "65.657",
         "62.571",
         "63.175",
-        "63.259"
+        "63.259",
+        "63.035"
       ],
       "bestRaw": 62.571,
       "bestPax": 48.68
     },
     {
-      "rank": 36,
-      "position": 36,
+      "rank": 67,
+      "position": 67,
+      "driver": "Johanna Guarino",
+      "class": "BST",
+      "cls": "BST",
+      "number": "#571",
+      "classNumber": "BST #571",
+      "time": 62.87,
+      "rawTime": 62.87,
+      "indexedTime": null,
+      "car": "2021 Subaru WRX STI Limited",
+      "runs": [
+        "66.215 +1",
+        "63.640",
+        "62.870",
+        "62.254 +1",
+        "65.799"
+      ],
+      "bestRaw": 62.87,
+      "bestPax": 52.685
+    },
+    {
+      "rank": 68,
+      "position": 68,
+      "driver": "Derrick Galiste",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#31",
+      "classNumber": "CAMC #31",
+      "time": 63.115,
+      "rawTime": 63.115,
+      "indexedTime": null,
+      "car": "2015 Chevrolet Camaro",
+      "runs": [
+        "64.974",
+        "64.601",
+        "63.115"
+      ],
+      "bestRaw": 63.115,
+      "bestPax": 52.385
+    },
+    {
+      "rank": 69,
+      "position": 69,
+      "driver": "Devin Perry",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#77",
+      "classNumber": "CAMT #77",
+      "time": 63.592,
+      "rawTime": 63.592,
+      "indexedTime": null,
+      "car": "1996 Ford Mustang",
+      "runs": [
+        "64.419",
+        "64.475",
+        "63.679",
+        "63.592",
+        "63.535 +2"
+      ],
+      "bestRaw": 63.592,
+      "bestPax": 52.463
+    },
+    {
+      "rank": 70,
+      "position": 70,
+      "driver": "Alvin Ongyod",
+      "class": "ST1-GST",
+      "cls": "ST1-GST",
+      "number": "#508",
+      "classNumber": "ST1-GST #508",
+      "time": 63.663,
+      "rawTime": 63.663,
+      "indexedTime": null,
+      "car": "(GST) 2007 Subaru WRX Wagon",
+      "runs": [
+        "65.145",
+        "65.075",
+        "64.867",
+        "63.663",
+        "63.857"
+      ],
+      "bestRaw": 63.663,
+      "bestPax": 51.567
+    },
+    {
+      "rank": 71,
+      "position": 71,
+      "driver": "DARIN NELMS",
+      "class": "SM-SSM",
+      "cls": "SM-SSM",
+      "number": "#66",
+      "classNumber": "SM-SSM #66",
+      "time": 65.082,
+      "rawTime": 65.082,
+      "indexedTime": null,
+      "car": "(SSM) 2001 Mazda Miata",
+      "runs": [
+        "67.745",
+        "67.075",
+        "65.497",
+        "67.821",
+        "65.082"
+      ],
+      "bestRaw": 65.082,
+      "bestPax": 57.402
+    },
+    {
+      "rank": 72,
+      "position": 72,
       "driver": "Andy Chen",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -778,8 +1584,30 @@
       "bestPax": 53.424
     },
     {
-      "rank": 37,
-      "position": 37,
+      "rank": 73,
+      "position": 73,
+      "driver": "Ajinkya Gode",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#241",
+      "classNumber": "CST #241",
+      "time": 66.911,
+      "rawTime": 66.911,
+      "indexedTime": null,
+      "car": "1999 Mazda Mx-5 Miata",
+      "runs": [
+        "72.795",
+        "70.274",
+        "68.392",
+        "67.869",
+        "66.911"
+      ],
+      "bestRaw": 66.911,
+      "bestPax": 55.669
+    },
+    {
+      "rank": 74,
+      "position": 74,
       "driver": "Jian Ha",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -801,48 +1629,50 @@
       "bestPax": 52.371
     },
     {
-      "rank": 38,
-      "position": 38,
-      "driver": "Ajinkya Gode",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#241",
-      "classNumber": "CST #241",
-      "time": 67.869,
-      "rawTime": 67.869,
+      "rank": 75,
+      "position": 75,
+      "driver": "Don Burdge",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#771",
+      "classNumber": "CAMT #771",
+      "time": 67.418,
+      "rawTime": 67.418,
       "indexedTime": null,
-      "car": "1999 Mazda Mx-5 Miata",
+      "car": "1996 Ford Mustang GT",
       "runs": [
-        "72.795",
-        "70.274",
-        "68.392",
-        "67.869"
+        "68.157",
+        "70.016 +1",
+        "68.381 +1",
+        "68.283 +1",
+        "66.418 +1"
       ],
-      "bestRaw": 67.869,
-      "bestPax": 56.467
+      "bestRaw": 67.418,
+      "bestPax": 55.619
     },
     {
-      "rank": 39,
-      "position": 39,
+      "rank": 76,
+      "position": 76,
       "driver": "Chris Santos",
       "class": "S2-HS",
       "cls": "S2-HS",
       "number": "#151",
       "classNumber": "S2-HS #151",
-      "time": 68.436,
-      "rawTime": 68.436,
+      "time": 68.075,
+      "rawTime": 68.075,
       "indexedTime": null,
       "car": "(HS) 2010 Mazda Mazda 3",
       "runs": [
         "71.039",
-        "67.436 +1"
+        "67.436 +1",
+        "68.075"
       ],
-      "bestRaw": 68.436,
-      "bestPax": 53.243
+      "bestRaw": 68.075,
+      "bestPax": 52.962
     },
     {
-      "rank": 40,
-      "position": 40,
+      "rank": 77,
+      "position": 77,
       "driver": "Cheng Zhu",
       "class": "S1-FS",
       "cls": "S1-FS",
@@ -856,14 +1686,15 @@
         "68.484",
         "68.564",
         "68.619",
-        "69.802"
+        "69.802",
+        "68.419 +1"
       ],
       "bestRaw": 68.484,
       "bestPax": 56.019
     },
     {
-      "rank": 41,
-      "position": 41,
+      "rank": 78,
+      "position": 78,
       "driver": "Megan Anderson",
       "class": "CST",
       "cls": "CST",
@@ -886,6 +1717,28 @@
     {
       "rank": 1,
       "position": 1,
+      "driver": "Andy McKee",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#141",
+      "classNumber": "X-XB #141",
+      "time": 45.346,
+      "rawTime": null,
+      "indexedTime": 45.346,
+      "car": "(XB) 1993 Mazda RX7",
+      "runs": [
+        "52.858",
+        "52.862",
+        "52.057",
+        "52.084",
+        "51.530"
+      ],
+      "bestRaw": 51.53,
+      "bestPax": 45.346
+    },
+    {
+      "rank": 2,
+      "position": 2,
       "driver": "Tara Shapowal",
       "class": "XA",
       "cls": "XA",
@@ -906,8 +1759,30 @@
       "bestPax": 45.433
     },
     {
-      "rank": 2,
-      "position": 2,
+      "rank": 3,
+      "position": 3,
+      "driver": "Mike Maier",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#136",
+      "classNumber": "P-CP #136",
+      "time": 45.502,
+      "rawTime": null,
+      "indexedTime": 45.502,
+      "car": "(CP) 1965 Ford GT 350",
+      "runs": [
+        "52.454 +1",
+        "52.302",
+        "52.532",
+        "52.906 +1",
+        "54.237"
+      ],
+      "bestRaw": 52.302,
+      "bestPax": 45.502
+    },
+    {
+      "rank": 4,
+      "position": 4,
       "driver": "Steve Lau",
       "class": "XA",
       "cls": "XA",
@@ -921,14 +1796,15 @@
         "54.218",
         "52.840",
         "52.840",
-        "52.906"
+        "52.906",
+        "52.373 +1"
       ],
       "bestRaw": 52.84,
       "bestPax": 45.653
     },
     {
-      "rank": 3,
-      "position": 3,
+      "rank": 5,
+      "position": 5,
       "driver": "Mack Tsang",
       "class": "AS",
       "cls": "AS",
@@ -949,8 +1825,8 @@
       "bestPax": 45.711
     },
     {
-      "rank": 4,
-      "position": 4,
+      "rank": 6,
+      "position": 6,
       "driver": "Justin Tsang",
       "class": "AS",
       "cls": "AS",
@@ -964,14 +1840,59 @@
         "56.184",
         "55.104",
         "55.276",
-        "55.013"
+        "55.013",
+        "55.540"
       ],
       "bestRaw": 55.013,
       "bestPax": 45.715
     },
     {
-      "rank": 5,
-      "position": 5,
+      "rank": 7,
+      "position": 7,
+      "driver": "Justin Bowen",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#48",
+      "classNumber": "EVX #48",
+      "time": 45.807,
+      "rawTime": null,
+      "indexedTime": 45.807,
+      "car": "2024 Tesla Model 3 Performance",
+      "runs": [
+        "55.495",
+        "55.023",
+        "55.222",
+        "54.533",
+        "54.725"
+      ],
+      "bestRaw": 54.533,
+      "bestPax": 45.807
+    },
+    {
+      "rank": 8,
+      "position": 8,
+      "driver": "James Clenney",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#76",
+      "classNumber": "EVX #76",
+      "time": 45.854,
+      "rawTime": null,
+      "indexedTime": 45.854,
+      "car": "2025 Tesla Model 3 Performance",
+      "runs": [
+        "55.856",
+        "55.347",
+        "54.589",
+        "54.683",
+        "55.063"
+      ],
+      "bestRaw": 54.589,
+      "bestPax": 45.854
+    },
+    {
+      "rank": 9,
+      "position": 9,
       "driver": "Steve Mclaughlin",
       "class": "SP-DSP",
       "cls": "SP-DSP",
@@ -985,14 +1906,37 @@
         "55.228",
         "54.534",
         "53.888",
-        "54.228"
+        "54.228",
+        "53.972"
       ],
       "bestRaw": 53.888,
       "bestPax": 46.02
     },
     {
-      "rank": 6,
-      "position": 6,
+      "rank": 10,
+      "position": 10,
+      "driver": "Kristen Acharya",
+      "class": "S1-BS",
+      "cls": "S1-BS",
+      "number": "#490",
+      "classNumber": "S1-BS #490",
+      "time": 46.194,
+      "rawTime": null,
+      "indexedTime": 46.194,
+      "car": "(BS) 2026 Toyota Supra",
+      "runs": [
+        "57.186 +1",
+        "56.433 +1",
+        "56.724",
+        "56.826",
+        "56.061"
+      ],
+      "bestRaw": 56.061,
+      "bestPax": 46.194
+    },
+    {
+      "rank": 11,
+      "position": 11,
       "driver": "Alex Muresan",
       "class": "S1-BS",
       "cls": "S1-BS",
@@ -1013,49 +1957,95 @@
       "bestPax": 46.303
     },
     {
-      "rank": 7,
-      "position": 7,
+      "rank": 12,
+      "position": 12,
+      "driver": "Tom Exley",
+      "class": "P-XP",
+      "cls": "P-XP",
+      "number": "#25",
+      "classNumber": "P-XP #25",
+      "time": 46.421,
+      "rawTime": null,
+      "indexedTime": 46.421,
+      "car": "(XP) 1987 Mazda Rx7",
+      "runs": [
+        "52.748 +2",
+        "51.579",
+        "52.075 +1",
+        "52.172",
+        "51.926"
+      ],
+      "bestRaw": 51.579,
+      "bestPax": 46.421
+    },
+    {
+      "rank": 13,
+      "position": 13,
       "driver": "Rich Lee",
       "class": "S1-BS",
       "cls": "S1-BS",
       "number": "#99",
       "classNumber": "S1-BS #99",
-      "time": 46.437,
+      "time": 46.429,
       "rawTime": null,
-      "indexedTime": 46.437,
+      "indexedTime": 46.429,
       "car": "(BS) 2023 Toyota Supra",
       "runs": [
         "59.129",
         "56.489",
-        "56.356"
+        "56.356",
+        "56.346"
       ],
-      "bestRaw": 56.356,
-      "bestPax": 46.437
+      "bestRaw": 56.346,
+      "bestPax": 46.429
     },
     {
-      "rank": 8,
-      "position": 8,
-      "driver": "Kristen Acharya",
-      "class": "S1-BS",
-      "cls": "S1-BS",
-      "number": "#490",
-      "classNumber": "S1-BS #490",
-      "time": 46.74,
+      "rank": 14,
+      "position": 14,
+      "driver": "Arvind Govindaraj",
+      "class": "ST1-AST",
+      "cls": "ST1-AST",
+      "number": "#1",
+      "classNumber": "ST1-AST #1",
+      "time": 46.459,
       "rawTime": null,
-      "indexedTime": 46.74,
-      "car": "(BS) 2026 Toyota Supra",
+      "indexedTime": 46.459,
+      "car": "(AST) 2020 Mazda MX-5",
       "runs": [
-        "57.186 +1",
-        "56.433 +1",
-        "56.724",
-        "56.826"
+        "55.341 +1",
+        "55.539",
+        "55.226 +1",
+        "55.658",
+        "55.375"
       ],
-      "bestRaw": 56.724,
-      "bestPax": 46.74
+      "bestRaw": 55.375,
+      "bestPax": 46.459
     },
     {
-      "rank": 9,
-      "position": 9,
+      "rank": 15,
+      "position": 15,
+      "driver": "Timothy Naugler",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#7",
+      "classNumber": "EVX #7",
+      "time": 46.468,
+      "rawTime": null,
+      "indexedTime": 46.468,
+      "car": "2022 Tesla Model 3 Performance",
+      "runs": [
+        "55.678",
+        "55.756 +1",
+        "55.320",
+        "55.812",
+        "55.396"
+      ],
+      "bestRaw": 55.32,
+      "bestPax": 46.468
+    },
+    {
+      "rank": 16,
+      "position": 16,
       "driver": "Kaustav Acharya",
       "class": "S1-BS",
       "cls": "S1-BS",
@@ -1076,8 +2066,8 @@
       "bestPax": 46.766
     },
     {
-      "rank": 10,
-      "position": 10,
+      "rank": 17,
+      "position": 17,
       "driver": "John Rowe",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -1091,14 +2081,15 @@
         "58.392",
         "58.152 +3",
         "57.903",
-        "58.341 +1"
+        "58.341 +1",
+        "58.318"
       ],
       "bestRaw": 57.903,
       "bestPax": 46.785
     },
     {
-      "rank": 11,
-      "position": 11,
+      "rank": 18,
+      "position": 18,
       "driver": "Patrick Schluper",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -1112,14 +2103,59 @@
         "59.472 +1",
         "58.498",
         "57.952",
-        "57.669 +1"
+        "57.669 +1",
+        "58.028 +1"
       ],
       "bestRaw": 57.952,
       "bestPax": 46.825
     },
     {
-      "rank": 12,
-      "position": 12,
+      "rank": 19,
+      "position": 19,
+      "driver": "Erik Acks",
+      "class": "AS",
+      "cls": "AS",
+      "number": "#68",
+      "classNumber": "AS #68",
+      "time": 46.875,
+      "rawTime": null,
+      "indexedTime": 46.875,
+      "car": "2018 Porsche Cayman GTS",
+      "runs": [
+        "57.764 +1",
+        "56.531",
+        "57.131",
+        "56.801",
+        "56.408"
+      ],
+      "bestRaw": 56.408,
+      "bestPax": 46.875
+    },
+    {
+      "rank": 20,
+      "position": 20,
+      "driver": "Pilar Miranda",
+      "class": "EVX",
+      "cls": "EVX",
+      "number": "#78",
+      "classNumber": "EVX #78",
+      "time": 46.876,
+      "rawTime": null,
+      "indexedTime": 46.876,
+      "car": "Tesla Model 3 Performance",
+      "runs": [
+        "57.865 +1",
+        "56.147",
+        "55.862",
+        "55.805",
+        "56.100"
+      ],
+      "bestRaw": 55.805,
+      "bestPax": 46.876
+    },
+    {
+      "rank": 21,
+      "position": 21,
       "driver": "Isaac Acks",
       "class": "XA",
       "cls": "XA",
@@ -1140,8 +2176,8 @@
       "bestPax": 46.909
     },
     {
-      "rank": 13,
-      "position": 13,
+      "rank": 22,
+      "position": 22,
       "driver": "Kurt Thorson",
       "class": "AS",
       "cls": "AS",
@@ -1155,35 +2191,80 @@
         "58.998",
         "57.068",
         "58.825",
-        "56.472"
+        "56.472",
+        "57.834 +1"
       ],
       "bestRaw": 56.472,
       "bestPax": 46.928
     },
     {
-      "rank": 14,
-      "position": 14,
-      "driver": "Erik Acks",
-      "class": "AS",
-      "cls": "AS",
-      "number": "#68",
-      "classNumber": "AS #68",
-      "time": 46.977,
+      "rank": 23,
+      "position": 23,
+      "driver": "Eric Gnesa",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#93",
+      "classNumber": "X-XB #93",
+      "time": 46.963,
       "rawTime": null,
-      "indexedTime": 46.977,
-      "car": "2018 Porsche Cayman GTS",
+      "indexedTime": 46.963,
+      "car": "(XB) 2009 Porsche Cayman S",
       "runs": [
-        "57.764 +1",
-        "56.531",
-        "57.131",
-        "56.801"
+        "54.155",
+        "53.739",
+        "53.388 +1",
+        "53.422",
+        "53.368"
       ],
-      "bestRaw": 56.531,
-      "bestPax": 46.977
+      "bestRaw": 53.368,
+      "bestPax": 46.963
     },
     {
-      "rank": 15,
-      "position": 15,
+      "rank": 24,
+      "position": 24,
+      "driver": "Patrick Drudge",
+      "class": "ST1-SST",
+      "cls": "ST1-SST",
+      "number": "#126",
+      "classNumber": "ST1-SST #126",
+      "time": 47.077,
+      "rawTime": null,
+      "indexedTime": 47.077,
+      "car": "(SST) 2024 Toyota Supra",
+      "runs": [
+        "57.478",
+        "56.480",
+        "55.967 +1",
+        "55.978",
+        "56.440"
+      ],
+      "bestRaw": 55.978,
+      "bestPax": 47.077
+    },
+    {
+      "rank": 25,
+      "position": 25,
+      "driver": "Ben Martinez",
+      "class": "M-CM",
+      "cls": "M-CM",
+      "number": "#60",
+      "classNumber": "M-CM #60",
+      "time": 47.188,
+      "rawTime": null,
+      "indexedTime": 47.188,
+      "car": "(CM) 1984 Ford Van Diemen",
+      "runs": [
+        "52.900",
+        "52.889",
+        "52.432",
+        "65.050"
+      ],
+      "bestRaw": 52.432,
+      "bestPax": 47.188
+    },
+    {
+      "rank": 26,
+      "position": 26,
       "driver": "Vince Russell",
       "class": "SP-CSP",
       "cls": "SP-CSP",
@@ -1201,8 +2282,8 @@
       "bestPax": 47.233
     },
     {
-      "rank": 16,
-      "position": 16,
+      "rank": 27,
+      "position": 27,
       "driver": "Brian Hobaugh",
       "class": "XA",
       "cls": "XA",
@@ -1223,8 +2304,30 @@
       "bestPax": 47.25
     },
     {
-      "rank": 17,
-      "position": 17,
+      "rank": 28,
+      "position": 28,
+      "driver": "Erika McKee",
+      "class": "XL-XB",
+      "cls": "XL-XB",
+      "number": "#41",
+      "classNumber": "XL-XB #41",
+      "time": 47.257,
+      "rawTime": null,
+      "indexedTime": 47.257,
+      "car": "(XB) 1993 Mazda RX7",
+      "runs": [
+        "57.022 +5",
+        "55.617 +1",
+        "54.879",
+        "54.110",
+        "53.702"
+      ],
+      "bestRaw": 53.702,
+      "bestPax": 47.257
+    },
+    {
+      "rank": 29,
+      "position": 29,
       "driver": "Tom Kubo",
       "class": "SP-CSP",
       "cls": "SP-CSP",
@@ -1243,8 +2346,91 @@
       "bestPax": 47.564
     },
     {
-      "rank": 18,
-      "position": 18,
+      "rank": 30,
+      "position": 30,
+      "driver": "Andre Piernot",
+      "class": "ST1-EST",
+      "cls": "ST1-EST",
+      "number": "#19",
+      "classNumber": "ST1-EST #19",
+      "time": 47.595,
+      "rawTime": null,
+      "indexedTime": 47.595,
+      "car": "(EST) 1990 Mazda Miata",
+      "runs": [
+        "60.336",
+        "59.107",
+        "59.056",
+        "58.880",
+        "58.615"
+      ],
+      "bestRaw": 58.615,
+      "bestPax": 47.595
+    },
+    {
+      "rank": 31,
+      "position": 31,
+      "driver": "Chad Ryker",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#14",
+      "classNumber": "CAMT #14",
+      "time": 47.672,
+      "rawTime": null,
+      "indexedTime": 47.672,
+      "car": "1967 Ford Mustang",
+      "runs": [
+        "57.785"
+      ],
+      "bestRaw": 57.785,
+      "bestPax": 47.672
+    },
+    {
+      "rank": 32,
+      "position": 32,
+      "driver": "Jonah Olsen",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#51",
+      "classNumber": "CAMT #51",
+      "time": 47.702,
+      "rawTime": null,
+      "indexedTime": 47.702,
+      "car": "1966 Ford Mustang",
+      "runs": [
+        "58.066",
+        "58.192",
+        "57.821",
+        "58.450"
+      ],
+      "bestRaw": 57.821,
+      "bestPax": 47.702
+    },
+    {
+      "rank": 33,
+      "position": 33,
+      "driver": "Lisa Gnesa",
+      "class": "X-XB",
+      "cls": "X-XB",
+      "number": "#193",
+      "classNumber": "X-XB #193",
+      "time": 47.754,
+      "rawTime": null,
+      "indexedTime": 47.754,
+      "car": "(XB) 2009 Porsche Cayman S",
+      "runs": [
+        "56.312",
+        "54.525",
+        "54.267",
+        "59.147 +1",
+        "54.500"
+      ],
+      "bestRaw": 54.267,
+      "bestPax": 47.754
+    },
+    {
+      "rank": 34,
+      "position": 34,
       "driver": "Renee Russell",
       "class": "SPL-CSP",
       "cls": "SPL-CSP",
@@ -1263,8 +2449,52 @@
       "bestPax": 47.758
     },
     {
-      "rank": 19,
-      "position": 19,
+      "rank": 35,
+      "position": 35,
+      "driver": "Eric Martin",
+      "class": "ST1-SSC",
+      "cls": "ST1-SSC",
+      "number": "#74",
+      "classNumber": "ST1-SSC #74",
+      "time": 47.765,
+      "rawTime": null,
+      "indexedTime": 47.765,
+      "car": "(SSC) 2013 Scion FR-S",
+      "runs": [
+        "60.836",
+        "59.990",
+        "59.336",
+        "59.567 +1",
+        "59.349 +1"
+      ],
+      "bestRaw": 59.336,
+      "bestPax": 47.765
+    },
+    {
+      "rank": 36,
+      "position": 36,
+      "driver": "Eileen Blando",
+      "class": "S1-DS",
+      "cls": "S1-DS",
+      "number": "#91",
+      "classNumber": "S1-DS #91",
+      "time": 47.777,
+      "rawTime": null,
+      "indexedTime": 47.777,
+      "car": "(DS) 2022 Subaru BRZ",
+      "runs": [
+        "59.393",
+        "59.289",
+        "59.166 +1",
+        "58.538 +1",
+        "59.131"
+      ],
+      "bestRaw": 59.131,
+      "bestPax": 47.777
+    },
+    {
+      "rank": 37,
+      "position": 37,
       "driver": "Michael Jones",
       "class": "AS",
       "cls": "AS",
@@ -1278,14 +2508,15 @@
         "59.103",
         "57.508",
         "57.573",
-        "57.133 +1"
+        "57.133 +1",
+        "58.133"
       ],
       "bestRaw": 57.508,
       "bestPax": 47.789
     },
     {
-      "rank": 20,
-      "position": 20,
+      "rank": 38,
+      "position": 38,
       "driver": "Ed Runnion",
       "class": "CST",
       "cls": "CST",
@@ -1306,29 +2537,30 @@
       "bestPax": 47.833
     },
     {
-      "rank": 21,
-      "position": 21,
-      "driver": "Eileen Blando",
-      "class": "S1-DS",
-      "cls": "S1-DS",
-      "number": "#91",
-      "classNumber": "S1-DS #91",
-      "time": 47.905,
+      "rank": 39,
+      "position": 39,
+      "driver": "James Laeno",
+      "class": "X-XU",
+      "cls": "X-XU",
+      "number": "#96",
+      "classNumber": "X-XU #96",
+      "time": 47.971,
       "rawTime": null,
-      "indexedTime": 47.905,
-      "car": "(DS) 2022 Subaru BRZ",
+      "indexedTime": 47.971,
+      "car": "(XU) Mazda Exocet",
       "runs": [
-        "59.393",
-        "59.289",
-        "59.166 +1",
-        "58.538 +1"
+        "56.077",
+        "56.448",
+        "55.026",
+        "54.887",
+        "54.847 +1"
       ],
-      "bestRaw": 59.289,
-      "bestPax": 47.905
+      "bestRaw": 54.887,
+      "bestPax": 47.971
     },
     {
-      "rank": 22,
-      "position": 22,
+      "rank": 40,
+      "position": 40,
       "driver": "Glen Anderson",
       "class": "CST",
       "cls": "CST",
@@ -1346,29 +2578,96 @@
       "bestPax": 47.998
     },
     {
-      "rank": 23,
-      "position": 23,
+      "rank": 41,
+      "position": 41,
+      "driver": "Darren Voges",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#669",
+      "classNumber": "CAMT #669",
+      "time": 48.06,
+      "rawTime": null,
+      "indexedTime": 48.06,
+      "car": "1969 Chevrolet Camaro",
+      "runs": [
+        "59.299",
+        "58.735",
+        "58.255",
+        "58.266",
+        "58.421"
+      ],
+      "bestRaw": 58.255,
+      "bestPax": 48.06
+    },
+    {
+      "rank": 42,
+      "position": 42,
       "driver": "Kevin Jung",
       "class": "S1-BS",
       "cls": "S1-BS",
       "number": "#17",
       "classNumber": "S1-BS #17",
-      "time": 48.283,
+      "time": 48.153,
       "rawTime": null,
-      "indexedTime": 48.283,
+      "indexedTime": 48.153,
       "car": "(BS) 2023 Toyota GR Corolla",
       "runs": [
         "59.172 +1",
         "59.696",
         "59.269",
-        "58.597"
+        "58.597",
+        "58.439"
       ],
-      "bestRaw": 58.597,
-      "bestPax": 48.283
+      "bestRaw": 58.439,
+      "bestPax": 48.153
     },
     {
-      "rank": 24,
-      "position": 24,
+      "rank": 43,
+      "position": 43,
+      "driver": "Keith Bullock",
+      "class": "ST1-EST",
+      "cls": "ST1-EST",
+      "number": "#18",
+      "classNumber": "ST1-EST #18",
+      "time": 48.199,
+      "rawTime": null,
+      "indexedTime": 48.199,
+      "car": "(EST) 1990 Mazda Miata",
+      "runs": [
+        "60.690",
+        "59.744",
+        "59.359",
+        "59.422",
+        "59.718"
+      ],
+      "bestRaw": 59.359,
+      "bestPax": 48.199
+    },
+    {
+      "rank": 44,
+      "position": 44,
+      "driver": "Johnathon Stewart",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#36",
+      "classNumber": "P-CP #36",
+      "time": 48.432,
+      "rawTime": null,
+      "indexedTime": 48.432,
+      "car": "(CP) 1965 Ford Shelby",
+      "runs": [
+        "58.085 +1",
+        "55.219 +1",
+        "54.921 +2",
+        "54.694 +2",
+        "55.670"
+      ],
+      "bestRaw": 55.67,
+      "bestPax": 48.432
+    },
+    {
+      "rank": 45,
+      "position": 45,
       "driver": "Jesus Villarreal",
       "class": "SS",
       "cls": "SS",
@@ -1382,14 +2681,59 @@
         "58.022",
         "57.836",
         "57.490",
-        "57.381 +1"
+        "57.381 +1",
+        "57.166 +1"
       ],
       "bestRaw": 57.49,
       "bestPax": 48.464
     },
     {
-      "rank": 25,
-      "position": 25,
+      "rank": 46,
+      "position": 46,
+      "driver": "Andre Marconett",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#180",
+      "classNumber": "CAMS #180",
+      "time": 48.487,
+      "rawTime": null,
+      "indexedTime": 48.487,
+      "car": "2000 Dodge Viper GTS",
+      "runs": [
+        "59.871",
+        "57.409",
+        "57.637",
+        "57.179",
+        "57.406"
+      ],
+      "bestRaw": 57.179,
+      "bestPax": 48.487
+    },
+    {
+      "rank": 47,
+      "position": 47,
+      "driver": "Michael Scott",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#33",
+      "classNumber": "CAMC #33",
+      "time": 48.665,
+      "rawTime": null,
+      "indexedTime": 48.665,
+      "car": "2014 Ford Mustang",
+      "runs": [
+        "59.553",
+        "58.633",
+        "58.948",
+        "58.855",
+        "59.458"
+      ],
+      "bestRaw": 58.633,
+      "bestPax": 48.665
+    },
+    {
+      "rank": 48,
+      "position": 48,
       "driver": "Stephen Roberts",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -1403,14 +2747,15 @@
         "65.657",
         "62.571",
         "63.175",
-        "63.259"
+        "63.259",
+        "63.035"
       ],
       "bestRaw": 62.571,
       "bestPax": 48.68
     },
     {
-      "rank": 26,
-      "position": 26,
+      "rank": 49,
+      "position": 49,
       "driver": "Muamong Yiengyouav",
       "class": "CST",
       "cls": "CST",
@@ -1423,14 +2768,15 @@
       "runs": [
         "61.198",
         "59.364",
-        "58.690"
+        "58.690",
+        "58.543 +2"
       ],
       "bestRaw": 58.69,
       "bestPax": 48.83
     },
     {
-      "rank": 27,
-      "position": 27,
+      "rank": 50,
+      "position": 50,
       "driver": "John Lawrence",
       "class": "XA",
       "cls": "XA",
@@ -1444,14 +2790,37 @@
         "56.591 +1",
         "56.749",
         "56.519",
-        "56.623"
+        "56.623",
+        "56.785 +1"
       ],
       "bestRaw": 56.519,
       "bestPax": 48.832
     },
     {
-      "rank": 28,
-      "position": 28,
+      "rank": 51,
+      "position": 51,
+      "driver": "Tiberiu Muresan",
+      "class": "S1-BS",
+      "cls": "S1-BS",
+      "number": "#81",
+      "classNumber": "S1-BS #81",
+      "time": 49.079,
+      "rawTime": null,
+      "indexedTime": 49.079,
+      "car": "(BS) 2025 Honda Civic Type R",
+      "runs": [
+        "62.489",
+        "60.961",
+        "60.233",
+        "60.331",
+        "59.562"
+      ],
+      "bestRaw": 59.562,
+      "bestPax": 49.079
+    },
+    {
+      "rank": 52,
+      "position": 52,
       "driver": "Stephanie Medeiros",
       "class": "SP-ESP",
       "cls": "SP-ESP",
@@ -1465,14 +2834,15 @@
         "60.387",
         "59.589",
         "58.378 +2",
-        "58.626"
+        "58.626",
+        "59.710"
       ],
       "bestRaw": 58.626,
       "bestPax": 49.245
     },
     {
-      "rank": 29,
-      "position": 29,
+      "rank": 53,
+      "position": 53,
       "driver": "Boris Elpiner",
       "class": "AS",
       "cls": "AS",
@@ -1486,14 +2856,15 @@
         "61.881",
         "59.686",
         "59.603 +1",
-        "59.376"
+        "59.376",
+        "59.180 +1"
       ],
       "bestRaw": 59.376,
       "bestPax": 49.341
     },
     {
-      "rank": 29,
-      "position": 29,
+      "rank": 53,
+      "position": 53,
       "driver": "Dennis Quilantang",
       "class": "CST",
       "cls": "CST",
@@ -1506,14 +2877,15 @@
       "runs": [
         "59.510",
         "59.305",
-        "59.652"
+        "59.652",
+        "59.998"
       ],
       "bestRaw": 59.305,
       "bestPax": 49.341
     },
     {
-      "rank": 31,
-      "position": 31,
+      "rank": 55,
+      "position": 55,
       "driver": "Jason Trantham",
       "class": "XA",
       "cls": "XA",
@@ -1527,35 +2899,103 @@
         "59.487",
         "57.129",
         "58.117",
-        "57.324"
+        "57.324",
+        "57.510"
       ],
       "bestRaw": 57.129,
       "bestPax": 49.359
     },
     {
-      "rank": 32,
-      "position": 32,
-      "driver": "Tiberiu Muresan",
-      "class": "S1-BS",
-      "cls": "S1-BS",
-      "number": "#81",
-      "classNumber": "S1-BS #81",
-      "time": 49.631,
+      "rank": 56,
+      "position": 56,
+      "driver": "Gregory Kehoe",
+      "class": "BST",
+      "cls": "BST",
+      "number": "#95",
+      "classNumber": "BST #95",
+      "time": 49.502,
       "rawTime": null,
-      "indexedTime": 49.631,
-      "car": "(BS) 2025 Honda Civic Type R",
+      "indexedTime": 49.502,
+      "car": "2009 Nissan 370Z",
       "runs": [
-        "62.489",
-        "60.961",
-        "60.233",
-        "60.331"
+        "59.481",
+        "59.389",
+        "59.072",
+        "59.285",
+        "59.234"
       ],
-      "bestRaw": 60.233,
-      "bestPax": 49.631
+      "bestRaw": 59.072,
+      "bestPax": 49.502
     },
     {
-      "rank": 33,
-      "position": 33,
+      "rank": 57,
+      "position": 57,
+      "driver": "Lily Maier",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#235",
+      "classNumber": "CAMT #235",
+      "time": 49.598,
+      "rawTime": null,
+      "indexedTime": 49.598,
+      "car": "1965 Ford Mustang",
+      "runs": [
+        "60.484",
+        "60.626",
+        "60.119",
+        "60.998",
+        "60.909"
+      ],
+      "bestRaw": 60.119,
+      "bestPax": 49.598
+    },
+    {
+      "rank": 58,
+      "position": 58,
+      "driver": "Craig Johnson",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#7",
+      "classNumber": "CAMT #7",
+      "time": 49.672,
+      "rawTime": null,
+      "indexedTime": 49.672,
+      "car": "1963 Ford Falcon",
+      "runs": [
+        "60.421",
+        "60.617",
+        "60.209",
+        "62.141",
+        "60.360"
+      ],
+      "bestRaw": 60.209,
+      "bestPax": 49.672
+    },
+    {
+      "rank": 59,
+      "position": 59,
+      "driver": "Leon Weinroth",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#51",
+      "classNumber": "CAMC #51",
+      "time": 49.822,
+      "rawTime": null,
+      "indexedTime": 49.822,
+      "car": "2014 Ford Mustang V6",
+      "runs": [
+        "62.473",
+        "61.144",
+        "60.721",
+        "60.027",
+        "61.427"
+      ],
+      "bestRaw": 60.027,
+      "bestPax": 49.822
+    },
+    {
+      "rank": 60,
+      "position": 60,
       "driver": "Rob Boynton",
       "class": "SP-SSP",
       "cls": "SP-SSP",
@@ -1576,29 +3016,74 @@
       "bestPax": 49.94
     },
     {
-      "rank": 34,
-      "position": 34,
+      "rank": 61,
+      "position": 61,
+      "driver": "Zach Galiste",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#3",
+      "classNumber": "CAMC #3",
+      "time": 50.533,
+      "rawTime": null,
+      "indexedTime": 50.533,
+      "car": "2021 Chevrolet Camaro SS",
+      "runs": [
+        "60.701 +3",
+        "61.993 +2",
+        "61.966 +1",
+        "61.367",
+        "60.884"
+      ],
+      "bestRaw": 60.884,
+      "bestPax": 50.533
+    },
+    {
+      "rank": 62,
+      "position": 62,
       "driver": "Monica Huang",
       "class": "XA",
       "cls": "XA",
       "number": "#171",
       "classNumber": "XA #171",
-      "time": 51.306,
+      "time": 50.877,
       "rawTime": null,
-      "indexedTime": 51.306,
+      "indexedTime": 50.877,
       "car": "2006 Mitsubishi Lancer",
       "runs": [
         "61.320",
         "59.541 +1",
         "59.707",
-        "59.382"
+        "59.382",
+        "58.886"
       ],
-      "bestRaw": 59.382,
-      "bestPax": 51.306
+      "bestRaw": 58.886,
+      "bestPax": 50.877
     },
     {
-      "rank": 35,
-      "position": 35,
+      "rank": 63,
+      "position": 63,
+      "driver": "David Silva",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#16",
+      "classNumber": "P-CP #16",
+      "time": 51.109,
+      "rawTime": null,
+      "indexedTime": 51.109,
+      "car": "(CP) 1994 Ford Mustang",
+      "runs": [
+        "60.874",
+        "60.222",
+        "59.251",
+        "58.747",
+        "58.771"
+      ],
+      "bestRaw": 58.747,
+      "bestPax": 51.109
+    },
+    {
+      "rank": 64,
+      "position": 64,
       "driver": "Jeremy Eaton",
       "class": "XA",
       "cls": "XA",
@@ -1619,8 +3104,52 @@
       "bestPax": 51.312
     },
     {
-      "rank": 36,
-      "position": 36,
+      "rank": 65,
+      "position": 65,
+      "driver": "Alvin Ongyod",
+      "class": "ST1-GST",
+      "cls": "ST1-GST",
+      "number": "#508",
+      "classNumber": "ST1-GST #508",
+      "time": 51.567,
+      "rawTime": null,
+      "indexedTime": 51.567,
+      "car": "(GST) 2007 Subaru WRX Wagon",
+      "runs": [
+        "65.145",
+        "65.075",
+        "64.867",
+        "63.663",
+        "63.857"
+      ],
+      "bestRaw": 63.663,
+      "bestPax": 51.567
+    },
+    {
+      "rank": 66,
+      "position": 66,
+      "driver": "Michael Ansell",
+      "class": "P-CP",
+      "cls": "P-CP",
+      "number": "#177",
+      "classNumber": "P-CP #177",
+      "time": 51.608,
+      "rawTime": null,
+      "indexedTime": 51.608,
+      "car": "(CP) 1972 Chevrolet Corvette",
+      "runs": [
+        "60.768",
+        "59.505 +1",
+        "59.320",
+        "58.586 +1",
+        "58.890 +1"
+      ],
+      "bestRaw": 59.32,
+      "bestPax": 51.608
+    },
+    {
+      "rank": 67,
+      "position": 67,
       "driver": "Jian Ha",
       "class": "S2-HS",
       "cls": "S2-HS",
@@ -1642,27 +3171,92 @@
       "bestPax": 52.371
     },
     {
-      "rank": 37,
-      "position": 37,
+      "rank": 68,
+      "position": 68,
+      "driver": "Derrick Galiste",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#31",
+      "classNumber": "CAMC #31",
+      "time": 52.385,
+      "rawTime": null,
+      "indexedTime": 52.385,
+      "car": "2015 Chevrolet Camaro",
+      "runs": [
+        "64.974",
+        "64.601",
+        "63.115"
+      ],
+      "bestRaw": 63.115,
+      "bestPax": 52.385
+    },
+    {
+      "rank": 69,
+      "position": 69,
+      "driver": "Devin Perry",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#77",
+      "classNumber": "CAMT #77",
+      "time": 52.463,
+      "rawTime": null,
+      "indexedTime": 52.463,
+      "car": "1996 Ford Mustang",
+      "runs": [
+        "64.419",
+        "64.475",
+        "63.679",
+        "63.592",
+        "63.535 +2"
+      ],
+      "bestRaw": 63.592,
+      "bestPax": 52.463
+    },
+    {
+      "rank": 70,
+      "position": 70,
+      "driver": "Johanna Guarino",
+      "class": "BST",
+      "cls": "BST",
+      "number": "#571",
+      "classNumber": "BST #571",
+      "time": 52.685,
+      "rawTime": null,
+      "indexedTime": 52.685,
+      "car": "2021 Subaru WRX STI Limited",
+      "runs": [
+        "66.215 +1",
+        "63.640",
+        "62.870",
+        "62.254 +1",
+        "65.799"
+      ],
+      "bestRaw": 62.87,
+      "bestPax": 52.685
+    },
+    {
+      "rank": 71,
+      "position": 71,
       "driver": "Chris Santos",
       "class": "S2-HS",
       "cls": "S2-HS",
       "number": "#151",
       "classNumber": "S2-HS #151",
-      "time": 53.243,
+      "time": 52.962,
       "rawTime": null,
-      "indexedTime": 53.243,
+      "indexedTime": 52.962,
       "car": "(HS) 2010 Mazda Mazda 3",
       "runs": [
         "71.039",
-        "67.436 +1"
+        "67.436 +1",
+        "68.075"
       ],
-      "bestRaw": 68.436,
-      "bestPax": 53.243
+      "bestRaw": 68.075,
+      "bestPax": 52.962
     },
     {
-      "rank": 38,
-      "position": 38,
+      "rank": 72,
+      "position": 72,
       "driver": "Andy Chen",
       "class": "S1-DS",
       "cls": "S1-DS",
@@ -1681,8 +3275,52 @@
       "bestPax": 53.424
     },
     {
-      "rank": 39,
-      "position": 39,
+      "rank": 73,
+      "position": 73,
+      "driver": "Don Burdge",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#771",
+      "classNumber": "CAMT #771",
+      "time": 55.619,
+      "rawTime": null,
+      "indexedTime": 55.619,
+      "car": "1996 Ford Mustang GT",
+      "runs": [
+        "68.157",
+        "70.016 +1",
+        "68.381 +1",
+        "68.283 +1",
+        "66.418 +1"
+      ],
+      "bestRaw": 67.418,
+      "bestPax": 55.619
+    },
+    {
+      "rank": 74,
+      "position": 74,
+      "driver": "Ajinkya Gode",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#241",
+      "classNumber": "CST #241",
+      "time": 55.669,
+      "rawTime": null,
+      "indexedTime": 55.669,
+      "car": "1999 Mazda Mx-5 Miata",
+      "runs": [
+        "72.795",
+        "70.274",
+        "68.392",
+        "67.869",
+        "66.911"
+      ],
+      "bestRaw": 66.911,
+      "bestPax": 55.669
+    },
+    {
+      "rank": 75,
+      "position": 75,
       "driver": "Cheng Zhu",
       "class": "S1-FS",
       "cls": "S1-FS",
@@ -1696,35 +3334,59 @@
         "68.484",
         "68.564",
         "68.619",
-        "69.802"
+        "69.802",
+        "68.419 +1"
       ],
       "bestRaw": 68.484,
       "bestPax": 56.019
     },
     {
-      "rank": 40,
-      "position": 40,
-      "driver": "Ajinkya Gode",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#241",
-      "classNumber": "CST #241",
-      "time": 56.467,
+      "rank": 76,
+      "position": 76,
+      "driver": "Douglas McConnell",
+      "class": "P-XP",
+      "cls": "P-XP",
+      "number": "#771",
+      "classNumber": "P-XP #771",
+      "time": 56.069,
       "rawTime": null,
-      "indexedTime": 56.467,
-      "car": "1999 Mazda Mx-5 Miata",
+      "indexedTime": 56.069,
+      "car": "(XP) 1967 Austin Healey Sprite",
       "runs": [
-        "72.795",
-        "70.274",
-        "68.392",
-        "67.869"
+        "68.094",
+        "65.347",
+        "66.025",
+        "63.425",
+        "62.299"
       ],
-      "bestRaw": 67.869,
-      "bestPax": 56.467
+      "bestRaw": 62.299,
+      "bestPax": 56.069
     },
     {
-      "rank": 41,
-      "position": 41,
+      "rank": 77,
+      "position": 77,
+      "driver": "DARIN NELMS",
+      "class": "SM-SSM",
+      "cls": "SM-SSM",
+      "number": "#66",
+      "classNumber": "SM-SSM #66",
+      "time": 57.402,
+      "rawTime": null,
+      "indexedTime": 57.402,
+      "car": "(SSM) 2001 Mazda Miata",
+      "runs": [
+        "67.745",
+        "67.075",
+        "65.497",
+        "67.821",
+        "65.082"
+      ],
+      "bestRaw": 65.082,
+      "bestPax": 57.402
+    },
+    {
+      "rank": 78,
+      "position": 78,
       "driver": "Megan Anderson",
       "class": "CST",
       "cls": "CST",
@@ -1785,12 +3447,35 @@
           "56.184",
           "55.104",
           "55.276",
-          "55.013"
+          "55.013",
+          "55.540"
         ]
       },
       {
         "position": 3,
         "rank": 3,
+        "driver": "Erik Acks",
+        "class": "AS",
+        "cls": "AS",
+        "number": "#68",
+        "car": "2018 Porsche Cayman GTS",
+        "classNumber": "AS #68",
+        "bestRaw": 56.408,
+        "bestPax": 46.875,
+        "rawTime": 56.408,
+        "indexedTime": 46.875,
+        "time": 56.408,
+        "runs": [
+          "57.764 +1",
+          "56.531",
+          "57.131",
+          "56.801",
+          "56.408"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
         "driver": "Kurt Thorson",
         "class": "AS",
         "cls": "AS",
@@ -1806,28 +3491,8 @@
           "58.998",
           "57.068",
           "58.825",
-          "56.472"
-        ]
-      },
-      {
-        "position": 4,
-        "rank": 4,
-        "driver": "Erik Acks",
-        "class": "AS",
-        "cls": "AS",
-        "number": "#68",
-        "car": "2018 Porsche Cayman GTS",
-        "classNumber": "AS #68",
-        "bestRaw": 56.531,
-        "bestPax": 46.977,
-        "rawTime": 56.531,
-        "indexedTime": 46.977,
-        "time": 56.531,
-        "runs": [
-          "57.764 +1",
-          "56.531",
-          "57.131",
-          "56.801"
+          "56.472",
+          "57.834 +1"
         ]
       },
       {
@@ -1848,7 +3513,8 @@
           "59.103",
           "57.508",
           "57.573",
-          "57.133 +1"
+          "57.133 +1",
+          "58.133"
         ]
       },
       {
@@ -1869,7 +3535,317 @@
           "61.881",
           "59.686",
           "59.603 +1",
-          "59.376"
+          "59.376",
+          "59.180 +1"
+        ]
+      }
+    ],
+    "BST": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Gregory Kehoe",
+        "class": "BST",
+        "cls": "BST",
+        "number": "#95",
+        "car": "2009 Nissan 370Z",
+        "classNumber": "BST #95",
+        "bestRaw": 59.072,
+        "bestPax": 49.502,
+        "rawTime": 59.072,
+        "indexedTime": 49.502,
+        "time": 59.072,
+        "runs": [
+          "59.481",
+          "59.389",
+          "59.072",
+          "59.285",
+          "59.234"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "Johanna Guarino",
+        "class": "BST",
+        "cls": "BST",
+        "number": "#571",
+        "car": "2021 Subaru WRX STI Limited",
+        "classNumber": "BST #571",
+        "bestRaw": 62.87,
+        "bestPax": 52.685,
+        "rawTime": 62.87,
+        "indexedTime": 52.685,
+        "time": 62.87,
+        "runs": [
+          "66.215 +1",
+          "63.640",
+          "62.870",
+          "62.254 +1",
+          "65.799"
+        ]
+      }
+    ],
+    "CAMC": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Michael Scott",
+        "class": "CAMC",
+        "cls": "CAMC",
+        "number": "#33",
+        "car": "2014 Ford Mustang",
+        "classNumber": "CAMC #33",
+        "bestRaw": 58.633,
+        "bestPax": 48.665,
+        "rawTime": 58.633,
+        "indexedTime": 48.665,
+        "time": 58.633,
+        "runs": [
+          "59.553",
+          "58.633",
+          "58.948",
+          "58.855",
+          "59.458"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "Leon Weinroth",
+        "class": "CAMC",
+        "cls": "CAMC",
+        "number": "#51",
+        "car": "2014 Ford Mustang V6",
+        "classNumber": "CAMC #51",
+        "bestRaw": 60.027,
+        "bestPax": 49.822,
+        "rawTime": 60.027,
+        "indexedTime": 49.822,
+        "time": 60.027,
+        "runs": [
+          "62.473",
+          "61.144",
+          "60.721",
+          "60.027",
+          "61.427"
+        ]
+      },
+      {
+        "position": 3,
+        "rank": 3,
+        "driver": "Zach Galiste",
+        "class": "CAMC",
+        "cls": "CAMC",
+        "number": "#3",
+        "car": "2021 Chevrolet Camaro SS",
+        "classNumber": "CAMC #3",
+        "bestRaw": 60.884,
+        "bestPax": 50.533,
+        "rawTime": 60.884,
+        "indexedTime": 50.533,
+        "time": 60.884,
+        "runs": [
+          "60.701 +3",
+          "61.993 +2",
+          "61.966 +1",
+          "61.367",
+          "60.884"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "Derrick Galiste",
+        "class": "CAMC",
+        "cls": "CAMC",
+        "number": "#31",
+        "car": "2015 Chevrolet Camaro",
+        "classNumber": "CAMC #31",
+        "bestRaw": 63.115,
+        "bestPax": 52.385,
+        "rawTime": 63.115,
+        "indexedTime": 52.385,
+        "time": 63.115,
+        "runs": [
+          "64.974",
+          "64.601",
+          "63.115"
+        ]
+      }
+    ],
+    "CAMS": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Andre Marconett",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#180",
+        "car": "2000 Dodge Viper GTS",
+        "classNumber": "CAMS #180",
+        "bestRaw": 57.179,
+        "bestPax": 48.487,
+        "rawTime": 57.179,
+        "indexedTime": 48.487,
+        "time": 57.179,
+        "runs": [
+          "59.871",
+          "57.409",
+          "57.637",
+          "57.179",
+          "57.406"
+        ]
+      }
+    ],
+    "CAMT": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Chad Ryker",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#14",
+        "car": "1967 Ford Mustang",
+        "classNumber": "CAMT #14",
+        "bestRaw": 57.785,
+        "bestPax": 47.672,
+        "rawTime": 57.785,
+        "indexedTime": 47.672,
+        "time": 57.785,
+        "runs": [
+          "57.785"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "Jonah Olsen",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#51",
+        "car": "1966 Ford Mustang",
+        "classNumber": "CAMT #51",
+        "bestRaw": 57.821,
+        "bestPax": 47.702,
+        "rawTime": 57.821,
+        "indexedTime": 47.702,
+        "time": 57.821,
+        "runs": [
+          "58.066",
+          "58.192",
+          "57.821",
+          "58.450"
+        ]
+      },
+      {
+        "position": 3,
+        "rank": 3,
+        "driver": "Darren Voges",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#669",
+        "car": "1969 Chevrolet Camaro",
+        "classNumber": "CAMT #669",
+        "bestRaw": 58.255,
+        "bestPax": 48.06,
+        "rawTime": 58.255,
+        "indexedTime": 48.06,
+        "time": 58.255,
+        "runs": [
+          "59.299",
+          "58.735",
+          "58.255",
+          "58.266",
+          "58.421"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "Lily Maier",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#235",
+        "car": "1965 Ford Mustang",
+        "classNumber": "CAMT #235",
+        "bestRaw": 60.119,
+        "bestPax": 49.598,
+        "rawTime": 60.119,
+        "indexedTime": 49.598,
+        "time": 60.119,
+        "runs": [
+          "60.484",
+          "60.626",
+          "60.119",
+          "60.998",
+          "60.909"
+        ]
+      },
+      {
+        "position": 5,
+        "rank": 5,
+        "driver": "Craig Johnson",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#7",
+        "car": "1963 Ford Falcon",
+        "classNumber": "CAMT #7",
+        "bestRaw": 60.209,
+        "bestPax": 49.672,
+        "rawTime": 60.209,
+        "indexedTime": 49.672,
+        "time": 60.209,
+        "runs": [
+          "60.421",
+          "60.617",
+          "60.209",
+          "62.141",
+          "60.360"
+        ]
+      },
+      {
+        "position": 6,
+        "rank": 6,
+        "driver": "Devin Perry",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#77",
+        "car": "1996 Ford Mustang",
+        "classNumber": "CAMT #77",
+        "bestRaw": 63.592,
+        "bestPax": 52.463,
+        "rawTime": 63.592,
+        "indexedTime": 52.463,
+        "time": 63.592,
+        "runs": [
+          "64.419",
+          "64.475",
+          "63.679",
+          "63.592",
+          "63.535 +2"
+        ]
+      },
+      {
+        "position": 7,
+        "rank": 7,
+        "driver": "Don Burdge",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#771",
+        "car": "1996 Ford Mustang GT",
+        "classNumber": "CAMT #771",
+        "bestRaw": 67.418,
+        "bestPax": 55.619,
+        "rawTime": 67.418,
+        "indexedTime": 55.619,
+        "time": 67.418,
+        "runs": [
+          "68.157",
+          "70.016 +1",
+          "68.381 +1",
+          "68.283 +1",
+          "66.418 +1"
         ]
       }
     ],
@@ -1932,7 +3908,8 @@
         "runs": [
           "61.198",
           "59.364",
-          "58.690"
+          "58.690",
+          "58.543 +2"
         ]
       },
       {
@@ -1952,7 +3929,8 @@
         "runs": [
           "59.510",
           "59.305",
-          "59.652"
+          "59.652",
+          "59.998"
         ]
       },
       {
@@ -1964,16 +3942,17 @@
         "number": "#241",
         "car": "1999 Mazda Mx-5 Miata",
         "classNumber": "CST #241",
-        "bestRaw": 67.869,
-        "bestPax": 56.467,
-        "rawTime": 67.869,
-        "indexedTime": 56.467,
-        "time": 67.869,
+        "bestRaw": 66.911,
+        "bestPax": 55.669,
+        "rawTime": 66.911,
+        "indexedTime": 55.669,
+        "time": 66.911,
         "runs": [
           "72.795",
           "70.274",
           "68.392",
-          "67.869"
+          "67.869",
+          "66.911"
         ]
       },
       {
@@ -1997,6 +3976,96 @@
         ]
       }
     ],
+    "EVX": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Justin Bowen",
+        "class": "EVX",
+        "cls": "EVX",
+        "number": "#48",
+        "car": "2024 Tesla Model 3 Performance",
+        "classNumber": "EVX #48",
+        "bestRaw": 54.533,
+        "bestPax": 45.807,
+        "rawTime": 54.533,
+        "indexedTime": 45.807,
+        "time": 54.533,
+        "runs": [
+          "55.495",
+          "55.023",
+          "55.222",
+          "54.533",
+          "54.725"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "James Clenney",
+        "class": "EVX",
+        "cls": "EVX",
+        "number": "#76",
+        "car": "2025 Tesla Model 3 Performance",
+        "classNumber": "EVX #76",
+        "bestRaw": 54.589,
+        "bestPax": 45.854,
+        "rawTime": 54.589,
+        "indexedTime": 45.854,
+        "time": 54.589,
+        "runs": [
+          "55.856",
+          "55.347",
+          "54.589",
+          "54.683",
+          "55.063"
+        ]
+      },
+      {
+        "position": 3,
+        "rank": 3,
+        "driver": "Timothy Naugler",
+        "class": "EVX",
+        "cls": "EVX",
+        "number": "#7",
+        "car": "2022 Tesla Model 3 Performance",
+        "classNumber": "EVX #7",
+        "bestRaw": 55.32,
+        "bestPax": 46.468,
+        "rawTime": 55.32,
+        "indexedTime": 46.468,
+        "time": 55.32,
+        "runs": [
+          "55.678",
+          "55.756 +1",
+          "55.320",
+          "55.812",
+          "55.396"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "Pilar Miranda",
+        "class": "EVX",
+        "cls": "EVX",
+        "number": "#78",
+        "car": "Tesla Model 3 Performance",
+        "classNumber": "EVX #78",
+        "bestRaw": 55.805,
+        "bestPax": 46.876,
+        "rawTime": 55.805,
+        "indexedTime": 46.876,
+        "time": 55.805,
+        "runs": [
+          "57.865 +1",
+          "56.147",
+          "55.862",
+          "55.805",
+          "56.100"
+        ]
+      }
+    ],
     "SS": [
       {
         "position": 1,
@@ -2016,7 +4085,8 @@
           "58.022",
           "57.836",
           "57.490",
-          "57.381 +1"
+          "57.381 +1",
+          "57.166 +1"
         ]
       }
     ],
@@ -2061,7 +4131,8 @@
           "54.218",
           "52.840",
           "52.840",
-          "52.906"
+          "52.906",
+          "52.373 +1"
         ]
       },
       {
@@ -2126,7 +4197,8 @@
           "56.591 +1",
           "56.749",
           "56.519",
-          "56.623"
+          "56.623",
+          "56.785 +1"
         ]
       },
       {
@@ -2147,7 +4219,8 @@
           "59.487",
           "57.129",
           "58.117",
-          "57.324"
+          "57.324",
+          "57.510"
         ]
       },
       {
@@ -2159,16 +4232,17 @@
         "number": "#171",
         "car": "2006 Mitsubishi Lancer",
         "classNumber": "XA #171",
-        "bestRaw": 59.382,
-        "bestPax": 51.306,
-        "rawTime": 59.382,
-        "indexedTime": 51.306,
-        "time": 59.382,
+        "bestRaw": 58.886,
+        "bestPax": 50.877,
+        "rawTime": 58.886,
+        "indexedTime": 50.877,
+        "time": 58.886,
         "runs": [
           "61.320",
           "59.541 +1",
           "59.707",
-          "59.382"
+          "59.382",
+          "58.886"
         ]
       },
       {
@@ -2194,10 +4268,189 @@
         ]
       }
     ],
+    "M": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Ben Martinez",
+        "class": "M",
+        "cls": "M",
+        "number": "#60",
+        "car": "(CM) 1984 Ford Van Diemen",
+        "classNumber": "M #60",
+        "bestRaw": 52.432,
+        "bestPax": 47.188,
+        "rawTime": 52.432,
+        "indexedTime": 47.188,
+        "time": 52.432,
+        "runs": [
+          "52.900",
+          "52.889",
+          "52.432",
+          "65.050"
+        ]
+      }
+    ],
+    "P": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Mike Maier",
+        "class": "P",
+        "cls": "P",
+        "number": "#136",
+        "car": "(CP) 1965 Ford GT 350",
+        "classNumber": "P #136",
+        "bestRaw": 52.302,
+        "bestPax": 45.502,
+        "rawTime": 52.302,
+        "indexedTime": 45.502,
+        "time": 52.302,
+        "runs": [
+          "52.454 +1",
+          "52.302",
+          "52.532",
+          "52.906 +1",
+          "54.237"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "Tom Exley",
+        "class": "P",
+        "cls": "P",
+        "number": "#25",
+        "car": "(XP) 1987 Mazda Rx7",
+        "classNumber": "P #25",
+        "bestRaw": 51.579,
+        "bestPax": 46.421,
+        "rawTime": 51.579,
+        "indexedTime": 46.421,
+        "time": 51.579,
+        "runs": [
+          "52.748 +2",
+          "51.579",
+          "52.075 +1",
+          "52.172",
+          "51.926"
+        ]
+      },
+      {
+        "position": 3,
+        "rank": 3,
+        "driver": "Johnathon Stewart",
+        "class": "P",
+        "cls": "P",
+        "number": "#36",
+        "car": "(CP) 1965 Ford Shelby",
+        "classNumber": "P #36",
+        "bestRaw": 55.67,
+        "bestPax": 48.432,
+        "rawTime": 55.67,
+        "indexedTime": 48.432,
+        "time": 55.67,
+        "runs": [
+          "58.085 +1",
+          "55.219 +1",
+          "54.921 +2",
+          "54.694 +2",
+          "55.670"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "David Silva",
+        "class": "P",
+        "cls": "P",
+        "number": "#16",
+        "car": "(CP) 1994 Ford Mustang",
+        "classNumber": "P #16",
+        "bestRaw": 58.747,
+        "bestPax": 51.109,
+        "rawTime": 58.747,
+        "indexedTime": 51.109,
+        "time": 58.747,
+        "runs": [
+          "60.874",
+          "60.222",
+          "59.251",
+          "58.747",
+          "58.771"
+        ]
+      },
+      {
+        "position": 5,
+        "rank": 5,
+        "driver": "Michael Ansell",
+        "class": "P",
+        "cls": "P",
+        "number": "#177",
+        "car": "(CP) 1972 Chevrolet Corvette",
+        "classNumber": "P #177",
+        "bestRaw": 59.32,
+        "bestPax": 51.608,
+        "rawTime": 59.32,
+        "indexedTime": 51.608,
+        "time": 59.32,
+        "runs": [
+          "60.768",
+          "59.505 +1",
+          "59.320",
+          "58.586 +1",
+          "58.890 +1"
+        ]
+      },
+      {
+        "position": 6,
+        "rank": 6,
+        "driver": "Douglas McConnell",
+        "class": "P",
+        "cls": "P",
+        "number": "#771",
+        "car": "(XP) 1967 Austin Healey Sprite",
+        "classNumber": "P #771",
+        "bestRaw": 62.299,
+        "bestPax": 56.069,
+        "rawTime": 62.299,
+        "indexedTime": 56.069,
+        "time": 62.299,
+        "runs": [
+          "68.094",
+          "65.347",
+          "66.025",
+          "63.425",
+          "62.299"
+        ]
+      }
+    ],
     "S1": [
       {
         "position": 1,
         "rank": 1,
+        "driver": "Kristen Acharya",
+        "class": "S1",
+        "cls": "S1",
+        "number": "#490",
+        "car": "(BS) 2026 Toyota Supra",
+        "classNumber": "S1 #490",
+        "bestRaw": 56.061,
+        "bestPax": 46.194,
+        "rawTime": 56.061,
+        "indexedTime": 46.194,
+        "time": 56.061,
+        "runs": [
+          "57.186 +1",
+          "56.433 +1",
+          "56.724",
+          "56.826",
+          "56.061"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
         "driver": "Alex Muresan",
         "class": "S1",
         "cls": "S1",
@@ -2218,44 +4471,24 @@
         ]
       },
       {
-        "position": 2,
-        "rank": 2,
+        "position": 3,
+        "rank": 3,
         "driver": "Rich Lee",
         "class": "S1",
         "cls": "S1",
         "number": "#99",
         "car": "(BS) 2023 Toyota Supra",
         "classNumber": "S1 #99",
-        "bestRaw": 56.356,
-        "bestPax": 46.437,
-        "rawTime": 56.356,
-        "indexedTime": 46.437,
-        "time": 56.356,
+        "bestRaw": 56.346,
+        "bestPax": 46.429,
+        "rawTime": 56.346,
+        "indexedTime": 46.429,
+        "time": 56.346,
         "runs": [
           "59.129",
           "56.489",
-          "56.356"
-        ]
-      },
-      {
-        "position": 3,
-        "rank": 3,
-        "driver": "Kristen Acharya",
-        "class": "S1",
-        "cls": "S1",
-        "number": "#490",
-        "car": "(BS) 2026 Toyota Supra",
-        "classNumber": "S1 #490",
-        "bestRaw": 56.724,
-        "bestPax": 46.74,
-        "rawTime": 56.724,
-        "indexedTime": 46.74,
-        "time": 56.724,
-        "runs": [
-          "57.186 +1",
-          "56.433 +1",
-          "56.724",
-          "56.826"
+          "56.356",
+          "56.346"
         ]
       },
       {
@@ -2298,7 +4531,8 @@
           "58.392",
           "58.152 +3",
           "57.903",
-          "58.341 +1"
+          "58.341 +1",
+          "58.318"
         ]
       },
       {
@@ -2319,7 +4553,8 @@
           "59.472 +1",
           "58.498",
           "57.952",
-          "57.669 +1"
+          "57.669 +1",
+          "58.028 +1"
         ]
       },
       {
@@ -2331,16 +4566,17 @@
         "number": "#91",
         "car": "(DS) 2022 Subaru BRZ",
         "classNumber": "S1 #91",
-        "bestRaw": 59.289,
-        "bestPax": 47.905,
-        "rawTime": 59.289,
-        "indexedTime": 47.905,
-        "time": 59.289,
+        "bestRaw": 59.131,
+        "bestPax": 47.777,
+        "rawTime": 59.131,
+        "indexedTime": 47.777,
+        "time": 59.131,
         "runs": [
           "59.393",
           "59.289",
           "59.166 +1",
-          "58.538 +1"
+          "58.538 +1",
+          "59.131"
         ]
       },
       {
@@ -2352,16 +4588,17 @@
         "number": "#17",
         "car": "(BS) 2023 Toyota GR Corolla",
         "classNumber": "S1 #17",
-        "bestRaw": 58.597,
-        "bestPax": 48.283,
-        "rawTime": 58.597,
-        "indexedTime": 48.283,
-        "time": 58.597,
+        "bestRaw": 58.439,
+        "bestPax": 48.153,
+        "rawTime": 58.439,
+        "indexedTime": 48.153,
+        "time": 58.439,
         "runs": [
           "59.172 +1",
           "59.696",
           "59.269",
-          "58.597"
+          "58.597",
+          "58.439"
         ]
       },
       {
@@ -2373,16 +4610,17 @@
         "number": "#81",
         "car": "(BS) 2025 Honda Civic Type R",
         "classNumber": "S1 #81",
-        "bestRaw": 60.233,
-        "bestPax": 49.631,
-        "rawTime": 60.233,
-        "indexedTime": 49.631,
-        "time": 60.233,
+        "bestRaw": 59.562,
+        "bestPax": 49.079,
+        "rawTime": 59.562,
+        "indexedTime": 49.079,
+        "time": 59.562,
         "runs": [
           "62.489",
           "60.961",
           "60.233",
-          "60.331"
+          "60.331",
+          "59.562"
         ]
       },
       {
@@ -2423,7 +4661,8 @@
           "68.484",
           "68.564",
           "68.619",
-          "69.802"
+          "69.802",
+          "68.419 +1"
         ]
       }
     ],
@@ -2446,7 +4685,8 @@
           "65.657",
           "62.571",
           "63.175",
-          "63.259"
+          "63.259",
+          "63.035"
         ]
       },
       {
@@ -2481,14 +4721,39 @@
         "number": "#151",
         "car": "(HS) 2010 Mazda Mazda 3",
         "classNumber": "S2 #151",
-        "bestRaw": 68.436,
-        "bestPax": 53.243,
-        "rawTime": 68.436,
-        "indexedTime": 53.243,
-        "time": 68.436,
+        "bestRaw": 68.075,
+        "bestPax": 52.962,
+        "rawTime": 68.075,
+        "indexedTime": 52.962,
+        "time": 68.075,
         "runs": [
           "71.039",
-          "67.436 +1"
+          "67.436 +1",
+          "68.075"
+        ]
+      }
+    ],
+    "SM": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "DARIN NELMS",
+        "class": "SM",
+        "cls": "SM",
+        "number": "#66",
+        "car": "(SSM) 2001 Mazda Miata",
+        "classNumber": "SM #66",
+        "bestRaw": 65.082,
+        "bestPax": 57.402,
+        "rawTime": 65.082,
+        "indexedTime": 57.402,
+        "time": 65.082,
+        "runs": [
+          "67.745",
+          "67.075",
+          "65.497",
+          "67.821",
+          "65.082"
         ]
       }
     ],
@@ -2511,7 +4776,8 @@
           "55.228",
           "54.534",
           "53.888",
-          "54.228"
+          "54.228",
+          "53.972"
         ]
       },
       {
@@ -2571,7 +4837,8 @@
           "60.387",
           "59.589",
           "58.378 +2",
-          "58.626"
+          "58.626",
+          "59.710"
         ]
       },
       {
@@ -2618,32 +4885,298 @@
           "62.982"
         ]
       }
+    ],
+    "ST1": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Arvind Govindaraj",
+        "class": "ST1",
+        "cls": "ST1",
+        "number": "#1",
+        "car": "(AST) 2020 Mazda MX-5",
+        "classNumber": "ST1 #1",
+        "bestRaw": 55.375,
+        "bestPax": 46.459,
+        "rawTime": 55.375,
+        "indexedTime": 46.459,
+        "time": 55.375,
+        "runs": [
+          "55.341 +1",
+          "55.539",
+          "55.226 +1",
+          "55.658",
+          "55.375"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "Patrick Drudge",
+        "class": "ST1",
+        "cls": "ST1",
+        "number": "#126",
+        "car": "(SST) 2024 Toyota Supra",
+        "classNumber": "ST1 #126",
+        "bestRaw": 55.978,
+        "bestPax": 47.077,
+        "rawTime": 55.978,
+        "indexedTime": 47.077,
+        "time": 55.978,
+        "runs": [
+          "57.478",
+          "56.480",
+          "55.967 +1",
+          "55.978",
+          "56.440"
+        ]
+      },
+      {
+        "position": 3,
+        "rank": 3,
+        "driver": "Andre Piernot",
+        "class": "ST1",
+        "cls": "ST1",
+        "number": "#19",
+        "car": "(EST) 1990 Mazda Miata",
+        "classNumber": "ST1 #19",
+        "bestRaw": 58.615,
+        "bestPax": 47.595,
+        "rawTime": 58.615,
+        "indexedTime": 47.595,
+        "time": 58.615,
+        "runs": [
+          "60.336",
+          "59.107",
+          "59.056",
+          "58.880",
+          "58.615"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "Eric Martin",
+        "class": "ST1",
+        "cls": "ST1",
+        "number": "#74",
+        "car": "(SSC) 2013 Scion FR-S",
+        "classNumber": "ST1 #74",
+        "bestRaw": 59.336,
+        "bestPax": 47.765,
+        "rawTime": 59.336,
+        "indexedTime": 47.765,
+        "time": 59.336,
+        "runs": [
+          "60.836",
+          "59.990",
+          "59.336",
+          "59.567 +1",
+          "59.349 +1"
+        ]
+      },
+      {
+        "position": 5,
+        "rank": 5,
+        "driver": "Keith Bullock",
+        "class": "ST1",
+        "cls": "ST1",
+        "number": "#18",
+        "car": "(EST) 1990 Mazda Miata",
+        "classNumber": "ST1 #18",
+        "bestRaw": 59.359,
+        "bestPax": 48.199,
+        "rawTime": 59.359,
+        "indexedTime": 48.199,
+        "time": 59.359,
+        "runs": [
+          "60.690",
+          "59.744",
+          "59.359",
+          "59.422",
+          "59.718"
+        ]
+      },
+      {
+        "position": 6,
+        "rank": 6,
+        "driver": "Alvin Ongyod",
+        "class": "ST1",
+        "cls": "ST1",
+        "number": "#508",
+        "car": "(GST) 2007 Subaru WRX Wagon",
+        "classNumber": "ST1 #508",
+        "bestRaw": 63.663,
+        "bestPax": 51.567,
+        "rawTime": 63.663,
+        "indexedTime": 51.567,
+        "time": 63.663,
+        "runs": [
+          "65.145",
+          "65.075",
+          "64.867",
+          "63.663",
+          "63.857"
+        ]
+      }
+    ],
+    "X": [
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Andy McKee",
+        "class": "X",
+        "cls": "X",
+        "number": "#141",
+        "car": "(XB) 1993 Mazda RX7",
+        "classNumber": "X #141",
+        "bestRaw": 51.53,
+        "bestPax": 45.346,
+        "rawTime": 51.53,
+        "indexedTime": 45.346,
+        "time": 51.53,
+        "runs": [
+          "52.858",
+          "52.862",
+          "52.057",
+          "52.084",
+          "51.530"
+        ]
+      },
+      {
+        "position": 1,
+        "rank": 1,
+        "driver": "Erika McKee",
+        "class": "X",
+        "cls": "X",
+        "number": "#41",
+        "car": "(XB) 1993 Mazda RX7",
+        "classNumber": "X #41",
+        "bestRaw": 53.702,
+        "bestPax": 47.257,
+        "rawTime": 53.702,
+        "indexedTime": 47.257,
+        "time": 53.702,
+        "runs": [
+          "57.022 +5",
+          "55.617 +1",
+          "54.879",
+          "54.110",
+          "53.702"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
+        "driver": "Eric Gnesa",
+        "class": "X",
+        "cls": "X",
+        "number": "#93",
+        "car": "(XB) 2009 Porsche Cayman S",
+        "classNumber": "X #93",
+        "bestRaw": 53.368,
+        "bestPax": 46.963,
+        "rawTime": 53.368,
+        "indexedTime": 46.963,
+        "time": 53.368,
+        "runs": [
+          "54.155",
+          "53.739",
+          "53.388 +1",
+          "53.422",
+          "53.368"
+        ]
+      },
+      {
+        "position": 3,
+        "rank": 3,
+        "driver": "Lisa Gnesa",
+        "class": "X",
+        "cls": "X",
+        "number": "#193",
+        "car": "(XB) 2009 Porsche Cayman S",
+        "classNumber": "X #193",
+        "bestRaw": 54.267,
+        "bestPax": 47.754,
+        "rawTime": 54.267,
+        "indexedTime": 47.754,
+        "time": 54.267,
+        "runs": [
+          "56.312",
+          "54.525",
+          "54.267",
+          "59.147 +1",
+          "54.500"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "James Laeno",
+        "class": "X",
+        "cls": "X",
+        "number": "#96",
+        "car": "(XU) Mazda Exocet",
+        "classNumber": "X #96",
+        "bestRaw": 54.887,
+        "bestPax": 47.971,
+        "rawTime": 54.887,
+        "indexedTime": 47.971,
+        "time": 54.887,
+        "runs": [
+          "56.077",
+          "56.448",
+          "55.026",
+          "54.887",
+          "54.847 +1"
+        ]
+      }
     ]
   },
   "classOrder": [
     "AS",
+    "BST",
+    "CAMC",
+    "CAMS",
+    "CAMT",
     "CST",
+    "EVX",
     "SS",
     "XA",
+    "M",
+    "P",
     "S1",
     "S2",
+    "SM",
     "SP",
-    "SPL"
+    "SPL",
+    "ST1",
+    "X"
   ],
   "diagnostics": {
-    "sourceLineCount": 329,
-    "overallRows": 41,
-    "paxRows": 41,
-    "classGroups": 8,
+    "sourceLineCount": 670,
+    "overallRows": 78,
+    "paxRows": 78,
+    "classGroups": 18,
     "classRows": {
       "AS": 6,
+      "BST": 2,
+      "CAMC": 4,
+      "CAMS": 1,
+      "CAMT": 7,
       "CST": 6,
+      "EVX": 4,
       "SS": 1,
       "XA": 8,
+      "M": 1,
+      "P": 6,
       "S1": 11,
       "S2": 3,
+      "SM": 1,
       "SP": 5,
-      "SPL": 1
+      "SPL": 1,
+      "ST1": 6,
+      "X": 5
     }
   }
 }
